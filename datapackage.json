@@ -1,0 +1,150 @@
+{
+  "name": "readability-bg-appendix",
+  "title": "READABILITY-BG: допълнителни данни към книгата за четивността на текста",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0"
+    }
+  ],
+  "resources": [
+    {
+      "name": "texts",
+      "path": "data/texts.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "title": "Текстове от изпитните материали (НВО 4., 7., 10. клас и ДЗИ)",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "идентификатор на текста"
+          },
+          {
+            "name": "grade",
+            "type": "integer",
+            "description": "клас (4, 7, 10, 12)"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "година на изпита"
+          },
+          {
+            "name": "text_type",
+            "type": "string",
+            "description": "информативна проза, художествена проза, поезия, задача за редактиране"
+          },
+          {
+            "name": "dictation",
+            "type": "string",
+            "description": "текст за диктовка (да/не)"
+          },
+          {
+            "name": "words",
+            "type": "integer",
+            "description": "брой думи"
+          },
+          {
+            "name": "sentences",
+            "type": "integer",
+            "description": "брой изречения"
+          },
+          {
+            "name": "included",
+            "type": "string",
+            "description": "включен в анализа (да/не)"
+          }
+        ],
+        "primaryKey": "id"
+      }
+    },
+    {
+      "name": "features_by_grade",
+      "path": "data/features_by_grade.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "title": "Характеристики на текстовете и връзката им с класа",
+      "schema": {
+        "fields": [
+          {
+            "name": "group",
+            "type": "string",
+            "description": "клас характеристики (езиково равнище)"
+          },
+          {
+            "name": "feature",
+            "type": "string",
+            "description": "характеристика"
+          },
+          {
+            "name": "definition",
+            "type": "string",
+            "description": "начин на изчисляване"
+          },
+          {
+            "name": "rho_prose",
+            "type": "number",
+            "description": "коефициент на корелация на Спирман с класа, всички прозаични текстове (n = 85)"
+          },
+          {
+            "name": "q_prose",
+            "type": "string",
+            "description": "равнище на значимост с поправка на Бенямини--Хохберг (по-малкото от теста на Спирман и критерия на Крускал--Уолис), всички прозаични текстове; стойности под 0,001 са записани като <0.001"
+          },
+          {
+            "name": "rho_informative",
+            "type": "number",
+            "description": "коефициент на корелация на Спирман с класа, информативни текстове (n = 42)"
+          },
+          {
+            "name": "q_informative",
+            "type": "string",
+            "description": "същото, за информативните текстове"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "cefr_reading_descriptors_bg",
+      "path": "data/cefr_reading_descriptors_bg.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "title": "Дескриптори на ОЕЕР за разбиране при четене (български превод)",
+      "sources": [
+        {
+          "title": "Council of Europe (2020). CEFR Companion Volume",
+          "path": "https://rm.coe.int/16809ea0d4"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "scale_bg",
+            "type": "string",
+            "description": "скала (на български)"
+          },
+          {
+            "name": "scale_en",
+            "type": "string",
+            "description": "скала (на английски, по оригинала)"
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "ниво (Pre-A1 до C2)"
+          },
+          {
+            "name": "descriptor_bg",
+            "type": "string",
+            "description": "дескриптор"
+          }
+        ]
+      }
+    }
+  ]
+}
