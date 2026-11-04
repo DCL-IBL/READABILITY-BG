@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Оценка на четивност на текст на български език</title>
+  <style>
+    :root {
+      --ink: #1d2b3a;
+      --paper: #f6f8fa;
+      --card: #ffffff;
+      --line: #c9d3dd;
+      --accent: #1f5f8b;
+      --accent-dark: #174a6d;
+      --tint: #e8f1f7;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.55;
+    }
+    main { max-width: 42rem; margin: 0 auto; padding: 3rem 1.25rem; }
+    h1 { font-size: clamp(1.6rem, 4vw, 2.2rem); line-height: 1.2; margin: 0 0 2rem; }
+    form {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 1.5rem;
+    }
+    fieldset { border: 0; margin: 0 0 1.5rem; padding: 0; }
+    legend { font-weight: 600; margin-bottom: 0.6rem; padding: 0; }
+    select {
+      font: inherit;
+      width: 100%;
+      padding: 0.6rem 0.7rem;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      color: var(--ink);
+    }
+    .choices { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .option {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.55rem 0.9rem;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .option:has(input:checked) { border-color: var(--accent); background: var(--tint); }
+    .option input { accent-color: var(--accent); width: 1.05rem; height: 1.05rem; }
+    button {
+      font: inherit;
+      font-weight: 600;
+      color: #fff;
+      background: var(--accent);
+      border: 0;
+      border-radius: 6px;
+      padding: 0.7rem 1.4rem;
+      cursor: pointer;
+    }
+    button:hover { background: var(--accent-dark); }
+    :focus-visible { outline: 3px solid #f0a500; outline-offset: 2px; }
+    #result {
+      margin-top: 1.5rem;
+      padding: 1rem 1.25rem;
+      background: var(--tint);
+      border-left: 4px solid var(--accent);
+      border-radius: 4px;
+    }
+    #result[hidden] { display: none; }
+    #result dl { margin: 0 0 1rem; display: grid; grid-template-columns: max-content 1fr; gap: 0.25rem 1rem; }
+    #result dt { font-weight: 600; }
+    #result dd { margin: 0; }
+    #text-preview {
+      margin: 0;
+      padding: 0.8rem 1rem;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      white-space: pre-wrap;
+      font-family: inherit;
+      max-height: 18rem;
+      overflow: auto;
+    }
+    .error { color: #a12a2a; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Оценка на четивност на текст на български език</h1>
+
+    <form id="form">
+      <fieldset>
+        <legend>Текст</legend>
+        <select id="text-select" name="text" required>
+          <option value="" disabled selected>Зареждане на текстовете…</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Български като</legend>
+        <div class="choices">
+          <label class="option">
+            <input type="radio" name="language" value="Първи език" required>
+            <span>Първи език</span>
+          </label>
+          <label class="option">
+            <input type="radio" name="language" value="Втори език">
+            <span>Втори език</span>
+          </label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Възраст на читателя</legend>
+        <div class="choices">
+          <label class="option"><input type="radio" name="age" value="7-11" required><span>7–11</span></label>
+          <label class="option"><input type="radio" name="age" value="12-14"><span>12–14</span></label>
+          <label class="option"><input type="radio" name="age" value="15-16"><span>15–16</span></label>
+          <label class="option"><input type="radio" name="age" value="17-19"><span>17–19</span></label>
+          <label class="option"><input type="radio" name="age" value="20+"><span>20+</span></label>
+        </div>
+      </fieldset>
+
+      <button type="submit">Покажи резултат</button>
+    </form>
+
+    <div id="result" role="status" aria-live="polite" hidden></div>
+  </main>
+
+  <script>
+    const DIR = "demo-texts/";             // folder in the repository
+    const MANIFEST = DIR + "files.json";   // list of file names in that folder
+
+    const form = document.getElementById("form");
+    const select = document.getElementById("text-select");
+    const result = document.getElementById("result");
+
+    // Fill the drop-down from demo-texts/files.json
+    fetch(MANIFEST)
+      .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(files => {
+        select.innerHTML = '<option value="" disabled selected>Изберете текст…</option>';
+        files.forEach(name => {
+          const opt = document.createElement("option");
+          opt.value = name;
+          opt.textContent = name;
+          select.appendChild(opt);
+        });
+      })
+      .catch(() => {
+        select.innerHTML = '<option value="" disabled selected>Текстовете не могат да се заредят</option>';
+      });
+
+    form.addEventListener("submit", async function (event) {
+      event.preventDefault();
+      const file = select.value;
+      const language = form.elements["language"].value;
+      const age = form.elements["age"].value;
+
+      result.hidden = false;
+      result.replaceChildren();
+
+      const dl = document.createElement("dl");
+      [["Текст", file], ["Български като", language], ["Възраст", age]].forEach(([k, v]) => {
+        const dt = document.createElement("dt"); dt.textContent = k;
+        const dd = document.createElement("dd"); dd.textContent = v;
+        dl.append(dt, dd);
+      });
+      result.appendChild(dl);
+
+      const pre = document.createElement("pre");
+      pre.id = "text-preview";
+      result.appendChild(pre);
+
+      try {
+        const r = await fetch(DIR + encodeURIComponent(file));
+        if (!r.ok) throw new Error(r.status);
+        pre.textContent = await r.text();
+      } catch (e) {
+        pre.textContent = "Файлът не може да бъде зареден.";
+        pre.classList.add("error");
+      }
+    });
+  </script>
+</body>
+</html>
