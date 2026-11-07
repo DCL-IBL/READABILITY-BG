@@ -1,0 +1,307 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC DCL:VERBFORM DCL:CLAUSE DCL:NP DCL:ANAPHORA DCL:COREF
+# newdoc id = grade07_005
+# newpar
+# sent_id = grade07_005_s001
+# text = Редица митове за Сътворението на света представят водата с двойствен характер.
+1	Редица	редицам	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	7	nsubj	_	_	_	C1:MAIN	P1:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=1;rule=NPI01b	_	E1
+2	митове	мит	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	1	nmod	_	_	_	C1	P1	_	_
+3	за	за	ADP	R	_	4	case	_	_	_	C1	P2:NPD;prep=за;Definite=Def|Gender=Neut|Number=Sing;head=4;rule=NPD01	_	_
+4	Сътворението	Сътворение	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	_	_	C1	P2	_	_
+5	на	на	ADP	R	_	6	case	_	_	_	C1	P3:NPD;prep=на;Definite=Def|Gender=Masc|Number=Sing;head=6;rule=NPD01	_	_
+6	света	свят	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	_	_	C1	P3	_	_
+7	представят	представя-(се)	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F1:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C1	_	_	_
+8	водата	вода	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	7	obj	_	_	_	C1	P4:NPD;Definite=Def|Gender=Fem|Number=Sing;head=8;rule=NPD01	_	_
+9	с	с	ADP	R	_	11	case	_	_	_	C1	P5:NPI;prep=с;Definite=Ind|Gender=Masc|Number=Sing;head=11;rule=NPI02	_	_
+10	двойствен	двойствен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_	C1	P5	_	_
+11	характер	характер	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No	_	C1	P5	_	E2
+12	.	.	PUNCT	punct	_	7	punct	_	SpacesAfter=\n\n	_	C1	_	_	_
+
+# newpar
+# sent_id = grade07_005_s002
+# text = Тя може да бъде както източник на живот и на плодородие, така и стихия, свързвана с потъване, с разрушаване и с гибел.
+1	Тя	аз	PRON	Ppe-os3f	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_	_	C2:MAIN	_	A1:Personal;Gender=Fem|Number=Sing|Person=3;rule=R10;ref=grade07_005_s001#1	E1
+2	може	мога	VERB	Vpiif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F2:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C2	_	_	_
+3	да	да	AUX	Tx	_	6	aux	_	_	_	C2	_	_	_
+4	бъде	бъда	AUX	Vyptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_	F3:Present;Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C2	_	_	_
+5	както	както	ADV	Prm	PronType=Rel	6	cc	_	_	_	C2	_	_	_
+6	източник	източник	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	2	xcomp	_	_	_	C2	P6:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=6;rule=NPI01	Z1:Pro-drop;Gender=Masc|Number=Sing|Person=3;rule=S09,R21;ref=grade07_005_s001#11	E2
+7	на	на	ADP	R	_	8	case	_	_	_	C2	P7:NPI;prep=на;Definite=Ind|Gender=Masc|Number=Sing;head=8;rule=NPI01	_	_
+8	живот	живот	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	_	_	C2	P7	_	_
+9	и	и	CCONJ	Cp	_	11	cc	_	_	_	C2	_	_	_
+10	на	на	ADP	R	_	11	case	_	_	_	C2	P8:NPI;prep=на;Definite=Ind|Gender=Neut|Number=Sing;head=11;rule=NPI01	_	_
+11	плодородие	плодородие	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	6	conj	_	SpaceAfter=No	_	C2	P8	_	_
+12	,	,	PUNCT	punct	_	13	punct	_	_	_	C2	_	_	_
+13	така	така	ADV	Pdm	PronType=Dem	15	cc	_	_	_	C2	_	_	_
+14	и	и	CCONJ	Cp	_	13	fixed	_	_	_	C2	_	_	_
+15	стихия	стихия	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No	_	C2	P9:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=15;rule=NPI01	_	_
+16	,	,	PUNCT	punct	_	17	punct	_	_	_	C2	_	_	_
+17	свързвана	свързвам-(се)	ADJ	Vpptcv--sfi	Aspect=Perf|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	15	conj	_	_	F4:NVerb+Past_Participle+Pass;Aspect=Perf|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass;rule=BGF423	C2	_	_	_
+18	с	с	ADP	R	_	19	case	_	_	_	C2	P10:NPI;prep=с;Definite=Ind|Gender=Neut|Number=Sing;head=19;rule=NPI01	_	_
+19	потъване	потъване	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No	_	C2	P10	_	_
+20	,	,	PUNCT	punct	_	22	punct	_	_	_	C2	_	_	_
+21	с	с	ADP	R	_	22	case	_	_	_	C2	P11:NPI;prep=с;Definite=Ind|Gender=Neut|Number=Sing;head=22;rule=NPI01	_	_
+22	разрушаване	разрушаване	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	6	conj	_	_	_	C2	P11	_	_
+23	и	и	CCONJ	Cp	_	25	cc	_	_	_	C2	_	_	_
+24	с	с	ADP	R	_	25	case	_	_	_	C2	P12:NPI;prep=с;Definite=Ind|Gender=Masc|Number=Sing;head=25;rule=NPI01	_	_
+25	гибел	гибел	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No	_	C2	P12	_	_
+26	.	.	PUNCT	punct	_	2	punct	_	_	_	C2	_	_	_
+
+# sent_id = grade07_005_s003
+# text = Широко разпространено е почитането на извиращата направо от земните недра вода, която се приема като дар от водни божества, ако заради минералното си съдържание е лековита.
+1	Широко	широко	ADV	Dm	Degree=Pos	2	advmod	_	_	_	C3:MAIN	_	_	_
+2	разпространено	разпространя-(се)	VERB	Vpptcv--sni	Aspect=Perf|Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_	F5:Present-Perfect+Pass;Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Person=3|Tense=Present,Perfect|VerbForm=Fin|Voice=Pass;rule=BGF377,BGF378	C3	_	_	_
+3	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux:pass	_	_	F5	C3	_	_	_
+4	почитането	почитане	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	2	nsubj:pass	_	_	_	C3	P13:NPD;Definite=Def|Gender=Neut|Number=Sing;head=4;rule=NPD01	_	_
+5	на	на	ADP	R	_	11	case	_	_	_	C3	_	_	_
+6	извиращата	извираще	ADJ	Vpitcar-sfd	Aspect=Imp|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	_	F6:NVerb+Present_Participle;Aspect=Imp|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act;rule=BGF421	C3	_	_	_
+7	направо	направо	ADV	Dm	Degree=Pos	11	advmod	_	_	_	C3	_	_	_
+8	от	от	ADP	R	_	11	case	_	_	_	C3	P14:AP;prep=от;Definite=Def|Number=Plur;head=9;rule=AP02	_	_
+9	земните	земен	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	11	amod	_	_	_	C3	P14	_	_
+10	недра	недър	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_	_	C3	P15:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=11;rule=NPI02	_	_
+11	вода	вода	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No	_	C3	P15	_	_
+12	,	,	PUNCT	punct	_	15	punct	_	_	_	C3	_	_	_
+13	която	който	PRON	Pre-os-f	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	15	nsubj:pass	_	_	_	C4:SUB;head=C3;conj=S116:която	_	A2:Relative;Gender=Fem|Number=Sing|Person=3	E3
+14	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	15	expl	_	_	F7:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C4	_	_	_
+15	приема	приемам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_	F7	C4	_	_	_
+16	като	като	ADP	R	_	17	case	_	_	_	C4	P16:NPI;prep=като;Definite=Ind|Gender=Masc|Number=Sing;head=17;rule=NPI01	_	_
+17	дар	дар	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	15	obl	_	_	_	C4	P16	_	_
+18	от	от	ADP	R	_	20	case	_	_	_	C4	P17:NPI;prep=от;Definite=Ind|Gender=Neut|Number=Plur;head=20;rule=NPI02	_	_
+19	водни	воден	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	20	amod	_	_	_	C4	P17	_	_
+20	божества	божество	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	17	nmod	_	SpaceAfter=No	_	C4	P17	_	E4
+21	,	,	PUNCT	punct	_	28	punct	_	_	_	C4	_	_	_
+22	ако	ако	SCONJ	Cs	_	28	mark	_	_	_	C5:SUB;head=C4;conj=S071:ако	_	_	_
+23	заради	заради	ADP	R	_	26	case	_	_	_	C5	P18:NPD;prep=заради;Definite=Def|Gender=Neut|Number=Sing;head=26;rule=NPD04	_	_
+24	минералното	минерален	ADJ	Ansd	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_	_	C5	P18	_	_
+25	си	свой	PRON	Psxto	Case=Nom|Poss=Yes|PronType=Prs|Reflex=Yes	24	det	_	_	_	C5	P18	A3:ReflexivePossessive;Gender=Fem|Number=Sing|Person=3;rule=R03;ref=Z2	E3
+26	съдържание	съдържание	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	28	obl	_	_	_	C5	P18	_	_
+27	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	aux:pass	_	_	F8:Present-Perfect+Pass;Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Present,Perfect|VerbForm=Fin|Voice=Pass;rule=BGF379	C5	_	_	_
+28	лековита	лековит	VERB	Vpptcv--sfi	Aspect=Perf|Definite=Ind|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	15	advcl	_	SpaceAfter=No	F8	C5	_	Z2:Pro-drop;Gender=Fem|Number=Sing|Person=3;rule=S10,R19;ref=A2	E3
+29	.	.	PUNCT	punct	_	2	punct	_	_	_	C5	_	_	_
+
+# sent_id = grade07_005_s004
+# text = Обичаят да се хвърлят монети във водни източници, би могъл да се приеме като символична жертва в чест на тези божества, на които се приписвала способността да изпълняват желания.
+1	Обичаят	Обичая	VERB	Vpiif-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F9:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C6:MAIN	_	Z3:Pro-drop;Number=Plur|Person=3;rule=S10,R20;ref=grade07_005_s003#20	E4
+2	да	да	AUX	Tx	_	4	aux	_	_	_	C7:SUB;head=C6;conj=S036:да	_	_	_
+3	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	_	F10:Present;Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C7	_	_	_
+4	хвърлят	хвърлям-(се)	VERB	Vpptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	_	F10	C7	_	_	_
+5	монети	монета	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	4	nsubj:pass	_	_	_	C7	P19:NPI;Definite=Ind|Gender=Masc|Number=Plur;head=5;rule=NPI01	_	_
+6	във	във	ADP	R	_	8	case	_	_	_	C7	P20:NPI;prep=във;Definite=Ind|Gender=Masc|Number=Plur;head=8;rule=NPI02	_	_
+7	водни	воден	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	8	amod	_	_	_	C7	P20	_	_
+8	източници	източник	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No	_	C7	P20	_	_
+9	,	,	PUNCT	punct	_	4	punct	_	_	_	C7	_	_	_
+10	би	съм	AUX	Vxitu-o3s	Aspect=Imp|Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_	F11:Conditional;Aspect=Imp|Gender=Masc|Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act;rule=BGF372	C8:COORD;coord=C6	_	_	_
+11	могъл	мога	VERB	Vpiicao-smi	Aspect=Imp|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	ccomp	_	_	F11	C8	_	Z4:Pro-drop;Gender=Masc|Number=Sing|Person=3;rule=S10,R19;ref=Z1	E2
+12	да	да	AUX	Tx	_	14	aux	_	_	_	C8	_	_	_
+13	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	14	expl	_	_	F12:Present;Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C8	_	_	_
+14	приеме	приема	VERB	Vpptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	xcomp	_	_	F12	C8	_	Z5:Pro-drop;Gender=Masc|Number=Sing|Person=3;rule=S09,R19;ref=Z4	E2
+15	като	като	ADP	R	_	17	case	_	_	_	C8	P21:NPI;prep=като;Definite=Ind|Gender=Fem|Number=Sing;head=17;rule=NPI02	_	_
+16	символична	символичен	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_	_	C8	P21	_	_
+17	жертва	жертва	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	14	iobj	_	_	_	C8	P21	_	_
+18	в	в	ADP	R	_	19	case	_	_	_	C8	P22:NPI;prep=в;Definite=Ind|Gender=Fem|Number=Sing;head=19;rule=NPI01	_	_
+19	чест	чест	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	17	nmod	_	_	_	C8	P22	_	_
+20	на	на	ADP	R	_	22	case	_	_	_	C8	P23:NPI;prep=на;Definite=Def|Gender=Neut|Number=Plur;head=22;rule=NPI07	_	_
+21	тези	този	DET	Pde-op	Number=Plur|PronType=Dem	22	det	_	_	_	C8	P23	_	_
+22	божества	божество	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	19	nmod	_	SpaceAfter=No	_	C8	P23	_	_
+23	,	,	PUNCT	punct	_	27	punct	_	_	_	C8	_	_	_
+24	на	на	ADP	R	_	25	case	_	_	_	C9:SUB;head=C8;conj=S116:които	_	_	_
+25	които	който	PRON	Pre-op	Case=Nom|Number=Plur|PronType=Rel	27	iobj	_	_	_	C9	_	A4:Relative;Number=Plur|Person=3	_
+26	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	27	expl	_	_	F13:Aorist+Ren|DVerb+Past_Participle_Aorist;Aspect=Perf|Evident=Ren|Gender=Fem|Mood=Ind|Number=Sing|Tense=Aorist|VerbForm=Fin|Voice=Act/Aspect=Perf|Definite=Ind|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act;rule=BGF420	C9	_	_	_
+27	приписвала	приписвам	VERB	Vpptcao-sfi	Aspect=Perf|Definite=Ind|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	19	acl:relcl	_	_	F13	C9	_	_	_
+28	способността	способност	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	27	nsubj	_	_	_	C9	P24:NPD;Definite=Def|Gender=Fem|Number=Sing;head=28;rule=NPD01	_	_
+29	да	да	AUX	Tx	_	30	aux	_	_	_	C10:SUB;head=C9;conj=S036:да	_	_	_
+30	изпълняват	изпълнявам	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	acl	_	_	F14:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C10	_	Z6:Pro-drop;Number=Plur|Person=3;rule=S10,R19;ref=Z3	E4
+31	желания	желание	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	30	obj	_	SpaceAfter=No	_	C10	P25:NPI;Definite=Ind|Gender=Neut|Number=Plur;head=31;rule=NPI01	_	_
+32	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n	_	C10	_	_	_
+
+# sent_id = grade07_005_s005
+# text = В древността много народи вярвали в съществуването на водни същества със свръхестествени сили, сред които са русалките, нимфите, сирените, водните духове и др.
+1	В	в	ADP	R	_	2	case	_	_	_	C11:MAIN	P26:NPD;prep=В;Definite=Def|Gender=Fem|Number=Sing;head=2;rule=NPD01	_	_
+2	древността	древност	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	5	obl	_	_	_	C11	P26	_	_
+3	много	много	ADV	Md-pi	Definite=Ind|Degree=Pos|Number=Plur|NumType=Card	4	advmod	_	_	_	C11	P27:NPI;Definite=Ind|Gender=Masc|Number=Plur;head=4;rule=NPI04	_	_
+4	народи	народ	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	5	nsubj	_	_	_	C11	P27	_	E5
+5	вярвали	вярвам	VERB	Vpitcam-p-i	Aspect=Imp|Definite=Ind|Number=Plur|Tense=Imp|VerbForm=Part|Voice=Act	0	root	_	_	F15:Present-Imperfect+Ren|DVerb+Past_Participle_Imperfect;Aspect=Imp|Evident=Ren|Mood=Ind|Number=Plur|Tense=Present,Imperfect|VerbForm=Fin|Voice=Act/Aspect=Imp|Definite=Ind|Number=Plur|Tense=Imp|VerbForm=Part|Voice=Act;rule=BGF419	C11	_	_	_
+6	в	в	ADP	R	_	7	case	_	_	_	C11	P28:NPD;prep=в;Definite=Def|Gender=Neut|Number=Sing;head=7;rule=NPD01	_	_
+7	съществуването	съществуване	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	5	obl	_	_	_	C11	P28	_	_
+8	на	на	ADP	R	_	10	case	_	_	_	C11	P29:NPI;prep=на;Definite=Ind|Gender=Neut|Number=Plur;head=10;rule=NPI02	_	_
+9	водни	воден	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	10	amod	_	_	_	C11	P29	_	_
+10	същества	същество	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	7	nmod	_	_	_	C11	P29	_	_
+11	със	със	ADP	R	_	13	case	_	_	_	C11	P30:NPI;prep=със;Definite=Ind|Gender=Fem|Number=Plur;head=13;rule=NPI02	_	_
+12	свръхестествени	свръхестествен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	13	amod	_	_	_	C11	P30	_	_
+13	сили	сила	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No	_	C11	P30	_	E6
+14	,	,	PUNCT	punct	_	18	punct	_	_	_	C11	_	_	_
+15	сред	сред	ADP	R	_	16	case	_	_	_	C12:SUB;head=C11;conj=S116:които	_	_	_
+16	които	който	PRON	Pre-op	Case=Nom|Number=Plur|PronType=Rel	18	nmod	_	_	_	C12	_	A5:Relative;Number=Plur|Person=3;rule=R01;ref=grade07_005_s005#13	E6
+17	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	_	_	F16:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C12	_	_	_
+18	русалките	русалка	NOUN	Ncfpd	Definite=Def|Gender=Fem|Number=Plur	13	acl:relcl	_	SpaceAfter=No	_	C12	P31:NPD;Definite=Def|Gender=Fem|Number=Plur;head=18;rule=NPD01	Z7:Pro-drop;Gender=Fem|Number=Plur|Person=3;rule=S10,R19;ref=grade07_005_s005#4	E5
+19	,	,	PUNCT	punct	_	20	punct	_	_	_	C12	_	_	_
+20	нимфите	нимфа	NOUN	Ncfpd	Definite=Def|Gender=Fem|Number=Plur	18	conj	_	SpaceAfter=No	_	C12	P32:NPD;Definite=Def|Gender=Fem|Number=Plur;head=20;rule=NPD01	_	_
+21	,	,	PUNCT	punct	_	22	punct	_	_	_	C12	_	_	_
+22	сирените	сиреен	NOUN	Ncfpd	Definite=Def|Gender=Fem|Number=Plur	18	conj	_	SpaceAfter=No	_	C12	P33:NPD;Definite=Def|Gender=Fem|Number=Plur;head=22;rule=NPD01	_	_
+23	,	,	PUNCT	punct	_	25	punct	_	_	_	C12	_	_	_
+24	водните	воден	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	25	amod	_	_	_	C12	P34:NPD;Definite=Def|Gender=Masc|Number=Plur;head=25;rule=NPD03	_	_
+25	духове	дух	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	18	conj	_	_	_	C12	P34	_	_
+26	и	и	CCONJ	Cp	_	27	cc	_	_	_	C12	_	_	_
+27	др.	друг	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	18	conj	_	_	_	C12	P35:AP;Definite=Ind|Number=Plur;head=27;rule=AP01	_	_
+
+# sent_id = grade07_005_s006
+# text = В митовете и легендите русалките са прелестни млади жени, които вместо крака имат опашка на риба.
+1	В	в	ADP	R	_	2	case	_	_	_	C13:MAIN	P36:NPD;prep=В;Definite=Def|Gender=Masc|Number=Plur;head=2;rule=NPD01	_	_
+2	митовете	мит	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	9	nmod	_	_	_	C13	P36	_	_
+3	и	и	CCONJ	Cp	_	4	cc	_	_	_	C13	_	_	_
+4	легендите	легенд	NOUN	Ncfpd	Definite=Def|Gender=Fem|Number=Plur	2	conj	_	_	_	C13	P37:NPD;Definite=Def|Gender=Fem|Number=Plur;head=4;rule=NPD01	_	_
+5	русалките	русалка	NOUN	Ncfpd	Definite=Def|Gender=Fem|Number=Plur	9	nsubj	_	_	_	C13	P38:NPD;Definite=Def|Gender=Fem|Number=Plur;head=5;rule=NPD01	_	_
+6	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_	F17:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C13	_	_	_
+7	прелестни	прелестм	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	9	amod	_	_	_	C13	P39:NPI;Definite=Ind|Gender=Fem|Number=Plur;head=9;rule=NPI02	_	_
+8	млади	млад	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	9	amod	_	_	_	C13	P39	_	_
+9	жени	жена	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No	_	C13	P39	_	E7
+10	,	,	PUNCT	punct	_	14	punct	_	_	_	C13	_	_	_
+11	които	който	PRON	Pre-op	Case=Nom|Number=Plur|PronType=Rel	14	nsubj	_	_	_	C14:SUB;head=C13;conj=S116:които	_	A6:Relative;Number=Plur|Person=3;rule=R01;ref=grade07_005_s006#9	E7
+12	вместо	вместо	ADP	R	_	13	case	_	_	_	C14	P40:NPD;prep=вместо;Definite=Def|Gender=Masc|Number=Sing;head=13;rule=NPD01	_	_
+13	крака	крак	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	14	obl	_	_	_	C14	P40	_	_
+14	имат	имам	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_	F18:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C14	_	_	_
+15	опашка	опашка	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	14	obj	_	_	_	C14	P41:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=15;rule=NPI01	_	_
+16	на	на	ADP	R	_	17	case	_	_	_	C14	P42:NPI;prep=на;Definite=Ind|Gender=Fem|Number=Sing;head=17;rule=NPI01	_	_
+17	риба	риба	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No	_	C14	P42	_	_
+18	.	.	PUNCT	punct	_	9	punct	_	_	_	C14	_	_	_
+
+# sent_id = grade07_005_s007
+# text = Тези тайнствени красавици притежават божествен глас, с който привличат моряците в дълбините на морето.
+1	Тези	този	DET	Pde-op	Number=Plur|PronType=Dem	3	det	_	_	_	C15:MAIN	P43:NPI;Definite=Def|Gender=Fem|Number=Plur;head=3;rule=NPI07	_	_
+2	тайнствени	тайнствен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	3	amod	_	_	_	C15	P43	_	_
+3	красавици	красавица	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	4	nsubj	_	_	_	C15	P43	_	_
+4	притежават	притежавам	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F19:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C15	_	_	_
+5	божествен	божествен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_	_	C15	P44:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=6;rule=NPI02	_	_
+6	глас	глас	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No	_	C15	P44	_	E8
+7	,	,	PUNCT	punct	_	10	punct	_	_	_	C15	_	_	_
+8	с	с	ADP	R	_	9	case	_	_	_	C16:SUB;head=C15;conj=S116:който	_	_	_
+9	който	който	PRON	Pre-os-m	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	10	iobj	_	_	_	C16	_	A7:Relative;Gender=Masc|Number=Sing|Person=3;rule=R01;ref=grade07_005_s007#6	E8
+10	привличат	привличам	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_	F20:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C16	_	_	_
+11	моряците	моряк	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	10	nsubj	_	_	_	C16	P45:NPD;Definite=Def|Gender=Masc|Number=Plur;head=11;rule=NPD01	_	E9
+12	в	в	ADP	R	_	13	case	_	_	_	C16	P46:NPD;prep=в;Definite=Def|Gender=Fem|Number=Plur;head=13;rule=NPD01	_	_
+13	дълбините	дълбин	NOUN	Ncfpd	Definite=Def|Gender=Fem|Number=Plur	11	nmod	_	_	_	C16	P46	_	_
+14	на	на	ADP	R	_	15	case	_	_	_	C16	P47:NPD;prep=на;Definite=Def|Gender=Neut|Number=Sing;head=15;rule=NPD01	_	_
+15	морето	море	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No	_	C16	P47	_	_
+16	.	.	PUNCT	punct	_	4	punct	_	_	_	C16	_	_	_
+
+# sent_id = grade07_005_s008
+# text = В някои култури срещата с тях носи лош късмет, те предизвикват бури и убиват хора, в други култури са скромни и мили същества, които се влюбват в земни мъже и посредством заклинания успяват да се освободят от опашката си и да заживеят на сушата.
+1	В	в	ADP	R	_	3	case	_	_	_	C17:MAIN	P48:NPI;prep=В;Definite=Ind|Gender=Fem|Number=Plur;head=3;rule=NPI11	_	_
+2	някои	някой	DET	Pfe-op	Case=Nom|Number=Plur|PronType=Ind	3	det	_	_	_	C17	P48	_	_
+3	култури	култура	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	7	obl	_	_	_	C17	P48	_	E10
+4	срещата	среща	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	_	_	C17	P49:NPD;Definite=Def|Gender=Fem|Number=Sing;head=4;rule=NPD01	_	_
+5	с	с	ADP	R	_	6	case	_	_	_	C17	_	_	_
+6	тях	аз	PRON	Ppelap3	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	nmod	_	_	_	C17	_	A8:Personal;Number=Plur|Person=3;rule=R12;ref=grade07_005_s008#3	E10
+7	носи	нося-(се)	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	_	F21:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C17	_	_	_
+8	лош	лош	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_	_	C17	P50:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=9;rule=NPI02	_	_
+9	късмет	късмет	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No	_	C17	P50	_	_
+10	,	,	PUNCT	punct	_	7	punct	_	_	_	C17	_	_	_
+11	те	аз	PRON	Ppe-op3	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_	_	C18:COORD;coord=C17	_	A9:Personal;Number=Plur|Person=3;rule=R07;ref=grade07_005_s007#11	E9
+12	предизвикват	предизвиквам	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F22:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C18	_	_	_
+13	бури	буря	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	12	obj	_	_	_	C18	P51:NPI;Definite=Ind|Gender=Fem|Number=Plur;head=13;rule=NPI01	_	_
+14	и	и	CCONJ	Cp	_	15	cc	_	_	_	C19:COORD;coord=C18;conj=S154:и	_	_	_
+15	убиват	убивам-(се)	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	_	F23:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C19	_	Z8:Pro-drop;Number=Plur|Person=3;rule=S10,R19;ref=A9	E9
+16	хора	хора	NOUN	Nc-li	Definite=Ind|Number=Ptan	22	nsubj	_	SpaceAfter=No	_	C19	P52:NPI;Definite=Ind|Number=Ptan;head=16;rule=NPI01	_	_
+17	,	,	PUNCT	punct	_	20	punct	_	_	_	C19	_	_	_
+18	в	в	ADP	R	_	20	case	_	_	_	C20:COORD;coord=C19	P53:NPI;prep=в;Definite=Ind|Gender=Fem|Number=Plur;head=20;rule=NPI02	_	_
+19	други	друг	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	20	amod	_	_	_	C20	P53	_	_
+20	култури	култура	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	16	conj	_	_	_	C20	P53	_	_
+21	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	cop	_	_	F24:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C20	_	_	_
+22	скромни	скромен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	15	conj	_	_	_	C20	P54:NPI;Definite=Ind|Gender=Neut|Number=Plur;head=25;rule=NPI02a	_	_
+23	и	и	CCONJ	Cp	_	25	cc	_	_	_	C20	P54	_	_
+24	мили	мил	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	25	amod	_	_	_	C20	P54	_	_
+25	същества	същество	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	15	obj	_	SpaceAfter=No	_	C20	P54	_	E11
+26	,	,	PUNCT	punct	_	29	punct	_	_	_	C20	_	_	_
+27	които	който	PRON	Pre-op	Case=Nom|Number=Plur|PronType=Rel	29	nsubj	_	_	_	C21:SUB;head=C20;conj=S116:които	_	A10:Relative;Number=Plur|Person=3;rule=R01;ref=grade07_005_s008#25	E11
+28	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	29	expl	_	_	F25:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C21	_	_	_
+29	влюбват	влюбвам	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	acl:relcl	_	_	F25	C21	_	_	_
+30	в	в	ADP	R	_	32	case	_	_	_	C21	P55:NPI;prep=в;Definite=Ind|Gender=Masc|Number=Plur;head=32;rule=NPI02	_	_
+31	земни	земен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	32	amod	_	_	_	C21	P55	_	_
+32	мъже	мъж	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	29	iobj	_	_	_	C21	P55	_	_
+33	и	и	CCONJ	Cp	_	35	cc	_	_	_	C22:SUB;head=C20;coord=C21;conj=S154:и	_	_	_
+34	посредством	посредством	ADP	R	_	35	case	_	_	_	C22	P56:NPI;prep=посредством;Definite=Ind|Gender=Neut|Number=Plur;head=35;rule=NPI01	_	_
+35	заклинания	заклинане	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	32	conj	_	_	_	C22	P56	_	_
+36	успяват	успявам	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	_	F26:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C22	_	Z9:Pro-drop;Number=Plur|Person=3;rule=S10,R19;ref=A9	E9
+37	да	да	AUX	Tx	_	39	aux	_	_	_	C23:SUB;head=C22;conj=S036:да	_	_	_
+38	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	39	expl	_	_	F27:Present;Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C23	_	_	_
+39	освободят	освободя-(се)	VERB	Vpptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	36	xcomp	_	_	F27	C23	_	Z10:Pro-drop;Number=Plur|Person=3;rule=S09,R19;ref=Z9	E9
+40	от	от	ADP	R	_	41	case	_	_	_	C23	P57:NPD;prep=от;Definite=Def|Gender=Fem|Number=Sing;head=41;rule=NPD02	_	_
+41	опашката	опашка	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	39	iobj	_	_	_	C23	P57	_	_
+42	си	свой	PRON	Psxto	Case=Nom|Poss=Yes|PronType=Prs|Reflex=Yes	41	det	_	_	_	C23	P57	A11:ReflexivePossessive;Number=Plur|Person=3;rule=R03;ref=Z10	E9
+43	и	и	CCONJ	Cp	_	45	cc	_	_	_	C24:SUB;head=C23;conj=S079:и_да	_	_	_
+44	да	да	AUX	Tx	_	45	aux	_	_	_	C24	_	_	_
+45	заживеят	заживея	VERB	Vpptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	39	conj	_	_	F28:Present;Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C24	_	Z11:Pro-drop;Number=Plur|Person=3;rule=S09,R19;ref=Z10	E9
+46	на	на	ADP	R	_	47	case	_	_	_	C24	P58:NPD;prep=на;Definite=Def|Gender=Fem|Number=Sing;head=47;rule=NPD01	_	_
+47	сушата	суша	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	45	iobj	_	SpaceAfter=No	_	C24	P58	_	_
+48	.	.	PUNCT	punct	_	12	punct	_	SpacesAfter=\n	_	C24	_	_	_
+
+# sent_id = grade07_005_s009
+# text = Славянските народи вярвали в съществуването на водни духове, живеещи на дъното на водните басейни в каменни дворци заедно със семействата си и със своите стада от домашни животни.
+1	Славянските	Славянски	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	2	amod	_	_	_	C25:MAIN	P59:NPD;Definite=Def|Gender=Masc|Number=Plur;head=2;rule=NPD03	_	_
+2	народи	народ	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	_	_	C25	P59	_	_
+3	вярвали	вярвам	ADJ	Vpiicao-p-i	Aspect=Imp|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	2	amod	_	_	F29:Aorist+Ren|DVerb+Past_Participle_Aorist;Aspect=Imp|Evident=Ren|Mood=Ind|Number=Plur|Tense=Aorist|VerbForm=Fin|Voice=Act/Aspect=Imp|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act;rule=BGF420	C25	_	_	_
+4	в	в	ADP	R	_	5	case	_	_	_	C25	P60:NPD;prep=в;Definite=Def|Gender=Neut|Number=Sing;head=5;rule=NPD01	_	_
+5	съществуването	съществуване	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	3	obl	_	_	_	C25	P60	_	_
+6	на	на	ADP	R	_	8	case	_	_	_	C25	P61:NPI;prep=на;Definite=Ind|Gender=Masc|Number=Plur;head=8;rule=NPI02	_	_
+7	водни	воден	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	8	amod	_	_	_	C25	P61	_	_
+8	духове	дух	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No	_	C25	P61	_	_
+9	,	,	PUNCT	punct	_	10	punct	_	_	_	C25	_	_	_
+10	живеещи	живея	ADJ	Vpitcar-p-i	Aspect=Imp|Definite=Ind|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	_	_	F30:NVerb+Present_Participle;Aspect=Imp|Definite=Ind|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act;rule=BGF421	C25	_	_	_
+11	на	на	ADP	R	_	12	case	_	_	_	C25	P62:NPD;prep=на;Definite=Def|Gender=Neut|Number=Sing;head=12;rule=NPD01	_	_
+12	дъното	дъно	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	10	obl	_	_	_	C25	P62	_	_
+13	на	на	ADP	R	_	15	case	_	_	_	C25	P63:NPD;prep=на;Definite=Def|Gender=Masc|Number=Plur;head=15;rule=NPD03	_	_
+14	водните	воден	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	15	amod	_	_	_	C25	P63	_	_
+15	басейни	басейна	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	12	nmod	_	_	_	C25	P63	_	_
+16	в	в	ADP	R	_	18	case	_	_	_	C25	P64:NPI;prep=в;Definite=Ind|Gender=Masc|Number=Plur;head=18;rule=NPI02	_	_
+17	каменни	каменен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	18	amod	_	_	_	C25	P64	_	_
+18	дворци	дворец	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	15	nmod	_	_	_	C25	P64	_	_
+19	заедно	заедно	ADV	Dm	Degree=Pos	21	advmod	_	_	_	C25	_	_	_
+20	със	със	ADP	R	_	21	case	_	_	_	C25	P65:NPD;prep=със;Definite=Def|Gender=Neut|Number=Plur;head=21;rule=NPD02	_	_
+21	семействата	семейство	NOUN	Ncnpd	Definite=Def|Gender=Neut|Number=Plur	2	nmod	_	_	_	C25	P65	_	_
+22	си	свой	PRON	Psxto	Case=Nom|Poss=Yes|PronType=Prs|Reflex=Yes	21	det	_	_	_	C25	P65	A12:ReflexivePossessive;_	_
+23	и	и	CCONJ	Cp	_	26	cc	_	_	_	C25	_	_	_
+24	със	със	ADP	R	_	26	case	_	_	_	C25	_	_	_
+25	своите	свой	DET	Psxlop--d	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	26	det	_	_	_	C25	_	A13:ReflexivePossessive;_	_
+26	стада	стада	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	2	conj	_	_	_	C25	P66:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=26;rule=NPI01	_	_
+27	от	от	ADP	R	_	29	case	_	_	_	C25	P67:NPI;prep=от;Definite=Ind|Gender=Neut|Number=Plur;head=29;rule=NPI02	_	_
+28	домашни	домашен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	29	amod	_	_	_	C25	P67	_	_
+29	животни	животно	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	26	nmod	_	SpaceAfter=No	_	C25	P67	_	_
+30	.	.	PUNCT	punct	_	2	punct	_	_	_	C25	_	_	_
+
+# sent_id = grade07_005_s010
+# text = Смятало се, че водният дух не е благоразположен към хората.
+1	Смятало	Смятам	VERB	Vpitcam-sni	Aspect=Imp|Definite=Ind|Gender=Neut|Number=Sing|Tense=Imp|VerbForm=Part|Voice=Act	0	root	_	_	F31:Present-Imperfect+Ren|DVerb+Past_Participle_Imperfect;Aspect=Imp|Evident=Ren|Gender=Neut|Mood=Ind|Number=Sing|Tense=Present,Imperfect|VerbForm=Fin|Voice=Act/Aspect=Imp|Definite=Ind|Gender=Neut|Number=Sing|Tense=Imp|VerbForm=Part|Voice=Act;rule=BGF419	C26:MAIN	_	Z12:Impersonal;Gender=Neut|Number=Sing|Person=3;rule=S05	_
+2	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	SpaceAfter=No	F31	C26	_	_	_
+3	,	,	PUNCT	punct	_	9	punct	_	_	_	C26	_	_	_
+4	че	че	SCONJ	Cs	_	9	mark	_	_	_	C27:SUB;head=C26;conj=S016:че	_	_	_
+5	водният	воден	ADJ	Amsf	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_	_	C27	P68:NPD;Definite=Def|Gender=Masc|Number=Sing;head=6;rule=NPD03	_	_
+6	дух	дух	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	9	nsubj	_	_	_	C27	P68	_	E12
+7	не	не	PART	Tn	Polarity=Neg	9	advmod	_	_	F32:Present+Neg;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF376	C27	_	_	_
+8	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_	F32	C27	_	_	_
+9	благоразположен	благоразположен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	1	csubj:pass	_	_	_	C27	P69:AP;Definite=Ind|Gender=Masc|Number=Sing;head=9;rule=AP01	_	_
+10	към	към	ADP	R	_	11	case	_	_	_	C27	P70:NPD;prep=към;Definite=Def|Number=Ptan;head=11;rule=NPD01	_	_
+11	хората	хора	NOUN	Nc-ld	Definite=Def|Number=Ptan	9	obl	_	SpaceAfter=No	_	C27	P70	_	_
+12	.	.	PUNCT	punct	_	1	punct	_	_	_	C27	_	_	_
+
+# sent_id = grade07_005_s011
+# text = Силата му се проявявала само във водата, а когато излизал на сушата, той бил немощен и слаб.
+1	Силата	сила	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	_	_	C28:MAIN	P71:NPD;Definite=Def|Gender=Fem|Number=Sing;head=1;rule=NPD02	_	_
+2	му	мой	PRON	Psot--3--m	Person=3|Poss=Yes|PronType=Prs	1	det	_	_	_	C28	P71	A14:Possessive;Gender=Masc,Neut|Number=Sing|Person=3;rule=R15;ref=grade07_005_s010#6	E12
+3	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	_	F33:Aorist+Ren|DVerb+Past_Participle_Aorist;Aspect=Perf|Evident=Ren|Gender=Fem|Mood=Ind|Number=Sing|Tense=Aorist|VerbForm=Fin|Voice=Act/Aspect=Perf|Definite=Ind|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act;rule=BGF420	C28	_	_	_
+4	проявявала	проявявам-(се)	VERB	Vpptcao-sfi	Aspect=Perf|Definite=Ind|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_	F33	C28	_	_	_
+5	само	само	ADV	Dd	Degree=Pos	7	advmod	_	_	_	C28	_	_	_
+6	във	във	ADP	R	_	7	case	_	_	_	C28	P72:NPD;prep=във;Definite=Def|Gender=Fem|Number=Sing;head=7;rule=NPD01	_	_
+7	водата	вода	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No	_	C28	P72	_	_
+8	,	,	PUNCT	punct	_	9	punct	_	_	_	C28	_	_	_
+9	а	а	CCONJ	Cp	_	17	cc	_	_	_	C29:SUB;head=C28;conj=S042:когато	_	_	_
+10	когато	когато	ADV	Prt	PronType=Rel	11	advmod	_	_	_	C29	_	_	_
+11	излизал	излизам	VERB	Vppicao-smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	17	advcl	_	_	F34:Aorist+Ren|DVerb+Past_Participle_Aorist;Aspect=Perf|Evident=Ren|Gender=Masc|Mood=Ind|Number=Sing|Tense=Aorist|VerbForm=Fin|Voice=Act/Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act;rule=BGF420	C29	_	Z13:Pro-drop;Gender=Masc|Number=Sing|Person=3;rule=S10,R19;ref=grade07_005_s010#6	E12
+12	на	на	ADP	R	_	13	case	_	_	_	C29	P73:NPD;prep=на;Definite=Def|Gender=Fem|Number=Sing;head=13;rule=NPD01	_	_
+13	сушата	суша	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	11	iobj	_	SpaceAfter=No	_	C29	P73	_	_
+14	,	,	PUNCT	punct	_	11	punct	_	_	_	C29	_	_	_
+15	той	аз	PRON	Ppe-os3m	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_	_	C30:COORD;coord=C28	_	A15:Personal;Gender=Masc|Number=Sing|Person=3;rule=R07;ref=Z13	E12
+16	бил	съм	AUX	Vxitcat-smi	Aspect=Imp|Definite=Ind|Gender=Masc|Mood=Ind|Number=Sing|VerbForm=Part|Voice=Act	17	cop	_	_	F35:Aorist+Ren|DVerb+Past_Participle_Aorist;Aspect=Imp|Evident=Ren|Gender=Masc|Mood=Ind|Number=Sing|Tense=Aorist|VerbForm=Fin|Voice=Act/Aspect=Imp|Definite=Ind|Gender=Masc|Mood=Ind|Number=Sing|VerbForm=Part|Voice=Act;rule=BGF420	C30	_	_	_
+17	немощен	немощен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	conj	_	_	_	C30	P74:AP;Definite=Ind|Gender=Masc|Number=Sing;head=17;rule=AP01	_	_
+18	и	и	CCONJ	Cp	_	19	cc	_	_	_	C30	_	_	_
+19	слаб	слаб	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No	_	C30	P75:AP;Definite=Ind|Gender=Masc|Number=Sing;head=19;rule=AP01	_	_
+20	.	.	PUNCT	punct	_	4	punct	_	SpacesAfter=\n	_	C30	_	_	_
+

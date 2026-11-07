@@ -1,0 +1,8 @@
+# Изучаващ български като втори език, ниво А2
+name: Изучаващ български, ниво А2
+language: L2
+cefr: A2              # A1, A2, B1, B2, C1, C2
+age: 25
+needs: none
+lexicon: L2
+known:

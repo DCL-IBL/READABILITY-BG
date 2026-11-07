@@ -1,0 +1,325 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC DCL:VERBFORM DCL:CLAUSE DCL:NP DCL:ANAPHORA DCL:COREF
+# newdoc id = grade10_013
+# newpar
+# sent_id = grade10_013_s001
+# text = Лятото наближава и много хора ще потърсят топлите лъчи на слънцето край морския бряг или в планините.
+1	Лятото	лято	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	_	_	C1:MAIN	P1:NPD;Definite=Def|Gender=Neut|Number=Sing;head=1;rule=NPD01	_	_
+2	наближава	наближавам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F1:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C1	_	_	_
+3	и	и	CCONJ	Cp	_	7	cc	_	_	_	C2:COORD;coord=C1;conj=S154:и	_	_	_
+4	много	много	ADV	Md-pi	Definite=Ind|Degree=Pos|Number=Plur|NumType=Card	5	advmod	_	_	_	C2	P2:NPI;Definite=Ind|Number=Ptan;head=5;rule=NPI04	_	_
+5	хора	хора	NOUN	Nc-li	Definite=Ind|Number=Ptan	7	nsubj	_	_	_	C2	P2	_	_
+6	ще	ще	AUX	Tx	_	7	aux	_	_	F2:Future;Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Future|VerbForm=Fin|Voice=Act;rule=BGF391	C2	_	_	_
+7	потърсят	потърся	VERB	Vpptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_	F2	C2	_	_	_
+8	топлите	топм	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	9	amod	_	_	_	C2	P3:NPD;Definite=Def|Gender=Neut|Number=Plur;head=9;rule=NPD03	_	_
+9	лъчи	лъч	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	7	obj	_	_	_	C2	P3	_	_
+10	на	на	ADP	R	_	11	case	_	_	_	C2	P4:NPD;prep=на;Definite=Def|Gender=Neut|Number=Sing;head=11;rule=NPD01	_	_
+11	слънцето	слънце	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	9	nmod	_	_	_	C2	P4	_	_
+12	край	край	ADP	R	_	14	case	_	_	_	C2	P5:NPD;prep=край;Definite=Def|Gender=Masc|Number=Sing;head=14;rule=NPD03	_	_
+13	морския	морски	ADJ	Amsh	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_	_	C2	P5	_	_
+14	бряг	бряг	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	_	_	C2	P5	_	_
+15	или	или	CCONJ	Cp	_	17	cc	_	_	_	C2	_	_	_
+16	в	в	ADP	R	_	17	case	_	_	_	C2	P6:NPD;prep=в;Definite=Def|Gender=Fem|Number=Plur;head=17;rule=NPD01	_	_
+17	планините	планина	NOUN	Ncfpd	Definite=Def|Gender=Fem|Number=Plur	14	conj	_	SpaceAfter=No	_	C2	P6	_	_
+18	.	.	PUNCT	punct	_	2	punct	_	_	_	C2	_	_	_
+
+# sent_id = grade10_013_s002
+# text = Науката е категорична, че слънцеизлагането е единственият естествен стимул на организма да синтезира витамин D.
+1	Науката	наука	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	_	_	C3:MAIN	P7:NPD;Definite=Def|Gender=Fem|Number=Sing;head=1;rule=NPD01	_	_
+2	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_	F3:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C3	_	_	_
+3	категорична	категоричен	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No	_	C3	P8:AP;Definite=Ind|Gender=Fem|Number=Sing;head=3;rule=AP01	_	_
+4	,	,	PUNCT	punct	_	10	punct	_	_	_	C3	_	_	_
+5	че	че	SCONJ	Cs	_	10	mark	_	_	_	C4:SUB;head=C3;conj=S016:че	_	_	_
+6	слънцеизлагането	слънцеизлагане	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	10	nsubj	_	_	_	C4	P9:NPD;Definite=Def|Gender=Neut|Number=Sing;head=6;rule=NPD01	_	E1
+7	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_	F4:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C4	_	_	_
+8	единственият	единствен	ADJ	Amsf	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_	C4	P10:NPD;Definite=Def|Gender=Masc|Number=Sing;head=10;rule=NPD03	_	_
+9	естествен	естествен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_	C4	P10	_	_
+10	стимул	стимул	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	3	csubj	_	_	_	C4	P10	_	_
+11	на	на	ADP	R	_	12	case	_	_	_	C4	P11:NPD;prep=на;Definite=Def|Gender=Masc|Number=Sing;head=12;rule=NPD01	_	_
+12	организма	организъм	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	_	_	C4	P11	_	_
+13	да	да	AUX	Tx	_	14	aux	_	_	_	C5:SUB;head=C4;conj=S036:да	_	_	_
+14	синтезира	синтезирам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl	_	_	F5:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C5	_	Z1:Pro-drop;Gender=Neut|Number=Sing|Person=3;rule=S09,R19;ref=grade10_013_s002#6	E1
+15	витамин	витаминута	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	14	obj	_	_	_	C5	P12:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=15;rule=NPI01b	_	_
+16	D	d	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No	_	C5	P12	_	_
+17	.	.	PUNCT	punct	_	3	punct	_	_	_	C5	_	_	_
+
+# sent_id = grade10_013_s003
+# text = Проучванията показват, че телесното и психичното здраве се подобряват, когато се прекарва повече време на открито.
+1	Проучванията	проучване	NOUN	Ncnpd	Definite=Def|Gender=Neut|Number=Plur	2	nsubj	_	_	_	C6:MAIN	P13:NPD;Definite=Def|Gender=Neut|Number=Plur;head=1;rule=NPD01	_	_
+2	показват	показвам-(се)	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No	F6:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C6	_	_	_
+3	,	,	PUNCT	punct	_	10	punct	_	_	_	C6	_	_	_
+4	че	че	SCONJ	Cs	_	10	mark	_	_	_	C7:SUB;head=C6;conj=S016:че	_	_	_
+5	телесното	телесен	ADJ	Ansd	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_	_	C7	P14:AP;Definite=Def|Gender=Neut|Number=Sing;head=5;rule=AP02	_	_
+6	и	и	CCONJ	Cp	_	7	cc	_	_	_	C7	_	_	_
+7	психичното	психичен	ADJ	Ansd	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	5	conj	_	_	_	C7	P15:NPD;Definite=Def|Gender=Neut|Number=Sing;head=8;rule=NPD03	_	_
+8	здраве	здраве	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	10	nsubj	_	_	_	C7	P15	_	_
+9	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	10	expl	_	_	F7:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C7	_	_	_
+10	подобряват	подобрявам	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	SpaceAfter=No	F7	C7	_	_	_
+11	,	,	PUNCT	punct	_	14	punct	_	_	_	C7	_	_	_
+12	когато	когато	ADV	Prt	PronType=Rel	14	advmod	_	_	_	C8:SUB;head=C7;conj=S042:когато	_	_	_
+13	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	14	expl	_	_	F8:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C8	_	_	_
+14	прекарва	прекарвам-(се)	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	_	F8	C8	_	_	_
+15	повече	повече	ADV	Md-pi	Definite=Ind|Degree=Pos|Number=Plur|NumType=Card	16	advmod	_	_	_	C8	P16:NPI;Definite=Ind|Gender=Neut|Number=Sing;head=16;rule=NPI04	_	_
+16	време	време	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	14	nsubj	_	_	_	C8	P16	_	_
+17	на	на	ADP	R	_	18	case	_	_	_	C8	P17:AP;prep=на;Definite=Ind|Gender=Neut|Number=Sing;head=18;rule=AP01	_	_
+18	открито	открито	ADJ	Ansi	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No	_	C8	P17	_	_
+19	.	.	PUNCT	punct	_	2	punct	_	_	_	C8	_	_	_
+
+# sent_id = grade10_013_s004
+# text = Слънцето е извор на прекрасни емоции – всичко изглежда по-хубаво и по-лесно постижимо, когато навън е слънчево.
+1	Слънцето	слънце	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	_	_	C9:MAIN	P18:NPD;Definite=Def|Gender=Neut|Number=Sing;head=1;rule=NPD01	_	E2
+2	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_	F9:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C9	_	_	_
+3	извор	извор	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_	_	C9	P19:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=3;rule=NPI01	_	_
+4	на	на	ADP	R	_	6	case	_	_	_	C9	P20:NPI;prep=на;Definite=Ind|Gender=Fem|Number=Plur;head=6;rule=NPI02	_	_
+5	прекрасни	прекрасен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	6	amod	_	_	_	C9	P20	_	_
+6	емоции	емоция	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	3	nmod	_	_	_	C9	P20	_	_
+7	–	–	PUNCT	punct	_	9	punct	_	_	_	C9	_	_	_
+8	всичко	всеки	PRON	Pce-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	9	nsubj	_	_	_	C10:COORD;coord=C9	_	_	_
+9	изглежда	изглежда	VERB	Vniif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_	F10:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C10	_	_	_
+10	по-хубаво	хубаво	ADJ	Ansi	Definite=Ind|Degree=Cmp|Gender=Neut|Number=Sing	9	obj	_	_	_	C10	P21:AP;Definite=Ind|Gender=Neut|Number=Sing;head=10;rule=AP01	_	_
+11	и	и	CCONJ	Cp	_	12	cc	_	_	_	C10	_	_	_
+12	по-лесно	лесно	ADV	Dm	Degree=Cmp	10	conj	_	_	_	C10	_	_	_
+13	постижимо	постижимо	ADV	Dm	Degree=Pos	10	advmod	_	SpaceAfter=No	_	C10	_	_	_
+14	,	,	PUNCT	punct	_	18	punct	_	_	_	C10	_	_	_
+15	когато	когато	ADV	Prt	PronType=Rel	18	advmod	_	_	_	C11:SUB;head=C10;conj=S042:когато	_	_	_
+16	навън	навън	ADV	Dl	Degree=Pos	18	advmod	_	_	_	C11	_	_	_
+17	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	_	_	F11:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C11	_	_	_
+18	слънчево	слънчев	ADJ	Ansi	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advcl	_	SpaceAfter=No	_	C11	P22:AP;Definite=Ind|Gender=Neut|Number=Sing;head=18;rule=AP01	Z2:Pro-drop;Gender=Neut|Number=Sing|Person=3;rule=S10,R19;ref=grade10_013_s004#1	E2
+19	.	.	PUNCT	punct	_	3	punct	_	_	_	C11	_	_	_
+
+# sent_id = grade10_013_s005
+# text = Защо тогава компетентни специалисти ни съветват да се пазим от слънчевите лъчи?
+1	Защо	защо	PRON	Pic	PronType=Int	4	det	_	_	_	C12:MAIN	_	_	_
+2	тогава	тогава	ADV	Pdt	PronType=Dem	4	advmod	_	_	_	C12	_	_	_
+3	компетентни	компетентен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	4	amod	_	_	_	C12	P23:NPI;Definite=Ind|Gender=Masc|Number=Plur;head=4;rule=NPI02	_	_
+4	специалисти	специалист	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	6	nsubj	_	_	_	C12	P23	_	_
+5	ни	аз	PRON	Ppetdp1	Case=Dat|Number=Plur|Person=1|PronType=Prs	6	iobj	_	_	_	C12	_	A1:Personal;Number=Plur|Person=1	E3
+6	съветват	съветвам-(се)	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F12:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C12	_	_	_
+7	да	да	AUX	Tx	_	9	aux	_	_	_	C13:SUB;head=C12;conj=S036:да	_	_	_
+8	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	9	expl	_	_	F13:Present;Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C13	_	_	_
+9	пазим	пазя-(се)	VERB	Vpptf-r1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	_	F13	C13	_	Z3:Pro-drop;Number=Plur|Person=1;rule=S08,R05;ref=A1	E3
+10	от	от	ADP	R	_	12	case	_	_	_	C13	P24:NPD;prep=от;Definite=Def|Gender=Neut|Number=Plur;head=12;rule=NPD03	_	_
+11	слънчевите	слънчев	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	12	amod	_	_	_	C13	P24	_	_
+12	лъчи	лъч	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	9	iobj	_	SpaceAfter=No	_	C13	P24	_	_
+13	?	?	PUNCT	punct	_	6	punct	_	SpacesAfter=\n	_	C13	_	_	_
+
+# sent_id = grade10_013_s006
+# text = Ако попитате някой физик, той ще ви каже, че ултравиолетовите лъчи от слънчевия спектър са невидими за човешкото око.
+1	Ако	ако	SCONJ	Cs	_	2	mark	_	_	_	C14:SUB;head=C15;conj=S071:ако	_	_	_
+2	попитате	попитам	VERB	Vpitf-r2p	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	_	F14:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C14	_	Z4:Pro-drop;Number=Plur|Person=2;rule=S08	E4
+3	някой	някой	DET	Pfe-os-m	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_	_	C14	P25:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=4;rule=NPI11	_	_
+4	физик	физик	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No	_	C14	P25	_	E5
+5	,	,	PUNCT	punct	_	2	punct	_	_	_	C14	_	_	_
+6	той	аз	PRON	Ppe-os3m	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_	_	C15:MAIN	_	A2:Personal;Gender=Masc|Number=Sing|Person=3;rule=R08;ref=grade10_013_s006#4	E5
+7	ще	ще	AUX	Tx	_	9	aux	_	_	F15:Future;Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Future|VerbForm=Fin|Voice=Act;rule=BGF391	C15	_	_	_
+8	ви	аз	PRON	Ppetdp2	Case=Dat|Number=Plur|Person=2|PronType=Prs	9	expl	_	_	_	C15	_	A3:Personal;Number=Plur|Person=2;rule=R06;ref=Z4	E4
+9	каже	кажа	VERB	Vpptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No	F15	C15	_	_	_
+10	,	,	PUNCT	punct	_	18	punct	_	_	_	C15	_	_	_
+11	че	че	SCONJ	Cs	_	18	mark	_	_	_	C16:SUB;head=C15;conj=S016:че	_	_	_
+12	ултравиолетовите	ултравиолетов	DET	Psol-p3-dm	Definite=Def|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	det	_	_	_	C16	P26:NPD;Definite=Def|Gender=Masc|Number=Plur;head=13;rule=NPD08	_	_
+13	лъчи	лъч	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	18	nsubj	_	_	_	C16	P26	_	E6
+14	от	от	ADP	R	_	16	case	_	_	_	C16	P27:NPD;prep=от;Definite=Def|Gender=Masc|Number=Sing;head=16;rule=NPD03	_	_
+15	слънчевия	слънчев	ADJ	Amsh	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_	_	C16	P27	_	_
+16	спектър	спектър	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	13	nmod	_	_	_	C16	P27	_	_
+17	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	_	_	F16:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C16	_	_	_
+18	невидими	невидим	PRON	Ppetss1	Number=Sing|Person=1|PronType=Prs	9	ccomp	_	_	_	C16	_	_	_
+19	за	за	ADP	R	_	21	case	_	_	_	C16	P28:NPD;prep=за;Definite=Def|Gender=Neut|Number=Sing;head=21;rule=NPD03	_	_
+20	човешкото	човешки	ADJ	Ansd	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_	_	C16	P28	_	_
+21	око	око	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	18	nmod	_	SpaceAfter=No	_	C16	P28	_	_
+22	.	.	PUNCT	punct	_	9	punct	_	_	_	C16	_	_	_
+
+# sent_id = grade10_013_s007
+# text = Благодарение на тях придобиваме траен тен, но те също така са причина за слънчевите изгаряния и за някои видове рак на кожата.
+1	Благодарение	благодарение	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	4	nsubj	_	_	_	C17:MAIN	P29:NPI;Definite=Ind|Gender=Neut|Number=Sing;head=1;rule=NPI01	_	_
+2	на	на	ADP	R	_	3	case	_	_	_	C17	_	_	_
+3	тях	аз	PRON	Ppelap3	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	nmod	_	_	_	C17	_	A4:Personal;Number=Plur|Person=3;rule=R12;ref=grade10_013_s006#13	E6
+4	придобиваме	придобивам	VERB	Vpitf-r1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F17:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C17	_	_	_
+5	траен	траен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_	_	C17	P30:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=6;rule=NPI02	_	_
+6	тен	тен	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No	_	C17	P30	_	_
+7	,	,	PUNCT	punct	_	8	punct	_	_	_	C17	_	_	_
+8	но	но	CCONJ	Cc	_	13	cc	_	_	_	C18:COORD;coord=C17;conj=S174:но	_	_	_
+9	те	аз	PRON	Ppe-op3	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_	_	C18	_	A5:Personal;Number=Plur|Person=3;rule=R07;ref=grade10_013_s006#13	E6
+10	също	също	ADV	Dm	Degree=Pos	11	advmod	_	_	_	C18	_	_	_
+11	така	така	ADV	Pdm	PronType=Dem	13	advmod	_	_	_	C18	_	_	_
+12	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	_	F18:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C18	_	_	_
+13	причина	причина	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	4	conj	_	_	_	C18	P31:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=13;rule=NPI01	_	_
+14	за	за	ADP	R	_	16	case	_	_	_	C18	P32:NPD;prep=за;Definite=Def|Gender=Neut|Number=Plur;head=16;rule=NPD03	_	_
+15	слънчевите	слънчев	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	16	amod	_	_	_	C18	P32	_	_
+16	изгаряния	изгаряне	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	13	nmod	_	_	_	C18	P32	_	_
+17	и	и	CCONJ	Cp	_	20	cc	_	_	_	C18	_	_	_
+18	за	за	ADP	R	_	20	case	_	_	_	C18	P33:NPI;prep=за;Definite=Ind|Gender=Masc|Number=Plur;head=20;rule=NPI11	_	_
+19	някои	някой	DET	Pfe-op	Case=Nom|Number=Plur|PronType=Ind	20	det	_	_	_	C18	P33	_	_
+20	видове	вид	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	16	conj	_	_	_	C18	P33	_	_
+21	рак	рак	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	20	nmod	_	_	_	C18	P34:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=21;rule=NPI01	_	_
+22	на	на	ADP	R	_	23	case	_	_	_	C18	P35:NPD;prep=на;Definite=Def|Gender=Fem|Number=Sing;head=23;rule=NPD01	_	_
+23	кожата	кожа	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No	_	C18	P35	_	_
+24	.	.	PUNCT	punct	_	4	punct	_	_	_	C18	_	_	_
+
+# sent_id = grade10_013_s008
+# text = Получаването на тен е резултат от образуването на пигмента меланин, което всъщност е защитен механизъм срещу по-тежко изгаряне и други кожни увреждания.
+1	Получаването	получаване	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	_	_	C19:MAIN	P36:NPD;Definite=Def|Gender=Neut|Number=Sing;head=1;rule=NPD01	_	_
+2	на	на	ADP	R	_	3	case	_	_	_	C19	P37:NPI;prep=на;Definite=Ind|Gender=Masc|Number=Sing;head=3;rule=NPI01	_	_
+3	тен	тен	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	_	_	C19	P37	_	_
+4	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_	F19:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C19	_	_	_
+5	резултат	резултат	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_	_	C19	P38:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=5;rule=NPI01	_	_
+6	от	от	ADP	R	_	7	case	_	_	_	C19	P39:NPD;prep=от;Definite=Def|Gender=Neut|Number=Sing;head=7;rule=NPD01	_	_
+7	образуването	образуване	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	5	nmod	_	_	_	C19	P39	_	_
+8	на	на	ADP	R	_	9	case	_	_	_	C19	P40:NPD;prep=на;Definite=Def|Gender=Masc|Number=Sing;head=9;rule=NPD01	_	_
+9	пигмента	пигмент	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	_	_	C19	P40	_	_
+10	меланин	меланин	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No	_	C19	P41:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=10;rule=NPI01	_	_
+11	,	,	PUNCT	punct	_	16	punct	_	_	_	C19	_	_	_
+12	което	който	PRON	Pre-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	16	nsubj	_	_	_	C20:SUB;head=C19;conj=S116:което	_	A6:Relative;Gender=Neut|Number=Sing|Person=3	E7
+13	всъщност	всъщност	ADV	Dd	Degree=Pos	16	advmod	_	_	_	C20	_	_	_
+14	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	_	F20:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C20	_	_	_
+15	защитен	защитя	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_	_	C20	P42:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=16;rule=NPI02	_	_
+16	механизъм	механизъм	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	10	acl:relcl	_	_	_	C20	P42	_	_
+17	срещу	срещу	ADP	R	_	19	case	_	_	_	C20	P43:NPI;prep=срещу;Definite=Ind|Gender=Neut|Number=Sing;head=19;rule=NPI02	_	_
+18	по-тежко	тежк	ADJ	Ansi	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_	_	C20	P43	_	_
+19	изгаряне	изгаряне	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	16	nmod	_	_	_	C20	P43	_	_
+20	и	и	CCONJ	Cp	_	23	cc	_	_	_	C20	_	_	_
+21	други	друг	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	23	amod	_	_	_	C20	P44:NPI;Definite=Ind|Gender=Neut|Number=Plur;head=23;rule=NPI02	_	_
+22	кожни	кожен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	23	amod	_	_	_	C20	P44	_	_
+23	увреждания	увреждане	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	19	conj	_	SpaceAfter=No	_	C20	P44	_	_
+24	.	.	PUNCT	punct	_	5	punct	_	_	_	C20	_	_	_
+
+# sent_id = grade10_013_s009
+# text = Ултравиолетовите лъчи, които са по-интензивни през лятото между 10:00 и 16:00 ч., могат преждевременно да причинят стареене на кожата и бръчки.
+1	Ултравиолетовите	Ултравиолетов	DET	Psol-p3-dm	Definite=Def|Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	det	_	_	_	C21:MAIN	P45:NPD;Definite=Def|Gender=Masc|Number=Plur;head=2;rule=NPD08	_	_
+2	лъчи	лъч	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	15	nsubj	_	SpaceAfter=No	_	C21	P45	_	E8
+3	,	,	PUNCT	punct	_	6	punct	_	_	_	C21	_	_	_
+4	които	който	PRON	Pre-op	Case=Nom|Number=Plur|PronType=Rel	6	nsubj	_	_	_	C22:SUB;head=C21;conj=S116:които	_	A7:Relative;Number=Plur|Person=3;rule=R01;ref=grade10_013_s009#2	E8
+5	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_	F21:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C22	_	_	_
+6	по-интензивни	интензивен	ADJ	A-pi	Definite=Ind|Degree=Cmp|Number=Plur	2	acl:relcl	_	_	_	C22	P46:AP;Definite=Ind|Number=Plur;head=6;rule=AP01	_	_
+7	през	през	ADP	R	_	8	case	_	_	_	C22	P47:NPD;prep=през;Definite=Def|Gender=Neut|Number=Sing;head=8;rule=NPD01	_	_
+8	лятото	лято	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	6	obl	_	_	_	C22	P47	_	_
+9	между	между	ADP	R	_	13	case	_	_	_	C22	_	_	_
+10	10:00	10:00	ADJ	Mofsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	13	amod	_	_	_	C22	_	_	_
+11	и	и	CCONJ	Cp	_	12	cc	_	_	_	C22	_	_	_
+12	16:00	16:00	ADJ	Mofsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	10	conj	_	_	_	C22	_	_	_
+13	ч.	час	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No	_	C22	P48:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=13;rule=NPI01	_	_
+14	,	,	PUNCT	punct	_	6	punct	_	_	_	C22	_	_	_
+15	могат	мога	VERB	Vpiif-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F22:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C21	_	_	_
+16	преждевременно	преждевременно	ADV	Dm	Degree=Pos	18	advmod	_	_	_	C21	_	_	_
+17	да	да	AUX	Tx	_	18	aux	_	_	_	C23:SUB;head=C21;conj=S036:да	_	_	_
+18	причинят	причиня	VERB	Vpptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	xcomp	_	_	F23:Present;Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C23	_	Z5:Pro-drop;Number=Plur|Person=3;rule=S09,R19;ref=grade10_013_s009#2	E8
+19	стареене	стареене	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	18	obj	_	_	_	C23	P49:NPI;Definite=Ind|Gender=Neut|Number=Sing;head=19;rule=NPI01	_	_
+20	на	на	ADP	R	_	21	case	_	_	_	C23	P50:NPD;prep=на;Definite=Def|Gender=Fem|Number=Sing;head=21;rule=NPD01	_	_
+21	кожата	кожа	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	19	nmod	_	_	_	C23	P50	_	_
+22	и	и	CCONJ	Cp	_	23	cc	_	_	_	C23	_	_	_
+23	бръчки	бръчка	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	21	conj	_	SpaceAfter=No	_	C23	P51:NPI;Definite=Ind|Gender=Fem|Number=Plur;head=23;rule=NPI01	_	_
+24	.	.	PUNCT	punct	_	15	punct	_	SpacesAfter=\n	_	C23	_	_	_
+
+# sent_id = grade10_013_s010
+# text = Лекарите съветват слънцезащитните продукти да се подбират внимателно – особено по отношение на защитния фактор, предпазващ от слънчево изгаряне и заболявания на кожата.
+1	Лекарите	лекар	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	_	_	C24:MAIN	P52:NPD;Definite=Def|Gender=Masc|Number=Plur;head=1;rule=NPD01	_	_
+2	съветват	съветвам-(се)	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F24:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C24	_	_	_
+3	слънцезащитните	слънцезащитен	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	4	amod	_	_	_	C24	P53:NPD;Definite=Def|Gender=Masc|Number=Plur;head=4;rule=NPD03	_	_
+4	продукти	продукт	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	7	nsubj	_	_	_	C24	P53	_	_
+5	да	да	AUX	Tx	_	7	aux	_	_	_	C25:SUB;head=C24;conj=S036:да	_	_	_
+6	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	7	expl	_	_	F25:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C25	_	_	_
+7	подбират	подбирам	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	_	F25	C25	_	_	_
+8	внимателно	внимателно	ADV	Dm	Degree=Pos	7	advmod	_	_	_	C25	_	_	_
+9	–	–	PUNCT	punct	_	15	punct	_	_	_	C25	_	_	_
+10	особено	особено	ADV	Dd	Degree=Pos	15	advmod	_	_	_	C25	_	_	_
+11	по	по	ADP	R	_	15	case	_	_	_	C25	P54:NPI;prep=по;Definite=Ind|Gender=Neut|Number=Sing;head=12;rule=NPI01	_	_
+12	отношение	отношение	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	11	fixed	_	_	_	C25	P54	_	_
+13	на	на	ADP	R	_	11	fixed	_	_	_	C25	P55:NPD;prep=на;Definite=Def|Gender=Masc|Number=Sing;head=15;rule=NPD03	_	_
+14	защитния	защитен	ADJ	Amsh	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_	_	C25	P55	_	_
+15	фактор	фактор	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	7	iobj	_	SpaceAfter=No	_	C25	P55	_	_
+16	,	,	PUNCT	punct	_	17	punct	_	_	_	C25	_	_	_
+17	предпазващ	предпазвам-(се)	ADJ	Vpiicar-smi	Aspect=Imp|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	_	_	F26:NVerb+Present_Participle;Aspect=Imp|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act;rule=BGF421	C25	_	_	_
+18	от	от	ADP	R	_	20	case	_	_	_	C25	P56:NPI;prep=от;Definite=Ind|Gender=Neut|Number=Sing;head=20;rule=NPI02	_	_
+19	слънчево	слънчев	ADJ	Ansi	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_	_	C25	P56	_	_
+20	изгаряне	изгаряне	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	17	obl	_	_	_	C25	P56	_	_
+21	и	и	CCONJ	Cp	_	22	cc	_	_	_	C25	_	_	_
+22	заболявания	заболяване	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	20	conj	_	_	_	C25	P57:NPI;Definite=Ind|Gender=Neut|Number=Plur;head=22;rule=NPI01	_	_
+23	на	на	ADP	R	_	24	case	_	_	_	C25	P58:NPD;prep=на;Definite=Def|Gender=Fem|Number=Sing;head=24;rule=NPD01	_	_
+24	кожата	кожа	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No	_	C25	P58	_	_
+25	.	.	PUNCT	punct	_	2	punct	_	_	_	C25	_	_	_
+
+# sent_id = grade10_013_s011
+# text = Според фактора на слънцезащита предпазващите продукти се разделят на различни класове.
+1	Според	според	ADP	R	_	2	case	_	_	_	C26:MAIN	P59:NPD;prep=Според;Definite=Def|Gender=Masc|Number=Sing;head=2;rule=NPD01	_	_
+2	фактора	фактор	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	8	obl	_	_	_	C26	P59	_	_
+3	на	на	ADP	R	_	4	case	_	_	_	C26	P60:NPD;prep=на;Definite=Def|Gender=Masc|Number=Sing;head=4;rule=NPD01	_	_
+4	слънцезащита	слънцезащит	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	_	_	C26	P60	_	_
+5	предпазващите	предпазвам-(се)	ADJ	Vpitcar-p-d	Aspect=Imp|Definite=Def|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_	F27:NVerb+Present_Participle;Aspect=Imp|Definite=Def|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act;rule=BGF421	C26	_	_	_
+6	продукти	продукт	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	8	nsubj	_	_	_	C26	P61:NPI;Definite=Ind|Gender=Masc|Number=Plur;head=6;rule=NPI01	_	_
+7	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	8	expl	_	_	F28:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C26	_	_	_
+8	разделят	разделям-(се)	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F28	C26	_	_	_
+9	на	на	ADP	R	_	11	case	_	_	_	C26	P62:NPI;prep=на;Definite=Ind|Gender=Masc|Number=Plur;head=11;rule=NPI02	_	_
+10	различни	различен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	11	amod	_	_	_	C26	P62	_	_
+11	класове	клас	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	8	iobj	_	SpaceAfter=No	_	C26	P62	_	_
+12	.	.	PUNCT	punct	_	8	punct	_	_	_	C26	_	_	_
+
+# sent_id = grade10_013_s012
+# text = Продукт с фактор 50 или 50+ блокира около 98% от ултравиолетовите лъчи и е особено подходящ за предпазване на детската кожа.
+1	Продукт	продукт	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_	_	C27:MAIN	P63:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=1;rule=NPI01	_	_
+2	с	с	ADP	R	_	3	case	_	_	_	C27	P64:NPI;prep=с;Definite=Ind|Gender=Masc|Number=Sing;head=3;rule=NPI01	_	_
+3	фактор	фактор	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	_	_	C27	P64	_	_
+4	50	петдесет	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	3	nummod	_	_	_	C27	_	_	_
+5	или	или	CCONJ	Cp	_	7	cc	_	_	_	C27	_	_	_
+6	50+	50и	CCONJ	Cc	_	7	cc	_	_	_	C27	_	_	_
+7	блокира	блокирам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_	F29:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C27	_	Z6:Pro-drop;Gender=Neut|Number=Sing|Person=3;rule=S10,R19;ref=A6	E7
+8	около	около	ADP	R	_	9	advmod	_	_	_	C27	P65:NPI;prep=около;Definite=Ind|Gender=Masc|Number=Count;head=10;rule=NPI03	_	_
+9	98	98	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	10	nmod	_	SpaceAfter=No	_	C27	P65	_	_
+10	%	процент	NOUN	Ncmt	Gender=Masc|Number=Count	7	obj	_	_	_	C27	P65	_	_
+11	от	от	ADP	R	_	13	case	_	_	_	C27	P66:NPD;prep=от;Definite=Def|Gender=Neut|Number=Plur;head=13;rule=NPD03	_	_
+12	ултравиолетовите	ултравиолетов	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	13	amod	_	_	_	C27	P66	_	_
+13	лъчи	лъч	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	10	nmod	_	_	_	C27	P66	_	_
+14	и	и	CCONJ	Cp	_	17	cc	_	_	_	C28:COORD;coord=C27;conj=S154:и	_	_	_
+15	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	_	_	F30:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C28	_	_	_
+16	особено	особено	ADV	Dd	Degree=Pos	17	advmod	_	_	_	C28	_	_	_
+17	подходящ	подходящ	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	7	conj	_	_	_	C28	P67:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=17;rule=NPI01	Z7:Pro-drop;Gender=Masc|Number=Sing|Person=3;rule=S10,R19;ref=A2	E5
+18	за	за	ADP	R	_	19	case	_	_	_	C28	P68:NPI;prep=за;Definite=Ind|Gender=Neut|Number=Sing;head=19;rule=NPI01	_	_
+19	предпазване	предпазване	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	17	nmod	_	_	_	C28	P68	_	_
+20	на	на	ADP	R	_	22	case	_	_	_	C28	P69:NPD;prep=на;Definite=Def|Gender=Fem|Number=Sing;head=22;rule=NPD03	_	_
+21	детската	детски	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_	_	C28	P69	_	_
+22	кожа	кожа	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No	_	C28	P69	_	_
+23	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n	_	C28	_	_	_
+
+# sent_id = grade10_013_s013
+# text = За да изберем най-подходящата слънцезащита, трябва да се съобразим с индивидуалните характеристики на човека (тип на кожата, цвят на косата и на очите), както и с природните условия (интензивност на слънчевото греене и метеорологични условия).
+1	За	за	ADP	R	_	3	mark	_	_	_	C29:SUB;head=C30;conj=S092:за_да	_	_	_
+2	да	да	AUX	Tx	_	1	fixed	_	_	_	C29	_	_	_
+3	изберем	избера	VERB	Vpptf-r1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_	F31:Present;Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C29	_	Z8:Pro-drop;Number=Plur|Person=1;rule=S08,R05;ref=Z3	E3
+4	най-подходящата	подходящ	ADJ	Vpitcar-sfd	Aspect=Imp|Definite=Def|Degree=Sup|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_	F32:NVerb+Present_Participle;Aspect=Imp|Definite=Def|Degree=Sup|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act;rule=BGF421	C29	_	_	_
+5	слънцезащита	слънцезащита	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No	_	C29	P70:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=5;rule=NPI01	_	_
+6	,	,	PUNCT	punct	_	3	punct	_	_	_	C29	_	_	_
+7	трябва	трябва	VERB	Vniif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F33:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C30:MAIN	_	Z9:Impersonal;Number=Sing|Person=3;rule=S03	_
+8	да	да	AUX	Tx	_	10	aux	_	_	_	C30	_	_	_
+9	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	10	expl	_	_	F34:Present;Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C30	_	_	_
+10	съобразим	съобразя-(се)	VERB	Vpptf-r1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	_	_	F34	C30	_	Z10:Pro-drop;Number=Plur|Person=1;rule=S08,R05;ref=Z8	E3
+11	с	с	ADP	R	_	13	case	_	_	_	C30	P71:NPD;prep=с;Definite=Def|Gender=Fem|Number=Plur;head=13;rule=NPD03	_	_
+12	индивидуалните	индивидуален	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	13	amod	_	_	_	C30	P71	_	_
+13	характеристики	характеристика	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	10	iobj	_	_	_	C30	P71	_	_
+14	на	на	ADP	R	_	15	case	_	_	_	C30	P72:NPD;prep=на;Definite=Def|Gender=Masc|Number=Sing;head=15;rule=NPD01	_	_
+15	човека	човек	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	_	_	C30	P72	_	_
+16	(	(	PUNCT	punct	_	17	punct	_	SpaceAfter=No	_	C30	_	_	_
+17	тип	тип	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	13	nmod	_	_	_	C30	P73:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=17;rule=NPI01	_	_
+18	на	на	ADP	R	_	19	case	_	_	_	C30	P74:NPD;prep=на;Definite=Def|Gender=Fem|Number=Sing;head=19;rule=NPD01	_	_
+19	кожата	кожа	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No	_	C30	P74	_	_
+20	,	,	PUNCT	punct	_	21	punct	_	_	_	C30	_	_	_
+21	цвят	цвят	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	17	conj	_	_	_	C30	P75:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=21;rule=NPI01	_	_
+22	на	на	ADP	R	_	23	case	_	_	_	C30	P76:NPD;prep=на;Definite=Def|Gender=Fem|Number=Sing;head=23;rule=NPD01	_	_
+23	косата	коса	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	_	_	C30	P76	_	_
+24	и	и	CCONJ	Cp	_	26	cc	_	_	_	C30	_	_	_
+25	на	на	ADP	R	_	26	case	_	_	_	C30	P77:NPD;prep=на;Definite=Def|Gender=Neut|Number=Plur;head=26;rule=NPD01	_	_
+26	очите	око	NOUN	Ncnpd	Definite=Def|Gender=Neut|Number=Plur	17	conj	_	SpaceAfter=No	_	C30	P77	_	_
+27	)	)	PUNCT	punct	_	26	punct	_	SpaceAfter=No	_	C30	_	_	_
+28	,	,	PUNCT	punct	_	29	punct	_	_	_	C30	_	_	_
+29	както	както	ADV	Prm	PronType=Rel	33	cc	_	_	_	C30	_	_	_
+30	и	и	CCONJ	Cp	_	29	fixed	_	_	_	C30	_	_	_
+31	с	с	ADP	R	_	33	case	_	_	_	C30	P78:NPD;prep=с;Definite=Def|Gender=Neut|Number=Plur;head=33;rule=NPD03	_	_
+32	природните	природен	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	33	amod	_	_	_	C30	P78	_	_
+33	условия	условие	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	17	conj	_	_	_	C30	P78	_	_
+34	(	(	PUNCT	punct	_	35	punct	_	SpaceAfter=No	_	C30	_	_	_
+35	интензивност	интензивност	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	33	appos	_	_	_	C30	P79:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=35;rule=NPI01	_	_
+36	на	на	ADP	R	_	38	case	_	_	_	C30	P80:NPD;prep=на;Definite=Def|Gender=Neut|Number=Sing;head=38;rule=NPD03	_	_
+37	слънчевото	слънчев	ADJ	Ansd	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	38	amod	_	_	_	C30	P80	_	_
+38	греене	греене	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	35	nmod	_	_	_	C30	P80	_	_
+39	и	и	CCONJ	Cp	_	41	cc	_	_	_	C30	_	_	_
+40	метеорологични	метеорологичен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	41	amod	_	_	_	C30	P81:NPI;Definite=Ind|Gender=Neut|Number=Plur;head=41;rule=NPI02	_	_
+41	условия	условие	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	35	conj	_	SpaceAfter=No	_	C30	P81	_	_
+42	)	)	PUNCT	punct	_	35	punct	_	SpaceAfter=No	_	C30	_	_	_
+43	.	.	PUNCT	punct	_	7	punct	_	SpacesAfter=\n	_	C30	_	_	_
+

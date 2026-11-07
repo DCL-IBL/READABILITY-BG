@@ -1,0 +1,262 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC DCL:VERBFORM DCL:CLAUSE DCL:NP DCL:ANAPHORA DCL:COREF
+# newdoc id = grade04_016
+# newpar
+# sent_id = grade04_016_s001
+# text = Овцете в едно село живеели мирно и кротко в кошарата си.
+1	Овцете	Овка	NOUN	Ncfpd	Definite=Def|Gender=Fem|Number=Plur	5	nsubj	_	_	_	C1:MAIN	P1:NPD;Definite=Def|Gender=Fem|Number=Plur;head=1;rule=NPD01	_	E1
+2	в	в	ADP	R	_	4	case	_	_	_	C1	P2:NPI;prep=в;Definite=Ind|Gender=Neut|Number=Sing;head=4;rule=NPI11	_	_
+3	едно	един	DET	Pfe-os-ni	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	4	det	_	_	_	C1	P2	_	_
+4	село	село	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	_	_	C1	P2	_	_
+5	живеели	живея	VERB	Vpptcao-p-i	Aspect=Perf|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_	F1:Aorist+Ren|DVerb+Past_Participle_Aorist;Aspect=Perf|Evident=Ren|Mood=Ind|Number=Plur|Tense=Aorist|VerbForm=Fin|Voice=Act/Aspect=Perf|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act;rule=BGF420	C1	_	_	_
+6	мирно	мирно	ADV	Dm	Degree=Pos	10	advmod	_	_	_	C1	_	_	_
+7	и	и	CCONJ	Cp	_	8	cc	_	_	_	C1	_	_	_
+8	кротко	кротко	ADV	Dm	Degree=Pos	6	conj	_	_	_	C1	_	_	_
+9	в	в	ADP	R	_	10	case	_	_	_	C1	P3:NPD;prep=в;Definite=Def|Gender=Fem|Number=Sing;head=10;rule=NPD02	_	_
+10	кошарата	кошара	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	5	obl	_	_	_	C1	P3	_	_
+11	си	свой	PRON	Psxto	Case=Nom|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	_	SpaceAfter=No	_	C1	P3	A1:ReflexivePossessive;Number=Plur|Person=3;rule=R03;ref=grade04_016_s001#1	E1
+12	.	.	PUNCT	punct	_	5	punct	_	_	_	C1	_	_	_
+
+# sent_id = grade04_016_s002
+# text = Около оградата обикаляли кучета и гонели вълците надалече.
+1	Около	около	ADP	R	_	2	case	_	_	_	C2:MAIN	P4:NPD;prep=Около;Definite=Def|Gender=Fem|Number=Sing;head=2;rule=NPD01	_	_
+2	оградата	ограда	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	3	obl	_	_	_	C2	P4	_	_
+3	обикаляли	обикалям	VERB	Vpptcao-p-i	Aspect=Perf|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_	F2:Aorist+Ren|DVerb+Past_Participle_Aorist;Aspect=Perf|Evident=Ren|Mood=Ind|Number=Plur|Tense=Aorist|VerbForm=Fin|Voice=Act/Aspect=Perf|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act;rule=BGF420	C2	_	Z1:Pro-drop;Number=Plur|Person=3;rule=S10,R19;ref=grade04_016_s001#1	E1
+4	кучета	куче	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	3	obj	_	_	_	C2	P5:NPI;Definite=Ind|Gender=Neut|Number=Plur;head=4;rule=NPI01	_	_
+5	и	и	CCONJ	Cp	_	7	cc	_	_	_	C3:COORD;coord=C2;conj=S154:и	_	_	_
+6	гонели	гонея	ADJ	Vppicao-p-i	Aspect=Perf|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	7	amod	_	_	F3:Aorist+Ren|DVerb+Past_Participle_Aorist;Aspect=Perf|Evident=Ren|Mood=Ind|Number=Plur|Tense=Aorist|VerbForm=Fin|Voice=Act/Aspect=Perf|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act;rule=BGF420	C3	_	_	_
+7	вълците	вълк	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	4	conj	_	_	_	C3	P6:NPD;Definite=Def|Gender=Masc|Number=Plur;head=7;rule=NPD01	_	_
+8	надалече	надалече	ADV	Dl	Degree=Pos	3	advmod	_	SpaceAfter=No	_	C3	_	_	_
+9	.	.	PUNCT	punct	_	3	punct	_	_	_	C3	_	_	_
+
+# sent_id = grade04_016_s003
+# text = Ядосвали се вълците, че не могат да стигнат до овцете, и решили да си послужат с хитрост.
+1	Ядосвали	Ядосвам	VERB	Vpiicam-p-i	Aspect=Imp|Definite=Ind|Number=Plur|Tense=Imp|VerbForm=Part|Voice=Act	0	root	_	_	F4:Present-Imperfect+Ren|DVerb+Past_Participle_Imperfect;Aspect=Imp|Evident=Ren|Mood=Ind|Number=Plur|Tense=Present,Imperfect|VerbForm=Fin|Voice=Act/Aspect=Imp|Definite=Ind|Number=Plur|Tense=Imp|VerbForm=Part|Voice=Act;rule=BGF419	C4:MAIN	_	_	_
+2	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	_	F4	C4	_	_	_
+3	вълците	вълк	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	1	nsubj:pass	_	SpaceAfter=No	_	C4	P7:NPD;Definite=Def|Gender=Masc|Number=Plur;head=3;rule=NPD01	_	E2
+4	,	,	PUNCT	punct	_	7	punct	_	_	_	C4	_	_	_
+5	че	че	SCONJ	Cs	_	7	mark	_	_	_	C5:SUB;head=C4;conj=S016:че	_	_	_
+6	не	не	PART	Tn	Polarity=Neg	7	advmod	_	_	F5:Present+Neg;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF376	C5	_	_	_
+7	могат	мога	VERB	Vpiif-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl	_	_	F5	C5	_	Z2:Pro-drop;Number=Plur|Person=3;rule=S10,R19;ref=grade04_016_s003#3	E2
+8	да	да	AUX	Tx	_	9	aux	_	_	_	C5	_	_	_
+9	стигнат	стигна	VERB	Vpptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	xcomp	_	_	F6:Present;Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C5	_	Z3:Pro-drop;Number=Plur|Person=3;rule=S09,R19;ref=Z2	E2
+10	до	до	ADP	R	_	11	case	_	_	_	C5	P8:NPD;prep=до;Definite=Def|Gender=Fem|Number=Plur;head=11;rule=NPD01	_	_
+11	овцете	овка	NOUN	Ncfpd	Definite=Def|Gender=Fem|Number=Plur	9	iobj	_	SpaceAfter=No	_	C5	P8	_	_
+12	,	,	PUNCT	punct	_	7	punct	_	_	_	C5	_	_	_
+13	и	и	CCONJ	Cp	_	14	cc	_	_	_	C6:COORD;coord=C4;conj=S154:и	_	_	_
+14	решили	реша	VERB	Vpptcao-p-i	Aspect=Perf|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	7	conj	_	_	F7:Aorist+Ren|DVerb+Past_Participle_Aorist;Aspect=Perf|Evident=Ren|Mood=Ind|Number=Plur|Tense=Aorist|VerbForm=Fin|Voice=Act/Aspect=Perf|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act;rule=BGF420	C6	_	Z4:Pro-drop;Number=Plur|Person=3;rule=S10,R19;ref=Z2	E2
+15	да	да	AUX	Tx	_	17	aux	_	_	_	C7:SUB;head=C6;conj=S036:да	_	_	_
+16	си	се	PRON	Ppxtd	Case=Dat|PronType=Prs|Reflex=Yes	17	expl	_	_	F8:Present;Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C7	_	_	_
+17	послужат	послужа	VERB	Vpptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	ccomp	_	_	F8	C7	_	Z5:Pro-drop;Number=Plur|Person=3;rule=S09,R19;ref=Z4	E2
+18	с	с	ADP	R	_	19	case	_	_	_	C7	P9:NPI;prep=с;Definite=Ind|Gender=Fem|Number=Sing;head=19;rule=NPI01	_	_
+19	хитрост	хитрост	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	17	iobj	_	SpaceAfter=No	_	C7	P9	_	_
+20	.	.	PUNCT	punct	_	1	punct	_	_	_	C7	_	_	_
+
+# sent_id = grade04_016_s004
+# text = Те изпроводили пратеници при овцете уж да сключат „вечен мир“.
+1	Те	аз	PRON	Ppe-op3	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_	_	C8:MAIN	_	A2:Personal;Number=Plur|Person=3;rule=R07;ref=Z5	E2
+2	изпроводили	изпроводя	VERB	Vpptcao-p-i	Aspect=Perf|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_	F9:Aorist+Ren|DVerb+Past_Participle_Aorist;Aspect=Perf|Evident=Ren|Mood=Ind|Number=Plur|Tense=Aorist|VerbForm=Fin|Voice=Act/Aspect=Perf|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act;rule=BGF420	C8	_	_	_
+3	пратеници	пратеник	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	2	obj	_	_	_	C8	P10:NPI;Definite=Ind|Gender=Masc|Number=Plur;head=3;rule=NPI01	_	_
+4	при	при	ADP	R	_	5	case	_	_	_	C8	P11:NPD;prep=при;Definite=Def|Gender=Masc|Number=Plur;head=5;rule=NPD01	_	_
+5	овцете	овка	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	2	obl	_	_	_	C8	P11	_	_
+6	уж	уж	PART	Tm	_	8	discourse	_	_	_	C8	_	_	_
+7	да	да	AUX	Tx	_	8	aux	_	_	_	C9:SUB;head=C8;conj=S036:да	_	_	_
+8	сключат	сключа	VERB	Vpptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl	_	_	F10:Present;Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C9	_	Z6:Pro-drop;Number=Plur|Person=3;rule=S09,R19;ref=A2	E2
+9	„	„	PUNCT	punct	_	11	punct	_	SpaceAfter=No	_	C9	_	_	_
+10	вечен	вечен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_	C9	P12:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=11;rule=NPI02	_	_
+11	мир“	мир“	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No	_	C9	P12	_	E3
+12	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\n\n	_	C9	_	_	_
+
+# newpar
+# sent_id = grade04_016_s005
+# text = – Ние винаги сме ви харесвали много – започнал един от вълчите пратеници, – но кучетата са причината да не ни обичате.
+1	–	–	PUNCT	punct	_	6	punct	_	_	_	C10:MAIN	_	_	_
+2	Ние	аз	PRON	Ppe-op1	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_	_	C10	_	A3:Personal;Number=Plur|Person=1	E4
+3	винаги	винаги	ADV	Dt	Degree=Pos	6	advmod	_	_	_	C10	_	_	_
+4	сме	съм	AUX	Vxitf-r1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_	F11:Perfect|Aorist+Concl|Aorist+Ren;Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Perfect|VerbForm=Fin|Voice=Act/Aspect=Imp|Evident=Concl|Mood=Ind|Number=Plur|Person=1|Tense=Aorist|VerbForm=Fin|Voice=Act/Aspect=Imp|Evident=Ren|Mood=Ind|Number=Plur|Person=1|Tense=Aorist|VerbForm=Fin|Voice=Act;rule=BGF382,BGF400	C10	_	_	_
+5	ви	аз	PRON	Ppetdp2	Case=Dat|Number=Plur|Person=2|PronType=Prs	6	iobj	_	_	_	C10	_	A4:Personal;Number=Plur|Person=2	_
+6	харесвали	харесвам-(се)	VERB	Vpitcao-p-i	Aspect=Imp|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_	F11	C10	_	_	_
+7	много	много	ADV	Md-pi	Definite=Ind|Degree=Pos|Number=Plur|NumType=Card	8	advmod	_	_	_	C10	_	_	_
+8	–	–	PUNCT	punct	_	9	punct	_	_	_	C10	_	_	_
+9	започнал	започна	VERB	Vpptcao-smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	conj	_	_	F12:Aorist+Ren|DVerb+Past_Participle_Aorist;Aspect=Perf|Evident=Ren|Gender=Masc|Mood=Ind|Number=Sing|Tense=Aorist|VerbForm=Fin|Voice=Act/Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act;rule=BGF420	C11:COORD;coord=C10	_	Z7:Pro-drop;Gender=Masc|Number=Sing|Person=3;rule=S10,R21;ref=grade04_016_s004#11	E3
+10	един	един	DET	Pfe-os-mi	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	9	obj	_	_	_	C11	_	_	_
+11	от	от	ADP	R	_	13	case	_	_	_	C11	P13:NPD;prep=от;Definite=Def|Gender=Masc|Number=Plur;head=13;rule=NPD03	_	_
+12	вълчите	вълчи	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	13	amod	_	_	_	C11	P13	_	_
+13	пратеници	пратеник	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No	_	C11	P13	_	_
+14	,	,	PUNCT	punct	_	15	punct	_	_	_	C11	_	_	_
+15	–	–	PUNCT	punct	_	16	punct	_	_	_	C12:COORD;coord=C11;conj=S174:но	_	_	_
+16	но	но	CCONJ	Cc	_	19	cc	_	_	_	C12	_	_	_
+17	кучетата	куче	NOUN	Ncnpd	Definite=Def|Gender=Neut|Number=Plur	19	nsubj	_	_	_	C12	P14:NPD;Definite=Def|Gender=Neut|Number=Plur;head=17;rule=NPD01	_	_
+18	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	_	_	F13:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C12	_	_	_
+19	причината	причина	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	23	nsubj	_	_	_	C12	P15:NPD;Definite=Def|Gender=Fem|Number=Sing;head=19;rule=NPD01	_	E5
+20	да	да	AUX	Tx	_	23	aux	_	_	_	C13:SUB;head=C12;conj=S036:да	_	_	_
+21	не	не	PART	Tn	Polarity=Neg	23	advmod	_	_	F14:Present+Neg;Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Neg|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF376	C13	_	_	_
+22	ни	аз	PRON	Ppetap1	Case=Acc|Number=Plur|Person=1|PronType=Prs	23	obj	_	_	_	C13	_	A5:Personal;Number=Plur|Person=1;rule=R05;ref=A3	E4
+23	обичате	обичам	VERB	Vpitf-r2p	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl	_	SpaceAfter=No	F14	C13	_	_	_
+24	.	.	PUNCT	punct	_	6	punct	_	SpacesAfter=\n\n	_	C13	_	_	_
+
+# newpar
+# sent_id = grade04_016_s006
+# text = – Добре ще бъде да убием всички кучета и да заживеем заедно в мир – добавил друг вълк.
+1	–	–	PUNCT	punct	_	6	punct	_	_	_	C14:MAIN	_	_	_
+2	Добре	добре	ADV	Dm	Degree=Pos	6	advmod	_	_	_	C14	_	Z8:Pro-drop;Gender=Fem|Number=Sing|Person=3;rule=S10,R21;ref=grade04_016_s005#19	E5
+3	ще	ще	AUX	Tx	_	2	aux	_	_	F15:Future;Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Future|VerbForm=Fin|Voice=Act;rule=BGF391	C14	_	_	_
+4	бъде	бъда	AUX	Vyptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_	F15	C14	_	_	_
+5	да	да	AUX	Tx	_	6	aux	_	_	_	C15:SUB;head=C14;conj=S036:да	_	_	_
+6	убием	убия	VERB	Vpptf-r1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F16:Present;Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C15	_	Z9:Pro-drop;Number=Plur|Person=1;rule=S08,R05;ref=A5	E4
+7	всички	всеки	DET	Pce-op	Case=Nom|Number=Plur|PronType=Tot	8	det	_	_	_	C15	P16:NPI;Definite=Ind|Gender=Neut|Number=Plur;head=8;rule=NPI15	_	_
+8	кучета	куче	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	6	obj	_	_	_	C15	P16	_	_
+9	и	и	CCONJ	Cp	_	11	cc	_	_	_	C16:SUB;head=C15;conj=S079:и_да	_	_	_
+10	да	да	AUX	Tx	_	11	aux	_	_	_	C16	_	_	_
+11	заживеем	заживея	VERB	Vpptf-r1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_	F17:Present;Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C16	_	Z10:Pro-drop;Number=Plur|Person=1;rule=S08,R05;ref=Z9	E4
+12	заедно	заедно	ADV	Dm	Degree=Pos	11	advmod	_	_	_	C16	_	_	_
+13	в	в	ADP	R	_	14	case	_	_	_	C16	P17:NPI;prep=в;Definite=Ind|Gender=Masc|Number=Sing;head=14;rule=NPI01	_	_
+14	мир	мир	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	16	obl	_	_	_	C16	P17	_	E6
+15	–	–	PUNCT	punct	_	16	punct	_	_	_	C16	_	_	_
+16	добавил	добавя	VERB	Vpiicao-smi	Aspect=Imp|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	11	ccomp	_	_	F18:Aorist+Ren|DVerb+Past_Participle_Aorist;Aspect=Imp|Evident=Ren|Gender=Masc|Mood=Ind|Number=Sing|Tense=Aorist|VerbForm=Fin|Voice=Act/Aspect=Imp|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act;rule=BGF420	C17:COORD;coord=C14	_	Z11:Pro-drop;Gender=Masc|Number=Sing|Person=3;rule=S10,R20;ref=grade04_016_s006#14	E6
+17	друг	друг	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_	_	C17	P18:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=18;rule=NPI02	_	_
+18	вълк	вълк	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No	_	C17	P18	_	_
+19	.	.	PUNCT	punct	_	6	punct	_	SpacesAfter=\n\n	_	C17	_	_	_
+
+# newpar
+# sent_id = grade04_016_s007
+# text = – Да, съгласни сме – изблели две овце.
+1	–	–	PUNCT	punct	_	4	punct	_	_	_	C18:MAIN	_	_	_
+2	Да	да	INTJ	Ta	_	4	discourse	_	SpaceAfter=No	_	C18	_	_	_
+3	,	,	PUNCT	punct	_	2	punct	_	_	_	C18	_	_	_
+4	съгласни	съгласен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	7	parataxis	_	_	_	C18	P19:AP;Definite=Ind|Number=Plur;head=4;rule=AP01	Z12:Pro-drop;Number=Plur|Person=1;rule=S08,R05;ref=Z10	E4
+5	сме	съм	AUX	Vxitf-r1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_	F19:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C18	_	_	_
+6	–	–	PUNCT	punct	_	4	punct	_	_	_	C18	_	_	_
+7	изблели	изблея	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_	F20:Aorist;Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Aorist|VerbForm=Fin|Voice=Act;rule=BGF418	C19:COORD;coord=C18	_	_	_
+8	две	два	NUM	Mcfpi	Definite=Ind|Gender=Fem|Number=Plur|NumType=Card	9	nummod	_	_	_	C19	P20:NPI;Definite=Ind|Gender=Fem|Number=Plur;head=9;rule=NPI03	_	_
+9	овце	овце	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	7	nsubj	_	SpaceAfter=No	_	C19	P20	_	_
+10	.	.	PUNCT	punct	_	7	punct	_	_	_	C19	_	_	_
+
+# sent_id = grade04_016_s008
+# text = – И на нас са ни омръзнали тези все лаещи кучета!
+1	–	–	PUNCT	punct	_	7	punct	_	_	_	C20:MAIN	_	_	_
+2	И	и	CCONJ	Cp	_	4	cc	_	_	_	C20	_	_	_
+3	на	на	ADP	R	_	4	case	_	_	_	C20	_	_	_
+4	нас	аз	PRON	Ppelap1	Case=Acc|Number=Plur|Person=1|PronType=Prs	7	obl	_	_	_	C20	_	A6:Personal;Number=Plur|Person=1;rule=R05;ref=Z12,Z13:Pro-drop;Number=Plur|Person=3;rule=S10,R19;ref=grade04_016_s008#11	E4,E7
+5	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_	F21:Perfect|Aorist+Concl;Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Perfect|VerbForm=Fin|Voice=Act/Aspect=Perf|Evident=Concl|Mood=Ind|Number=Plur|Person=3|Tense=Aorist|VerbForm=Fin|Voice=Act;rule=BGF382	C20	_	_	_
+6	ни	аз	PRON	Ppetdp1	Case=Dat|Number=Plur|Person=1|PronType=Prs	7	iobj	_	_	_	C20	_	A7:Personal;Number=Plur|Person=1;rule=R05;ref=A6	E4
+7	омръзнали	омръзна	VERB	Vpptcao-p-i	Aspect=Perf|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_	F21	C20	_	_	_
+8	тези	този	DET	Pde-op	Number=Plur|PronType=Dem	11	det	_	_	_	C20	_	_	_
+9	все	все	ADV	Dq	Degree=Pos	10	advmod	_	_	_	C20	_	_	_
+10	лаещи	лая	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	11	amod	_	_	_	C20	P21:NPI;Definite=Ind|Gender=Neut|Number=Plur;head=11;rule=NPI02	_	_
+11	кучета	куче	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	7	nsubj	_	SpaceAfter=No	_	C20	P21	_	E7
+12	!	!	PUNCT	punct	_	7	punct	_	SpacesAfter=\n\n	_	C20	_	_	_
+
+# newpar
+# sent_id = grade04_016_s009
+# text = – Не!
+1	–	–	PUNCT	punct	_	2	punct	_	_	_	C21:MAIN	_	_	_
+2	Не	не	INTJ	Tn	Polarity=Neg	0	root	_	SpaceAfter=No	_	C21	_	_	_
+3	!	!	PUNCT	punct	_	2	punct	_	_	_	C21	_	_	_
+
+# sent_id = grade04_016_s010
+# text = Не трябва да го правим! – отсякъл обаче един стар овен.
+1	Не	не	PART	Tn	Polarity=Neg	2	advmod	_	_	F22:Present+Neg;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF376	C22:MAIN	_	_	_
+2	трябва	трябва	VERB	Vniif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F22	C22	_	Z14:Impersonal;Number=Sing|Person=3;rule=S03	_
+3	да	да	AUX	Tx	_	5	aux	_	_	_	C22	_	_	_
+4	го	аз	PRON	Ppetas3m	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_	_	C22	_	A8:Personal;Gender=Masc,Neut|Number=Sing|Person=3	E8
+5	правим	правя-(се)	VERB	Vpitf-r1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	SpaceAfter=No	F23:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C22	_	Z15:Pro-drop;Number=Plur|Person=1;rule=S08,R05;ref=A7	E4
+6	!	!	PUNCT	punct	_	2	punct	_	_	_	C22	_	_	_
+7	–	–	PUNCT	punct	_	8	punct	_	_	_	C23:MAIN	_	_	_
+8	отсякъл	отсека-(се)	VERB	Vpptcao-smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	conj	_	_	F24:Aorist+Ren|DVerb+Past_Participle_Aorist;Aspect=Perf|Evident=Ren|Gender=Masc|Mood=Ind|Number=Sing|Tense=Aorist|VerbForm=Fin|Voice=Act/Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act;rule=BGF420	C23	_	Z16:Pro-drop;Gender=Masc|Number=Sing|Person=3;rule=S10,R20;ref=A8	E8
+9	обаче	обаче	ADV	Dd	Degree=Pos	8	advmod	_	_	_	C23	_	_	_
+10	един	един	DET	Pfe-os-mi	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	12	det	_	_	_	C23	_	_	_
+11	стар	стар	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_	_	C23	P22:AP;Definite=Ind|Gender=Masc|Number=Sing;head=11;rule=AP01	_	_
+12	овен	овен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No	_	C23	P23:AP;Definite=Ind|Gender=Masc|Number=Sing;head=12;rule=AP01	_	_
+13	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\n\n	_	C23	_	_	_
+
+# newpar
+# sent_id = grade04_016_s011
+# text = – Защо?
+1	–	–	PUNCT	punct	_	2	punct	_	_	_	C24:MAIN	_	_	_
+2	Защо	защо	PRON	Pic	PronType=Int	0	root	_	SpaceAfter=No	_	C24	_	_	_
+3	?	?	PUNCT	punct	_	2	punct	_	_	_	C24	_	_	_
+
+# sent_id = grade04_016_s012
+# text = Защо?
+1	Защо	защо	PRON	Pic	PronType=Int	0	root	_	SpaceAfter=No	_	C25:MAIN	_	_	_
+2	?	?	PUNCT	punct	_	1	punct	_	_	_	C25	_	_	_
+
+# sent_id = grade04_016_s013
+# text = Нека да сключим мир с вълците и да заживеем спокойно.
+1	Нека	нека	PART	Tv	_	0	root	_	_	F25:Imperative+Present;Aspect=Perf|Mood=Imp|Number=Plur|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF374	C26:MAIN	_	_	_
+2	да	да	AUX	Tx	_	3	aux	_	_	F25	C26	_	_	_
+3	сключим	сключа-(се)	VERB	Vpptf-r1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	_	F25	C26	_	Z17:Pro-drop;Number=Plur|Person=1;rule=S08,R05;ref=Z15	E4
+4	мир	мир	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	_	_	C26	P24:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=4;rule=NPI01	_	E9
+5	с	с	ADP	R	_	6	case	_	_	_	C26	P25:NPD;prep=с;Definite=Def|Gender=Masc|Number=Plur;head=6;rule=NPD01	_	_
+6	вълците	вълк	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	4	nmod	_	_	_	C26	P25	_	_
+7	и	и	CCONJ	Cp	_	9	cc	_	_	_	C27:SUB;head=C26;conj=S079:и_да	_	_	_
+8	да	да	AUX	Tx	_	9	aux	_	_	_	C27	_	_	_
+9	заживеем	заживея	VERB	Vpptf-r1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_	F26:Present;Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C27	_	Z18:Pro-drop;Number=Plur|Person=1;rule=S08,R05;ref=Z17	E4
+10	спокойно	спокойно	ADV	Dm	Degree=Pos	9	advmod	_	SpaceAfter=No	_	C27	_	_	_
+11	.	.	PUNCT	punct	_	1	punct	_	_	_	C27	_	_	_
+
+# sent_id = grade04_016_s014
+# text = За какво ще са ни тогава кучетата?
+1	За	за	ADP	R	_	2	case	_	_	_	C28:MAIN	_	_	_
+2	какво	какъв	DET	Pia--s-n	Gender=Neut|Number=Sing|PronType=Int	6	iobj	_	_	_	C28	_	_	_
+3	ще	ще	AUX	Tx	_	6	aux	_	_	F27:Future;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Future|VerbForm=Fin|Voice=Act;rule=BGF391	C28	_	_	_
+4	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_	F27	C28	_	_	_
+5	ни	аз	PRON	Ppetdp1	Case=Dat|Number=Plur|Person=1|PronType=Prs	6	iobj	_	_	_	C29:COORD;coord=C28;conj=S157:ни	_	A9:Personal;Number=Plur|Person=1;rule=R05;ref=Z18	E4
+6	тогава	тогавам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F28:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C29	_	Z19:Pro-drop;Gender=Masc|Number=Sing|Person=3;rule=S10,R20;ref=grade04_016_s013#4	E9
+7	кучетата	куче	NOUN	Ncnpd	Definite=Def|Gender=Neut|Number=Plur	6	obj	_	SpaceAfter=No	_	C29	P26:NPD;Definite=Def|Gender=Neut|Number=Plur;head=7;rule=NPD01	_	_
+8	?	?	PUNCT	punct	_	6	punct	_	_	_	C29	_	_	_
+
+# sent_id = grade04_016_s015
+# text = – заблели една през друга овцете.
+1	–	–	PUNCT	punct	_	2	parataxis	_	_	_	C30:MAIN	_	_	_
+2	заблели	заблея	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_	F29:Aorist;Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Aorist|VerbForm=Fin|Voice=Act;rule=BGF418	C30	_	Z20:Pro-drop;Gender=Masc|Number=Sing|Person=3;rule=S10,R19;ref=Z19	E9
+3	една	един	DET	Pfe-os-fi	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	2	obj	_	_	_	C30	_	_	_
+4	през	през	ADP	R	_	6	case	_	_	_	C30	P27:AP;prep=през;Definite=Ind|Gender=Fem|Number=Sing;head=5;rule=AP01	_	_
+5	друга	друг	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_	_	C30	P27	_	_
+6	овцете	овка	NOUN	Ncfpd	Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No	_	C30	P28:NPD;Definite=Def|Gender=Fem|Number=Plur;head=6;rule=NPD01	_	_
+7	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\n\n	_	C30	_	_	_
+
+# newpar
+# sent_id = grade04_016_s016
+# text = – Защото – изправил глава старият овен – дори когато кучетата ме пазят, не съм спокоен, докато вълците обикалят наоколо.
+1	–	–	PUNCT	punct	_	4	punct	_	_	_	C31:MAIN	_	_	_
+2	Защото	защото	ADV	Prc	_	4	advmod	_	_	_	C31	_	_	_
+3	–	–	PUNCT	punct	_	4	punct	_	_	_	C31	_	_	_
+4	изправил	изправя-(се)	VERB	Vpptcao-smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_	F30:Aorist+Ren|DVerb+Past_Participle_Aorist;Aspect=Perf|Evident=Ren|Gender=Masc|Mood=Ind|Number=Sing|Tense=Aorist|VerbForm=Fin|Voice=Act/Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act;rule=BGF420	C31	_	_	_
+5	глава	глава	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	_	_	C31	P29:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=5;rule=NPI01	_	_
+6	старият	стар	ADJ	Amsf	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_	_	C31	P30:NPD;Definite=Def|Gender=Masc|Number=Sing;head=7;rule=NPD03	_	_
+7	овен	овен	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	_	_	C31	P30	_	_
+8	–	–	PUNCT	punct	_	17	punct	_	_	_	C31	_	_	_
+9	дори	дори	PART	Te	_	13	discourse	_	_	_	C32:SUB;head=C31;conj=S039:дори_когато	_	_	_
+10	когато	когато	ADV	Prt	PronType=Rel	13	advmod	_	_	_	C32	_	_	_
+11	кучетата	куче	NOUN	Ncnpd	Definite=Def|Gender=Neut|Number=Plur	13	nsubj	_	_	_	C32	P31:NPD;Definite=Def|Gender=Neut|Number=Plur;head=11;rule=NPD01	_	_
+12	ме	аз	PRON	Ppetas1	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obj	_	_	_	C32	_	A10:Personal;Number=Sing|Person=1	E10
+13	пазят	пазя-(се)	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	advcl	_	SpaceAfter=No	F31:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C32	_	_	_
+14	,	,	PUNCT	punct	_	13	punct	_	_	_	C32	_	_	_
+15	не	не	PART	Tn	Polarity=Neg	17	advmod	_	_	F32:Present-Perfect+Pass+Neg;Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Present,Perfect|VerbForm=Fin|Voice=Pass;rule=BGF293	C33:COORD;coord=C31	_	_	_
+16	съм	съм	AUX	Vxitf-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	_	F32	C33	_	_	_
+17	спокоен	спокоа	VERB	Vpptcv--smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	advcl	_	SpaceAfter=No	F32	C33	_	Z21:Pro-drop;Gender=Masc|Number=Sing|Person=1;rule=S08,R05;ref=A10	E10
+18	,	,	PUNCT	punct	_	21	punct	_	_	_	C33	_	_	_
+19	докато	докато	SCONJ	Cs	_	21	mark	_	_	_	C34:SUB;head=C33;conj=S017:докато	_	_	_
+20	вълците	вълк	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	21	nsubj	_	_	_	C34	P32:NPD;Definite=Def|Gender=Masc|Number=Plur;head=20;rule=NPD01	_	_
+21	обикалят	обикалям	VERB	Vpptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	advcl	_	_	F33:Present;Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C34	_	_	_
+22	наоколо	наоколо	ADV	Dl	Degree=Pos	21	advmod	_	SpaceAfter=No	_	C34	_	_	_
+23	.	.	PUNCT	punct	_	4	punct	_	_	_	C34	_	_	_
+
+# sent_id = grade04_016_s017
+# text = А представяте ли си какво ще бъде, когато останем насаме със зверовете?
+1	А	а	CCONJ	Cp	_	2	cc	_	_	_	C35:MAIN	_	_	_
+2	представяте	представям-(се)	VERB	Vpitf-r2p	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F34:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C35	_	Z22:Pro-drop;Number=Plur|Person=2;rule=S08	_
+3	ли	ли	PART	Ti	_	2	discourse	_	_	_	C35	_	_	_
+4	си	се	PRON	Ppxtd	Case=Dat|PronType=Prs|Reflex=Yes	2	expl	_	_	F34	C35	_	_	_
+5	какво	какъв	DET	Pia--s-n	Gender=Neut|Number=Sing|PronType=Int	2	ccomp	_	_	_	C36:SUB;head=C35;conj=S118:какво	_	Z23:Pro-drop;Gender=Neut|Number=Sing|Person=3;rule=S10	_
+6	ще	ще	AUX	Tx	_	7	aux	_	_	F35:Future;Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Future|VerbForm=Fin|Voice=Act;rule=BGF391	C36	_	_	_
+7	бъде	бъда	AUX	Vyptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	SpaceAfter=No	F35	C36	_	_	_
+8	,	,	PUNCT	punct	_	10	punct	_	_	_	C36	_	_	_
+9	когато	когато	ADV	Prt	PronType=Rel	10	advmod	_	_	_	C37:SUB;head=C36;conj=S042:когато	_	_	_
+10	останем	остана	VERB	Vppif-r1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_	F36:Present;Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C37	_	Z24:Pro-drop;Number=Plur|Person=1;rule=S08,R05;ref=A9	E4
+11	насаме	насаме	ADV	Dm	Degree=Pos	10	advmod	_	_	_	C37	_	_	_
+12	със	със	ADP	R	_	13	case	_	_	_	C37	P33:NPD;prep=със;Definite=Def|Gender=Masc|Number=Plur;head=13;rule=NPD01	_	_
+13	зверовете	звер	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No	_	C37	P33	_	_
+14	?	?	PUNCT	punct	_	2	punct	_	SpacesAfter=\n	_	C37	_	_	_
+

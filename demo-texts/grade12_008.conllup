@@ -1,0 +1,298 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC DCL:VERBFORM DCL:CLAUSE DCL:NP DCL:ANAPHORA DCL:COREF
+# newdoc id = grade12_008
+# newpar
+# sent_id = grade12_008_s001
+# text = Ако попитаме един средностатистически млад човек, за когото културните удоволствия се свеждат най-вече до попконцертите и дискотеките, влизал ли е в оперна зала, той най-вероятно би ни се изсмял.
+1	Ако	ако	SCONJ	Cs	_	2	mark	_	_	_	C1:SUB;head=C3;conj=S071:ако	_	_	_
+2	попитаме	попитам	VERB	Vpitf-r1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	_	F1:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C1	_	Z1:Pro-drop;Number=Plur|Person=1;rule=S08	E1
+3	един	един	DET	Pfe-os-mi	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	6	det	_	_	_	C1	P1:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=6;rule=NPI11	_	_
+4	средностатистически	средностатистически	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_	_	C1	P1	_	_
+5	млад	млад	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_	_	C1	P1	_	_
+6	човек	човек	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No	_	C1	P1	_	E2
+7	,	,	PUNCT	punct	_	2	punct	_	_	_	C1	_	_	_
+8	за	за	ADP	R	_	9	case	_	_	_	C2:SUB;head=C1;conj=S116:когото	_	_	_
+9	когото	който	PRON	Pre-as-m	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	13	obl	_	_	_	C2	_	_	_
+10	културните	културен	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	11	amod	_	_	_	C2	P2:NPD;Definite=Def|Gender=Neut|Number=Plur;head=11;rule=NPD03	_	_
+11	удоволствия	удоволствие	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	13	nsubj:pass	_	_	_	C2	P2	_	_
+12	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	13	expl	_	_	F2:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C2	_	_	_
+13	свеждат	свеждам-(се)	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F2	C2	_	_	_
+14	най-вече	вече	ADV	Dd	Degree=Sup	13	advmod	_	_	_	C2	_	_	_
+15	до	до	ADP	R	_	16	case	_	_	_	C2	P3:NPD;prep=до;Definite=Def|Gender=Masc|Number=Plur;head=16;rule=NPD01	_	_
+16	попконцертите	попконцерт	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	13	iobj	_	_	_	C2	P3	_	_
+17	и	и	CCONJ	Cp	_	18	cc	_	_	_	C2	_	_	_
+18	дискотеките	дискотека	NOUN	Ncfpd	Definite=Def|Gender=Fem|Number=Plur	16	conj	_	SpaceAfter=No	_	C2	P4:NPD;Definite=Def|Gender=Fem|Number=Plur;head=18;rule=NPD01	_	_
+19	,	,	PUNCT	punct	_	20	punct	_	_	_	C2	_	_	_
+20	влизал	влизам	VERB	Vpiicao-smi	Aspect=Imp|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	13	conj	_	_	F3:Perfect|Aorist+Concl;Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perfect|VerbForm=Fin|Voice=Act/Aspect=Imp|Evident=Concl|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Aorist|VerbForm=Fin|Voice=Act;rule=BGF383,BGF384	C3:MAIN	_	_	_
+21	ли	ли	PART	Ti	_	20	discourse	_	_	_	C3	_	_	_
+22	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux	_	_	F3	C3	_	_	_
+23	в	в	ADP	R	_	25	case	_	_	_	C3	P5:NPI;prep=в;Definite=Ind|Gender=Fem|Number=Sing;head=25;rule=NPI02	_	_
+24	оперна	оперен	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_	_	C3	P5	_	_
+25	зала	зала	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	20	iobj	_	SpaceAfter=No	_	C3	P5	_	_
+26	,	,	PUNCT	punct	_	20	punct	_	_	_	C3	_	_	_
+27	той	аз	PRON	Ppe-os3m	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_	_	C4:COORD;coord=C3	_	A1:Personal;Gender=Masc|Number=Sing|Person=3;rule=R08;ref=grade12_008_s001#6	E2
+28	най-вероятно	вероятно	ADV	Dd	Degree=Sup	32	advmod	_	_	_	C4	_	_	_
+29	би	съм	AUX	Vxitu-o3s	Aspect=Imp|Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	aux	_	_	F4:Conditional;Aspect=Perf|Gender=Masc|Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act;rule=BGF372	C4	_	_	_
+30	ни	аз	PRON	Ppetdp1	Case=Dat|Number=Plur|Person=1|PronType=Prs	32	iobj	_	_	_	C4	_	A2:Personal;Number=Plur|Person=1;rule=R05;ref=Z1	E1
+31	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	32	expl	_	_	F4	C4	_	_	_
+32	изсмял	изсмея-(се)	VERB	Vppicao-smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	20	ccomp	_	SpaceAfter=No	F4	C4	_	Z2:Pro-drop;Gender=Masc|Number=Sing|Person=3;rule=S10,R19;ref=A1	E2
+33	.	.	PUNCT	punct	_	13	punct	_	_	_	C4	_	_	_
+
+# sent_id = grade12_008_s002
+# text = Би обяснил, че смята операта за старомоден жанр, в който всичко е приповдигнато и преувеличено и в който „нормалната“ човешка реч е заменена с пеене.
+1	Би	съм	AUX	Vxitu-o3s	Aspect=Imp|Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux	_	_	F5:Conditional;Aspect=Perf|Gender=Masc|Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act;rule=BGF372	C5:MAIN	_	_	_
+2	обяснил	обясня-(се)	VERB	Vpptcao-smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No	F5	C5	_	Z3:Pro-drop;Gender=Masc|Number=Sing|Person=3;rule=S10,R19;ref=Z2	E2
+3	,	,	PUNCT	punct	_	5	punct	_	_	_	C5	_	_	_
+4	че	че	SCONJ	Cs	_	5	mark	_	_	_	C6:SUB;head=C5;conj=S016:че	_	_	_
+5	смята	смятам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	_	F6:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C6	_	Z4:Pro-drop;Gender=Masc|Number=Sing|Person=3;rule=S10,R19;ref=Z3	E2
+6	операта	опера	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	5	obj	_	_	_	C6	P6:NPD;Definite=Def|Gender=Fem|Number=Sing;head=6;rule=NPD01	_	_
+7	за	за	ADP	R	_	9	case	_	_	_	C6	P7:NPI;prep=за;Definite=Ind|Gender=Masc|Number=Sing;head=9;rule=NPI02	_	_
+8	старомоден	старомоден	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_	_	C6	P7	_	_
+9	жанр	жанр	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No	_	C6	P7	_	E3
+10	,	,	PUNCT	punct	_	15	punct	_	_	_	C6	_	_	_
+11	в	в	ADP	R	_	12	case	_	_	_	C7:SUB;head=C6;conj=S116:който	_	_	_
+12	който	който	PRON	Pre-os-m	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	15	obl	_	_	_	C7	_	A3:Relative;Gender=Masc|Number=Sing|Person=3;rule=R01;ref=grade12_008_s002#9	E3
+13	всичко	всеки	PRON	Pce-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	15	nsubj:pass	_	_	_	C7	_	_	_
+14	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux:pass	_	_	F7:Present-Perfect+Pass;Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Person=3|Tense=Present,Perfect|VerbForm=Fin|Voice=Pass;rule=BGF379	C7	_	_	_
+15	приповдигнато	приповдигна-(се)	VERB	Vpptcv--sni	Aspect=Perf|Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	9	acl:relcl	_	_	F7	C7	_	_	_
+16	и	и	CCONJ	Cp	_	17	cc	_	_	_	C7	_	_	_
+17	преувеличено	преувеличено	VERB	Vpptcv--sni	Aspect=Perf|Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	15	conj	_	_	F8:NVerb+Past_Participle+Pass;Aspect=Perf|Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass;rule=BGF423	C7	_	_	_
+18	и	и	CCONJ	Cp	_	26	cc	_	_	_	C7	_	_	_
+19	в	в	ADP	R	_	20	case	_	_	_	C7	_	_	_
+20	който	който	PRON	Pre-os-m	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	26	obl	_	_	_	C8:SUB;head=C7;conj=S116:който	_	A4:Relative;Gender=Masc|Number=Sing|Person=3	_
+21	„	„	PUNCT	punct	_	26	punct	_	SpaceAfter=No	_	C8	_	_	_
+22	нормалната“	нормалната“	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	26	nsubj:pass	_	_	_	C8	P8:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=22;rule=NPI01	_	_
+23	човешка	човешки	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_	_	C8	P9:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=24;rule=NPI02	_	_
+24	реч	реч	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	22	nmod	_	_	_	C8	P9	_	_
+25	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	aux:pass	_	_	F9:Present-Perfect+Pass;Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Present,Perfect|VerbForm=Fin|Voice=Pass;rule=BGF379	C8	_	_	_
+26	заменена	заменя	VERB	Vpptcv--sfi	Aspect=Perf|Definite=Ind|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	17	conj	_	_	F9	C8	_	_	_
+27	с	с	ADP	R	_	28	case	_	_	_	C8	P10:NPI;prep=с;Definite=Ind|Gender=Neut|Number=Sing;head=28;rule=NPI01	_	_
+28	пеене	пеене	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	26	iobj	_	SpaceAfter=No	_	C8	P10	_	_
+29	.	.	PUNCT	punct	_	2	punct	_	_	_	C8	_	_	_
+
+# sent_id = grade12_008_s003
+# text = Как да си обясним тогава, че операта и през 21. век все още привлича публика от всички части на планетата?
+1	Как	как	ADV	Pim	PronType=Int	4	advmod	_	_	_	C9:SUB;conj=S124:как_да	_	_	_
+2	да	да	AUX	Tx	_	4	aux	_	_	_	C9	_	_	_
+3	си	се	PRON	Ppxtd	Case=Dat|PronType=Prs|Reflex=Yes	4	expl	_	_	F10:Present;Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C9	_	_	_
+4	обясним	обясня-(се)	VERB	Vpptf-r1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F10	C9	_	Z5:Pro-drop;Number=Plur|Person=1;rule=S08,R05;ref=A2	E1
+5	тогава	тогава	ADV	Pdt	PronType=Dem	4	advmod	_	SpaceAfter=No	_	C9	_	_	_
+6	,	,	PUNCT	punct	_	15	punct	_	_	_	C9	_	_	_
+7	че	че	SCONJ	Cs	_	15	mark	_	_	_	C10:SUB;head=C9;conj=S016:че	_	_	_
+8	операта	опера	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	15	nsubj	_	_	_	C10	P11:NPD;Definite=Def|Gender=Fem|Number=Sing;head=8;rule=NPD01	_	_
+9	и	и	CCONJ	Cp	_	12	cc	_	_	_	C10	_	_	_
+10	през	през	ADP	R	_	12	case	_	_	_	C10	_	_	_
+11	21.	21.	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	12	nummod	_	_	_	C10	_	_	_
+12	век	век	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	_	_	C10	P12:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=12;rule=NPI01	_	_
+13	все	все	ADV	Dq	Degree=Pos	14	advmod	_	_	_	C10	_	_	_
+14	още	още	ADV	Dq	Degree=Pos	15	advmod	_	_	_	C11:SUB;head=C10;conj=S051:още	_	_	_
+15	привлича	привличам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	_	F11:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C11	_	_	_
+16	публика	публика	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	15	obj	_	_	_	C11	P13:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=16;rule=NPI01	_	_
+17	от	от	ADP	R	_	19	case	_	_	_	C11	P14:NPI;prep=от;Definite=Ind|Gender=Fem|Number=Plur;head=19;rule=NPI15	_	_
+18	всички	всеки	DET	Pce-op	Case=Nom|Number=Plur|PronType=Tot	19	det	_	_	_	C11	P14	_	_
+19	части	част	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	16	nmod	_	_	_	C11	P14	_	_
+20	на	на	ADP	R	_	21	case	_	_	_	C11	P15:NPD;prep=на;Definite=Def|Gender=Fem|Number=Sing;head=21;rule=NPD01	_	_
+21	планетата	планета	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No	_	C11	P15	_	_
+22	?	?	PUNCT	punct	_	4	punct	_	_	_	C11	_	_	_
+
+# sent_id = grade12_008_s004
+# text = Любопитен е фактът, че след Втората световна война западният авангард изцяло отхвърля операта (както и класическата музика изобщо) като „буржоазно изкуство“, вследствие на което 30 години не се появява нито една опера.
+1	Любопитен	любопитен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_	_	C12:MAIN	P16:AP;Definite=Ind|Gender=Masc|Number=Sing;head=1;rule=AP01	_	_
+2	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_	F12:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C12	_	_	_
+3	фактът	факт	NOUN	Ncmsf	Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No	_	C12	P17:NPD;Definite=Def|Gender=Masc|Number=Sing;head=3;rule=NPD01	_	_
+4	,	,	PUNCT	punct	_	13	punct	_	_	_	C12	_	_	_
+5	че	че	SCONJ	Cs	_	13	mark	_	_	_	C13:SUB;head=C12;conj=S016:че	_	_	_
+6	след	след	ADP	R	_	9	case	_	_	_	C13	P18:NPD;prep=след;Definite=Def|Gender=Fem|Number=Sing;head=9;rule=NPD11	_	_
+7	Втората	втори	ADJ	Mofsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	9	amod	_	_	_	C13	P18	_	_
+8	световна	световен	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_	_	C13	P18	_	_
+9	война	война	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	13	obl	_	_	_	C13	P18	_	_
+10	западният	западен	ADJ	Amsf	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	_	C13	P19:NPD;Definite=Def|Gender=Masc|Number=Sing;head=11;rule=NPD03	_	_
+11	авангард	авангард	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	13	nsubj	_	_	_	C13	P19	_	_
+12	изцяло	изцяло	ADV	Dq	Degree=Pos	13	advmod	_	_	_	C13	_	_	_
+13	отхвърля	отхвърлям	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl	_	_	F13:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C13	_	_	_
+14	операта	опера	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	13	obj	_	_	_	C13	P20:NPD;Definite=Def|Gender=Fem|Number=Sing;head=14;rule=NPD01	_	_
+15	(	(	PUNCT	punct	_	16	punct	_	SpaceAfter=No	_	C13	_	_	_
+16	както	както	ADV	Prm	PronType=Rel	13	advmod	_	_	_	C13	_	_	_
+17	и	и	CCONJ	Cp	_	19	cc	_	_	_	C13	_	_	_
+18	класическата	класически	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_	_	C13	P21:NPD;Definite=Def|Gender=Fem|Number=Sing;head=19;rule=NPD03	_	_
+19	музика	музика	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	13	obj	_	_	_	C13	P21	_	_
+20	изобщо	изобщо	ADV	Dq	Degree=Pos	19	advmod	_	SpaceAfter=No	_	C13	_	_	_
+21	)	)	PUNCT	punct	_	13	punct	_	_	_	C13	_	_	_
+22	като	като	SCONJ	Cs	_	25	mark	_	_	_	C13	_	_	_
+23	„	„	PUNCT	punct	_	25	punct	_	SpaceAfter=No	_	C13	_	_	_
+24	буржоазно	буржоазен	ADV	Dm	Degree=Pos	25	advmod	_	_	_	C13	_	_	_
+25	изкуство“	изкуство“	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No	_	C13	P22:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=25;rule=NPI01	_	_
+26	,	,	PUNCT	punct	_	34	punct	_	_	_	C13	_	_	_
+27	вследствие	вследствие	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	34	nsubj	_	_	_	C14:SUB;head=C13;conj=S116:което	P23:NPI;Definite=Ind|Gender=Neut|Number=Sing;head=27;rule=NPI01	_	E4
+28	на	на	ADP	R	_	29	case	_	_	_	C14	_	_	_
+29	което	който	PRON	Pre-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	27	nmod	_	_	_	C14	_	A5:Relative;Gender=Neut|Number=Sing|Person=3	_
+30	30	тридесет	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	31	nummod	_	_	_	C14	P24:NPI;Definite=Ind|Gender=Fem|Number=Plur;head=31;rule=NPI03	_	_
+31	години	година	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	34	obl	_	_	_	C14	P24	_	_
+32	не	не	PART	Tn	Polarity=Neg	34	advmod	_	_	F14:Present+Neg;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF376	C14	_	_	_
+33	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	34	expl	_	_	F14	C14	_	_	_
+34	появява	появявам-се	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	conj	_	_	F14	C14	_	_	_
+35	нито	нито	PART	Tn	Polarity=Neg	36	advmod	_	_	_	C14	_	_	_
+36	една	един	DET	Pfe-os-fi	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	37	det	_	_	_	C14	P25:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=37;rule=NPI11	_	_
+37	опера	опера	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	34	obj	_	SpaceAfter=No	_	C14	P25	_	_
+38	.	.	PUNCT	punct	_	1	punct	_	_	_	C14	_	_	_
+
+# sent_id = grade12_008_s005
+# text = Но от края на миналия век и до днес този жанр преживява истински бум не само сред новите, но и сред по-старите поколения композитори.
+1	Но	но	CCONJ	Cc	_	12	cc	_	_	_	C15:MAIN	_	_	_
+2	от	от	ADP	R	_	3	case	_	_	_	C15	P26:NPD;prep=от;Definite=Def|Gender=Masc|Number=Sing;head=3;rule=NPD01	_	_
+3	края	край	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	12	obl	_	_	_	C15	P26	_	_
+4	на	на	ADP	R	_	6	case	_	_	_	C15	_	_	_
+5	миналия	мина-(се)	ADJ	Vpptcao-smh	Aspect=Perf|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	amod	_	_	F15:Aorist+Ren|DVerb+Past_Participle_Aorist;Aspect=Perf|Degree=Pos|Evident=Ren|Gender=Masc|Mood=Ind|Number=Sing|Tense=Aorist|VerbForm=Fin|Voice=Act/Aspect=Perf|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act;rule=BGF420	C15	_	_	_
+6	век	век	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	_	_	C15	P27:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=6;rule=NPI01	_	_
+7	и	и	CCONJ	Cp	_	11	cc	_	_	_	C16:COORD;coord=C15;conj=S154:и	_	_	_
+8	до	до	ADP	R	_	11	case	_	_	_	C16	_	_	_
+9	днес	днес	ADV	Dt	Degree=Pos	8	advmod	_	_	_	C16	_	_	_
+10	този	този	DET	Pde-os-m	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_	_	C16	P28:NPI;Definite=Def|Gender=Masc|Number=Sing;head=11;rule=NPI07	_	_
+11	жанр	жанр	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	_	_	C16	P28	_	_
+12	преживява	преживявам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F16:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C16	_	Z6:Pro-drop;Gender=Neut|Number=Sing|Person=3;rule=S10,R19;ref=grade12_008_s004#27	E4
+13	истински	истински	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_	_	C16	P29:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=14;rule=NPI02	_	_
+14	бум	бум	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	_	_	C16	P29	_	_
+15	не	не	INTJ	Tn	Polarity=Neg	16	advmod	_	_	_	C16	_	_	_
+16	само	само	ADV	Dd	Degree=Pos	25	advmod	_	_	_	C16	_	_	_
+17	сред	сред	ADP	R	_	25	case	_	_	_	C16	P30:AP;prep=сред;Definite=Def|Number=Plur;head=18;rule=AP02	_	_
+18	новите	нов	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	25	amod	_	SpaceAfter=No	_	C16	P30	_	_
+19	,	,	PUNCT	punct	_	20	punct	_	_	_	C16	_	_	_
+20	но	но	CCONJ	Cc	_	24	cc	_	_	_	C16	_	_	_
+21	и	и	CCONJ	Cp	_	24	cc	_	_	_	C16	_	_	_
+22	сред	сред	ADP	R	_	24	case	_	_	_	C16	P31:NPD;prep=сред;Definite=Def|Gender=Neut|Number=Plur;head=24;rule=NPD03	_	_
+23	по-старите	стар	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	24	amod	_	_	_	C16	P31	_	_
+24	поколения	поколен	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	18	conj	_	_	_	C16	P31	_	_
+25	композитори	композитор	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No	_	C16	P32:NPI;Definite=Ind|Gender=Masc|Number=Plur;head=25;rule=NPI01	_	_
+26	.	.	PUNCT	punct	_	12	punct	_	SpacesAfter=\n	_	C16	_	_	_
+
+# sent_id = grade12_008_s006
+# text = Какво кара хората да си купят билет за опера и търпеливо да чакат дори и няколко години, за да съпреживеят любимите си арии на някоя от световните оперни сцени?
+1	Какво	какъв	DET	Pia--s-n	Gender=Neut|Number=Sing|PronType=Int	2	det	_	_	_	C17:MAIN	_	_	_
+2	кара	карам	NOUN	Ncmt	Gender=Masc|Number=Count	6	obj	_	_	_	C17	P33:NPI;Definite=Ind|Gender=Masc|Number=Count;head=2;rule=NPI01	_	_
+3	хората	хора	NOUN	Nc-ld	Definite=Def|Number=Ptan	6	nsubj	_	_	_	C17	P34:NPD;Definite=Def|Number=Ptan;head=3;rule=NPD01	_	E5
+4	да	да	AUX	Tx	_	6	aux	_	_	_	C18:SUB;head=C17;conj=S036:да	_	_	_
+5	си	се	PRON	Ppxtd	Case=Dat|PronType=Prs|Reflex=Yes	6	expl	_	_	F17:Present;Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C18	_	_	_
+6	купят	купя	VERB	Vpptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F17	C18	_	_	_
+7	билет	билет	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	_	_	C18	P35:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=7;rule=NPI01	_	_
+8	за	за	ADP	R	_	9	case	_	_	_	C18	P36:NPD;prep=за;Definite=Def|Gender=Masc|Number=Sing;head=9;rule=NPD01	_	_
+9	опера	опера	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	_	_	C18	P36	_	_
+10	и	и	CCONJ	Cp	_	13	cc	_	_	_	C18	_	_	_
+11	търпеливо	търпеливо	ADV	Dm	Degree=Pos	13	advmod	_	_	_	C18	_	_	_
+12	да	да	AUX	Tx	_	13	aux	_	_	_	C19:SUB;head=C18;conj=S036:да	_	_	_
+13	чакат	чакам	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_	F18:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C19	_	Z7:Pro-drop;Number=Plur|Person=3;rule=S09,R19;ref=grade12_008_s006#3	E5
+14	дори	дори	PART	Te	_	16	discourse	_	_	_	C19	_	_	_
+15	и	и	CCONJ	Cp	_	16	cc	_	_	_	C19	_	_	_
+16	няколко	няколко	PRON	Pfq-----i	Definite=Ind|PronType=Ind	17	obj	_	_	_	C19	P37:NPI;Definite=Ind|Gender=Fem|Number=Plur;head=17;rule=NPI04	_	_
+17	години	година	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No	_	C19	P37	_	_
+18	,	,	PUNCT	punct	_	21	punct	_	_	_	C19	_	_	_
+19	за	за	ADP	R	_	21	mark	_	_	_	C20:SUB;head=C19;conj=S092:за_да	_	_	_
+20	да	да	AUX	Tx	_	19	fixed	_	_	_	C20	_	_	_
+21	съпреживеят	съпреживея	VERB	Vpptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	_	F19:Present;Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C20	_	Z8:Pro-drop;Number=Plur|Person=3;rule=S10,R19;ref=Z7	E5
+22	любимите	любим	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	24	amod	_	_	_	C20	P38:NPD;Definite=Def|Gender=Fem|Number=Plur;head=24;rule=NPD04	_	_
+23	си	свой	PRON	Psxto	Case=Nom|Poss=Yes|PronType=Prs|Reflex=Yes	22	det	_	_	_	C20	P38	A6:ReflexivePossessive;Number=Plur|Person=3;rule=R03;ref=Z8	E5
+24	арии	ария	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	21	obj	_	_	_	C20	P38	_	_
+25	на	на	ADP	R	_	26	case	_	_	_	C20	_	_	_
+26	някоя	някой	DET	Pfe-os-f	Gender=Fem|Number=Sing|PronType=Ind	21	iobj	_	_	_	C20	_	_	_
+27	от	от	ADP	R	_	30	case	_	_	_	C20	P39:NPD;prep=от;Definite=Def|Gender=Fem|Number=Plur;head=30;rule=NPD03	_	_
+28	световните	световен	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	30	amod	_	_	_	C20	P39	_	_
+29	оперни	оперен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	30	amod	_	_	_	C20	P39	_	_
+30	сцени	сцена	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	26	nmod	_	SpaceAfter=No	_	C20	P39	_	_
+31	?	?	PUNCT	punct	_	6	punct	_	_	_	C20	_	_	_
+
+# sent_id = grade12_008_s007
+# text = Или да се тълпят вечер преди самото представление пред касите – без значение колко висока е цената на билетите – с надеждата по щастлива случайност да си осигурят един билет?
+1	Или	или	CCONJ	Cp	_	4	cc	_	_	_	C21:MAIN	_	_	_
+2	да	да	AUX	Tx	_	4	aux	_	_	_	C22:SUB;head=C21;conj=S036:да	_	_	_
+3	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	_	F20:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C22	_	_	_
+4	тълпят	тълпя-се	VERB	Vpiif-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F20	C22	_	_	_
+5	вечер	вечер	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	4	nsubj	_	_	_	C22	P40:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=5;rule=NPI01	_	_
+6	преди	преди	ADP	R	_	8	case	_	_	_	C22	P41:NPD;prep=преди;Definite=Def|Gender=Neut|Number=Sing;head=8;rule=NPD03	_	_
+7	самото	сам	ADJ	Ansd	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_	_	C22	P41	_	_
+8	представление	представление	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	_	_	C22	P41	_	_
+9	пред	пред	ADP	R	_	10	case	_	_	_	C22	P42:NPD;prep=пред;Definite=Def|Gender=Fem|Number=Plur;head=10;rule=NPD01	_	_
+10	касите	каса	NOUN	Ncfpd	Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	_	_	C22	P42	_	_
+11	–	–	PUNCT	punct	_	15	punct	_	_	_	C22	_	_	_
+12	без	без	ADP	R	_	13	case	_	_	_	C23:SUB;head=C22;conj=S026:без_значение_колко	P43:NPI;prep=без;Definite=Ind|Gender=Neut|Number=Sing;head=13;rule=NPI01	_	_
+13	значение	значение	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	15	obl	_	_	_	C23	P43	_	_
+14	колко	колко	ADV	Piq	NumType=Card|PronType=Int	15	advmod	_	_	_	C23	P44:AP;Definite=Ind|Gender=Fem|Number=Sing;head=15;rule=AP03	_	_
+15	висока	висок	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_	_	C23	P44	_	_
+16	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	_	F21:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C23	_	_	_
+17	цената	цена	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	15	nsubj	_	_	_	C23	P45:NPD;Definite=Def|Gender=Fem|Number=Sing;head=17;rule=NPD01	_	_
+18	на	на	ADP	R	_	19	case	_	_	_	C23	P46:NPD;prep=на;Definite=Def|Gender=Masc|Number=Plur;head=19;rule=NPD01	_	_
+19	билетите	билет	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	17	nmod	_	_	_	C23	P46	_	_
+20	–	–	PUNCT	punct	_	22	punct	_	_	_	C23	_	_	_
+21	с	с	ADP	R	_	22	case	_	_	_	C23	P47:NPD;prep=с;Definite=Def|Gender=Fem|Number=Sing;head=22;rule=NPD01	_	_
+22	надеждата	надежда	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	17	nmod	_	_	_	C23	P47	_	_
+23	по	по	ADP	R	_	25	case	_	_	_	C23	P48:NPI;prep=по;Definite=Ind|Gender=Fem|Number=Sing;head=25;rule=NPI02	_	_
+24	щастлива	щастлив	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_	_	C23	P48	_	_
+25	случайност	случайност	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	22	nmod	_	_	_	C23	P48	_	_
+26	да	да	AUX	Tx	_	28	aux	_	_	_	C24:SUB;head=C23;conj=S036:да	_	_	_
+27	си	се	PRON	Ppxtd	Case=Dat|PronType=Prs|Reflex=Yes	28	expl	_	_	F22:Present;Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C24	_	_	_
+28	осигурят	осигуря	VERB	Vpptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	acl	_	_	F22	C24	_	Z9:Pro-drop;Number=Plur|Person=3;rule=S10,R19;ref=Z8	E5
+29	един	един	DET	Pfe-os-mi	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	30	det	_	_	_	C24	P49:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=30;rule=NPI11	_	_
+30	билет	билет	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	28	obj	_	SpaceAfter=No	_	C24	P49	_	_
+31	?	?	PUNCT	punct	_	4	punct	_	_	_	C24	_	_	_
+
+# sent_id = grade12_008_s008
+# text = Операта не понася подражанието на действителността и дребнотемието.
+1	Операта	Опера	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	_	_	C25:MAIN	P50:NPD;Definite=Def|Gender=Fem|Number=Sing;head=1;rule=NPD01	_	_
+2	не	не	PART	Tn	Polarity=Neg	3	advmod	_	_	F23:Present+Neg;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF376	C25	_	_	_
+3	понася	понасям-(се)	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F23	C25	_	_	_
+4	подражанието	подражание	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	3	obj	_	_	_	C25	P51:NPD;Definite=Def|Gender=Neut|Number=Sing;head=4;rule=NPD01	_	_
+5	на	на	ADP	R	_	6	case	_	_	_	C25	P52:NPD;prep=на;Definite=Def|Gender=Fem|Number=Sing;head=6;rule=NPD01	_	_
+6	действителността	действителност	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	_	_	C25	P52	_	E6
+7	и	и	CCONJ	Cp	_	8	cc	_	_	_	C25	_	_	_
+8	дребнотемието	дребнотемие	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	6	conj	_	SpaceAfter=No	_	C25	P53:NPD;Definite=Def|Gender=Neut|Number=Sing;head=8;rule=NPD01	_	_
+9	.	.	PUNCT	punct	_	3	punct	_	_	_	C25	_	_	_
+
+# sent_id = grade12_008_s009
+# text = Действителността в нея е пречупена през вълшебно огледало или е погледната сякаш от друга планета.
+1	Действителността	действителност	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	5	nsubj:pass	_	_	_	C26:MAIN	P54:NPD;Definite=Def|Gender=Fem|Number=Sing;head=1;rule=NPD01	_	E7
+2	в	в	ADP	R	_	3	case	_	_	_	C26	_	_	_
+3	нея	аз	PRON	Ppelas3f	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	nmod	_	_	_	C26	_	A7:Personal;Gender=Fem|Number=Sing|Person=3;rule=R12;ref=grade12_008_s008#6	E6
+4	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux:pass	_	_	F24:Present-Perfect+Pass;Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Present,Perfect|VerbForm=Fin|Voice=Pass;rule=BGF379	C26	_	_	_
+5	пречупена	пречупя-(се)	VERB	Vpptcv--sfi	Aspect=Perf|Definite=Ind|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_	F24	C26	_	_	_
+6	през	през	ADP	R	_	8	case	_	_	_	C26	P55:NPI;prep=през;Definite=Ind|Gender=Neut|Number=Sing;head=8;rule=NPI02	_	_
+7	вълшебно	вълшебен	ADJ	Ansi	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_	_	C26	P55	_	_
+8	огледало	огледало	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	_	_	C26	P55	_	_
+9	или	или	CCONJ	Cp	_	11	cc	_	_	_	C27:SUB;head=C26;conj=S102:или	_	_	_
+10	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_	F25:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C27	_	_	_
+11	погледната	погледна	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	5	conj	_	_	_	C27	P56:NPD;Definite=Def|Gender=Fem|Number=Sing;head=11;rule=NPD01	Z10:Pro-drop;Gender=Fem|Number=Sing|Person=3;rule=S10,R19;ref=grade12_008_s009#1	E7
+12	сякаш	сякаш	ADV	Dd	Degree=Pos	15	advmod	_	_	_	C27	_	_	_
+13	от	от	ADP	R	_	15	case	_	_	_	C27	P57:NPI;prep=от;Definite=Ind|Gender=Fem|Number=Sing;head=15;rule=NPI02	_	_
+14	друга	друг	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_	_	C27	P57	_	_
+15	планета	планета	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No	_	C27	P57	_	_
+16	.	.	PUNCT	punct	_	5	punct	_	_	_	C27	_	_	_
+
+# sent_id = grade12_008_s010
+# text = Затова всичко в операта изглежда преувеличено и приповдигнато, тъй като тя има свойството не толкова да извежда на преден план самия сюжет, колкото да създава неповторима атмосфера.
+1	Затова	затова	ADV	Pds	_	5	advmod	_	_	_	C28:MAIN	_	_	_
+2	всичко	всеки	PRON	Pce-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	5	nsubj	_	_	_	C28	_	_	_
+3	в	в	ADP	R	_	4	case	_	_	_	C28	P58:NPD;prep=в;Definite=Def|Gender=Fem|Number=Sing;head=4;rule=NPD01	_	_
+4	операта	опера	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	5	obl	_	_	_	C28	P58	_	_
+5	изглежда	изглежда	VERB	Vniif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F26:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C28	_	_	_
+6	преувеличено	преувеличено	ADV	Dm	Degree=Pos	5	obj	_	_	_	C28	_	_	_
+7	и	и	CCONJ	Cp	_	8	cc	_	_	_	C28	_	_	_
+8	приповдигнато	приповдигна-(се)	VERB	Vpptcv--sni	Aspect=Perf|Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	6	conj	_	SpaceAfter=No	F27:NVerb+Past_Participle+Pass;Aspect=Perf|Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass;rule=BGF423	C28	_	_	_
+9	,	,	PUNCT	punct	_	13	punct	_	_	_	C28	_	_	_
+10	тъй	така	ADV	Pdm	PronType=Dem	13	mark	_	_	_	C29:SUB;head=C28;conj=S030:тъй_като	_	_	_
+11	като	като	SCONJ	Cs	_	10	fixed	_	_	_	C29	_	_	_
+12	тя	аз	PRON	Ppe-os3f	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_	_	C29	_	A8:Personal;Gender=Fem|Number=Sing|Person=3;rule=R07;ref=Z10	E7
+13	има	имам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_	F28:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C29	_	_	_
+14	свойството	свойство	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	18	nsubj	_	_	_	C29	P59:NPD;Definite=Def|Gender=Neut|Number=Sing;head=14;rule=NPD01	_	E8
+15	не	не	PART	Tn	Polarity=Neg	16	advmod	_	_	F29:Present+Neg;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF376	C30:COORD;coord=C28	_	_	_
+16	толкова	толкова	ADV	Pdq	NumType=Card|PronType=Dem	18	advmod	_	_	_	C30	_	_	_
+17	да	да	AUX	Tx	_	18	aux	_	_	F29	C30	_	_	_
+18	извежда	извеждам-(се)	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	ccomp	_	_	F29	C30	_	_	_
+19	на	на	ADP	R	_	21	case	_	_	_	C30	P60:NPI;prep=на;Definite=Ind|Gender=Masc|Number=Sing;head=21;rule=NPI02	_	_
+20	преден	преден	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_	_	C30	P60	_	_
+21	план	план	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	18	iobj	_	_	_	C30	P60	_	_
+22	самия	сам	ADJ	Amsh	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_	_	C30	P61:NPD;Definite=Def|Gender=Masc|Number=Sing;head=23;rule=NPD03	_	_
+23	сюжет	сюжет	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No	_	C30	P61	_	_
+24	,	,	PUNCT	punct	_	27	punct	_	_	_	C30	_	_	_
+25	колкото	колкото	ADV	Prq	NumType=Card|PronType=Rel	27	advmod	_	_	_	C31:SUB;head=C30;conj=S010:колкото_да	_	_	_
+26	да	да	AUX	Tx	_	27	aux	_	_	_	C31	_	_	_
+27	създава	създавам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	acl	_	_	F30:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C31	_	Z11:Pro-drop;Gender=Neut|Number=Sing|Person=3;rule=S09,R19;ref=grade12_008_s010#14	E8
+28	неповторима	неповторим	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_	_	C31	P62:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=29;rule=NPI02	_	_
+29	атмосфера	атмосфера	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	27	obj	_	SpaceAfter=No	_	C31	P62	_	_
+30	.	.	PUNCT	punct	_	5	punct	_	SpacesAfter=\n	_	C31	_	_	_
+

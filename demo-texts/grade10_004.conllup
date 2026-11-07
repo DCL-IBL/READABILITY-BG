@@ -1,0 +1,319 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC DCL:VERBFORM DCL:CLAUSE DCL:NP DCL:ANAPHORA DCL:COREF
+# newdoc id = grade10_004
+# newpar
+# sent_id = grade10_004_s001
+# text = Макар корените от маниока да са ценен източник на въглехидрати, в България те са екзотичен хранителен продукт, който обикновено се подминава в магазините само защото е непознат.
+1	Макар	макар	ADP	R	_	8	case	_	_	_	C1:MAIN	_	_	_
+2	корените	кореен	ADJ	Vpptcv--p-d	Aspect=Perf|Definite=Def|Degree=Pos|Number=Plur|VerbForm=Part|Voice=Pass	8	nsubj	_	_	F1:NVerb+Past_Participle+Pass;Aspect=Perf|Definite=Def|Degree=Pos|Number=Plur|VerbForm=Part|Voice=Pass;rule=BGF423	C1	_	_	_
+3	от	от	ADP	R	_	4	case	_	_	_	C1	P1:NPI;prep=от;Definite=Ind|Gender=Fem|Number=Sing;head=4;rule=NPI01	_	_
+4	маниока	маниок	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	_	_	C1	P1	_	_
+5	да	да	AUX	Tx	_	8	aux	_	_	_	C2:SUB;head=C1;conj=S036:да	_	_	_
+6	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_	F2:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C2	_	_	_
+7	ценен	ценя	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_	_	C2	P2:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=8;rule=NPI02	_	_
+8	източник	източник	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	18	nmod	_	_	_	C2	P2	_	_
+9	на	на	ADP	R	_	10	case	_	_	_	C2	P3:NPI;prep=на;Definite=Ind|Gender=Masc|Number=Plur;head=10;rule=NPI01	_	_
+10	въглехидрати	въглехидрат	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No	_	C2	P3	_	E1
+11	,	,	PUNCT	punct	_	10	punct	_	_	_	C2	_	_	_
+12	в	в	ADP	R	_	13	case	_	_	_	C1	P4:NPI;prep=в;Definite=Ind|Gender=Fem|Number=Sing;head=13;rule=NPI01	_	_
+13	България	българия	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	8	nmod	_	_	_	C1	P4	_	_
+14	те	аз	PRON	Ppe-op3	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_	_	C1	_	A1:Personal;Number=Plur|Person=3;rule=R08;ref=grade10_004_s001#10	E1
+15	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	_	_	F3:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C1	_	_	_
+16	екзотичен	екзотичен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_	_	C1	P5:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=18;rule=NPI02	_	_
+17	хранителен	хранителен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_	_	C1	P5	_	_
+18	продукт	продукт	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No	_	C1	P5	_	E2
+19	,	,	PUNCT	punct	_	23	punct	_	_	_	C1	_	_	_
+20	който	който	PRON	Pre-os-m	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	23	nsubj	_	_	_	C3:SUB;head=C1;conj=S116:който	_	A2:Relative;Gender=Masc|Number=Sing|Person=3;rule=R01;ref=grade10_004_s001#18	E2
+21	обикновено	обикновено	ADV	Dd	Degree=Pos	23	advmod	_	_	_	C3	_	_	_
+22	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	23	expl	_	_	F4:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C3	_	_	_
+23	подминава	подминавам	VERB	Vpiif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	acl:relcl	_	_	F4	C3	_	_	_
+24	в	в	ADP	R	_	25	case	_	_	_	C3	P6:NPD;prep=в;Definite=Def|Gender=Masc|Number=Plur;head=25;rule=NPD01	_	_
+25	магазините	магазин	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	23	iobj	_	_	_	C3	P6	_	_
+26	само	само	ADV	Dd	Degree=Pos	29	advmod	_	_	_	C3	_	_	_
+27	защото	защото	ADV	Prc	_	29	advmod	_	_	_	C4:SUB;head=C3;conj=S030:защото	_	_	_
+28	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	cop	_	_	F5:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C4	_	_	_
+29	непознат	непознат	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	18	advcl	_	SpaceAfter=No	_	C4	P7:AP;Definite=Ind|Gender=Masc|Number=Sing;head=29;rule=AP01	Z1:Pro-drop;Gender=Masc|Number=Sing|Person=3;rule=S10,R19;ref=A2	E2
+30	.	.	PUNCT	punct	_	18	punct	_	_	_	C4	_	_	_
+
+# sent_id = grade10_004_s002
+# text = Растението вирее само в тропически климат и се отглежда главно в Южна Америка и в Африка, съответно и разходите за транспорт до страната ни са нерентабилни.
+1	Растението	Растение	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	_	_	C5:MAIN	P8:NPD;Definite=Def|Gender=Neut|Number=Sing;head=1;rule=NPD01	_	E3
+2	вирее	вирея	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F6:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C5	_	_	_
+3	само	само	ADV	Dd	Degree=Pos	6	advmod	_	_	_	C5	_	_	_
+4	в	в	ADP	R	_	6	case	_	_	_	C5	P9:NPI;prep=в;Definite=Ind|Gender=Masc|Number=Sing;head=6;rule=NPI02	_	_
+5	тропически	тропически	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_	_	C5	P9	_	_
+6	климат	климат	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	2	iobj	_	_	_	C5	P9	_	_
+7	и	и	CCONJ	Cp	_	9	cc	_	_	_	C6:COORD;coord=C5;conj=S154:и	_	_	_
+8	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	9	expl	_	_	F7:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C6	_	_	_
+9	отглежда	отглеждам-(се)	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_	F7	C6	_	Z2:Pro-drop;Gender=Neut|Number=Sing|Person=3;rule=S10,R19;ref=grade10_004_s002#1	E3
+10	главно	главно	ADV	Dd	Degree=Pos	13	advmod	_	_	_	C6	_	_	_
+11	в	в	ADP	R	_	13	case	_	_	_	C6	P10:NPI;prep=в;Definite=Ind|Gender=Fem|Number=Sing;head=13;rule=NPI02	_	_
+12	Южна	южен	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_	_	C6	P10	_	_
+13	Америка	америка	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	9	obl	_	_	_	C6	P10	_	_
+14	и	и	CCONJ	Cp	_	16	cc	_	_	_	C6	_	_	_
+15	в	в	ADP	R	_	16	case	_	_	_	C6	P11:NPI;prep=в;Definite=Ind|Gender=Fem|Number=Sing;head=16;rule=NPI01	_	_
+16	Африка	африка	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No	_	C6	P11	_	_
+17	,	,	PUNCT	punct	_	27	punct	_	_	_	C6	_	_	_
+18	съответно	съответно	ADV	Dd	Degree=Pos	27	advmod	_	_	_	C6	_	_	_
+19	и	и	CCONJ	Cp	_	20	cc	_	_	_	C6	_	_	_
+20	разходите	разход	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	18	conj	_	_	_	C6	P12:NPD;Definite=Def|Gender=Masc|Number=Plur;head=20;rule=NPD01	_	_
+21	за	за	ADP	R	_	22	case	_	_	_	C6	P13:NPI;prep=за;Definite=Ind|Gender=Masc|Number=Sing;head=22;rule=NPI01	_	_
+22	транспорт	транспорт	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	20	nmod	_	_	_	C6	P13	_	_
+23	до	до	ADP	R	_	24	case	_	_	_	C6	P14:NPD;prep=до;Definite=Def|Gender=Fem|Number=Sing;head=24;rule=NPD01	_	_
+24	страната	страна	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	22	nmod	_	_	_	C6	P14	_	_
+25	ни	наш	PRON	Pszt--1	Person=1|Poss=Yes|PronType=Prs	24	det	_	_	_	C7:COORD;coord=C6;conj=S157:ни	_	A3:Possessive;Number=Plur|Person=1	E4
+26	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	cop	_	_	F8:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C7	_	_	_
+27	нерентабилни	нерентабилен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	9	conj	_	SpaceAfter=No	_	C7	P15:AP;Definite=Ind|Number=Plur;head=27;rule=AP01	Z3:Pro-drop;Number=Plur|Person=3;rule=S10,R19;ref=A1	E1
+28	.	.	PUNCT	punct	_	2	punct	_	_	_	C7	_	_	_
+
+# sent_id = grade10_004_s003
+# text = Ето защо маниоката не се и намира често в търговската мрежа.
+1	Ето	ето	PART	Tv	_	7	mark	_	_	_	C8:MAIN	_	_	_
+2	защо	защо	PRON	Pic	PronType=Int	1	fixed	_	_	_	C8	_	_	_
+3	маниоката	маниока	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	_	_	C8	P16:NPD;Definite=Def|Gender=Fem|Number=Sing;head=3;rule=NPD01	_	_
+4	не	не	PART	Tn	Polarity=Neg	7	advmod	_	_	_	C8	_	_	_
+5	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	7	expl	_	_	F9:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C8	_	_	_
+6	и	и	CCONJ	Cp	_	7	cc	_	_	_	C8	_	_	_
+7	намира	намирам-(се)	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F9	C8	_	_	_
+8	често	често	ADV	Dm	Degree=Pos	11	advmod	_	_	_	C8	_	_	_
+9	в	в	ADP	R	_	11	case	_	_	_	C8	P17:NPD;prep=в;Definite=Def|Gender=Fem|Number=Sing;head=11;rule=NPD03	_	_
+10	търговската	търговски	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_	_	C8	P17	_	_
+11	мрежа	мрежа	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No	_	C8	P17	_	_
+12	.	.	PUNCT	punct	_	7	punct	_	SpacesAfter=\n	_	C8	_	_	_
+
+# sent_id = grade10_004_s004
+# text = Преди да сготвим маниоката, трябва да я обелим.
+1	Преди	преди	ADP	R	_	3	case	_	_	_	C9:SUB;head=C10;conj=S032:преди_да	_	_	_
+2	да	да	AUX	Tx	_	3	aux	_	_	_	C9	_	_	_
+3	сготвим	сготвя-(се)	VERB	Vpptf-r1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_	F10:Present;Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C9	_	Z4:Pro-drop;Number=Plur|Person=1;rule=S08,R05;ref=A3	E4
+4	маниоката	маниока	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No	_	C9	P18:NPD;Definite=Def|Gender=Fem|Number=Sing;head=4;rule=NPD01	_	E5
+5	,	,	PUNCT	punct	_	3	punct	_	_	_	C9	_	_	_
+6	трябва	трябва	VERB	Vniif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F11:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C10:MAIN	_	Z5:Impersonal;Number=Sing|Person=3;rule=S03	_
+7	да	да	AUX	Tx	_	9	aux	_	_	_	C10	_	_	_
+8	я	аз	PRON	Ppetas3f	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_	_	C10	_	A4:Personal;Gender=Fem|Number=Sing|Person=3;rule=R11;ref=grade10_004_s004#4	E5
+9	обелим	обеля-(се)	VERB	Vpptf-r1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	SpaceAfter=No	F12:Present;Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C10	_	Z6:Pro-drop;Number=Plur|Person=1;rule=S08,R05;ref=Z4	E4
+10	.	.	PUNCT	punct	_	6	punct	_	_	_	C10	_	_	_
+
+# sent_id = grade10_004_s005
+# text = Обелената маниока е бяла на цвят, но много бързо се окислява и потъмнява, затова, ако не я готвите веднага, сложете я в съд със студена вода, така че да няма допир до въздуха.
+1	Обелената	Обелеен	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_	C11:MAIN	P19:NPD;Definite=Def|Gender=Fem|Number=Sing;head=2;rule=NPD03	_	_
+2	маниока	маниок	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	4	nsubj	_	_	_	C11	P19	_	E6
+3	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_	F13:Perfect|Aorist+Concl;Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Perfect|VerbForm=Fin|Voice=Act/Aspect=Perf|Evident=Concl|Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Aorist|VerbForm=Fin|Voice=Act;rule=BGF382	C11	_	_	_
+4	бяла	бял	VERB	Vpptcao-sfi	Aspect=Perf|Definite=Ind|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_	F13	C11	_	_	_
+5	на	на	ADP	R	_	6	case	_	_	_	C11	P20:NPI;prep=на;Definite=Ind|Gender=Masc|Number=Sing;head=6;rule=NPI01	_	_
+6	цвят	цвят	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	4	iobj	_	SpaceAfter=No	_	C11	P20	_	_
+7	,	,	PUNCT	punct	_	8	punct	_	_	_	C11	_	_	_
+8	но	но	CCONJ	Cc	_	12	cc	_	_	_	C12:COORD;coord=C11;conj=S174:но	_	_	_
+9	много	много	ADV	Md-pi	Definite=Ind|Degree=Pos|Number=Plur|NumType=Card	10	advmod	_	_	_	C12	_	_	_
+10	бързо	бързо	ADV	Dm	Degree=Pos	12	advmod	_	_	_	C12	_	_	_
+11	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	12	expl	_	_	F14:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C12	_	_	_
+12	окислява	окислявам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_	F14	C12	_	Z7:Pro-drop;Gender=Fem|Number=Sing|Person=3;rule=S10,R19;ref=grade10_004_s005#2	E6
+13	и	и	CCONJ	Cp	_	14	cc	_	_	_	C13:COORD;coord=C12;conj=S154:и	_	_	_
+14	потъмнява	потъмнявам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	SpaceAfter=No	F15:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C13	_	Z8:Pro-drop;Gender=Fem|Number=Sing|Person=3;rule=S10,R19;ref=Z7	E6
+15	,	,	PUNCT	punct	_	24	punct	_	_	_	C13	_	_	_
+16	затова	затова	ADV	Pds	_	24	advmod	_	SpaceAfter=No	_	C13	_	_	_
+17	,	,	PUNCT	punct	_	16	punct	_	_	_	C13	_	_	_
+18	ако	ако	SCONJ	Cs	_	21	mark	_	_	_	C14:SUB;head=C13;conj=S071:ако	_	_	_
+19	не	не	PART	Tn	Polarity=Neg	21	advmod	_	_	F16:Present+Neg;Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Neg|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF376	C14	_	_	_
+20	я	аз	PRON	Ppetas3f	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	obj	_	_	_	C14	_	A5:Personal;Gender=Fem|Number=Sing|Person=3;rule=R11;ref=Z8	E6
+21	готвите	готвя-(се)	VERB	Vpitf-r2p	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	24	advcl	_	_	F16	C14	_	Z9:Pro-drop;Number=Plur|Person=2;rule=S08	E7
+22	веднага	веднага	ADV	Dt	Degree=Pos	21	advmod	_	SpaceAfter=No	_	C14	_	_	_
+23	,	,	PUNCT	punct	_	21	punct	_	_	_	C14	_	_	_
+24	сложете	сложа-(се)	VERB	Vpitf-r2p	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_	F17:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C15:COORD;coord=C13	_	Z10:Pro-drop;Number=Plur|Person=2;rule=S08,R06;ref=Z9	E7
+25	я	аз	PRON	Ppetas3f	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	obj	_	_	_	C15	_	A6:Personal;Gender=Fem|Number=Sing|Person=3;rule=R11;ref=A5	E6
+26	в	в	ADP	R	_	27	case	_	_	_	C15	P21:NPI;prep=в;Definite=Ind|Gender=Masc|Number=Sing;head=27;rule=NPI01	_	_
+27	съд	съд	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	24	iobj	_	_	_	C15	P21	_	_
+28	със	със	ADP	R	_	30	case	_	_	_	C15	P22:NPI;prep=със;Definite=Ind|Gender=Fem|Number=Sing;head=30;rule=NPI02	_	_
+29	студена	студен	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_	_	C15	P22	_	_
+30	вода	вода	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No	_	C15	P22	_	_
+31	,	,	PUNCT	punct	_	35	punct	_	_	_	C15	_	_	_
+32	така	така	ADV	Pdm	PronType=Dem	35	mark	_	_	_	C16:SUB;head=C15;conj=S089:така_че_да	_	_	_
+33	че	че	SCONJ	Cs	_	32	fixed	_	_	_	C16	_	_	_
+34	да	да	AUX	Tx	_	35	aux	_	_	_	C16	_	_	_
+35	няма	нямам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	advcl	_	_	F18:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C16	_	Z11:Impersonal;Number=Sing|Person=3;rule=S02	_
+36	допир	допир	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	35	obj	_	_	_	C16	P23:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=36;rule=NPI01	_	_
+37	до	до	ADP	R	_	38	case	_	_	_	C16	P24:NPD;prep=до;Definite=Def|Gender=Masc|Number=Sing;head=38;rule=NPD01	_	_
+38	въздуха	въздух	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No	_	C16	P24	_	_
+39	.	.	PUNCT	punct	_	4	punct	_	_	_	C16	_	_	_
+
+# sent_id = grade10_004_s006
+# text = Маниоката най-общо се използва като картофите – варена, на пюре, печена, пържена.
+1	Маниоката	Маниока	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	_	_	C17:MAIN	P25:NPD;Definite=Def|Gender=Fem|Number=Sing;head=1;rule=NPD01	_	E8
+2	най-общо	общо	ADV	Dm	Degree=Sup	4	advmod	_	_	_	C17	_	_	_
+3	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	_	F19:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C17	_	_	_
+4	използва	използвам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F19	C17	_	_	_
+5	като	като	ADP	R	_	6	case	_	_	_	C17	P26:NPD;prep=като;Definite=Def|Gender=Fem|Number=Plur;head=6;rule=NPD01	_	_
+6	картофите	картоф	NOUN	Ncfpd	Definite=Def|Gender=Fem|Number=Plur	4	iobj	_	_	_	C17	P26	_	_
+7	–	–	PUNCT	punct	_	8	punct	_	_	_	C17	_	_	_
+8	варена	варен	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No	_	C17	P27:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=8;rule=NPI01	_	_
+9	,	,	PUNCT	punct	_	11	punct	_	_	_	C17	_	_	_
+10	на	на	ADP	R	_	11	case	_	_	_	C17	P28:NPI;prep=на;Definite=Ind|Gender=Neut|Number=Sing;head=11;rule=NPI01	_	_
+11	пюре	пюре	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	8	conj	_	SpaceAfter=No	_	C17	P28	_	_
+12	,	,	PUNCT	punct	_	13	punct	_	_	_	C17	_	_	_
+13	печена	пека	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No	_	C17	P29:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=13;rule=NPI01	_	_
+14	,	,	PUNCT	punct	_	15	punct	_	_	_	C17	_	_	_
+15	пържена	пържа-(се)	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No	_	C17	P30:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=15;rule=NPI01	_	_
+16	.	.	PUNCT	punct	_	4	punct	_	_	_	C17	_	_	_
+
+# sent_id = grade10_004_s007
+# text = И никога сурова, защото съдържа известно количество токсични цианиди, които при термична обработка се разрушават напълно.
+1	И	и	CCONJ	Cp	_	3	cc	_	_	_	C18:MAIN	_	_	_
+2	никога	никога	ADV	Pnt	PronType=Neg	3	advmod	_	_	_	C18	_	_	_
+3	сурова	сурова	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No	_	C18	P31:AP;Definite=Ind|Gender=Fem|Number=Sing;head=3;rule=AP01	_	_
+4	,	,	PUNCT	punct	_	6	punct	_	_	_	C18	_	_	_
+5	защото	защото	ADV	Prc	_	6	advmod	_	_	_	C19:SUB;head=C18;conj=S030:защото	_	_	_
+6	съдържа	съдържам-(се)	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_	F20:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C19	_	Z12:Pro-drop;Gender=Fem|Number=Sing|Person=3;rule=S10,R19;ref=grade10_004_s006#1	E8
+7	известно	известен	ADJ	Ansi	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_	_	C19	P32:NPI;Definite=Ind|Gender=Neut|Number=Sing;head=8;rule=NPI02	_	_
+8	количество	количество	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	6	obj	_	_	_	C19	P32	_	_
+9	токсични	токсичен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	10	amod	_	_	_	C19	P33:NPI;Definite=Ind|Gender=Fem|Number=Plur;head=10;rule=NPI02	_	_
+10	цианиди	цианида	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No	_	C19	P33	_	E9
+11	,	,	PUNCT	punct	_	17	punct	_	_	_	C19	_	_	_
+12	които	който	PRON	Pre-op	Case=Nom|Number=Plur|PronType=Rel	17	nsubj	_	_	_	C20:SUB;head=C19;conj=S116:които	_	A7:Relative;Number=Plur|Person=3;rule=R01;ref=grade10_004_s007#10	E9
+13	при	при	ADP	R	_	15	case	_	_	_	C20	P34:NPI;prep=при;Definite=Ind|Gender=Fem|Number=Sing;head=15;rule=NPI02	_	_
+14	термична	термичен	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_	_	C20	P34	_	_
+15	обработка	обработка	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	17	obl	_	_	_	C20	P34	_	_
+16	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	17	expl	_	_	F21:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C20	_	_	_
+17	разрушават	разрушавам	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_	F21	C20	_	_	_
+18	напълно	напълно	ADV	Dq	Degree=Pos	17	advmod	_	SpaceAfter=No	_	C20	_	_	_
+19	.	.	PUNCT	punct	_	3	punct	_	SpacesAfter=\n	_	C20	_	_	_
+
+# sent_id = grade10_004_s008
+# text = Родом от Южна Америка, маниоката е важна част от кухнята на целия континент и от нея се приготвят различни видове хляб.
+1	Родом	Родом	VERB	Vpiif-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F22:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C21:MAIN	_	Z13:Pro-drop;Number=Sing|Person=1;rule=S08	_
+2	от	от	ADP	R	_	4	case	_	_	_	C21	P35:NPI;prep=от;Definite=Ind|Gender=Fem|Number=Sing;head=4;rule=NPI02	_	_
+3	Южна	южен	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	_	C21	P35	_	_
+4	Америка	америка	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No	_	C21	P35	_	_
+5	,	,	PUNCT	punct	_	6	punct	_	_	_	C21	_	_	_
+6	маниоката	маниока	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	_	_	C22:COORD;coord=C21	P36:NPD;Definite=Def|Gender=Fem|Number=Sing;head=6;rule=NPD01	_	_
+7	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_	F23:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C22	_	_	_
+8	важна	важен	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_	_	C22	P37:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=9;rule=NPI02	_	_
+9	част	част	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	1	obj	_	_	_	C22	P37	_	_
+10	от	от	ADP	R	_	11	case	_	_	_	C22	P38:NPD;prep=от;Definite=Def|Gender=Fem|Number=Sing;head=11;rule=NPD01	_	_
+11	кухнята	кухня	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	_	_	C22	P38	_	E10
+12	на	на	ADP	R	_	14	case	_	_	_	C22	P39:NPD;prep=на;Definite=Def|Gender=Masc|Number=Sing;head=14;rule=NPD03	_	_
+13	целия	цял	ADJ	Amsh	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_	_	C22	P39	_	_
+14	континент	континент	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	_	_	C22	P39	_	_
+15	и	и	CCONJ	Cp	_	19	cc	_	_	_	C23:COORD;coord=C22;conj=S154:и	_	_	_
+16	от	от	ADP	R	_	17	case	_	_	_	C23	_	_	_
+17	нея	аз	PRON	Ppelas3f	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obl	_	_	_	C23	_	A8:Personal;Gender=Fem|Number=Sing|Person=3;rule=R11;ref=grade10_004_s008#11	E10
+18	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	19	expl	_	_	F24:Present;Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C23	_	_	_
+19	приготвят	приготвя-(се)	VERB	Vpptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_	F24	C23	_	_	_
+20	различни	различен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	21	amod	_	_	_	C23	P40:NPI;Definite=Ind|Gender=Masc|Number=Plur;head=21;rule=NPI02	_	_
+21	видове	вид	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	19	nsubj	_	_	_	C23	P40	_	_
+22	хляб	хляб	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No	_	C23	P41:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=22;rule=NPI01	_	_
+23	.	.	PUNCT	punct	_	1	punct	_	_	_	C23	_	_	_
+
+# sent_id = grade10_004_s009
+# text = Пържената маниока е почти толкова популярна гарнитура, колкото пържените зелени банани.
+1	Пържената	Пържеен	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_	C24:MAIN	P42:NPD;Definite=Def|Gender=Fem|Number=Sing;head=2;rule=NPD03	_	_
+2	маниока	маниок	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	7	nsubj	_	_	_	C24	P42	_	E11
+3	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_	F25:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C24	_	_	_
+4	почти	почти	ADV	Dq	Degree=Pos	5	advmod	_	_	_	C24	_	_	_
+5	толкова	толкова	ADV	Pdq	NumType=Card|PronType=Dem	6	advmod	_	_	_	C24	P43:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=7;rule=NPI04	_	_
+6	популярна	популярен	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_	_	C24	P43	_	_
+7	гарнитура	гарнитура	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No	_	C24	P43	_	_
+8	,	,	PUNCT	punct	_	12	punct	_	_	_	C24	_	_	_
+9	колкото	колкото	ADV	Prq	NumType=Card|PronType=Rel	10	advmod	_	_	_	C24	_	_	_
+10	пържените	пържеен	ADJ	Vpptcv--p-d	Aspect=Perf|Definite=Def|Degree=Pos|Number=Plur|VerbForm=Part|Voice=Pass	12	amod	_	_	F26:NVerb+Past_Participle+Pass;Aspect=Perf|Definite=Def|Degree=Pos|Number=Plur|VerbForm=Part|Voice=Pass;rule=BGF423	C24	_	_	_
+11	зелени	зелен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	12	amod	_	_	_	C24	P44:NPI;Definite=Ind|Gender=Masc|Number=Plur;head=12;rule=NPI02	_	_
+12	банани	бананин	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No	_	C24	P44	_	_
+13	.	.	PUNCT	punct	_	7	punct	_	_	_	C24	_	_	_
+
+# sent_id = grade10_004_s010
+# text = Азиатците обикновено гледат на маниоката като на по-непълноценна алтернатива на ориза, но пък майсторски са развили превръщането ѝ в десерти.
+1	Азиатците	Азиатк	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	3	nsubj	_	_	_	C25:MAIN	P45:NPD;Definite=Def|Gender=Masc|Number=Plur;head=1;rule=NPD01	_	_
+2	обикновено	обикновено	ADV	Dd	Degree=Pos	3	advmod	_	_	_	C25	_	_	_
+3	гледат	гледам	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F27:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C25	_	_	_
+4	на	на	ADP	R	_	5	case	_	_	_	C25	P46:NPD;prep=на;Definite=Def|Gender=Fem|Number=Sing;head=5;rule=NPD01	_	_
+5	маниоката	маниока	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	3	iobj	_	_	_	C25	P46	_	_
+6	като	като	ADP	R	_	9	case	_	_	_	C25	_	_	_
+7	на	на	ADP	R	_	9	case	_	_	_	C25	P47:NPI;prep=на;Definite=Ind|Gender=Fem|Number=Sing;head=9;rule=NPI02	_	_
+8	по-непълноценна	непълноценен	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_	_	C25	P47	_	_
+9	алтернатива	алтернатива	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	5	nmod	_	_	_	C25	P47	_	_
+10	на	на	ADP	R	_	11	case	_	_	_	C25	P48:NPD;prep=на;Definite=Def|Gender=Masc|Number=Sing;head=11;rule=NPD01	_	_
+11	ориза	ориз	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No	_	C25	P48	_	_
+12	,	,	PUNCT	punct	_	13	punct	_	_	_	C25	_	_	_
+13	но	но	CCONJ	Cc	_	17	cc	_	_	_	C26:SUB;head=C25;conj=S020:но_пък	_	_	_
+14	пък	пък	PART	Te	_	17	discourse	_	_	_	C26	_	_	_
+15	майсторски	майсторски	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	17	nsubj	_	_	_	C26	P49:NPI;Definite=Ind|Gender=Fem|Number=Plur;head=15;rule=NPI01	_	_
+16	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	_	F28:Perfect|Aorist+Concl;Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Perfect|VerbForm=Fin|Voice=Act/Aspect=Perf|Evident=Concl|Mood=Ind|Number=Plur|Person=3|Tense=Aorist|VerbForm=Fin|Voice=Act;rule=BGF382	C26	_	_	_
+17	развили	развия-(се)	VERB	Vpptcao-p-i	Aspect=Perf|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	3	conj	_	_	F28	C26	_	_	_
+18	превръщането	превръщане	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	17	obj	_	_	_	C26	P50:NPD;Definite=Def|Gender=Neut|Number=Sing;head=18;rule=NPD01	_	_
+19	ѝ	ѝ	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	18	nmod	_	_	_	C26	P51:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=19;rule=NPI01	A9:Possessive;Gender=Fem|Number=Sing|Person=3;rule=R15;ref=grade10_004_s009#2	E11
+20	в	в	ADP	R	_	21	case	_	_	_	C26	P52:NPI;prep=в;Definite=Ind|Gender=Fem|Number=Plur;head=21;rule=NPI01	_	_
+21	десерти	десерта	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No	_	C26	P52	_	_
+22	.	.	PUNCT	punct	_	3	punct	_	SpacesAfter=\n	_	C26	_	_	_
+
+# sent_id = grade10_004_s011
+# text = Един от най-ценените продукти, добиван от корените, е нишестето, по-известно като тапиока.
+1	Един	един	NUM	Mcmsi	Definite=Ind|Gender=Masc|Number=Sing|NumType=Card	11	nsubj	_	_	_	C27:MAIN	_	_	_
+2	от	от	ADP	R	_	4	case	_	_	_	C27	P53:NPD;prep=от;Definite=Def|Gender=Masc|Number=Plur;head=4;rule=NPD03	_	_
+3	най-ценените	ценен	ADJ	A-pd	Definite=Def|Degree=Sup|Number=Plur	4	amod	_	_	_	C27	P53	_	_
+4	продукти	продукт	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No	_	C27	P53	_	_
+5	,	,	PUNCT	punct	_	6	punct	_	_	_	C27	_	_	_
+6	добиван	добивам	ADJ	Vpptcv--smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	amod	_	_	F29:NVerb+Past_Participle+Pass;Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass;rule=BGF423	C27	_	_	_
+7	от	от	ADP	R	_	8	case	_	_	_	C27	P54:NPD;prep=от;Definite=Def|Gender=Fem|Number=Plur;head=8;rule=NPD01	_	_
+8	корените	корен	NOUN	Ncfpd	Definite=Def|Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No	_	C27	P54	_	_
+9	,	,	PUNCT	punct	_	6	punct	_	_	_	C27	_	_	_
+10	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_	F30:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C27	_	_	_
+11	нишестето	нишесте	ADJ	Ansd	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No	_	C27	P55:AP;Definite=Def|Gender=Neut|Number=Sing;head=11;rule=AP02	_	_
+12	,	,	PUNCT	punct	_	13	punct	_	_	_	C27	_	_	_
+13	по-известно	известен	ADV	Dm	Degree=Cmp	11	advmod	_	_	_	C27	_	_	_
+14	като	като	ADP	R	_	15	case	_	_	_	C27	P56:NPI;prep=като;Definite=Ind|Gender=Fem|Number=Sing;head=15;rule=NPI01	_	_
+15	тапиока	тапиок	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No	_	C27	P56	_	_
+16	.	.	PUNCT	punct	_	11	punct	_	_	_	C27	_	_	_
+
+# sent_id = grade10_004_s012
+# text = Тапиоката е много калоричен продукт и задоволява 1/3 от хранителните нужди на африканското население, т.е. на около 500 милиона души.
+1	Тапиоката	Тапиока	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	_	_	C28:MAIN	P57:NPD;Definite=Def|Gender=Fem|Number=Sing;head=1;rule=NPD01	_	E12
+2	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_	F31:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C28	_	_	_
+3	много	много	ADV	Md-pi	Definite=Ind|Degree=Pos|Number=Plur|NumType=Card	4	advmod	_	_	_	C28	P58:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=5;rule=NPI04	_	_
+4	калоричен	калоричен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_	C28	P58	_	_
+5	продукт	продукт	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_	_	C28	P58	_	_
+6	и	и	CCONJ	Cp	_	7	cc	_	_	_	C29:COORD;coord=C28;conj=S154:и	_	_	_
+7	задоволява	задоволявам-(се)	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_	F32:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C29	_	Z14:Pro-drop;Gender=Fem|Number=Sing|Person=3;rule=S10,R19;ref=grade10_004_s012#1	E12
+8	1/3	1/3	ADJ	Mofsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	7	obj	_	_	_	C29	_	_	_
+9	от	от	ADP	R	_	11	case	_	_	_	C29	P59:NPD;prep=от;Definite=Def|Gender=Fem|Number=Plur;head=11;rule=NPD03	_	_
+10	хранителните	хранителен	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	11	amod	_	_	_	C29	P59	_	_
+11	нужди	нужда	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	8	obl	_	_	_	C29	P59	_	_
+12	на	на	ADP	R	_	14	case	_	_	_	C29	P60:NPD;prep=на;Definite=Def|Gender=Neut|Number=Sing;head=14;rule=NPD03	_	_
+13	африканското	африкански	ADJ	Ansd	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_	_	C29	P60	_	_
+14	население	население	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No	_	C29	P60	_	_
+15	,	,	PUNCT	punct	_	16	punct	_	_	_	C29	_	_	_
+16	т.е.	т.е.	CCONJ	Cc	_	20	cc	_	_	_	C29	_	_	_
+17	на	на	ADP	R	_	20	case	_	_	_	C29	_	_	_
+18	около	около	ADP	R	_	19	advmod	_	_	_	C29	P61:NPI;prep=около;Definite=Ind|Gender=Masc|Number=Count;head=20;rule=NPI03	_	_
+19	500	петстотин	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	20	nmod	_	_	_	C29	P61	_	_
+20	милиона	милион	NOUN	Ncmt	Gender=Masc|Number=Count	5	conj	_	_	_	C29	P61	_	_
+21	души	души	NOUN	Nc-li	Definite=Ind|Number=Ptan	20	nmod	_	SpaceAfter=No	_	C29	P62:NPI;Definite=Ind|Number=Ptan;head=21;rule=NPI01	_	_
+22	.	.	PUNCT	punct	_	5	punct	_	_	_	C29	_	_	_
+
+# sent_id = grade10_004_s013
+# text = Във Великобритания пудингът от тапиока е един от най-ненавижданите училищни десерти и често е наричан „жабешки яйца“ заради образуването на полупрозрачни нишестени сфери след варенето.
+1	Във	във	ADP	R	_	3	case	_	_	_	C30:MAIN	_	_	_
+2	Великобритания	Великобритам	ADJ	Vpptcv--smh	Aspect=Perf|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	amod	_	_	F33:NVerb+Past_Participle+Pass;Aspect=Perf|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass;rule=BGF423	C30	_	_	_
+3	пудингът	пудинг	NOUN	Ncmsf	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	_	_	C30	P63:NPD;Definite=Def|Gender=Masc|Number=Sing;head=3;rule=NPD01	_	_
+4	от	от	ADP	R	_	5	case	_	_	_	C30	P64:NPI;prep=от;Definite=Ind|Gender=Fem|Number=Sing;head=5;rule=NPI01	_	_
+5	тапиока	тапиок	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	3	nmod	_	_	_	C30	P64	_	_
+6	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_	F34:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C30	_	_	_
+7	един	един	NUM	Mcmsi	Definite=Ind|Gender=Masc|Number=Sing|NumType=Card	0	root	_	_	_	C30	_	_	_
+8	от	от	ADP	R	_	11	case	_	_	_	C30	P65:NPD;prep=от;Definite=Def|Gender=Masc|Number=Plur;head=11;rule=NPD03	_	_
+9	най-ненавижданите	ненавиждам	ADJ	A-pd	Definite=Def|Degree=Sup|Number=Plur	11	amod	_	_	_	C30	P65	_	_
+10	училищни	училищен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	11	amod	_	_	_	C30	P65	_	_
+11	десерти	десерта	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	7	nmod	_	_	_	C30	P65	_	_
+12	и	и	CCONJ	Cp	_	15	cc	_	_	_	C31:COORD;coord=C30;conj=S154:и	_	_	_
+13	често	често	ADV	Dm	Degree=Pos	15	advmod	_	_	_	C31	_	_	_
+14	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux:pass	_	_	F35:Present-Perfect+Pass;Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Present,Perfect|VerbForm=Fin|Voice=Pass;rule=BGF379	C31	_	_	_
+15	наричан	наричам-(се)	VERB	Vpptcv--smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	7	conj	_	_	F35	C31	_	_	_
+16	„	„	PUNCT	punct	_	18	punct	_	SpaceAfter=No	_	C31	_	_	_
+17	жабешки	жабешки	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_	_	C31	P66:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=18;rule=NPI02	_	_
+18	яйца“	яйца“	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	15	nsubj:pass	_	_	_	C31	P66	_	_
+19	заради	заради	ADP	R	_	20	case	_	_	_	C31	P67:NPD;prep=заради;Definite=Def|Gender=Neut|Number=Sing;head=20;rule=NPD01	_	_
+20	образуването	образуване	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	15	obl	_	_	_	C31	P67	_	_
+21	на	на	ADP	R	_	24	case	_	_	_	C31	P68:NPI;prep=на;Definite=Ind|Gender=Fem|Number=Plur;head=24;rule=NPI02	_	_
+22	полупрозрачни	полупрозрачен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	24	amod	_	_	_	C31	P68	_	_
+23	нишестени	нишестя	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	24	amod	_	_	_	C31	P68	_	_
+24	сфери	сфера	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	20	nmod	_	_	_	C31	P68	_	_
+25	след	след	ADP	R	_	26	case	_	_	_	C31	P69:NPD;prep=след;Definite=Def|Gender=Neut|Number=Sing;head=26;rule=NPD01	_	_
+26	варенето	варене	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No	_	C31	P69	_	_
+27	.	.	PUNCT	punct	_	7	punct	_	SpacesAfter=\n	_	C31	_	_	_
+

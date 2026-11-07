@@ -1,0 +1,407 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC DCL:VERBFORM DCL:CLAUSE DCL:NP DCL:ANAPHORA DCL:COREF
+# newdoc id = grade04_018
+# newpar
+# sent_id = grade04_018_s001
+# text = Ако някой те попита от какво се прави хартията, как би отговорил?
+1	Ако	ако	SCONJ	Cs	_	8	mark	_	_	_	C1:SUB;conj=S071:ако	_	_	_
+2	някой	някой	PRON	Pfe-os-m	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	8	nsubj	_	_	_	C1	_	_	_
+3	те	аз	PRON	Ppetas2	Case=Acc|Number=Sing|Person=2|PronType=Prs	8	obj	_	_	_	C1	_	A1:Personal;Number=Sing|Person=2	E1
+4	попита	попитам	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	nsubj	_	_	F1:Aorist;Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Aorist|VerbForm=Fin|Voice=Act;rule=BGF418	C1	_	Z1:Pro-drop;Gender=Fem|Number=Sing|Person=3;rule=S10,R19;ref=grade04_018_s001#9	E2
+5	от	от	ADP	R	_	6	case	_	_	_	C1	_	_	_
+6	какво	какъв	DET	Pia--s-n	Gender=Neut|Number=Sing|PronType=Int	4	iobj	_	_	_	C2:SUB;head=C1;conj=S118:какво	_	_	_
+7	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	8	expl	_	_	F2:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C2	_	_	_
+8	прави	правя-(се)	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	_	F2	C2	_	_	_
+9	хартията	хартия	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	8	nsubj:pass	_	SpaceAfter=No	_	C2	P1:NPD;Definite=Def|Gender=Fem|Number=Sing;head=9;rule=NPD01	_	E2
+10	,	,	PUNCT	punct	_	8	punct	_	_	_	C2	_	_	_
+11	как	как	ADV	Pim	PronType=Int	13	advmod	_	_	_	C3:SUB;conj=S122:как	_	_	_
+12	би	съм	AUX	Vxitu-o3s	Aspect=Imp|Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_	F3:Conditional;Aspect=Perf|Gender=Masc|Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act;rule=BGF372	C3	_	_	_
+13	отговорил	отговоря	VERB	Vpptcao-smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No	F3	C3	_	Z2:Pro-drop;Gender=Masc|Number=Sing|Person=3;rule=S10	_
+14	?	?	PUNCT	punct	_	13	punct	_	_	_	C3	_	_	_
+
+# sent_id = grade04_018_s002
+# text = От дърво, разбира се!
+1	От	от	ADP	R	_	2	case	_	_	_	C4:MAIN	P2:NPI;prep=От;Definite=Ind|Gender=Neut|Number=Sing;head=2;rule=NPI01	_	_
+2	дърво	дърво	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No	_	C4	P2	_	_
+3	,	,	PUNCT	punct	_	4	punct	_	_	_	C4	_	_	_
+4	разбира	разбирам-(се)	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F4:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C4	_	Z3:Impersonal;Number=Sing|Person=3;rule=S05	_
+5	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	SpaceAfter=No	F4	C4	_	_	_
+6	!	!	PUNCT	punct	_	4	punct	_	_	_	C4	_	_	_
+
+# sent_id = grade04_018_s003
+# text = И ще бъдеш напълно прав, защото обикновената хартия, която използваме, се произвежда именно от дървесни влакна.
+1	И	и	CCONJ	Cp	_	5	cc	_	_	_	C5:MAIN	_	_	_
+2	ще	ще	AUX	Tx	_	5	aux	_	_	F5:Future;Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Future|VerbForm=Fin|Voice=Act;rule=BGF391	C5	_	_	_
+3	бъдеш	бъда	AUX	Vyptf-r2s	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_	F5	C5	_	_	_
+4	напълно	напълно	ADV	Dq	Degree=Pos	5	advmod	_	_	_	C5	_	_	_
+5	прав	прав	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No	_	C5	P3:AP;Definite=Ind|Gender=Masc|Number=Sing;head=5;rule=AP01	Z4:Pro-drop;Gender=Masc|Number=Sing|Person=2;rule=S08,R06;ref=A1	E1
+6	,	,	PUNCT	punct	_	15	punct	_	_	_	C5	_	_	_
+7	защото	защото	ADV	Prc	_	15	advmod	_	_	_	C5	_	_	_
+8	обикновената	обикновен	ADJ	Vpptcv--sfi	Aspect=Perf|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	9	amod	_	_	F6:NVerb+Past_Participle+Pass;Aspect=Perf|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass;rule=BGF423	C5	_	_	_
+9	хартия	хартия	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	15	nsubj:pass	_	SpaceAfter=No	_	C5	P4:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=9;rule=NPI01	_	E3
+10	,	,	PUNCT	punct	_	12	punct	_	_	_	C5	_	_	_
+11	която	който	PRON	Pre-os-f	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	12	nsubj	_	_	_	C6:SUB;head=C5;conj=S116:която	_	A2:Relative;Gender=Fem|Number=Sing|Person=3;rule=R01;ref=grade04_018_s003#9	E3
+12	използваме	използвам	VERB	Vpitf-r1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	SpaceAfter=No	F7:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C6	_	_	_
+13	,	,	PUNCT	punct	_	9	punct	_	_	_	C6	_	_	_
+14	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	15	expl	_	_	F8:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C7:COORD;coord=C5	_	_	_
+15	произвежда	произвеждам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_	F8	C7	_	_	_
+16	именно	именно	ADV	Dd	Degree=Pos	15	advmod	_	_	_	C7	_	_	_
+17	от	от	ADP	R	_	19	case	_	_	_	C7	P5:NPI;prep=от;Definite=Ind|Gender=Neut|Number=Plur;head=19;rule=NPI02	_	_
+18	дървесни	дървесен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	19	amod	_	_	_	C7	P5	_	_
+19	влакна	влакно	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	15	iobj	_	SpaceAfter=No	_	C7	P5	_	_
+20	.	.	PUNCT	punct	_	5	punct	_	_	_	C7	_	_	_
+
+# sent_id = grade04_018_s004
+# text = Всичко започва от отсеченото дърво, което се изпраща във фабриката.
+1	Всичко	всеки	PRON	Pce-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	2	nsubj	_	_	_	C8:MAIN	_	_	_
+2	започва	започвам-(се)	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F9:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C8	_	_	_
+3	от	от	ADP	R	_	5	case	_	_	_	C8	P6:NPD;prep=от;Definite=Def|Gender=Neut|Number=Sing;head=5;rule=NPD03	_	_
+4	отсеченото	отсечеен	ADJ	Ansd	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_	_	C8	P6	_	_
+5	дърво	дърво	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No	_	C8	P6	_	E4
+6	,	,	PUNCT	punct	_	9	punct	_	_	_	C8	_	_	_
+7	което	който	PRON	Pre-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	9	nsubj	_	_	_	C9:SUB;head=C8;conj=S116:което	_	A3:Relative;Gender=Neut|Number=Sing|Person=3;rule=R01;ref=grade04_018_s004#5	E4
+8	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	9	expl	_	_	F10:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C9	_	_	_
+9	изпраща	изпращам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_	F10	C9	_	_	_
+10	във	във	ADP	R	_	11	case	_	_	_	C9	P7:NPD;prep=във;Definite=Def|Gender=Fem|Number=Sing;head=11;rule=NPD01	_	_
+11	фабриката	фабрика	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	9	iobj	_	SpaceAfter=No	_	C9	P7	_	_
+12	.	.	PUNCT	punct	_	2	punct	_	_	_	C9	_	_	_
+
+# sent_id = grade04_018_s005
+# text = Там след преработка се превръща в малки дървесни парченца.
+1	Там	там	ADV	Pdl	PronType=Dem	5	advmod	_	_	_	C10:MAIN	_	_	_
+2	след	след	ADP	R	_	3	case	_	_	_	C10	P8:NPI;prep=след;Definite=Ind|Gender=Fem|Number=Sing;head=3;rule=NPI01	_	_
+3	преработка	преработка	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	5	obl	_	_	_	C10	P8	_	_
+4	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	_	F11:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C10	_	_	_
+5	превръща	превръщам-(се)	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F11	C10	_	Z5:Pro-drop;Gender=Neut|Number=Sing|Person=3;rule=S10,R19;ref=A3	E4
+6	в	в	ADP	R	_	9	case	_	_	_	C10	P9:NPI;prep=в;Definite=Ind|Gender=Neut|Number=Plur;head=9;rule=NPI02	_	_
+7	малки	малък	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	9	amod	_	_	_	C10	P9	_	_
+8	дървесни	дървесен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	9	amod	_	_	_	C10	P9	_	_
+9	парченца	парченца	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	5	iobj	_	SpaceAfter=No	_	C10	P9	_	E5
+10	.	.	PUNCT	punct	_	5	punct	_	_	_	C10	_	_	_
+
+# sent_id = grade04_018_s006
+# text = Към тях се добавя вода и се получава каша.
+1	Към	към	ADP	R	_	2	case	_	_	_	C11:MAIN	_	_	_
+2	тях	аз	PRON	Ppelap3	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	iobj	_	_	_	C11	_	A4:Personal;Number=Plur|Person=3;rule=R12;ref=grade04_018_s005#9	E5
+3	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	_	F12:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C11	_	_	_
+4	добавя	добавя	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F12	C11	_	_	_
+5	вода	вода	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	4	nsubj	_	_	_	C11	P10:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=5;rule=NPI01	_	_
+6	и	и	CCONJ	Cp	_	8	cc	_	_	_	C12:COORD;coord=C11;conj=S154:и	_	_	_
+7	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	8	expl	_	_	F13:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C12	_	_	_
+8	получава	получавам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_	F13	C12	_	_	_
+9	каша	каша	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	8	nsubj:pass	_	SpaceAfter=No	_	C12	P11:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=9;rule=NPI01	_	_
+10	.	.	PUNCT	punct	_	4	punct	_	_	_	C12	_	_	_
+
+# sent_id = grade04_018_s007
+# text = Тази смес се разстила и когато влакната изсъхнат, те се превръщат в лист хартия.
+1	Тази	този	DET	Pde-os-f	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_	_	C13:MAIN	_	_	_
+2	смес	смес	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	_	_	C13	P12:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=2;rule=NPI01	_	_
+3	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	_	F14:Aorist+Ren|DVerb+Past_Participle_Aorist;Aspect=Perf|Evident=Ren|Gender=Fem|Mood=Ind|Number=Sing|Tense=Aorist|VerbForm=Fin|Voice=Act/Aspect=Perf|Definite=Ind|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act;rule=BGF420	C13	_	_	_
+4	разстила	разстя-се	VERB	Vpptcao-sfi	Aspect=Perf|Definite=Ind|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_	F14	C13	_	_	_
+5	и	и	CCONJ	Cp	_	12	cc	_	_	_	C13	_	_	_
+6	когато	когато	ADV	Prt	PronType=Rel	8	advmod	_	_	_	C14:SUB;head=C13;conj=S042:когато	_	_	_
+7	влакната	влакна	ADJ	Vpptcv--sfi	Aspect=Perf|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	8	obj	_	_	F15:NVerb+Past_Participle+Pass;Aspect=Perf|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass;rule=BGF423	C14	_	_	_
+8	изсъхнат	изсъхна	VERB	Vpptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	SpaceAfter=No	F16:Present;Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C14	_	Z6:Pro-drop;Number=Plur|Person=3;rule=S10,R19;ref=A5	E6
+9	,	,	PUNCT	punct	_	8	punct	_	_	_	C14	_	_	_
+10	те	аз	PRON	Ppe-op3	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_	_	C15:COORD;coord=C13	_	A5:Personal;Number=Plur|Person=3;rule=R08;ref=Z6	E6
+11	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	12	expl	_	_	F17:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C15	_	_	_
+12	превръщат	превръщам-(се)	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_	F17	C15	_	_	_
+13	в	в	ADP	R	_	14	case	_	_	_	C15	P13:NPI;prep=в;Definite=Ind|Gender=Masc|Number=Sing;head=14;rule=NPI01b	_	_
+14	лист	лист	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	12	iobj	_	_	_	C15	P13	_	_
+15	хартия	хартия	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No	_	C15	P13	_	_
+16	.	.	PUNCT	punct	_	4	punct	_	_	_	C15	_	_	_
+
+# sent_id = grade04_018_s008
+# text = И така хартията се изработва от близо 2000 години.
+1	И	и	CCONJ	Cp	_	5	cc	_	_	_	C16:MAIN	_	_	_
+2	така	така	ADV	Pdm	PronType=Dem	5	advmod	_	_	_	C16	_	_	_
+3	хартията	хартия	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	5	nsubj:pass	_	_	_	C16	P14:NPD;Definite=Def|Gender=Fem|Number=Sing;head=3;rule=NPD01	_	_
+4	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	_	F18:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C16	_	_	_
+5	изработва	изработвам-(се)	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F18	C16	_	_	_
+6	от	от	ADP	R	_	9	case	_	_	_	C16	_	_	_
+7	близо	близо	ADV	Dl	Degree=Pos	8	advmod	_	_	_	C16	_	_	_
+8	2000	2000	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	9	nummod	_	_	_	C16	P15:NPI;Definite=Ind|Gender=Fem|Number=Plur;head=9;rule=NPI03	_	_
+9	години	година	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	5	iobj	_	SpaceAfter=No	_	C16	P15	_	_
+10	.	.	PUNCT	punct	_	5	punct	_	_	_	C16	_	_	_
+
+# sent_id = grade04_018_s009
+# text = Днес обаче хартия се произвежда и от... камък.
+1	Днес	днес	ADV	Dt	Degree=Pos	5	advmod	_	_	_	C17:MAIN	_	_	_
+2	обаче	обаче	ADV	Dd	Degree=Pos	5	advmod	_	_	_	C17	_	_	_
+3	хартия	хартия	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	5	nsubj	_	_	_	C17	P16:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=3;rule=NPI01	_	_
+4	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	_	F19:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C17	_	_	_
+5	произвежда	произвеждам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F19	C17	_	_	_
+6	и	и	CCONJ	Cp	_	9	cc	_	_	_	C17	_	_	_
+7	от	от	ADP	R	_	9	case	_	SpaceAfter=No	_	C17	_	_	_
+8	...	...	PUNCT	punct	_	9	punct	_	_	_	C17	_	_	_
+9	камък	камък	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	5	iobj	_	SpaceAfter=No	_	C17	P17:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=9;rule=NPI01	_	_
+10	.	.	PUNCT	punct	_	5	punct	_	_	_	C17	_	_	_
+
+# sent_id = grade04_018_s010
+# text = „От камък?
+1	„	„	PUNCT	punct	_	3	punct	_	SpaceAfter=No	_	C18:MAIN	_	_	_
+2	От	от	ADP	R	_	3	case	_	_	_	C18	P18:NPI;prep=От;Definite=Ind|Gender=Masc|Number=Sing;head=3;rule=NPI01	_	_
+3	камък	камък	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No	_	C18	P18	_	_
+4	?	?	PUNCT	punct	_	3	punct	_	SpaceAfter=No	_	C18	_	_	_
+
+# sent_id = grade04_018_s011
+# text = !“ – ще възкликнеш.
+1	!“	!“	PUNCT	punct	_	4	punct	_	_	_	C19:MAIN	_	_	_
+2	–	–	PUNCT	punct	_	4	punct	_	_	_	C19	_	_	_
+3	ще	ще	AUX	Tx	_	4	aux	_	_	F20:Future;Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Future|VerbForm=Fin|Voice=Act;rule=BGF391	C19	_	_	_
+4	възкликнеш	възкликна	VERB	Vpptf-r2s	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No	F20	C19	_	Z7:Pro-drop;Gender=Masc|Number=Sing|Person=2;rule=S08,R06;ref=Z4	E1
+5	.	.	PUNCT	punct	_	4	punct	_	_	_	C19	_	_	_
+
+# sent_id = grade04_018_s012
+# text = Да, вече и от камък.
+1	Да	да	INTJ	Ta	_	6	discourse	_	SpaceAfter=No	_	C20:MAIN	_	_	_
+2	,	,	PUNCT	punct	_	1	punct	_	_	_	C20	_	_	_
+3	вече	вече	ADV	Dt	Degree=Pos	6	advmod	_	_	_	C20	_	_	_
+4	и	и	CCONJ	Cp	_	6	cc	_	_	_	C20	_	_	_
+5	от	от	ADP	R	_	6	case	_	_	_	C20	P19:NPI;prep=от;Definite=Ind|Gender=Masc|Number=Sing;head=6;rule=NPI01	_	_
+6	камък	камък	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No	_	C20	P19	_	_
+7	.	.	PUNCT	punct	_	6	punct	_	_	_	C20	_	_	_
+
+# sent_id = grade04_018_s013
+# text = Преди около 30 години след много усилия китайските учени първи открили как да произвеждат хартия от камък.
+1	Преди	преди	ADP	R	_	4	case	_	_	_	C21:MAIN	_	_	_
+2	около	около	ADP	R	_	3	advmod	_	_	_	C21	P20:NPI;prep=около;Definite=Ind|Gender=Fem|Number=Plur;head=4;rule=NPI03	_	_
+3	30	тридесет	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	4	nmod	_	_	_	C21	P20	_	_
+4	години	година	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	11	obl	_	_	_	C21	P20	_	_
+5	след	след	ADP	R	_	7	case	_	_	_	C21	P21:NPI;prep=след;Definite=Ind|Gender=Neut|Number=Plur;head=7;rule=NPI04	_	_
+6	много	много	ADV	Md-pi	Definite=Ind|Degree=Pos|Number=Plur|NumType=Card	7	advmod	_	_	_	C21	P21	_	_
+7	усилия	уси	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	11	obl	_	_	_	C21	P21	_	_
+8	китайските	китайски	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	9	amod	_	_	_	C21	P22:NPD;Definite=Def|Gender=Masc|Number=Plur;head=9;rule=NPD03	_	_
+9	учени	учен	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	11	nsubj	_	_	_	C21	P22	_	E7
+10	първи	пръв	ADJ	Momsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	11	amod	_	_	_	C21	_	_	_
+11	открили	открия-(се)	VERB	Vpptcao-p-i	Aspect=Perf|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_	F21:Aorist+Ren|DVerb+Past_Participle_Aorist;Aspect=Perf|Evident=Ren|Mood=Ind|Number=Plur|Tense=Aorist|VerbForm=Fin|Voice=Act/Aspect=Perf|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act;rule=BGF420	C21	_	_	_
+12	как	как	ADV	Pim	PronType=Int	14	advmod	_	_	_	C22:SUB;head=C21;conj=S124:как_да	_	_	_
+13	да	да	AUX	Tx	_	14	aux	_	_	_	C22	_	_	_
+14	произвеждат	произвеждам	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	ccomp	_	_	F22:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C22	_	Z8:Pro-drop;Number=Plur|Person=3;rule=S09,R19;ref=grade04_018_s013#9	E7
+15	хартия	хартия	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	14	obj	_	_	_	C22	P23:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=15;rule=NPI01	_	_
+16	от	от	ADP	R	_	17	case	_	_	_	C22	P24:NPI;prep=от;Definite=Ind|Gender=Masc|Number=Sing;head=17;rule=NPI01	_	_
+17	камък	камък	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No	_	C22	P24	_	_
+18	.	.	PUNCT	punct	_	11	punct	_	_	_	C22	_	_	_
+
+# sent_id = grade04_018_s014
+# text = Първо камъкът (варовик – вид мека скала) се стрива на фин прах.
+1	Първо	първо	ADV	Dt	Degree=Pos	2	advmod	_	_	_	C23:MAIN	_	_	_
+2	камъкът	камък	NOUN	Ncmsf	Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	_	_	C23	P25:NPD;Definite=Def|Gender=Masc|Number=Sing;head=2;rule=NPD01	_	E8
+3	(	(	PUNCT	punct	_	4	punct	_	SpaceAfter=No	_	C23	_	_	_
+4	варовик	варовик	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	2	appos	_	_	_	C23	P26:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=4;rule=NPI01	_	_
+5	–	–	PUNCT	punct	_	4	punct	_	_	_	C23	_	_	_
+6	вид	вид	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	_	_	C23	P27:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=6;rule=NPI01	_	_
+7	мека	меки	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_	_	C23	P28:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=8;rule=NPI02	_	_
+8	скала	скала	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No	_	C23	P28	_	_
+9	)	)	PUNCT	punct	_	4	punct	_	_	_	C23	_	_	_
+10	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	11	expl	_	_	F23:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C23	_	_	_
+11	стрива	стривам-(се)	VERB	Vpiif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F23	C23	_	_	_
+12	на	на	ADP	R	_	14	case	_	_	_	C23	P29:NPI;prep=на;Definite=Ind|Gender=Masc|Number=Sing;head=14;rule=NPI02	_	_
+13	фин	фин	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_	_	C23	P29	_	_
+14	прах	прах	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	11	iobj	_	SpaceAfter=No	_	C23	P29	_	_
+15	.	.	PUNCT	punct	_	11	punct	_	_	_	C23	_	_	_
+
+# sent_id = grade04_018_s015
+# text = После се смесва с вещество, което слепва като лепило частиците на камъка.
+1	После	после	ADV	Dt	Degree=Pos	3	advmod	_	_	_	C24:MAIN	_	_	_
+2	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	3	expl	_	_	F24:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C24	_	_	_
+3	смесва	смесвам-(се)	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F24	C24	_	Z9:Pro-drop;Gender=Masc|Number=Sing|Person=3;rule=S10,R19;ref=grade04_018_s014#2	E8
+4	с	с	ADP	R	_	5	case	_	_	_	C24	P30:NPI;prep=с;Definite=Ind|Gender=Neut|Number=Sing;head=5;rule=NPI01	_	_
+5	вещество	вещество	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No	_	C24	P30	_	E9
+6	,	,	PUNCT	punct	_	8	punct	_	_	_	C24	_	_	_
+7	което	който	PRON	Pre-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	8	nsubj	_	_	_	C25:SUB;head=C24;conj=S116:което	_	A6:Relative;Gender=Neut|Number=Sing|Person=3;rule=R01;ref=grade04_018_s015#5	E9
+8	слепва	слепвам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_	F25:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C25	_	_	_
+9	като	като	ADP	R	_	10	case	_	_	_	C25	P31:NPI;prep=като;Definite=Ind|Gender=Neut|Number=Sing;head=10;rule=NPI01	_	_
+10	лепило	лепил	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	8	obl	_	_	_	C25	P31	_	_
+11	частиците	частица	NOUN	Ncfpd	Definite=Def|Gender=Fem|Number=Plur	8	obj	_	_	_	C25	P32:NPD;Definite=Def|Gender=Fem|Number=Plur;head=11;rule=NPD01	_	_
+12	на	на	ADP	R	_	13	case	_	_	_	C25	P33:NPI;prep=на;Definite=Ind|Gender=Fem|Number=Sing;head=13;rule=NPI01	_	_
+13	камъка	камък	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No	_	C25	P33	_	_
+14	.	.	PUNCT	punct	_	3	punct	_	_	_	C25	_	_	_
+
+# sent_id = grade04_018_s016
+# text = Каменната хартия е много бяла, трудно се разкъсва и е водоустойчива.
+1	Каменната	Каменен	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_	C26:MAIN	P34:NPD;Definite=Def|Gender=Fem|Number=Sing;head=2;rule=NPD03	_	_
+2	хартия	хартия	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	5	nsubj	_	_	_	C26	P34	_	E10
+3	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_	F26:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C26	_	_	_
+4	много	много	ADV	Md-pi	Definite=Ind|Degree=Pos|Number=Plur|NumType=Card	5	advmod	_	_	_	C26	P35:AP;Definite=Ind|Gender=Fem|Number=Sing;head=5;rule=AP03	_	_
+5	бяла	бял	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No	_	C26	P35	_	E11
+6	,	,	PUNCT	punct	_	9	punct	_	_	_	C26	_	_	_
+7	трудно	трудно	ADV	Dm	Degree=Pos	9	advmod	_	_	_	C27:COORD;coord=C26	_	_	_
+8	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	9	expl	_	_	F27:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C27	_	_	_
+9	разкъсва	разкъсвам-(се)	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_	F27	C27	_	Z10:Pro-drop;Gender=Fem|Number=Sing|Person=3;rule=S10,R19;ref=grade04_018_s016#2	E10
+10	и	и	CCONJ	Cp	_	12	cc	_	_	_	C28:COORD;coord=C27;conj=S154:и	_	_	_
+11	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_	F28:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C28	_	_	_
+12	водоустойчива	водоустойчив	VERB	Vpiif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	SpaceAfter=No	F29:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C28	_	Z11:Pro-drop;Gender=Fem|Number=Sing|Person=3;rule=S10,R19;ref=Z10	E10
+13	.	.	PUNCT	punct	_	5	punct	_	_	_	C28	_	_	_
+
+# sent_id = grade04_018_s017
+# text = Но това, с което най-много превъзхожда обикновената, е начинът, по който се произвежда.
+1	Но	но	CCONJ	Cc	_	10	cc	_	_	_	C29:MAIN	_	_	_
+2	това	този	DET	Pde-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	nsubj	_	SpaceAfter=No	_	C29	_	A7:Demonstrative;Gender=Neut|Number=Sing|Person=3;rule=R17;ref=grade04_018_s016#5	E11
+3	,	,	PUNCT	punct	_	7	punct	_	_	_	C29	_	_	_
+4	с	с	ADP	R	_	5	case	_	_	_	C30:SUB;head=C29;conj=S116:което	_	_	_
+5	което	който	PRON	Pre-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	7	obl	_	_	_	C30	_	A8:Relative;Gender=Neut|Number=Sing|Person=3;rule=R01;ref=A7	E11
+6	най-много	много	ADV	Md-pi	Definite=Ind|Degree=Sup|Number=Plur|NumType=Card	7	advmod	_	_	_	C30	_	_	_
+7	превъзхожда	превъзхождам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_	F30:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C30	_	Z12:Pro-drop;Gender=Neut|Number=Sing|Person=3;rule=S10,R19;ref=A7	E11
+8	обикновената	обикновена	NOUN	Ncnpd	Definite=Def|Gender=Neut|Number=Plur	7	obj	_	SpaceAfter=No	_	C30	P36:NPD;Definite=Def|Gender=Neut|Number=Plur;head=8;rule=NPD01	_	_
+9	,	,	PUNCT	punct	_	7	punct	_	_	_	C30	_	_	_
+10	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F31:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C29	_	_	_
+11	начинът	начин	NOUN	Ncmsf	Definite=Def|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No	_	C29	P37:NPD;Definite=Def|Gender=Masc|Number=Sing;head=11;rule=NPD01	_	E12
+12	,	,	PUNCT	punct	_	16	punct	_	_	_	C29	_	_	_
+13	по	по	ADP	R	_	14	case	_	_	_	C31:SUB;head=C29;conj=S116:който	_	_	_
+14	който	който	PRON	Pre-os-m	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	16	iobj	_	_	_	C31	_	A9:Relative;Gender=Masc|Number=Sing|Person=3;rule=R01;ref=grade04_018_s017#11	E12
+15	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	16	expl	_	_	F32:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C31	_	_	_
+16	произвежда	произвеждам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	SpaceAfter=No	F32	C31	_	Z13:Pro-drop;Gender=Neut|Number=Sing|Person=3;rule=S10,R19;ref=A7	E11
+17	.	.	PUNCT	punct	_	10	punct	_	_	_	C31	_	_	_
+
+# sent_id = grade04_018_s018
+# text = Направата на каменната хартия не застрашава околната среда.
+1	Направата	Направа	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	_	_	C32:MAIN	P38:NPD;Definite=Def|Gender=Fem|Number=Sing;head=1;rule=NPD01	_	_
+2	на	на	ADP	R	_	4	case	_	_	_	C32	P39:NPD;prep=на;Definite=Def|Gender=Fem|Number=Sing;head=4;rule=NPD03	_	_
+3	каменната	каменен	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	_	C32	P39	_	_
+4	хартия	хартия	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	1	nmod	_	_	_	C32	P39	_	_
+5	не	не	PART	Tn	Polarity=Neg	6	advmod	_	_	F33:Present+Neg;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF376	C32	_	_	_
+6	застрашава	застрашавам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F33	C32	_	_	_
+7	околната	околен	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_	_	C32	P40:NPD;Definite=Def|Gender=Fem|Number=Sing;head=8;rule=NPD03	_	_
+8	среда	среда	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No	_	C32	P40	_	_
+9	.	.	PUNCT	punct	_	6	punct	_	_	_	C32	_	_	_
+
+# sent_id = grade04_018_s019
+# text = Необходимо е много по-малко количество електроенергия.
+1	Необходимо	необходимо	ADV	Dm	Degree=Pos	0	root	_	_	_	C33:MAIN	_	_	_
+2	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_	F34:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C33	_	_	_
+3	много	много	ADV	Md-pi	Definite=Ind|Degree=Pos|Number=Plur|NumType=Card	4	advmod	_	_	_	C33	_	_	_
+4	по-малко	малко	ADV	Md-pi	Definite=Ind|Degree=Cmp|Number=Plur|NumType=Card	5	advmod	_	_	_	C33	P41:NPI;Definite=Ind|Gender=Neut|Number=Sing;head=5;rule=NPI04	_	_
+5	количество	количество	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	1	nsubj	_	_	_	C33	P41	_	_
+6	електроенергия	електроенергия	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No	_	C33	P42:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=6;rule=NPI01	_	_
+7	.	.	PUNCT	punct	_	1	punct	_	_	_	C33	_	_	_
+
+# sent_id = grade04_018_s020
+# text = Не се изсичат дървета, не се използва вода, не се изхвърлят отпадъчни води и не се отделят вредни газове.
+1	Не	не	PART	Tn	Polarity=Neg	3	advmod	_	_	F35:Present+Neg;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF376	C34:MAIN	_	_	_
+2	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	3	expl	_	_	F35	C34	_	_	_
+3	изсичат	изсичам	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F35	C34	_	_	_
+4	дървета	дърво	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	3	nsubj:pass	_	SpaceAfter=No	_	C34	P43:NPI;Definite=Ind|Gender=Neut|Number=Plur;head=4;rule=NPI01	_	_
+5	,	,	PUNCT	punct	_	8	punct	_	_	_	C34	_	_	_
+6	не	не	PART	Tn	Polarity=Neg	8	advmod	_	_	F36:Present+Neg;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF376	C35:COORD;coord=C34	_	_	_
+7	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	8	expl	_	_	F36	C35	_	_	_
+8	използва	използвам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_	F36	C35	_	_	_
+9	вода	вода	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	8	nsubj:pass	_	SpaceAfter=No	_	C35	P44:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=9;rule=NPI01	_	E13
+10	,	,	PUNCT	punct	_	13	punct	_	_	_	C35	_	_	_
+11	не	не	PART	Tn	Polarity=Neg	13	advmod	_	_	F37:Present+Neg;Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF376	C36:COORD;coord=C35	_	_	_
+12	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	13	expl	_	_	F37	C36	_	_	_
+13	изхвърлят	изхвърля-(се)	VERB	Vpptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_	F37	C36	_	_	_
+14	отпадъчни	отпадъчен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	15	amod	_	_	_	C36	P45:NPI;Definite=Ind|Gender=Fem|Number=Plur;head=15;rule=NPI02	_	_
+15	води	вода	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	13	nsubj:pass	_	_	_	C36	P45	_	_
+16	и	и	CCONJ	Cp	_	19	cc	_	_	_	C37:COORD;coord=C36;conj=S154:и	_	_	_
+17	не	не	PART	Tn	Polarity=Neg	19	advmod	_	_	F38:Present+Neg;Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF376	C37	_	_	_
+18	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	19	expl	_	_	F38	C37	_	_	_
+19	отделят	отделям-(се)	VERB	Vpptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_	F38	C37	_	_	_
+20	вредни	вреден	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	21	amod	_	_	_	C37	P46:NPI;Definite=Ind|Gender=Masc|Number=Plur;head=21;rule=NPI02	_	_
+21	газове	газ	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	19	nsubj:pass	_	SpaceAfter=No	_	C37	P46	_	_
+22	.	.	PUNCT	punct	_	3	punct	_	_	_	C37	_	_	_
+
+# sent_id = grade04_018_s021
+# text = За направата ѝ се използват каменни остатъци от други производства.
+1	За	за	ADP	R	_	2	case	_	_	_	C38:MAIN	P47:NPD;prep=За;Definite=Def|Gender=Fem|Number=Sing;head=2;rule=NPD01	_	_
+2	направата	направо	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	5	obl	_	_	_	C38	P47	_	_
+3	ѝ	ѝ	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	_	_	C38	P48:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=3;rule=NPI01	A10:Personal;Gender=Fem|Number=Sing|Person=3;rule=R13;ref=grade04_018_s020#9	E13
+4	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	_	F39:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C38	_	_	_
+5	използват	използвам	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F39	C38	_	_	_
+6	каменни	каменен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	7	amod	_	_	_	C38	P49:NPI;Definite=Ind|Gender=Masc|Number=Plur;head=7;rule=NPI02	_	_
+7	остатъци	остатък	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	5	obj	_	_	_	C38	P49	_	_
+8	от	от	ADP	R	_	10	case	_	_	_	C38	P50:NPI;prep=от;Definite=Ind|Gender=Neut|Number=Plur;head=10;rule=NPI02	_	_
+9	други	друг	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	10	amod	_	_	_	C38	P50	_	_
+10	производства	производство	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	7	nmod	_	SpaceAfter=No	_	C38	P50	_	_
+11	.	.	PUNCT	punct	_	5	punct	_	_	_	C38	_	_	_
+
+# sent_id = grade04_018_s022
+# text = Тя може да се рециклира многократно, докато обикновената хартия – само седем пъти.
+1	Тя	аз	PRON	Ppe-os3f	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_	_	C39:MAIN	_	A11:Personal;Gender=Fem|Number=Sing|Person=3;rule=R07;ref=A10	E13
+2	може	мога	VERB	Vpiif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F40:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C39	_	_	_
+3	да	да	AUX	Tx	_	5	aux	_	_	_	C39	_	_	_
+4	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	_	F41:Present;Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C39	_	_	_
+5	рециклира	рециклирам	VERB	Vpptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	xcomp	_	_	F41	C39	_	Z14:Pro-drop;Gender=Fem|Number=Sing|Person=3;rule=S09,R19;ref=A11	E13
+6	многократно	многократно	ADV	Dm	Degree=Pos	5	advmod	_	SpaceAfter=No	_	C39	_	_	_
+7	,	,	PUNCT	punct	_	14	punct	_	_	_	C39	_	_	_
+8	докато	докато	SCONJ	Cs	_	14	mark	_	_	_	C39	_	_	_
+9	обикновената	обикновен	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_	_	C39	P51:NPD;Definite=Def|Gender=Fem|Number=Sing;head=10;rule=NPD03	_	_
+10	хартия	хартия	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	14	nsubj	_	_	_	C39	P51	_	E14
+11	–	–	PUNCT	punct	_	10	punct	_	_	_	C39	_	_	_
+12	само	само	ADV	Dd	Degree=Pos	14	advmod	_	_	_	C39	_	_	_
+13	седем	седем	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	14	nummod	_	_	_	C39	P52:NPI;Definite=Ind|Gender=Masc|Number=Count;head=14;rule=NPI03	_	_
+14	пъти	път	NOUN	Ncmt	Gender=Masc|Number=Count	2	advcl	_	SpaceAfter=No	_	C39	P52	_	_
+15	.	.	PUNCT	punct	_	2	punct	_	_	_	C39	_	_	_
+
+# sent_id = grade04_018_s023
+# text = Недостатъкът на каменната хартия е свързан с мекотата ѝ.
+1	Недостатъкът	Недостатък	NOUN	Ncmsf	Definite=Def|Gender=Masc|Number=Sing	6	nsubj:pass	_	_	_	C40:MAIN	P53:NPD;Definite=Def|Gender=Masc|Number=Sing;head=1;rule=NPD01	_	_
+2	на	на	ADP	R	_	4	case	_	_	_	C40	P54:NPD;prep=на;Definite=Def|Gender=Fem|Number=Sing;head=4;rule=NPD03	_	_
+3	каменната	каменен	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	_	C40	P54	_	_
+4	хартия	хартия	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	1	nmod	_	_	_	C40	P54	_	_
+5	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux:pass	_	_	F42:Present-Perfect+Pass;Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Present,Perfect|VerbForm=Fin|Voice=Pass;rule=BGF379	C40	_	_	_
+6	свързан	свържа	VERB	Vpptcv--smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_	F42	C40	_	_	_
+7	с	с	ADP	R	_	9	case	_	_	_	C40	_	_	_
+8	мекотата	мекот	ADJ	Mofsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	9	amod	_	_	_	C40	_	_	_
+9	ѝ	ѝ	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	6	iobj	_	SpaceAfter=No	_	C40	P55:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=9;rule=NPI01	A12:Personal;Gender=Fem|Number=Sing|Person=3;rule=R13;ref=grade04_018_s022#10	E14
+10	.	.	PUNCT	punct	_	6	punct	_	_	_	C40	_	_	_
+
+# sent_id = grade04_018_s024
+# text = Тя е много по-мека и еластична от обикновената хартия.
+1	Тя	аз	PRON	Ppe-os3f	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_	_	C41:MAIN	_	A13:Personal;Gender=Fem|Number=Sing|Person=3;rule=R07;ref=Z14	E13
+2	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_	F43:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C41	_	_	_
+3	много	много	ADV	Md-pi	Definite=Ind|Degree=Pos|Number=Plur|NumType=Card	4	advmod	_	_	_	C41	P56:AP;Definite=Ind|Gender=Fem|Number=Sing;head=4;rule=AP03	_	_
+4	по-мека	мек	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_	_	C41	P56	_	E15
+5	и	и	CCONJ	Cp	_	6	cc	_	_	_	C41	_	_	_
+6	еластична	еластичен	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	4	conj	_	_	_	C41	P57:AP;Definite=Ind|Gender=Fem|Number=Sing;head=6;rule=AP01	_	_
+7	от	от	ADP	R	_	9	case	_	_	_	C41	P58:NPD;prep=от;Definite=Def|Gender=Fem|Number=Sing;head=9;rule=NPD03	_	_
+8	обикновената	обикновен	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_	_	C41	P58	_	_
+9	хартия	хартия	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No	_	C41	P58	_	_
+10	.	.	PUNCT	punct	_	4	punct	_	_	_	C41	_	_	_
+
+# sent_id = grade04_018_s025
+# text = Понякога това създава главоболие на печатарите.
+1	Понякога	някога	ADV	Pft	PronType=Ind	3	advmod	_	_	_	C42:MAIN	_	_	_
+2	това	този	PRON	Pde-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_	_	C42	_	A14:Demonstrative;Gender=Neut|Number=Sing|Person=3;rule=R17;ref=grade04_018_s024#4	E15
+3	създава	създавам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F44:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C42	_	_	_
+4	главоболие	главоболие	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	_	_	C42	P59:NPI;Definite=Ind|Gender=Neut|Number=Sing;head=4;rule=NPI01	_	_
+5	на	на	ADP	R	_	6	case	_	_	_	C42	P60:NPD;prep=на;Definite=Def|Gender=Masc|Number=Plur;head=6;rule=NPD01	_	_
+6	печатарите	печатар	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No	_	C42	P60	_	_
+7	.	.	PUNCT	punct	_	3	punct	_	_	_	C42	_	_	_
+
+# sent_id = grade04_018_s026
+# text = В България има много каменни остатъци.
+1	В	в	ADP	R	_	2	case	_	_	_	C43:MAIN	P61:NPI;prep=В;Definite=Ind|Gender=Fem|Number=Sing;head=2;rule=NPI01	_	_
+2	България	българия	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	_	_	C43	P61	_	_
+3	има	имам	VERB	Vnitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F45:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C43	_	Z15:Impersonal;Number=Sing|Person=3;rule=S02	_
+4	много	много	ADV	Md-pi	Definite=Ind|Degree=Pos|Number=Plur|NumType=Card	5	advmod	_	_	_	C43	P62:NPI;Definite=Ind|Gender=Masc|Number=Plur;head=6;rule=NPI04	_	_
+5	каменни	каменен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	6	amod	_	_	_	C43	P62	_	_
+6	остатъци	остатък	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No	_	C43	P62	_	_
+7	.	.	PUNCT	punct	_	3	punct	_	_	_	C43	_	_	_
+
+# sent_id = grade04_018_s027
+# text = А след като имаме материал на разположение, то може да произвеждаме евтина и качествена хартия.
+1	А	а	CCONJ	Cp	_	10	cc	_	_	_	C44:MAIN	_	_	_
+2	след	след	ADP	R	_	4	mark	_	_	_	C45:SUB;head=C44;conj=S024:след_като	_	_	_
+3	като	като	ADP	R	_	2	fixed	_	_	_	C45	_	_	_
+4	имаме	имам	VERB	Vpitf-r1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	_	F46:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C45	_	Z16:Pro-drop;Number=Plur|Person=1;rule=S08	E16
+5	материал	материал	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	_	_	C45	P63:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=5;rule=NPI01	_	_
+6	на	на	ADP	R	_	7	case	_	_	_	C45	P64:NPI;prep=на;Definite=Ind|Gender=Neut|Number=Sing;head=7;rule=NPI01	_	_
+7	разположение	разположение	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No	_	C45	P64	_	_
+8	,	,	PUNCT	punct	_	4	punct	_	_	_	C45	_	_	_
+9	то	аз	PRON	Ppe-os3n	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_	_	C46:SUB;head=C44;conj=S097:то	_	A15:Personal;Gender=Neut|Number=Sing|Person=3;rule=R07;ref=A14	E15
+10	може	мога	VERB	Vpiif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F47:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C46	_	_	_
+11	да	да	AUX	Tx	_	12	aux	_	_	_	C46	_	_	_
+12	произвеждаме	произвеждам	VERB	Vpitf-r1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	xcomp	_	_	F48:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C46	_	Z17:Pro-drop;Number=Plur|Person=1;rule=S08,R05;ref=Z16	E16
+13	евтина	евтин	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_	_	C46	P65:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=16;rule=NPI02a	_	_
+14	и	и	CCONJ	Cp	_	15	cc	_	_	_	C46	P65	_	_
+15	качествена	качествен	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	13	conj	_	_	_	C46	P65	_	_
+16	хартия	хартия	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No	_	C46	P65	_	_
+17	.	.	PUNCT	punct	_	10	punct	_	_	_	C46	_	_	_
+
+# sent_id = grade04_018_s028
+# text = По материали от интернет
+1	По	по	ADP	R	_	2	case	_	_	_	C47:MAIN	P66:NPI;prep=По;Definite=Ind|Gender=Masc|Number=Plur;head=2;rule=NPI01	_	_
+2	материали	материал	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	_	_	C47	P66	_	_
+3	от	от	ADP	R	_	4	case	_	_	_	C47	P67:NPI;prep=от;Definite=Ind|Gender=Masc|Number=Sing;head=4;rule=NPI01	_	_
+4	интернет	интернет	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	SpacesAfter=\n	_	C47	P67	_	_
+

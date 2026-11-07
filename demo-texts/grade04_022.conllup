@@ -1,0 +1,227 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC DCL:VERBFORM DCL:CLAUSE DCL:NP DCL:ANAPHORA DCL:COREF
+# newdoc id = grade04_022
+# newpar
+# sent_id = grade04_022_s001
+# text = Огънят е особено важен за оцеляването на първите хора.
+1	Огънят	огъня	NOUN	Ncmsf	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	_	_	C1:MAIN	P1:NPD;Definite=Def|Gender=Masc|Number=Sing;head=1;rule=NPD01	_	E1
+2	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_	F1:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C1	_	_	_
+3	особено	особено	ADV	Dd	Degree=Pos	4	advmod	_	_	_	C1	_	_	_
+4	важен	важен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_	_	C1	P2:AP;Definite=Ind|Gender=Masc|Number=Sing;head=4;rule=AP01	_	_
+5	за	за	ADP	R	_	6	case	_	_	_	C1	P3:NPD;prep=за;Definite=Def|Gender=Neut|Number=Sing;head=6;rule=NPD01	_	_
+6	оцеляването	оцеляване	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	4	obl	_	_	_	C1	P3	_	E2
+7	на	на	ADP	R	_	9	case	_	_	_	C1	P4:NPD;prep=на;Definite=Def|Number=Ptan;head=9;rule=NPD11	_	_
+8	първите	пръв	ADJ	Mo-pd	Definite=Def|Degree=Pos|Number=Plur|NumType=Ord	9	amod	_	_	_	C1	P4	_	_
+9	хора	хора	NOUN	Nc-li	Definite=Ind|Number=Ptan	6	nmod	_	SpaceAfter=No	_	C1	P4	_	E3
+10	.	.	PUNCT	punct	_	4	punct	_	_	_	C1	_	_	_
+
+# sent_id = grade04_022_s002
+# text = Смята се, че те започват да го използват преди около 600 000 години.
+1	Смята	смятам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F2:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C2:MAIN	_	Z1:Impersonal;Number=Sing|Person=3;rule=S05	_
+2	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	SpaceAfter=No	F2	C2	_	_	_
+3	,	,	PUNCT	punct	_	6	punct	_	_	_	C2	_	_	_
+4	че	че	SCONJ	Cs	_	6	mark	_	_	_	C3:SUB;head=C2;conj=S016:че	_	_	_
+5	те	аз	PRON	Ppe-op3	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_	_	C3	_	A1:Personal;Number=Plur|Person=3;rule=R09;ref=grade04_022_s001#9	E3
+6	започват	започвам-(се)	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj:pass	_	_	F3:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C3	_	_	_
+7	да	да	AUX	Tx	_	9	aux	_	_	_	C4:SUB;head=C3;conj=S036:да	_	_	_
+8	го	аз	PRON	Ppetas3m	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_	_	C4	_	A2:Personal;Gender=Masc,Neut|Number=Sing|Person=3;rule=R12;ref=grade04_022_s001#6	E2
+9	използват	използвам	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	xcomp	_	_	F4:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C4	_	Z2:Pro-drop;Number=Plur|Person=3;rule=S09,R19;ref=A1	E3
+10	преди	преди	ADP	R	_	14	case	_	_	_	C4	_	_	_
+11	около	около	ADP	R	_	12	advmod	_	_	_	C4	_	_	_
+12	600	шестотин	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	14	nmod	_	_	_	C4	_	_	_
+13	000	000	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	12	flat	_	_	_	C4	P5:NPI;Definite=Ind|Gender=Fem|Number=Plur;head=14;rule=NPI03	_	_
+14	години	година	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No	_	C4	P5	_	_
+15	.	.	PUNCT	punct	_	1	punct	_	_	_	C4	_	_	_
+
+# sent_id = grade04_022_s003
+# text = В началото го получават от горските пожари, а след това дълго и грижливо го поддържат.
+1	В	в	ADP	R	_	2	case	_	_	_	C5:MAIN	P6:NPD;prep=В;Definite=Def|Gender=Neut|Number=Sing;head=2;rule=NPD01	_	_
+2	началото	начало	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	4	obl	_	_	_	C5	P6	_	E4
+3	го	аз	PRON	Ppetas3m	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_	_	C5	_	A3:Personal;Gender=Masc,Neut|Number=Sing|Person=3;rule=R12;ref=grade04_022_s003#2	E4
+4	получават	получавам	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F5:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C5	_	Z3:Pro-drop;Number=Plur|Person=3;rule=S10,R19;ref=Z2	E3,E5
+5	от	от	ADP	R	_	7	case	_	_	_	C5	P7:NPD;prep=от;Definite=Def|Gender=Masc|Number=Plur;head=7;rule=NPD03	_	_
+6	горските	горски	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	7	amod	_	_	_	C5	P7	_	_
+7	пожари	пожара	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	4	iobj	_	SpaceAfter=No	_	C5	P7	_	_
+8	,	,	PUNCT	punct	_	9	punct	_	_	_	C5	_	_	_
+9	а	а	CCONJ	Cp	_	16	cc	_	_	_	C6:COORD;coord=C5;conj=S154:и	_	_	_
+10	след	след	ADP	R	_	11	case	_	_	_	C6	_	_	_
+11	това	този	PRON	Pde-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	16	obl	_	_	_	C6	_	A4:Demonstrative;Gender=Neut|Number=Sing|Person=3;rule=R17;ref=grade04_022_s003#4	E5
+12	дълго	дълго	ADV	Dq	Degree=Pos	16	advmod	_	_	_	C6	_	_	_
+13	и	и	CCONJ	Cp	_	14	cc	_	_	_	C6	_	_	_
+14	грижливо	грижливо	ADV	Dm	Degree=Pos	12	conj	_	_	_	C6	_	_	_
+15	го	аз	PRON	Ppetas3m	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_	_	C6	_	A5:Personal;Gender=Masc,Neut|Number=Sing|Person=3;rule=R11;ref=A3	E4
+16	поддържат	поддържам	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No	F6:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C6	_	Z4:Pro-drop;Number=Plur|Person=3;rule=S10,R19;ref=Z3	E3
+17	.	.	PUNCT	punct	_	4	punct	_	_	_	C6	_	_	_
+
+# sent_id = grade04_022_s004
+# text = Постепенно хората се научават и сами да палят огън, като трият две сухи парчета дърво едно в друго.
+1	Постепенно	постепенно	ADV	Dm	Degree=Pos	4	advmod	_	_	_	C7:MAIN	_	_	_
+2	хората	хора	NOUN	Nc-ld	Definite=Def|Number=Ptan	4	nsubj	_	_	_	C7	P8:NPD;Definite=Def|Number=Ptan;head=2;rule=NPD01	_	E6
+3	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	_	F7:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C7	_	_	_
+4	научават	научавам-(се)	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F7	C7	_	_	_
+5	и	и	CCONJ	Cp	_	6	cc	_	_	_	C7	_	_	_
+6	сами	сами	CCONJ	Cc	_	8	cc	_	_	_	C7	_	_	_
+7	да	да	AUX	Tx	_	8	aux	_	_	_	C8:SUB;head=C7;conj=S036:да	_	_	_
+8	палят	паля-(се)	VERB	Vpptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_	F8:Present;Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C8	_	Z5:Pro-drop;Number=Plur|Person=3;rule=S09,R19;ref=grade04_022_s004#2	E6
+9	огън	огън	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No	_	C8	P9:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=9;rule=NPI01	_	_
+10	,	,	PUNCT	punct	_	15	punct	_	_	_	C8	_	_	_
+11	като	като	SCONJ	Cs	_	15	mark	_	_	_	C8	_	_	_
+12	трият	три	ADJ	Amsf	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_	_	C8	P10:AP;Definite=Def|Gender=Masc|Number=Sing;head=12;rule=AP02	_	_
+13	две	два	NUM	Mcfpi	Definite=Ind|Gender=Fem|Number=Plur|NumType=Card	15	nummod	_	_	_	C8	P11:NPI;Definite=Ind|Gender=Neut|Number=Plur;head=15;rule=NPI03	_	_
+14	сухи	сух	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	15	amod	_	_	_	C8	P11	_	_
+15	парчета	парче	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	8	advcl	_	_	_	C8	P11	_	E7
+16	дърво	дърво	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	15	nmod	_	_	_	C8	P12:NPI;Definite=Ind|Gender=Neut|Number=Sing;head=16;rule=NPI01	_	_
+17	едно	един	NUM	Mcnsi	Definite=Ind|Gender=Neut|Number=Sing|NumType=Card	16	nummod	_	_	_	C8	_	_	_
+18	в	в	ADP	R	_	19	case	_	_	_	C8	P13:AP;prep=в;Definite=Ind|Gender=Neut|Number=Sing;head=19;rule=AP01	_	_
+19	друго	друг	ADJ	Ansi	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No	_	C8	P13	_	_
+20	.	.	PUNCT	punct	_	4	punct	_	_	_	C8	_	_	_
+
+# sent_id = grade04_022_s005
+# text = Огънят ги топли в студените нощи, защитава ги от хищници и им служи за приготвяне на храна.
+1	Огънят	огън	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F9:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C9:MAIN	_	_	_
+2	ги	аз	PRON	Ppetap3	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	obj	_	_	_	C9	_	A6:Personal;Number=Plur|Person=3;rule=R12;ref=grade04_022_s004#15	E7
+3	топли	топля-(се)	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	1	nsubj	_	_	_	C9	P14:NPI;Definite=Ind|Gender=Fem|Number=Plur;head=3;rule=NPI01	_	E8
+4	в	в	ADP	R	_	6	case	_	_	_	C9	P15:NPD;prep=в;Definite=Def|Gender=Fem|Number=Plur;head=6;rule=NPD03	_	_
+5	студените	студен	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	6	amod	_	_	_	C9	P15	_	_
+6	нощи	нощ	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No	_	C9	P15	_	E9
+7	,	,	PUNCT	punct	_	8	punct	_	_	_	C9	_	_	_
+8	защитава	защитавам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_	F10:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C10:COORD;coord=C9	_	Z6:Pro-drop;Gender=Masc|Number=Sing|Person=3;rule=S10,R19;ref=grade04_022_s001#1	E1
+9	ги	аз	PRON	Ppetap3	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	obj	_	_	_	C10	_	A7:Personal;Number=Plur|Person=3;rule=R11;ref=grade04_022_s005#6	E9
+10	от	от	ADP	R	_	11	case	_	_	_	C10	P16:NPI;prep=от;Definite=Ind|Gender=Masc|Number=Plur;head=11;rule=NPI01	_	_
+11	хищници	хищник	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	8	iobj	_	_	_	C10	P16	_	_
+12	и	и	CCONJ	Cp	_	14	cc	_	_	_	C11:COORD;coord=C10;conj=S154:и	_	_	_
+13	им	аз	PRON	Ppetdp3	Case=Dat|Number=Plur|Person=3|PronType=Prs	14	iobj	_	_	_	C11	_	A8:Personal;Number=Plur|Person=3;rule=R13;ref=grade04_022_s005#3	E8
+14	служи	служа	VERB	Vpiif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_	F11:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C11	_	Z7:Pro-drop;Gender=Masc|Number=Sing|Person=3;rule=S10,R19;ref=Z6	E1
+15	за	за	ADP	R	_	16	case	_	_	_	C11	P17:NPI;prep=за;Definite=Ind|Gender=Neut|Number=Sing;head=16;rule=NPI01	_	_
+16	приготвяне	приготвяне	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	14	obl	_	_	_	C11	P17	_	E10
+17	на	на	ADP	R	_	18	case	_	_	_	C11	P18:NPI;prep=на;Definite=Ind|Gender=Fem|Number=Sing;head=18;rule=NPI01	_	_
+18	храна	храна	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No	_	C11	P18	_	E11
+19	.	.	PUNCT	punct	_	1	punct	_	_	_	C11	_	_	_
+
+# sent_id = grade04_022_s006
+# text = Хората се събират около него и общуват помежду си.
+1	Хората	хора	NOUN	Nc-ld	Definite=Def|Number=Ptan	3	nsubj	_	_	_	C12:MAIN	P19:NPD;Definite=Def|Number=Ptan;head=1;rule=NPD01	_	E12
+2	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	3	expl	_	_	F12:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C12	_	_	_
+3	събират	събирам-(се)	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F12	C12	_	_	_
+4	около	около	ADP	R	_	5	case	_	_	_	C12	_	_	_
+5	него	аз	PRON	Ppelas3m	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_	_	C12	_	A9:Personal;Gender=Masc,Neut|Number=Sing|Person=3;rule=R12;ref=grade04_022_s005#16	E10
+6	и	и	CCONJ	Cp	_	7	cc	_	_	_	C13:COORD;coord=C12;conj=S154:и	_	_	_
+7	общуват	общувам	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_	F13:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C13	_	Z8:Pro-drop;Number=Plur|Person=3;rule=S10,R19;ref=grade04_022_s006#1	E12
+8	помежду	помежду	ADP	R	_	9	case	_	_	_	C13	_	_	_
+9	си	се	PRON	Ppxtd	Case=Dat|PronType=Prs|Reflex=Yes	7	iobj	_	SpaceAfter=No	F13	C13	_	_	_
+10	.	.	PUNCT	punct	_	3	punct	_	_	_	C13	_	_	_
+
+# sent_id = grade04_022_s007
+# text = Често обаче огънят е опасен за хората, защото е причина за пожар.
+1	Често	често	ADV	Dm	Degree=Pos	5	advmod	_	_	_	C14:MAIN	_	_	_
+2	обаче	обаче	ADV	Dd	Degree=Pos	1	advmod	_	_	_	C14	_	_	_
+3	огънят	огън	NOUN	Ncmsf	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	_	_	C14	P20:NPD;Definite=Def|Gender=Masc|Number=Sing;head=3;rule=NPD01	_	E13
+4	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_	F14:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C14	_	_	_
+5	опасен	опасен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_	_	C14	P21:AP;Definite=Ind|Gender=Masc|Number=Sing;head=5;rule=AP01	_	_
+6	за	за	ADP	R	_	7	case	_	_	_	C14	P22:NPD;prep=за;Definite=Def|Number=Ptan;head=7;rule=NPD01	_	_
+7	хората	хора	NOUN	Nc-ld	Definite=Def|Number=Ptan	5	obl	_	SpaceAfter=No	_	C14	P22	_	_
+8	,	,	PUNCT	punct	_	11	punct	_	_	_	C14	_	_	_
+9	защото	защото	ADV	Prc	_	11	advmod	_	_	_	C15:SUB;head=C14;conj=S030:защото	_	_	_
+10	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_	F15:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C15	_	_	_
+11	причина	причина	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	5	advcl	_	_	_	C15	P23:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=11;rule=NPI01	Z9:Pro-drop;Gender=Fem|Number=Sing|Person=3;rule=S10,R20;ref=grade04_022_s005#18	E11
+12	за	за	ADP	R	_	13	case	_	_	_	C15	P24:NPI;prep=за;Definite=Ind|Gender=Masc|Number=Sing;head=13;rule=NPI01	_	_
+13	пожар	пожар	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No	_	C15	P24	_	_
+14	.	.	PUNCT	punct	_	5	punct	_	_	_	C15	_	_	_
+
+# sent_id = grade04_022_s008
+# text = По данни от последните години средно на ден възниква по един пожар, причинен от детска игра с огън.
+1	По	по	ADP	R	_	2	case	_	_	_	C16:MAIN	P25:NPI;prep=По;Definite=Ind|Gender=Fem|Number=Plur;head=2;rule=NPI01	_	_
+2	данни	данна	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	9	obl	_	_	_	C16	P25	_	_
+3	от	от	ADP	R	_	5	case	_	_	_	C16	P26:NPD;prep=от;Definite=Def|Gender=Fem|Number=Plur;head=5;rule=NPD03	_	_
+4	последните	последен	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	5	amod	_	_	_	C16	P26	_	_
+5	години	година	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	2	nmod	_	_	_	C16	P26	_	_
+6	средно	средно	ADV	Dm	Degree=Pos	9	advmod	_	_	_	C16	_	_	_
+7	на	на	ADP	R	_	8	case	_	_	_	C16	P27:NPI;prep=на;Definite=Ind|Gender=Masc|Number=Sing;head=8;rule=NPI01	_	_
+8	ден	ден	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	_	_	C16	P27	_	_
+9	възниква	възниквам	VERB	Vpiif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F16:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C16	_	Z10:Pro-drop;Gender=Fem|Number=Sing|Person=3;rule=S10,R19;ref=Z9	E11
+10	по	по	ADP	R	_	12	case	_	_	_	C16	P28:NPI;prep=по;Definite=Ind|Gender=Masc|Number=Sing;head=12;rule=NPI03	_	_
+11	един	един	NUM	Mcmsi	Definite=Ind|Gender=Masc|Number=Sing|NumType=Card	12	nummod	_	_	_	C16	P28	_	_
+12	пожар	пожар	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No	_	C16	P28	_	_
+13	,	,	PUNCT	punct	_	14	punct	_	_	_	C16	_	_	_
+14	причинен	причиня	ADJ	Vpptcv--smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	12	amod	_	_	F17:NVerb+Past_Participle+Pass;Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass;rule=BGF423	C16	_	_	_
+15	от	от	ADP	R	_	17	case	_	_	_	C16	P29:NPI;prep=от;Definite=Ind|Gender=Fem|Number=Sing;head=17;rule=NPI02	_	_
+16	детска	детски	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_	_	C16	P29	_	_
+17	игра	игра	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	14	obl	_	_	_	C16	P29	_	_
+18	с	с	ADP	R	_	19	case	_	_	_	C16	P30:NPI;prep=с;Definite=Ind|Gender=Masc|Number=Sing;head=19;rule=NPI01	_	_
+19	огън	огън	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No	_	C16	P30	_	_
+20	.	.	PUNCT	punct	_	9	punct	_	_	_	C16	_	_	_
+
+# sent_id = grade04_022_s009
+# text = Пожар може да бъде предизвикан и от неправилно използване на електрически уреди, претоварване на електрическата мрежа или по други причини.
+1	Пожар	пожар	PART	Ti	_	2	discourse	_	_	_	C17:MAIN	_	_	_
+2	може	мога	VERB	Vniif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F18:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C17	_	Z11:Pro-drop;Gender=Fem|Number=Sing|Person=3;rule=S10,R19;ref=Z10	E11
+3	да	да	AUX	Tx	_	5	aux	_	_	_	C17	_	_	_
+4	бъде	бъда	AUX	Vyptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux:pass	_	_	F19:Present-Perfect+Pass;Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Present,Perfect|VerbForm=Fin|Voice=Pass;rule=BGF380	C17	_	_	_
+5	предизвикан	предизвикам	VERB	Vpptcv--smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	ccomp	_	_	F19	C17	_	Z12:Pro-drop;Gender=Masc|Number=Sing|Person=3;rule=S09,R19;ref=grade04_022_s007#3	E13
+6	и	и	CCONJ	Cp	_	9	cc	_	_	_	C17	_	_	_
+7	от	от	ADP	R	_	9	case	_	_	_	C17	P31:NPI;prep=от;Definite=Ind|Gender=Neut|Number=Sing;head=9;rule=NPI02	_	_
+8	неправилно	неправилен	ADJ	Ansi	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_	_	C17	P31	_	_
+9	използване	използване	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	5	iobj	_	_	_	C17	P31	_	_
+10	на	на	ADP	R	_	12	case	_	_	_	C17	P32:NPI;prep=на;Definite=Ind|Gender=Masc|Number=Plur;head=12;rule=NPI02	_	_
+11	електрически	електрически	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	12	amod	_	_	_	C17	P32	_	_
+12	уреди	уред	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No	_	C17	P32	_	_
+13	,	,	PUNCT	punct	_	14	punct	_	_	_	C17	_	_	_
+14	претоварване	претоварване	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	9	conj	_	_	_	C17	P33:NPI;Definite=Ind|Gender=Neut|Number=Sing;head=14;rule=NPI01	_	_
+15	на	на	ADP	R	_	17	case	_	_	_	C17	P34:NPD;prep=на;Definite=Def|Gender=Fem|Number=Sing;head=17;rule=NPD03	_	_
+16	електрическата	електрически	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_	_	C17	P34	_	_
+17	мрежа	мрежа	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	14	nmod	_	_	_	C17	P34	_	_
+18	или	или	CCONJ	Cp	_	21	cc	_	_	_	C17	_	_	_
+19	по	по	ADP	R	_	21	case	_	_	_	C17	P35:NPI;prep=по;Definite=Ind|Gender=Fem|Number=Plur;head=21;rule=NPI02	_	_
+20	други	друг	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	21	amod	_	_	_	C17	P35	_	_
+21	причини	причина	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	17	conj	_	SpaceAfter=No	_	C17	P35	_	_
+22	.	.	PUNCT	punct	_	2	punct	_	_	_	C17	_	_	_
+
+# sent_id = grade04_022_s010
+# text = При пожар се развива висока температура и се отделят силно отровни вещества.
+1	При	при	ADP	R	_	2	case	_	_	_	C18:MAIN	P36:NPI;prep=При;Definite=Ind|Gender=Masc|Number=Sing;head=2;rule=NPI01	_	_
+2	пожар	пожар	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	_	_	C18	P36	_	_
+3	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	_	F20:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C18	_	_	_
+4	развива	развивам-(се)	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F20	C18	_	_	_
+5	висока	висок	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_	_	C18	P37:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=6;rule=NPI02	_	_
+6	температура	температура	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	4	nsubj:pass	_	_	_	C18	P37	_	E14
+7	и	и	CCONJ	Cp	_	9	cc	_	_	_	C19:COORD;coord=C18;conj=S154:и	_	_	_
+8	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	9	expl	_	_	F21:Present;Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C19	_	_	_
+9	отделят	отделям-(се)	VERB	Vpptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_	F21	C19	_	_	_
+10	силно	силно	ADV	Dm	Degree=Pos	11	advmod	_	_	_	C19	_	_	_
+11	отровни	отровен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	12	amod	_	_	_	C19	P38:NPI;Definite=Ind|Gender=Neut|Number=Plur;head=12;rule=NPI02	_	_
+12	вещества	вещество	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	9	nsubj:pass	_	SpaceAfter=No	_	C19	P38	_	E15
+13	.	.	PUNCT	punct	_	4	punct	_	_	_	C19	_	_	_
+
+# sent_id = grade04_022_s011
+# text = Те оказват вредно влияние върху човешкия организъм.
+1	Те	аз	PRON	Ppe-op3	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_	_	C20:MAIN	_	A10:Personal;Number=Plur|Person=3;rule=R07;ref=grade04_022_s010#12	E15
+2	оказват	оказвам-(се)	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F22:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C20	_	_	_
+3	вредно	вреден	ADJ	Ansi	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_	_	C20	P39:NPI;Definite=Ind|Gender=Neut|Number=Sing;head=4;rule=NPI02	_	_
+4	влияние	влияние	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	_	_	C20	P39	_	_
+5	върху	върху	ADP	R	_	7	case	_	_	_	C20	P40:NPD;prep=върху;Definite=Def|Gender=Masc|Number=Sing;head=7;rule=NPD03	_	_
+6	човешкия	човешки	ADJ	Amsh	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_	_	C20	P40	_	_
+7	организъм	организъм	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No	_	C20	P40	_	_
+8	.	.	PUNCT	punct	_	2	punct	_	_	_	C20	_	_	_
+
+# sent_id = grade04_022_s012
+# text = При пожар бързо трябва да се позвъни на телефонния номер за спешни повиквания 112, за да дойдат пожарникарите.
+1	При	при	ADP	R	_	2	case	_	_	_	C21:MAIN	P41:NPI;prep=При;Definite=Ind|Gender=Masc|Number=Sing;head=2;rule=NPI01	_	_
+2	пожар	пожар	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	_	_	C21	P41	_	_
+3	бързо	бързо	ADV	Dm	Degree=Pos	2	advmod	_	_	_	C21	_	_	_
+4	трябва	трябва	VERB	Vniif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F23:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C21	_	Z13:Impersonal;Number=Sing|Person=3;rule=S03	_
+5	да	да	AUX	Tx	_	7	aux	_	_	_	C21	_	_	_
+6	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	7	expl	_	_	F24:Present;Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C21	_	_	_
+7	позвъни	позвъня	VERB	Vppif-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	_	F24	C21	_	Z14:Pro-drop;Gender=Fem|Number=Sing|Person=3;rule=S09,R19;ref=grade04_022_s010#6	E14
+8	на	на	ADP	R	_	10	case	_	_	_	C21	P42:NPD;prep=на;Definite=Def|Gender=Masc|Number=Sing;head=10;rule=NPD03	_	_
+9	телефонния	телефонен	ADJ	Amsh	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_	C21	P42	_	_
+10	номер	номер	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	7	iobj	_	_	_	C21	P42	_	_
+11	за	за	ADP	R	_	13	case	_	_	_	C21	P43:NPI;prep=за;Definite=Ind|Gender=Neut|Number=Plur;head=13;rule=NPI02	_	_
+12	спешни	спешен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	13	amod	_	_	_	C21	P43	_	_
+13	повиквания	повиквание	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	10	nmod	_	_	_	C21	P43	_	_
+14	112	112	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	13	nummod	_	SpaceAfter=No	_	C21	_	_	_
+15	,	,	PUNCT	punct	_	18	punct	_	_	_	C21	_	_	_
+16	за	за	ADP	R	_	18	mark	_	_	_	C22:SUB;head=C21;conj=S092:за_да	_	_	_
+17	да	да	AUX	Tx	_	16	fixed	_	_	_	C22	_	_	_
+18	дойдат	дойда	VERB	Vppif-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_	F25:Present;Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C22	_	Z15:Pro-drop;Number=Plur|Person=3;rule=S10,R19;ref=A10	E15
+19	пожарникарите	пожарникар	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No	_	C22	P44:NPD;Definite=Def|Gender=Masc|Number=Plur;head=19;rule=NPD01	_	_
+20	.	.	PUNCT	punct	_	4	punct	_	SpacesAfter=\n	_	C22	_	_	_
+

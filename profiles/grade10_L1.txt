@@ -1,0 +1,8 @@
+# Ученик в 10. клас
+name: Ученик в 10. клас
+language: L1
+grade: 10
+age: 16
+needs: none
+lexicon: L1
+known: rel_per_sent

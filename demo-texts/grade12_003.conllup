@@ -1,0 +1,318 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC DCL:VERBFORM DCL:CLAUSE DCL:NP DCL:ANAPHORA DCL:COREF
+# newdoc id = grade12_003
+# newpar
+# sent_id = grade12_003_s001
+# text = Бащите на Френската революция издигат като основни принципи в междуличностните и обществените отношения свободата, братството и равенството.
+1	Бащите	баща	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	5	nsubj	_	_	_	C1:MAIN	P1:NPD;Definite=Def|Gender=Masc|Number=Plur;head=1;rule=NPD01	_	_
+2	на	на	ADP	R	_	4	case	_	_	_	C1	P2:NPD;prep=на;Definite=Def|Gender=Fem|Number=Sing;head=4;rule=NPD03	_	_
+3	Френската	френски	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	_	C1	P2	_	_
+4	революция	революция	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	1	nmod	_	_	_	C1	P2	_	_
+5	издигат	издигам-(се)	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F1:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C1	_	_	_
+6	като	като	ADP	R	_	8	case	_	_	_	C1	P3:NPI;prep=като;Definite=Ind|Gender=Masc|Number=Plur;head=8;rule=NPI02	_	_
+7	основни	основен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	8	amod	_	_	_	C1	P3	_	_
+8	принципи	принцип	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	5	iobj	_	_	_	C1	P3	_	_
+9	в	в	ADP	R	_	13	case	_	_	_	C1	P4:AP;prep=в;Definite=Def|Number=Plur;head=10;rule=AP02	_	_
+10	междуличностните	междуличностен	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	13	amod	_	_	_	C1	P4	_	_
+11	и	и	CCONJ	Cp	_	12	cc	_	_	_	C1	_	_	_
+12	обществените	обществен	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	10	conj	_	_	_	C1	P5:NPD;Definite=Def|Gender=Neut|Number=Plur;head=13;rule=NPD03	_	_
+13	отношения	отношение	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	8	nmod	_	_	_	C1	P5	_	_
+14	свободата	свобода	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No	_	C1	P6:NPD;Definite=Def|Gender=Fem|Number=Sing;head=14;rule=NPD01	_	_
+15	,	,	PUNCT	punct	_	16	punct	_	_	_	C1	_	_	_
+16	братството	братство	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	14	conj	_	_	_	C1	P7:NPD;Definite=Def|Gender=Neut|Number=Sing;head=16;rule=NPD01	_	_
+17	и	и	CCONJ	Cp	_	18	cc	_	_	_	C1	_	_	_
+18	равенството	равенство	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	14	conj	_	SpaceAfter=No	_	C1	P8:NPD;Definite=Def|Gender=Neut|Number=Sing;head=18;rule=NPD01	_	_
+19	.	.	PUNCT	punct	_	5	punct	_	_	_	C1	_	_	_
+
+# sent_id = grade12_003_s002
+# text = Заедно тези три думи звучат красиво като идеал.
+1	Заедно	заедно	ADV	Dm	Degree=Pos	5	advmod	_	_	_	C2:MAIN	_	_	_
+2	тези	този	DET	Pde-op	Number=Plur|PronType=Dem	4	det	_	_	_	C2	P9:NPI;Definite=Def|Gender=Fem|Number=Plur;head=4;rule=NPI08	_	_
+3	три	три	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	4	nummod	_	_	_	C2	P9	_	_
+4	думи	дума	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	5	nsubj	_	_	_	C2	P9	_	_
+5	звучат	звуча	VERB	Vpiif-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F2:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C2	_	_	_
+6	красиво	красив	ADV	Dm	Degree=Pos	8	advmod	_	_	_	C2	_	_	_
+7	като	като	ADP	R	_	8	case	_	_	_	C2	P10:NPI;prep=като;Definite=Ind|Gender=Masc|Number=Sing;head=8;rule=NPI01	_	_
+8	идеал	идеал	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No	_	C2	P10	_	_
+9	.	.	PUNCT	punct	_	5	punct	_	_	_	C2	_	_	_
+
+# sent_id = grade12_003_s003
+# text = Но на практика са несъвместими принципи – ако има свобода, няма равенство.
+1	Но	но	CCONJ	Cc	_	3	cc	_	_	_	C3:MAIN	_	_	_
+2	на	на	ADP	R	_	3	case	_	_	_	C3	P11:NPI;prep=на;Definite=Ind|Gender=Fem|Number=Sing;head=3;rule=NPI01	_	_
+3	практика	практика	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	_	_	C3	P11	_	E1
+4	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_	F3:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C3	_	_	_
+5	несъвместими	несъвместим	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	6	amod	_	_	_	C3	P12:NPI;Definite=Ind|Gender=Masc|Number=Plur;head=6;rule=NPI02	_	_
+6	принципи	принцип	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	3	nsubj	_	_	_	C3	P12	_	_
+7	–	–	PUNCT	punct	_	12	punct	_	_	_	C3	_	_	_
+8	ако	ако	SCONJ	Cs	_	9	mark	_	_	_	C4:SUB;head=C3;conj=S071:ако	_	_	_
+9	има	има	VERB	Vnitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	_	F4:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C4	_	Z1:Pro-drop;Gender=Fem|Number=Sing|Person=3;rule=S10,R20;ref=grade12_003_s003#3	E1
+10	свобода	свобода	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No	_	C4	P13:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=10;rule=NPI01	_	_
+11	,	,	PUNCT	punct	_	9	punct	_	_	_	C4	_	_	_
+12	няма	нямам	VERB	Vnitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_	F5:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C5:COORD;coord=C3	_	Z2:Impersonal;Number=Sing|Person=3;rule=S02	_
+13	равенство	равенство	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	12	obj	_	SpaceAfter=No	_	C5	P14:NPI;Definite=Ind|Gender=Neut|Number=Sing;head=13;rule=NPI01	_	_
+14	.	.	PUNCT	punct	_	3	punct	_	_	_	C5	_	_	_
+
+# sent_id = grade12_003_s004
+# text = Ако ли пък има равенство, няма свобода, защото със сила се налага равенството.
+1	Ако	ако	SCONJ	Cs	_	4	mark	_	_	_	C6:SUB;head=C7;conj=S093:ако_ли	_	_	_
+2	ли	ли	PART	Ti	_	4	discourse	_	_	_	C6	_	_	_
+3	пък	пък	PART	Te	_	4	discourse	_	_	_	C6	_	_	_
+4	има	има	VERB	Vnitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_	F6:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C6	_	Z3:Pro-drop;Gender=Fem|Number=Sing|Person=3;rule=S10,R19;ref=Z1	E1
+5	равенство	равенство	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	4	obj	_	SpaceAfter=No	_	C6	P15:NPI;Definite=Ind|Gender=Neut|Number=Sing;head=5;rule=NPI01	_	_
+6	,	,	PUNCT	punct	_	4	punct	_	_	_	C6	_	_	_
+7	няма	нямам	VERB	Vnitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F7:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C7:MAIN	_	Z4:Impersonal;Number=Sing|Person=3;rule=S02	_
+8	свобода	свобода	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No	_	C7	P16:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=8;rule=NPI01	_	_
+9	,	,	PUNCT	punct	_	14	punct	_	_	_	C7	_	_	_
+10	защото	защото	ADV	Prc	_	14	advmod	_	_	_	C8:SUB;head=C7;conj=S030:защото	_	_	_
+11	със	със	ADP	R	_	12	case	_	_	_	C8	P17:NPI;prep=със;Definite=Ind|Gender=Fem|Number=Sing;head=12;rule=NPI01	_	_
+12	сила	сила	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	14	iobj	_	_	_	C8	P17	_	_
+13	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	14	expl	_	_	F8:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C8	_	_	_
+14	налага	налагам-(се)	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_	F8	C8	_	_	_
+15	равенството	равенство	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	14	nsubj:pass	_	SpaceAfter=No	_	C8	P18:NPD;Definite=Def|Gender=Neut|Number=Sing;head=15;rule=NPD01	_	E2
+16	.	.	PUNCT	punct	_	7	punct	_	_	_	C8	_	_	_
+
+# sent_id = grade12_003_s005
+# text = А когато нещо е наложено със сила, за какво братство може да се говори?
+1	А	а	CCONJ	Cp	_	12	cc	_	_	_	C9:MAIN	_	_	_
+2	когато	когато	ADV	Prt	PronType=Rel	5	advmod	_	_	_	C10:SUB;head=C9;conj=S042:когато	_	_	_
+3	нещо	някой	PRON	Pfe-os-ni	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	5	nsubj:pass	_	_	_	C10	_	_	_
+4	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux:pass	_	_	F9:Present-Perfect+Pass;Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Person=3|Tense=Present,Perfect|VerbForm=Fin|Voice=Pass;rule=BGF379	C10	_	_	_
+5	наложено	наложа-(се)	VERB	Vpptcv--sni	Aspect=Perf|Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	12	advcl	_	_	F9	C10	_	_	_
+6	със	със	ADP	R	_	7	case	_	_	_	C10	P19:NPI;prep=със;Definite=Ind|Gender=Fem|Number=Sing;head=7;rule=NPI01	_	_
+7	сила	сила	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	5	iobj	_	SpaceAfter=No	_	C10	P19	_	_
+8	,	,	PUNCT	punct	_	5	punct	_	_	_	C10	_	_	_
+9	за	за	ADP	R	_	11	case	_	_	_	C9	P20:NPI;prep=за;Definite=Ind|Gender=Neut|Number=Sing;head=11;rule=NPI12	_	_
+10	какво	какъв	DET	Pia--s-n	Gender=Neut|Number=Sing|PronType=Int	11	det	_	_	_	C9	P20	_	_
+11	братство	братство	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	12	iobj	_	_	_	C9	P20	_	_
+12	може	мога	VERB	Vniif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F10:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C9	_	Z5:Pro-drop;Gender=Neut|Number=Sing|Person=3;rule=S10,R19;ref=grade12_003_s004#15	E2
+13	да	да	AUX	Tx	_	15	aux	_	_	_	C9	_	_	_
+14	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	15	expl	_	_	F11:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C9	_	_	_
+15	говори	говоря	VERB	Vnitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	xcomp	_	SpaceAfter=No	F11	C9	_	Z6:Impersonal;Number=Sing|Person=3;rule=S05	_
+16	?	?	PUNCT	punct	_	12	punct	_	_	_	C9	_	_	_
+
+# sent_id = grade12_003_s006
+# text = Идеологически обаче тези три думи вършат прекрасна работа и до днес.
+1	Идеологически	идеологически	ADV	Dm	Degree=Pos	6	advmod	_	_	_	C11:MAIN	_	_	_
+2	обаче	обаче	ADV	Dd	Degree=Pos	1	advmod	_	_	_	C11	_	_	_
+3	тези	този	DET	Pde-op	Number=Plur|PronType=Dem	5	det	_	_	_	C11	P21:NPI;Definite=Def|Gender=Fem|Number=Plur;head=5;rule=NPI08	_	_
+4	три	три	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	5	nummod	_	_	_	C11	P21	_	_
+5	думи	дума	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	6	nsubj	_	_	_	C11	P21	_	_
+6	вършат	върша	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F12:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C11	_	_	_
+7	прекрасна	прекрасен	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_	_	C11	P22:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=8;rule=NPI02	_	_
+8	работа	работа	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	6	obj	_	_	_	C11	P22	_	_
+9	и	и	CCONJ	Cp	_	10	cc	_	_	_	C11	_	_	_
+10	до	до	ADP	R	_	6	conj	_	_	_	C11	_	_	_
+11	днес	днес	ADV	Dt	Degree=Pos	10	advmod	_	SpaceAfter=No	_	C11	_	_	_
+12	.	.	PUNCT	punct	_	6	punct	_	SpacesAfter=\n	_	C11	_	_	_
+
+# sent_id = grade12_003_s007
+# text = Впрочем още тогава, само четири години след щурма на Бастилията, това триединство е потъпкано по време на якобинската диктатура начело с Максимилиан Робеспиер и терора на якобинците, довел до гибелта на 30 хиляди души чрез гилотиниране.
+1	Впрочем	впрочем	ADV	Dd	Degree=Pos	3	advmod	_	_	_	C12:MAIN	_	_	_
+2	още	още	ADV	Dq	Degree=Pos	3	advmod	_	_	_	C12	_	_	_
+3	тогава	тогава	ADV	Pdt	PronType=Dem	16	advmod	_	SpaceAfter=No	_	C12	_	_	_
+4	,	,	PUNCT	punct	_	3	punct	_	_	_	C12	_	_	_
+5	само	само	ADV	Dd	Degree=Pos	7	advmod	_	_	_	C12	_	_	_
+6	четири	четири	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	7	nummod	_	_	_	C12	P23:NPI;Definite=Ind|Gender=Fem|Number=Plur;head=7;rule=NPI03	_	_
+7	години	година	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	16	obl	_	_	_	C12	P23	_	_
+8	след	след	ADP	R	_	9	case	_	_	_	C12	P24:NPD;prep=след;Definite=Def|Gender=Masc|Number=Sing;head=9;rule=NPD01	_	_
+9	щурма	щурма	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	_	_	C12	P24	_	_
+10	на	на	ADP	R	_	11	case	_	_	_	C12	P25:NPD;prep=на;Definite=Def|Gender=Fem|Number=Sing;head=11;rule=NPD01	_	_
+11	Бастилията	Бастилия	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No	_	C12	P25	_	_
+12	,	,	PUNCT	punct	_	7	punct	_	_	_	C12	_	_	_
+13	това	този	DET	Pde-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	14	det	_	_	_	C12	P26:NPI;Definite=Def|Gender=Neut|Number=Sing;head=14;rule=NPI07	_	_
+14	триединство	триединство	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	16	nsubj:pass	_	_	_	C12	P26	_	_
+15	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux:pass	_	_	F13:Present-Perfect+Pass;Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Person=3|Tense=Present,Perfect|VerbForm=Fin|Voice=Pass;rule=BGF379	C12	_	_	_
+16	потъпкано	потъпкам	VERB	Vpptcv--sni	Aspect=Perf|Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_	F13	C12	_	_	_
+17	по	по	ADP	R	_	21	case	_	_	_	C12	P27:NPI;prep=по;Definite=Ind|Gender=Neut|Number=Sing;head=18;rule=NPI01	_	_
+18	време	време	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	17	fixed	_	_	_	C12	P27	_	_
+19	на	на	ADP	R	_	17	fixed	_	_	_	C12	P28:NPD;prep=на;Definite=Def|Gender=Fem|Number=Sing;head=21;rule=NPD03	_	_
+20	якобинската	якобински	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_	_	C12	P28	_	_
+21	диктатура	диктатура	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	16	obl	_	_	_	C12	P28	_	_
+22	начело	начело	ADV	Dl	Degree=Pos	24	advmod	_	_	_	C12	_	_	_
+23	с	с	ADP	R	_	24	case	_	_	_	C12	P29:NPI;prep=с;Definite=Ind|Gender=Masc|Number=Sing;head=24;rule=NPI01	_	_
+24	Максимилиан	Максимилиан	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	16	obl	_	_	_	C12	P29	_	_
+25	Робеспиер	Робеспиер	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	24	flat	_	_	_	C12	_	_	_
+26	и	и	CCONJ	Cp	_	27	cc	_	_	_	C12	_	_	_
+27	терора	терор	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	24	conj	_	_	_	C12	P30:NPD;Definite=Def|Gender=Masc|Number=Sing;head=27;rule=NPD01	_	_
+28	на	на	ADP	R	_	29	case	_	_	_	C12	P31:NPD;prep=на;Definite=Def|Gender=Masc|Number=Plur;head=29;rule=NPD01	_	_
+29	якобинците	якобинк	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No	_	C12	P31	_	_
+30	,	,	PUNCT	punct	_	31	punct	_	_	_	C12	_	_	_
+31	довел	доведа	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	24	conj	_	_	_	C12	P32:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=31;rule=NPI01	_	_
+32	до	до	ADP	R	_	33	case	_	_	_	C12	P33:NPD;prep=до;Definite=Def|Gender=Fem|Number=Sing;head=33;rule=NPD01	_	_
+33	гибелта	гибел	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	31	nmod	_	_	_	C12	P33	_	_
+34	на	на	ADP	R	_	36	case	_	_	_	C12	P34:NPI;prep=на;Definite=Ind|Gender=Fem|Number=Plur;head=36;rule=NPI03	_	_
+35	30	тридесет	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	36	nummod	_	_	_	C12	P34	_	_
+36	хиляди	хиляда	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	33	nmod	_	_	_	C12	P34	_	_
+37	души	души	NOUN	Nc-li	Definite=Ind|Number=Ptan	36	nmod	_	_	_	C12	P35:NPI;Definite=Ind|Number=Ptan;head=37;rule=NPI01	_	_
+38	чрез	чрез	ADP	R	_	39	case	_	_	_	C12	P36:NPI;prep=чрез;Definite=Ind|Gender=Neut|Number=Sing;head=39;rule=NPI01	_	_
+39	гилотиниране	гилотиниране	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	31	nmod	_	SpaceAfter=No	_	C12	P36	_	_
+40	.	.	PUNCT	punct	_	16	punct	_	_	_	C12	_	_	_
+
+# sent_id = grade12_003_s008
+# text = Самият Робеспиер – един от бащите на революцията, на свой ред също намира края си на гилотината и така се ражда прозрението, че „революцията изяжда децата си“.
+1	Самият	сам	ADJ	Amsf	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_	C13:MAIN	P37:NPD;Definite=Def|Gender=Masc|Number=Sing;head=2;rule=NPD03	_	_
+2	Робеспиер	Робеспиер	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	14	nsubj	_	_	_	C13	P37	_	E3
+3	–	–	PUNCT	punct	_	4	punct	_	_	_	C13	_	_	_
+4	един	един	NUM	Mcmsi	Definite=Ind|Gender=Masc|Number=Sing|NumType=Card	14	nsubj	_	_	_	C13	_	_	_
+5	от	от	ADP	R	_	6	case	_	_	_	C13	P38:NPD;prep=от;Definite=Def|Gender=Masc|Number=Plur;head=6;rule=NPD01	_	_
+6	бащите	баща	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	4	nmod	_	_	_	C13	P38	_	_
+7	на	на	ADP	R	_	8	case	_	_	_	C13	P39:NPD;prep=на;Definite=Def|Gender=Fem|Number=Sing;head=8;rule=NPD01	_	_
+8	революцията	революция	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No	_	C13	P39	_	_
+9	,	,	PUNCT	punct	_	12	punct	_	_	_	C13	_	_	_
+10	на	на	ADP	R	_	12	case	_	_	_	C13	P40:NPI;prep=на;Definite=Ind|Gender=Masc|Number=Sing;head=12;rule=NPI05	_	_
+11	свой	свой	DET	Psxlos-mi	Definite=Ind|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	12	det	_	_	_	C13	P40	A1:ReflexivePossessive;Gender=Masc|Number=Sing|Person=3;rule=R03;ref=grade12_003_s008#2	E3
+12	ред	ред	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	8	conj	_	_	_	C13	P40	_	_
+13	също	също	ADV	Dm	Degree=Pos	14	advmod	_	_	_	C13	_	_	_
+14	намира	намирам-(се)	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F14:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C13	_	_	_
+15	края	край	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	14	obj	_	_	_	C13	P41:NPD;Definite=Def|Gender=Masc|Number=Sing;head=15;rule=NPD02	_	_
+16	си	свой	PRON	Psxto	Case=Nom|Poss=Yes|PronType=Prs|Reflex=Yes	15	det	_	_	_	C13	P41	A2:ReflexivePossessive;Gender=Masc|Number=Sing|Person=3;rule=R03;ref=grade12_003_s008#2	E3
+17	на	на	ADP	R	_	18	case	_	_	_	C13	P42:NPD;prep=на;Definite=Def|Gender=Fem|Number=Sing;head=18;rule=NPD01	_	_
+18	гилотината	гилотина	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	_	_	C13	P42	_	_
+19	и	и	CCONJ	Cp	_	22	cc	_	_	_	C14:COORD;coord=C13;conj=S177:и_така	_	_	_
+20	така	така	ADV	Pdm	PronType=Dem	22	advmod	_	_	_	C14	_	_	_
+21	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	22	expl	_	_	F15:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C14	_	_	_
+22	ражда	раждам-(се)	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	_	F15	C14	_	_	_
+23	прозрението	прозрение	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	22	nsubj:pass	_	SpaceAfter=No	_	C14	P43:NPD;Definite=Def|Gender=Neut|Number=Sing;head=23;rule=NPD01	_	_
+24	,	,	PUNCT	punct	_	28	punct	_	_	_	C14	_	_	_
+25	че	че	SCONJ	Cs	_	28	mark	_	_	_	C15:SUB;head=C14;conj=S016:че	_	_	_
+26	„	„	PUNCT	punct	_	28	punct	_	SpaceAfter=No	_	C15	_	_	_
+27	революцията	революция	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	28	nsubj	_	_	_	C15	P44:NPD;Definite=Def|Gender=Fem|Number=Sing;head=27;rule=NPD01	_	_
+28	изяжда	изяждам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	acl	_	_	F16:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C15	_	_	_
+29	децата	дете	NOUN	Ncnpd	Definite=Def|Gender=Neut|Number=Plur	28	obj	_	_	_	C15	P45:NPD;Definite=Def|Gender=Neut|Number=Plur;head=29;rule=NPD01	_	_
+30	си“	си“	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No	_	C15	P46:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=30;rule=NPI01	_	_
+31	.	.	PUNCT	punct	_	14	punct	_	SpacesAfter=\n	_	C15	_	_	_
+
+# sent_id = grade12_003_s009
+# text = Френската революция е дала своя значим принос за днешната демокрация.
+1	Френската	френски	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	_	C16:MAIN	P47:NPD;Definite=Def|Gender=Fem|Number=Sing;head=2;rule=NPD03	_	_
+2	революция	революция	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	4	nsubj	_	_	_	C16	P47	_	E4
+3	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_	F17:Perfect|Aorist+Concl;Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Perfect|VerbForm=Fin|Voice=Act/Aspect=Perf|Evident=Concl|Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Aorist|VerbForm=Fin|Voice=Act;rule=BGF382	C16	_	_	_
+4	дала	дам-(се)	VERB	Vpptcao-sfi	Aspect=Perf|Definite=Ind|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_	F17	C16	_	_	_
+5	своя	свой	DET	Psxlos-mh	Definite=Def|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	_	_	_	C16	P48:NPD;Definite=Def|Gender=Masc|Number=Sing;head=7;rule=NPD08	A3:ReflexivePossessive;Gender=Fem|Number=Sing|Person=3;rule=R03;ref=grade12_003_s009#2	E4
+6	значим	значим	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_	_	C16	P48	_	_
+7	принос	принос	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	_	_	C16	P48	_	_
+8	за	за	ADP	R	_	10	case	_	_	_	C16	P49:NPD;prep=за;Definite=Def|Gender=Fem|Number=Sing;head=10;rule=NPD03	_	_
+9	днешната	днешен	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_	_	C16	P49	_	_
+10	демокрация	демокрация	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No	_	C16	P49	_	_
+11	.	.	PUNCT	punct	_	4	punct	_	_	_	C16	_	_	_
+
+# sent_id = grade12_003_s010
+# text = За пръв път в Европа биват обявени за неприкосновени гражданските и човешките права чрез Декларацията за правата на човека и гражданина.
+1	За	за	ADP	R	_	3	case	_	_	_	C17:MAIN	P50:NPI;prep=За;Definite=Ind|Gender=Masc|Number=Sing;head=3;rule=NPI06	_	_
+2	пръв	пръв	ADJ	Momsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_	_	C17	P50	_	_
+3	път	път	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	_	_	C17	P50	_	_
+4	в	в	ADP	R	_	5	case	_	_	_	C17	P51:NPI;prep=в;Definite=Ind|Gender=Fem|Number=Sing;head=5;rule=NPI01	_	_
+5	Европа	европа	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	_	_	C17	P51	_	_
+6	биват	бивам	AUX	Viitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux:pass	_	_	F18:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C17	_	_	_
+7	обявени	обявя-(се)	VERB	Vpptcv--p-i	Aspect=Perf|Definite=Ind|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_	F19:NVerb+Past_Participle+Pass;Aspect=Perf|Definite=Ind|Number=Plur|VerbForm=Part|Voice=Pass;rule=BGF423	C17	_	Z7:Неопределено-личен;Number=Plur|Person=3;rule=S07	_
+8	за	за	ADP	R	_	13	case	_	_	_	C17	P52:AP;prep=за;Definite=Ind|Number=Plur;head=9;rule=AP01	_	_
+9	неприкосновени	неприкосновен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	13	amod	_	_	_	C17	P52	_	_
+10	гражданските	граждански	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	13	amod	_	_	_	C17	P53:AP;Definite=Def|Number=Plur;head=10;rule=AP02	_	_
+11	и	и	CCONJ	Cp	_	12	cc	_	_	_	C17	_	_	_
+12	човешките	човешки	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	10	conj	_	_	_	C17	P54:NPD;Definite=Def|Gender=Neut|Number=Plur;head=13;rule=NPD03	_	_
+13	права	право	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	7	iobj	_	_	_	C17	P54	_	_
+14	чрез	чрез	ADP	R	_	15	case	_	_	_	C17	P55:NPD;prep=чрез;Definite=Def|Gender=Fem|Number=Sing;head=15;rule=NPD01	_	_
+15	Декларацията	декларация	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	7	obl	_	_	_	C17	P55	_	_
+16	за	за	ADP	R	_	17	case	_	_	_	C17	P56:NPD;prep=за;Definite=Def|Gender=Neut|Number=Plur;head=17;rule=NPD01	_	_
+17	правата	право	NOUN	Ncnpd	Definite=Def|Gender=Neut|Number=Plur	15	nmod	_	_	_	C17	P56	_	_
+18	на	на	ADP	R	_	19	case	_	_	_	C17	P57:NPD;prep=на;Definite=Def|Gender=Masc|Number=Sing;head=19;rule=NPD01	_	_
+19	човека	човек	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	_	_	C17	P57	_	_
+20	и	и	CCONJ	Cp	_	21	cc	_	_	_	C17	_	_	_
+21	гражданина	гражданин	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No	_	C17	P58:NPD;Definite=Def|Gender=Masc|Number=Sing;head=21;rule=NPD01	_	_
+22	.	.	PUNCT	punct	_	7	punct	_	_	_	C17	_	_	_
+
+# sent_id = grade12_003_s011
+# text = За пръв път се изработва и приема демократичен основен закон, или конституция, която пък предписва като основен принцип разделението на властите – законодателна, изпълнителна и съдебна.
+1	За	за	ADP	R	_	3	case	_	_	_	C18:MAIN	P59:NPI;prep=За;Definite=Ind|Gender=Masc|Number=Sing;head=3;rule=NPI06	_	_
+2	пръв	пръв	ADJ	Momsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_	_	C18	P59	_	_
+3	път	път	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	_	_	C18	P59	_	_
+4	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	_	F20:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C18	_	_	_
+5	изработва	изработвам-(се)	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F20	C18	_	Z8:Pro-drop;Gender=Fem|Number=Sing|Person=3;rule=S10,R19;ref=grade12_003_s009#2	E4
+6	и	и	CCONJ	Cp	_	7	cc	_	_	_	C19:COORD;coord=C18;conj=S154:и	_	_	_
+7	приема	приемам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_	F21:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C19	_	Z9:Pro-drop;Gender=Fem|Number=Sing|Person=3;rule=S10,R19;ref=Z8	E4
+8	демократичен	демократичен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_	C19	P60:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=10;rule=NPI02	_	_
+9	основен	основен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	_	C19	P60	_	_
+10	закон	закон	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No	_	C19	P60	_	_
+11	,	,	PUNCT	punct	_	12	punct	_	_	_	C19	_	_	_
+12	или	или	CCONJ	Cp	_	13	cc	_	_	_	C19	_	_	_
+13	конституция	конституция	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No	_	C19	P61:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=13;rule=NPI01	_	E5
+14	,	,	PUNCT	punct	_	17	punct	_	_	_	C19	_	_	_
+15	която	който	PRON	Pre-os-f	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	17	nsubj	_	_	_	C20:SUB;head=C19;conj=S116:която	_	A4:Relative;Gender=Fem|Number=Sing|Person=3;rule=R01;ref=grade12_003_s011#13	E5
+16	пък	пък	PART	Te	_	17	discourse	_	_	_	C20	_	_	_
+17	предписва	предписвам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_	F22:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C20	_	_	_
+18	като	като	ADP	R	_	20	case	_	_	_	C20	P62:NPI;prep=като;Definite=Ind|Gender=Masc|Number=Sing;head=20;rule=NPI02	_	_
+19	основен	основен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_	_	C20	P62	_	_
+20	принцип	принцип	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	17	obl	_	_	_	C20	P62	_	_
+21	разделението	разделение	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	17	obj	_	_	_	C20	P63:NPD;Definite=Def|Gender=Neut|Number=Sing;head=21;rule=NPD01	_	_
+22	на	на	ADP	R	_	23	case	_	_	_	C20	P64:NPD;prep=на;Definite=Def|Gender=Fem|Number=Plur;head=23;rule=NPD01	_	_
+23	властите	власт	NOUN	Ncfpd	Definite=Def|Gender=Fem|Number=Plur	21	nmod	_	_	_	C20	P64	_	_
+24	–	–	PUNCT	punct	_	25	punct	_	_	_	C20	_	_	_
+25	законодателна	законодателн	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No	_	C20	P65:AP;Definite=Ind|Gender=Fem|Number=Sing;head=25;rule=AP01	_	_
+26	,	,	PUNCT	punct	_	27	punct	_	_	_	C20	_	_	_
+27	изпълнителна	изпълнителен	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	25	conj	_	_	_	C20	P66:AP;Definite=Ind|Gender=Fem|Number=Sing;head=27;rule=AP01	_	_
+28	и	и	CCONJ	Cp	_	29	cc	_	_	_	C20	_	_	_
+29	съдебна	съдебен	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	25	conj	_	SpaceAfter=No	_	C20	P67:AP;Definite=Ind|Gender=Fem|Number=Sing;head=29;rule=AP01	_	_
+30	.	.	PUNCT	punct	_	5	punct	_	_	_	C20	_	_	_
+
+# sent_id = grade12_003_s012
+# text = Полага се и началото на многопартийната система.
+1	Полага	полагам	VERB	Vnitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F23:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C21:MAIN	_	_	_
+2	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	_	F23	C21	_	_	_
+3	и	и	CCONJ	Cp	_	4	cc	_	_	_	C21	_	_	_
+4	началото	начало	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	1	nsubj:pass	_	_	_	C21	P68:NPD;Definite=Def|Gender=Neut|Number=Sing;head=4;rule=NPD01	_	_
+5	на	на	ADP	R	_	7	case	_	_	_	C21	P69:NPD;prep=на;Definite=Def|Gender=Fem|Number=Sing;head=7;rule=NPD03	_	_
+6	многопартийната	многопартийен	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_	_	C21	P69	_	_
+7	система	система	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No	_	C21	P69	_	_
+8	.	.	PUNCT	punct	_	1	punct	_	_	_	C21	_	_	_
+
+# sent_id = grade12_003_s013
+# text = Изключителен акт е и отделянето на църковната от светската власт – нещо немислимо дотогава.
+1	Изключителен	Изключителен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_	C22:MAIN	P70:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=2;rule=NPI02	_	_
+2	акт	акт	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	_	_	C22	P70	_	_
+3	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_	F24:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C22	_	_	_
+4	и	и	CCONJ	Cp	_	5	cc	_	_	_	C22	_	_	_
+5	отделянето	отделяне	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	0	root	_	_	_	C22	P71:NPD;Definite=Def|Gender=Neut|Number=Sing;head=5;rule=NPD01	_	_
+6	на	на	ADP	R	_	7	case	_	_	_	C22	P72:NPD;prep=на;Definite=Def|Gender=Fem|Number=Sing;head=7;rule=NPD01	_	_
+7	църковната	църковен	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	_	_	C22	P72	_	_
+8	от	от	ADP	R	_	10	case	_	_	_	C22	P73:NPD;prep=от;Definite=Def|Gender=Fem|Number=Sing;head=10;rule=NPD03	_	_
+9	светската	светски	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_	_	C22	P73	_	_
+10	власт	власт	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	_	_	C22	P73	_	_
+11	–	–	PUNCT	punct	_	13	punct	_	_	_	C22	_	_	_
+12	нещо	някой	DET	Pfe-os-ni	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	13	obj	_	_	_	C22	_	_	_
+13	немислимо	немислимо	ADJ	Ansd	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	5	nmod	_	_	_	C22	P74:AP;Definite=Def|Gender=Neut|Number=Sing;head=13;rule=AP02	_	_
+14	дотогава	тогава	ADV	Pdt	PronType=Dem	13	advmod	_	SpaceAfter=No	_	C22	_	_	_
+15	.	.	PUNCT	punct	_	5	punct	_	_	_	C22	_	_	_
+
+# sent_id = grade12_003_s014
+# text = Новости има и в областта на правото – приема се Френският граждански кодекс, или т.нар. Наполеонов кодекс, който има огромно въздействие върху гражданското право и до днес.
+1	Новости	новост	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	2	nsubj	_	_	_	C23:MAIN	P75:NPI;Definite=Ind|Gender=Fem|Number=Plur;head=1;rule=NPI01	_	_
+2	има	имам	VERB	Vnitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_	F25:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C23	_	_	_
+3	и	и	CCONJ	Cp	_	5	cc	_	_	_	C23	_	_	_
+4	в	в	ADP	R	_	5	case	_	_	_	C23	P76:NPD;prep=в;Definite=Def|Gender=Fem|Number=Sing;head=5;rule=NPD01	_	_
+5	областта	област	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	2	obj	_	_	_	C23	P76	_	_
+6	на	на	ADP	R	_	7	case	_	_	_	C23	P77:NPD;prep=на;Definite=Def|Gender=Neut|Number=Sing;head=7;rule=NPD01	_	_
+7	правото	право	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	5	nmod	_	_	_	C23	P77	_	_
+8	–	–	PUNCT	punct	_	2	punct	_	_	_	C23	_	_	_
+9	приема	приема	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F26:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C24:COORD;coord=C23	_	_	_
+10	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	9	expl	_	_	F26	C24	_	_	_
+11	Френският	френски	ADJ	Amsf	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_	_	C24	P78:NPD;Definite=Def|Gender=Masc|Number=Sing;head=13;rule=NPD03	_	_
+12	граждански	граждански	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_	_	C24	P78	_	_
+13	кодекс	кодекс	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	9	nsubj:pass	_	SpaceAfter=No	_	C24	P78	_	_
+14	,	,	PUNCT	punct	_	15	punct	_	_	_	C24	_	_	_
+15	или	или	CCONJ	Cp	_	18	cc	_	_	_	C24	_	_	_
+16	т.нар.	т.нар.	ADJ	A	Degree=Pos	18	amod	_	_	_	C24	P79:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=18;rule=NPI02	_	_
+17	Наполеонов	Наполеонов	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_	_	C24	P79	_	_
+18	кодекс	кодекс	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No	_	C24	P79	_	E6
+19	,	,	PUNCT	punct	_	21	punct	_	_	_	C24	_	_	_
+20	който	който	PRON	Pre-os-m	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	21	nsubj	_	_	_	C25:SUB;head=C24;conj=S116:който	_	A5:Relative;Gender=Masc|Number=Sing|Person=3;rule=R01;ref=grade12_003_s014#18	E6
+21	има	имам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	acl:relcl	_	_	F27:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C25	_	_	_
+22	огромно	огромен	ADJ	Ansi	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_	_	C25	P80:NPI;Definite=Ind|Gender=Neut|Number=Sing;head=23;rule=NPI02	_	_
+23	въздействие	въздействие	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	21	obj	_	_	_	C25	P80	_	_
+24	върху	върху	ADP	R	_	26	case	_	_	_	C25	P81:NPD;prep=върху;Definite=Def|Gender=Neut|Number=Sing;head=26;rule=NPD03	_	_
+25	гражданското	граждански	ADJ	Ansd	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_	_	C25	P81	_	_
+26	право	право	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	23	nmod	_	_	_	C25	P81	_	_
+27	и	и	CCONJ	Cp	_	28	cc	_	_	_	C25	_	_	_
+28	до	до	ADP	R	_	26	conj	_	_	_	C25	_	_	_
+29	днес	днес	ADV	Dt	Degree=Pos	28	advmod	_	SpaceAfter=No	_	C25	_	_	_
+30	.	.	PUNCT	punct	_	9	punct	_	SpacesAfter=\n	_	C25	_	_	_
+

@@ -1,0 +1,209 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC DCL:VERBFORM DCL:CLAUSE DCL:NP DCL:ANAPHORA DCL:COREF
+# newdoc id = grade07_001
+# newpar
+# sent_id = grade07_001_s001
+# text = Според Световната здравна организация здравето е състояние на пълно физическо, психическо и социално благополучие, а не само отсъствие на болест.
+1	Според	според	ADP	R	_	4	case	_	_	_	C1:MAIN	P1:NPD;prep=Според;Definite=Def|Gender=Fem|Number=Sing;head=4;rule=NPD03	_	_
+2	Световната	световен	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	_	C1	P1	_	_
+3	здравна	здравен	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	_	C1	P1	_	_
+4	организация	организация	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	_	_	C1	P1	_	_
+5	здравето	здраве	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	_	_	C1	P2:NPD;Definite=Def|Gender=Neut|Number=Sing;head=5;rule=NPD01	_	E1
+6	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_	F1:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C1	_	_	_
+7	състояние	състояние	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_	_	C1	P3:NPI;Definite=Ind|Gender=Neut|Number=Sing;head=7;rule=NPI01	_	_
+8	на	на	ADP	R	_	15	case	_	_	_	C1	_	_	_
+9	пълно	пълно	ADV	Dq	Degree=Pos	10	advmod	_	_	_	C1	_	_	_
+10	физическо	физически	ADJ	Ansi	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	SpaceAfter=No	_	C1	P4:AP;Definite=Ind|Gender=Neut|Number=Sing;head=10;rule=AP01	_	_
+11	,	,	PUNCT	punct	_	12	punct	_	_	_	C1	_	_	_
+12	психическо	психически	ADJ	Ansi	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	conj	_	_	_	C1	P5:NPI;Definite=Ind|Gender=Neut|Number=Sing;head=15;rule=NPI02a	_	_
+13	и	и	CCONJ	Cp	_	14	cc	_	_	_	C1	P5	_	_
+14	социално	социален	ADJ	Ansi	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	conj	_	_	_	C1	P5	_	_
+15	благополучие	благополучие	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No	_	C1	P5	_	_
+16	,	,	PUNCT	punct	_	17	punct	_	_	_	C1	_	_	_
+17	а	а	CCONJ	Cp	_	20	cc	_	_	_	C1	_	_	_
+18	не	не	INTJ	Tn	Polarity=Neg	20	advmod	_	_	_	C1	_	_	_
+19	само	само	ADV	Dd	Degree=Pos	20	advmod	_	_	_	C1	_	_	_
+20	отсъствие	отсъствие	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	7	conj	_	_	_	C1	P6:NPI;Definite=Ind|Gender=Neut|Number=Sing;head=20;rule=NPI01	_	_
+21	на	на	ADP	R	_	22	case	_	_	_	C1	P7:NPI;prep=на;Definite=Ind|Gender=Fem|Number=Sing;head=22;rule=NPI01	_	_
+22	болест	болест	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No	_	C1	P7	_	_
+23	.	.	PUNCT	punct	_	7	punct	_	_	_	C1	_	_	_
+
+# sent_id = grade07_001_s002
+# text = То е резултат от взаимодействието на редица фактори, които са свързани в система и действат на различни нива.
+1	То	аз	PRON	Ppe-os3n	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_	_	C2:MAIN	_	A1:Personal;Gender=Neut|Number=Sing|Person=3;rule=R07;ref=grade07_001_s001#5	E1
+2	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_	F2:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C2	_	_	_
+3	резултат	резултат	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_	_	C2	P8:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=3;rule=NPI01	_	_
+4	от	от	ADP	R	_	5	case	_	_	_	C2	P9:NPD;prep=от;Definite=Def|Gender=Neut|Number=Sing;head=5;rule=NPD01	_	_
+5	взаимодействието	взаимодействие	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	3	nmod	_	_	_	C2	P9	_	_
+6	на	на	ADP	R	_	7	case	_	_	_	C2	P10:NPI;prep=на;Definite=Ind|Gender=Fem|Number=Sing;head=7;rule=NPI01b	_	_
+7	редица	редица	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	5	nmod	_	_	_	C2	P10	_	_
+8	фактори	фактор	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No	_	C2	P10	_	E2
+9	,	,	PUNCT	punct	_	12	punct	_	_	_	C2	_	_	_
+10	които	който	PRON	Pre-op	Case=Nom|Number=Plur|PronType=Rel	12	nsubj:pass	_	_	_	C3:SUB;head=C2;conj=S116:които	_	A2:Relative;Number=Plur|Person=3;rule=R01;ref=grade07_001_s002#8	E2
+11	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux:pass	_	_	F3:Present-Perfect+Pass;Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Present,Perfect|VerbForm=Fin|Voice=Pass;rule=BGF379	C3	_	_	_
+12	свързани	свържа	VERB	Vpptcv--p-i	Aspect=Perf|Definite=Ind|Number=Plur|VerbForm=Part|Voice=Pass	8	acl:relcl	_	_	F3	C3	_	_	_
+13	в	в	ADP	R	_	14	case	_	_	_	C3	P11:NPI;prep=в;Definite=Ind|Gender=Fem|Number=Sing;head=14;rule=NPI01	_	_
+14	система	система	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	12	iobj	_	_	_	C3	P11	_	_
+15	и	и	CCONJ	Cp	_	16	cc	_	_	_	C4:SUB;head=C2;coord=C3;conj=S154:и	_	_	_
+16	действат	действам	VERB	Vpiif-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_	F4:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C4	_	Z1:Pro-drop;Number=Plur|Person=3;rule=S10,R19;ref=A2	E2
+17	на	на	ADP	R	_	19	case	_	_	_	C4	P12:NPI;prep=на;Definite=Ind|Gender=Neut|Number=Plur;head=19;rule=NPI02	_	_
+18	различни	различен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	19	amod	_	_	_	C4	P12	_	_
+19	нива	ниво	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	16	iobj	_	SpaceAfter=No	_	C4	P12	_	_
+20	.	.	PUNCT	punct	_	3	punct	_	SpacesAfter=\n	_	C4	_	_	_
+
+# sent_id = grade07_001_s003
+# text = В тази система на първо ниво е човекът със своите индивидуални физически особености, които обуславят здравословното му състояние.
+1	В	в	ADP	R	_	3	case	_	_	_	C5:MAIN	P13:NPI;prep=В;Definite=Def|Gender=Fem|Number=Sing;head=3;rule=NPI07	_	_
+2	тази	този	DET	Pde-os-f	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_	_	C5	P13	_	_
+3	система	система	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	_	_	C5	P13	_	_
+4	на	на	ADP	R	_	6	case	_	_	_	C5	P14:NPI;prep=на;Definite=Ind|Gender=Neut|Number=Sing;head=6;rule=NPI06	_	_
+5	първо	пръв	ADJ	Monsi	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	6	amod	_	_	_	C5	P14	_	_
+6	ниво	ниво	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	3	nmod	_	_	_	C5	P14	_	_
+7	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_	F5:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C5	_	_	_
+8	човекът	човек	NOUN	Ncmsf	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	_	_	C5	P15:NPD;Definite=Def|Gender=Masc|Number=Sing;head=8;rule=NPD01	_	E3
+9	със	със	ADP	R	_	13	case	_	_	_	C5	P16:NPD;prep=със;Definite=Def|Gender=Fem|Number=Plur;head=13;rule=NPD08	_	_
+10	своите	свой	DET	Psxlop--d	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	13	det	_	_	_	C5	P16	A3:ReflexivePossessive;Gender=Masc|Number=Sing|Person=3;rule=R03;ref=grade07_001_s003#8	E3
+11	индивидуални	индивидуален	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	13	amod	_	_	_	C5	P16	_	_
+12	физически	физически	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	13	amod	_	_	_	C5	P16	_	_
+13	особености	особеност	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No	_	C5	P16	_	E4
+14	,	,	PUNCT	punct	_	16	punct	_	_	_	C5	_	_	_
+15	които	който	PRON	Pre-op	Case=Nom|Number=Plur|PronType=Rel	16	nsubj	_	_	_	C6:SUB;head=C5;conj=S116:които	_	A4:Relative;Number=Plur|Person=3;rule=R01;ref=grade07_001_s003#13	E4
+16	обуславят	обуславям	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_	F6:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C6	_	_	_
+17	здравословното	здравословен	ADJ	Ansd	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_	_	C6	P17:NPD;Definite=Def|Gender=Neut|Number=Sing;head=19;rule=NPD04	_	_
+18	му	мой	PRON	Psot--3--m	Person=3|Poss=Yes|PronType=Prs	17	det	_	_	_	C6	P17	A5:Possessive;Gender=Masc,Neut|Number=Sing|Person=3;rule=R15;ref=grade07_001_s003#8	E3
+19	състояние	състояние	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	16	obj	_	SpaceAfter=No	_	C6	P17	_	_
+20	.	.	PUNCT	punct	_	3	punct	_	SpacesAfter=\n	_	C6	_	_	_
+
+# sent_id = grade07_001_s004
+# text = Следващото ниво е начинът на живот.
+1	Следващото	следвам	ADJ	Vpitcar-snd	Aspect=Imp|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	2	amod	_	_	F7:NVerb+Present_Participle;Aspect=Imp|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act;rule=BGF421	C7:MAIN	_	_	_
+2	ниво	ниво	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_	_	C7	P18:NPI;Definite=Ind|Gender=Neut|Number=Sing;head=2;rule=NPI01	_	_
+3	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_	F8:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C7	_	_	_
+4	начинът	начин	NOUN	Ncmsf	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	_	_	C7	P19:NPD;Definite=Def|Gender=Masc|Number=Sing;head=4;rule=NPD01	_	_
+5	на	на	ADP	R	_	6	case	_	_	_	C7	P20:NPI;prep=на;Definite=Ind|Gender=Masc|Number=Sing;head=6;rule=NPI01	_	_
+6	живот	живот	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No	_	C7	P20	_	_
+7	.	.	PUNCT	punct	_	2	punct	_	_	_	C7	_	_	_
+
+# sent_id = grade07_001_s005
+# text = Влошени здравословни показатели се наблюдават при лицата с ясно изразени рискови фактори например недояждане, затлъстяване, тютюнопушене, недоспиване, употреба на алкохол и на наркотици.
+1	Влошени	Влошен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	3	amod	_	_	_	C8:MAIN	P21:NPI;Definite=Ind|Gender=Masc|Number=Plur;head=3;rule=NPI02	_	_
+2	здравословни	здравословен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	3	amod	_	_	_	C8	P21	_	_
+3	показатели	показател	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	5	nsubj:pass	_	_	_	C8	P21	_	_
+4	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	_	F9:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C8	_	_	_
+5	наблюдават	наблюдавам	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F9	C8	_	_	_
+6	при	при	ADP	R	_	7	case	_	_	_	C8	P22:NPD;prep=при;Definite=Def|Gender=Neut|Number=Plur;head=7;rule=NPD01	_	_
+7	лицата	лице	NOUN	Ncnpd	Definite=Def|Gender=Neut|Number=Plur	5	obl	_	_	_	C8	P22	_	_
+8	с	с	ADP	R	_	12	case	_	_	_	C8	_	_	_
+9	ясно	ясно	ADV	Dm	Degree=Pos	10	advmod	_	_	_	C8	_	_	_
+10	изразени	изразя-(се)	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	12	amod	_	_	_	C8	P23:NPI;Definite=Ind|Gender=Masc|Number=Plur;head=12;rule=NPI02	_	_
+11	рискови	рисков	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	12	amod	_	_	_	C8	P23	_	_
+12	фактори	фактор	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	7	nmod	_	_	_	C8	P23	_	_
+13	например	например	ADV	Dd	Degree=Pos	14	advmod	_	_	_	C8	_	_	_
+14	недояждане	недояждане	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No	_	C8	P24:NPI;Definite=Ind|Gender=Neut|Number=Sing;head=14;rule=NPI01	_	_
+15	,	,	PUNCT	punct	_	16	punct	_	_	_	C8	_	_	_
+16	затлъстяване	затлъстяване	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	14	conj	_	SpaceAfter=No	_	C8	P25:NPI;Definite=Ind|Gender=Neut|Number=Sing;head=16;rule=NPI01	_	_
+17	,	,	PUNCT	punct	_	18	punct	_	_	_	C8	_	_	_
+18	тютюнопушене	тютюнопушене	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	14	conj	_	SpaceAfter=No	_	C8	P26:NPI;Definite=Ind|Gender=Neut|Number=Sing;head=18;rule=NPI01	_	_
+19	,	,	PUNCT	punct	_	20	punct	_	_	_	C8	_	_	_
+20	недоспиване	недоспиване	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	14	conj	_	SpaceAfter=No	_	C8	P27:NPI;Definite=Ind|Gender=Neut|Number=Sing;head=20;rule=NPI01	_	_
+21	,	,	PUNCT	punct	_	22	punct	_	_	_	C8	_	_	_
+22	употреба	употреба	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	14	conj	_	_	_	C8	P28:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=22;rule=NPI01	_	_
+23	на	на	ADP	R	_	24	case	_	_	_	C8	P29:NPI;prep=на;Definite=Ind|Gender=Masc|Number=Sing;head=24;rule=NPI01	_	_
+24	алкохол	алкохол	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	22	nmod	_	_	_	C8	P29	_	_
+25	и	и	CCONJ	Cp	_	27	cc	_	_	_	C8	_	_	_
+26	на	на	ADP	R	_	27	case	_	_	_	C8	P30:NPI;prep=на;Definite=Ind|Gender=Masc|Number=Plur;head=27;rule=NPI01	_	_
+27	наркотици	наркотик	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	14	conj	_	SpaceAfter=No	_	C8	P30	_	_
+28	.	.	PUNCT	punct	_	5	punct	_	SpacesAfter=\n	_	C8	_	_	_
+
+# sent_id = grade07_001_s006
+# text = Индивидуалното поведение до голяма степен се определя от средата, в която човек расте и се развива, т.е. на трето ниво в системата се нарежда влиянието на семейната среда.
+1	Индивидуалното	Индивидуален	ADJ	Ansd	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_	_	C9:MAIN	P31:NPD;Definite=Def|Gender=Neut|Number=Sing;head=2;rule=NPD03	_	_
+2	поведение	поведение	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	7	nsubj:pass	_	_	_	C9	P31	_	E5
+3	до	до	ADP	R	_	5	case	_	_	_	C9	P32:NPI;prep=до;Definite=Ind|Gender=Fem|Number=Sing;head=5;rule=NPI02	_	_
+4	голяма	голям	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_	_	C9	P32	_	_
+5	степен	степен	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	_	_	C9	P32	_	_
+6	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	7	expl	_	_	F10:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C9	_	_	_
+7	определя	определям-(се)	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F10	C9	_	_	_
+8	от	от	ADP	R	_	9	case	_	_	_	C9	P33:NPD;prep=от;Definite=Def|Gender=Fem|Number=Sing;head=9;rule=NPD01	_	_
+9	средата	среда	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	7	iobj	_	SpaceAfter=No	_	C9	P33	_	E6
+10	,	,	PUNCT	punct	_	14	punct	_	_	_	C9	_	_	_
+11	в	в	ADP	R	_	12	case	_	_	_	C10:SUB;head=C9;conj=S116:която	_	_	_
+12	която	който	PRON	Pre-os-f	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	14	iobj	_	_	_	C10	_	A6:Relative;Gender=Fem|Number=Sing|Person=3;rule=R01;ref=grade07_001_s006#9	E6
+13	човек	човек	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	14	nsubj	_	_	_	C10	P34:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=13;rule=NPI01	_	_
+14	расте	раста	VERB	Vpiif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_	F11:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C10	_	_	_
+15	и	и	CCONJ	Cp	_	17	cc	_	_	_	C11:SUB;head=C9;coord=C10;conj=S154:и	_	_	_
+16	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	17	expl	_	_	F12:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C11	_	_	_
+17	развива	развивам-(се)	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	SpaceAfter=No	F12	C11	_	Z2:Pro-drop;Gender=Neut|Number=Sing|Person=3;rule=S10,R19;ref=grade07_001_s006#2	E5
+18	,	,	PUNCT	punct	_	19	punct	_	_	_	C11	_	_	_
+19	т.е.	т.е.	CCONJ	Cc	_	26	cc	_	_	_	C12:COORD;coord=C9	_	_	_
+20	на	на	ADP	R	_	22	case	_	_	_	C12	P35:NPI;prep=на;Definite=Ind|Gender=Neut|Number=Sing;head=22;rule=NPI06	_	_
+21	трето	трети	ADJ	Monsi	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	22	amod	_	_	_	C12	P35	_	_
+22	ниво	ниво	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	26	obl	_	_	_	C12	P35	_	_
+23	в	в	ADP	R	_	24	case	_	_	_	C12	P36:NPD;prep=в;Definite=Def|Gender=Fem|Number=Sing;head=24;rule=NPD01	_	_
+24	системата	система	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	22	nmod	_	_	_	C12	P36	_	_
+25	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	26	expl	_	_	F13:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C12	_	_	_
+26	нарежда	нареждам-(се)	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	_	F13	C12	_	_	_
+27	влиянието	влияние	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	26	nsubj:pass	_	_	_	C12	P37:NPD;Definite=Def|Gender=Neut|Number=Sing;head=27;rule=NPD01	_	_
+28	на	на	ADP	R	_	30	case	_	_	_	C12	P38:NPD;prep=на;Definite=Def|Gender=Fem|Number=Sing;head=30;rule=NPD03	_	_
+29	семейната	семеен	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_	_	C12	P38	_	_
+30	среда	среда	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No	_	C12	P38	_	_
+31	.	.	PUNCT	punct	_	7	punct	_	SpacesAfter=\n	_	C12	_	_	_
+
+# sent_id = grade07_001_s007
+# text = Следват факторите, които произтичат от условията на живот и на работа – местоживеене, степен на образование, работно място, доходи.
+1	Следват	следвам	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F14:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C13:MAIN	_	_	_
+2	факторите	фактор	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	1	nsubj	_	SpaceAfter=No	_	C13	P39:NPD;Definite=Def|Gender=Masc|Number=Plur;head=2;rule=NPD01	_	E7
+3	,	,	PUNCT	punct	_	5	punct	_	_	_	C13	_	_	_
+4	които	който	PRON	Pre-op	Case=Nom|Number=Plur|PronType=Rel	5	nsubj	_	_	_	C14:SUB;head=C13;conj=S116:които	_	A7:Relative;Number=Plur|Person=3;rule=R01;ref=grade07_001_s007#2	E7
+5	произтичат	произтичам	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_	F15:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C14	_	_	_
+6	от	от	ADP	R	_	7	case	_	_	_	C14	P40:NPD;prep=от;Definite=Def|Gender=Neut|Number=Plur;head=7;rule=NPD01	_	_
+7	условията	условие	NOUN	Ncnpd	Definite=Def|Gender=Neut|Number=Plur	5	iobj	_	_	_	C14	P40	_	_
+8	на	на	ADP	R	_	9	case	_	_	_	C14	P41:NPI;prep=на;Definite=Ind|Gender=Masc|Number=Sing;head=9;rule=NPI01	_	_
+9	живот	живот	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	_	_	C14	P41	_	_
+10	и	и	CCONJ	Cp	_	12	cc	_	_	_	C14	_	_	_
+11	на	на	ADP	R	_	12	case	_	_	_	C14	P42:NPI;prep=на;Definite=Ind|Gender=Fem|Number=Sing;head=12;rule=NPI01	_	_
+12	работа	работа	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	9	conj	_	_	_	C14	P42	_	_
+13	–	–	PUNCT	punct	_	14	punct	_	_	_	C14	_	_	_
+14	местоживеене	местоживеене	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No	_	C14	P43:NPI;Definite=Ind|Gender=Neut|Number=Sing;head=14;rule=NPI01	_	_
+15	,	,	PUNCT	punct	_	16	punct	_	_	_	C14	_	_	_
+16	степен	степен	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	14	conj	_	_	_	C14	P44:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=16;rule=NPI01	_	_
+17	на	на	ADP	R	_	18	case	_	_	_	C14	P45:NPI;prep=на;Definite=Ind|Gender=Neut|Number=Sing;head=18;rule=NPI01	_	_
+18	образование	образование	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No	_	C14	P45	_	_
+19	,	,	PUNCT	punct	_	21	punct	_	_	_	C14	_	_	_
+20	работно	работен	ADJ	Ansi	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_	_	C14	P46:NPI;Definite=Ind|Gender=Neut|Number=Sing;head=21;rule=NPI02	_	_
+21	място	място	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	14	conj	_	SpaceAfter=No	_	C14	P46	_	_
+22	,	,	PUNCT	punct	_	23	punct	_	_	_	C14	_	_	_
+23	доходи	доход	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	14	conj	_	SpaceAfter=No	_	C14	P47:NPI;Definite=Ind|Gender=Masc|Number=Plur;head=23;rule=NPI01	_	_
+24	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n	_	C14	_	_	_
+
+# sent_id = grade07_001_s008
+# text = Като определящи се извеждат и факторите, свързани с околната среда.
+1	Като	като	ADP	R	_	4	case	_	_	_	C15:MAIN	_	_	_
+2	определящи	определям-(се)	ADV	Dl	Degree=Pos	4	advmod	_	_	_	C15	_	_	_
+3	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	_	F16:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C15	_	_	_
+4	извеждат	извеждам	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F16	C15	_	_	_
+5	и	и	CCONJ	Cp	_	6	cc	_	_	_	C15	_	_	_
+6	факторите	фактор	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	4	nsubj:pass	_	SpaceAfter=No	_	C15	P48:NPD;Definite=Def|Gender=Masc|Number=Plur;head=6;rule=NPD01	_	_
+7	,	,	PUNCT	punct	_	8	punct	_	_	_	C15	_	_	_
+8	свързани	свържа	ADJ	Vpptcv--p-i	Aspect=Perf|Definite=Ind|Degree=Pos|Number=Plur|VerbForm=Part|Voice=Pass	6	amod	_	_	F17:NVerb+Past_Participle+Pass;Aspect=Perf|Definite=Ind|Degree=Pos|Number=Plur|VerbForm=Part|Voice=Pass;rule=BGF423	C15	_	_	_
+9	с	с	ADP	R	_	11	case	_	_	_	C15	P49:NPD;prep=с;Definite=Def|Gender=Fem|Number=Sing;head=11;rule=NPD03	_	_
+10	околната	околен	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_	_	C15	P49	_	_
+11	среда	среда	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No	_	C15	P49	_	_
+12	.	.	PUNCT	punct	_	4	punct	_	_	_	C15	_	_	_
+
+# sent_id = grade07_001_s009
+# text = Найголямо влияние върху здравето оказват вредните газове, отпадъците, пожарите, сушата.
+1	Найголямо	Найголямо	ADJ	Ansi	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_	_	C16:MAIN	P50:NPI;Definite=Ind|Gender=Neut|Number=Sing;head=2;rule=NPI02	_	_
+2	влияние	влияние	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	5	nsubj	_	_	_	C16	P50	_	_
+3	върху	върху	ADP	R	_	4	case	_	_	_	C16	P51:NPD;prep=върху;Definite=Def|Gender=Neut|Number=Sing;head=4;rule=NPD01	_	_
+4	здравето	здраве	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	_	_	C16	P51	_	_
+5	оказват	оказвам-(се)	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F18:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C16	_	_	_
+6	вредните	вреден	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	7	amod	_	_	_	C16	P52:NPD;Definite=Def|Gender=Masc|Number=Plur;head=7;rule=NPD03	_	_
+7	газове	газ	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No	_	C16	P52	_	_
+8	,	,	PUNCT	punct	_	9	punct	_	_	_	C16	_	_	_
+9	отпадъците	отпадък	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No	_	C16	P53:NPD;Definite=Def|Gender=Masc|Number=Plur;head=9;rule=NPD01	_	_
+10	,	,	PUNCT	punct	_	11	punct	_	_	_	C16	_	_	_
+11	пожарите	пожар	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No	_	C16	P54:NPD;Definite=Def|Gender=Masc|Number=Plur;head=11;rule=NPD01	_	_
+12	,	,	PUNCT	punct	_	13	punct	_	_	_	C16	_	_	_
+13	сушата	суша	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No	_	C16	P55:NPD;Definite=Def|Gender=Fem|Number=Sing;head=13;rule=NPD01	_	_
+14	.	.	PUNCT	punct	_	5	punct	_	SpacesAfter=\n	_	C16	_	_	_
+

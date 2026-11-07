@@ -1,0 +1,674 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC DCL:VERBFORM DCL:CLAUSE DCL:NP DCL:ANAPHORA DCL:COREF
+# newdoc id = grade10_003
+# newpar
+# sent_id = grade10_003_s001
+# text = Питаш ме как се казвам…
+1	Питаш	питам-(се)	VERB	Vpitf-r2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F1:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C1:MAIN	_	Z1:Pro-drop;Number=Sing|Person=2;rule=S08	E1
+2	ме	аз	PRON	Ppetas1	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	_	_	_	C1	_	A1:Personal;Number=Sing|Person=1	E2
+3	как	как	ADV	Pim	PronType=Int	5	advmod	_	_	_	C2:SUB;head=C1;conj=S122:как	_	_	_
+4	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	_	F2:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C2	_	_	_
+5	казвам	казвам-(се)	VERB	Vpitf-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	xcomp	_	SpaceAfter=No	F2	C2	_	Z2:Pro-drop;Number=Sing|Person=1;rule=S08,R05;ref=A1	E2
+6	…	…	PUNCT	punct	_	1	punct	_	_	_	C2	_	_	_
+
+# sent_id = grade10_003_s002
+# text = Благодаря ти, благодаря!
+1	Благодаря	благодаря	VERB	Vpiif-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F3:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C3:MAIN	_	Z3:Pro-drop;Number=Sing|Person=1;rule=S08,R05;ref=Z2	E2
+2	ти	аз	PRON	Ppetds2	Case=Dat|Number=Sing|Person=2|PronType=Prs	1	iobj	_	SpaceAfter=No	_	C3	_	A2:Personal;Number=Sing|Person=2;rule=R06;ref=Z1	E1
+3	,	,	PUNCT	punct	_	4	punct	_	_	_	C3	_	_	_
+4	благодаря	благодаря	VERB	Vpiif-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	SpaceAfter=No	F4:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C4:COORD;coord=C3	_	Z4:Pro-drop;Number=Sing|Person=1;rule=S08,R05;ref=Z3	E2
+5	!	!	PUNCT	punct	_	1	punct	_	_	_	C4	_	_	_
+
+# sent_id = grade10_003_s003
+# text = Аз една година вече съм в този град, всеки ден – кажи-речи – сядам на тази пейка и досега никой не ме е попитал как се викам.
+1	Аз	аз	PRON	Ppe-os1	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_	_	C5:MAIN	_	A3:Personal;Number=Sing|Person=1;rule=R05;ref=Z4	E2
+2	една	един	NUM	Mcfsi	Definite=Ind|Gender=Fem|Number=Sing|NumType=Card	3	nummod	_	_	_	C5	P1:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=3;rule=NPI03	_	_
+3	година	година	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	15	obl	_	_	_	C5	P1	_	_
+4	вече	вече	ADV	Dt	Degree=Pos	8	advmod	_	_	_	C5	_	_	_
+5	съм	съм	AUX	Vxitf-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_	F5:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C5	_	_	_
+6	в	в	ADP	R	_	8	case	_	_	_	C5	P2:NPI;prep=в;Definite=Def|Gender=Masc|Number=Sing;head=8;rule=NPI07	_	_
+7	този	този	DET	Pde-os-m	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_	_	C5	P2	_	_
+8	град	град	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No	_	C5	P2	Z5:Pro-drop;Gender=Masc|Number=Sing|Person=1;rule=S08,R05;ref=A3	E2
+9	,	,	PUNCT	punct	_	11	punct	_	_	_	C5	_	_	_
+10	всеки	всеки	DET	Pce-os-m	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	11	det	_	_	_	C6:COORD;coord=C5	P3:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=11;rule=NPI15	_	_
+11	ден	ден	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	15	obl	_	_	_	C6	P3	_	_
+12	–	–	PUNCT	punct	_	11	punct	_	_	_	C6	_	_	_
+13	кажи-речи	кажи-речи	INTJ	I	_	15	discourse	_	_	_	C6	_	_	_
+14	–	–	PUNCT	punct	_	13	punct	_	_	_	C6	_	_	_
+15	сядам	сядам	VERB	Vpiif-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F6:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C6	_	Z6:Pro-drop;Gender=Masc|Number=Sing|Person=1;rule=S08,R05;ref=Z5	E2
+16	на	на	ADP	R	_	18	case	_	_	_	C6	P4:NPI;prep=на;Definite=Def|Gender=Fem|Number=Sing;head=18;rule=NPI07	_	_
+17	тази	този	DET	Pde-os-f	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_	_	C6	P4	_	_
+18	пейка	пейка	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	15	obl	_	_	_	C6	P4	_	_
+19	и	и	CCONJ	Cp	_	25	cc	_	_	_	C7:COORD;coord=C6;conj=S154:и	_	_	_
+20	досега	досега	ADV	Dt	Degree=Pos	25	advmod	_	_	_	C7	_	_	_
+21	никой	никой	PRON	Pne-os-m	Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	25	nsubj	_	_	_	C7	_	_	_
+22	не	не	PART	Tn	Polarity=Neg	25	advmod	_	_	F7:Perfect+Neg|Aorist+Neg+Concl;Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Perfect|VerbForm=Fin|Voice=Act/Aspect=Perf|Evident=Concl|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Aorist|VerbForm=Fin|Voice=Act;rule=BGF292	C7	_	_	_
+23	ме	аз	PRON	Ppetas1	Case=Acc|Number=Sing|Person=1|PronType=Prs	25	obj	_	_	_	C7	_	A4:Personal;Gender=Masc|Number=Sing|Person=1;rule=R05;ref=Z6	E2
+24	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	aux	_	_	F7	C7	_	_	_
+25	попитал	попитам	VERB	Vpptcao-smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	15	conj	_	_	F7	C7	_	_	_
+26	как	как	ADV	Pim	PronType=Int	28	advmod	_	_	_	C8:SUB;head=C7;conj=S122:как	_	_	_
+27	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	28	expl	_	_	F8:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C8	_	_	_
+28	викам	викам	VERB	Vpitf-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	25	xcomp	_	SpaceAfter=No	F8	C8	_	Z7:Pro-drop;Number=Sing|Person=1;rule=S08,R05;ref=A4	E2
+29	.	.	PUNCT	punct	_	15	punct	_	_	_	C8	_	_	_
+
+# sent_id = grade10_003_s004
+# text = Ама ни-кой!
+1	Ама	ама	CCONJ	Cc	_	2	cc	_	_	_	C9:MAIN	_	_	_
+2	ни-кой	ни-кой	DET	Pfe-os-m	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	0	root	_	SpaceAfter=No	_	C9	_	_	_
+3	!	!	PUNCT	punct	_	2	punct	_	_	_	C9	_	_	_
+
+# sent_id = grade10_003_s005
+# text = Ти си първият и затова ти благодаря.
+1	Ти	аз	PRON	Ppe-os2	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_	_	C10:MAIN	_	A5:Personal;Number=Sing|Person=2;rule=R06;ref=A2	E1
+2	си	съм	AUX	Vxitf-r2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_	F9:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C10	_	_	_
+3	първият	пръв	ADJ	Momsf	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	0	root	_	_	_	C10	_	_	_
+4	и	и	CCONJ	Cp	_	7	cc	_	_	_	C10	_	_	_
+5	затова	затова	ADV	Pds	_	7	advmod	_	_	_	C11:COORD;coord=C10;conj=S176:затова	_	_	_
+6	ти	аз	PRON	Psot--2	Person=2|Poss=Yes|PronType=Prs	7	nsubj	_	_	_	C11	_	A6:Possessive;Number=Sing|Person=2;rule=R06;ref=A5	E1
+7	благодаря	благодаря	VERB	Vpiif-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No	F10:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C11	_	_	_
+8	.	.	PUNCT	punct	_	3	punct	_	_	_	C11	_	_	_
+
+# sent_id = grade10_003_s006
+# text = Да си жив и здрав и на мойто положение – дай си боже – никога да не дохождаш!
+1	Да	да	AUX	Tx	_	3	aux	_	_	_	C12:MAIN	_	_	_
+2	си	се	PRON	Ppxtd	Case=Dat|PronType=Prs|Reflex=Yes	3	expl	_	_	_	C12	_	_	_
+3	жив	жив	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_	_	C12	P5:AP;Definite=Ind|Gender=Masc|Number=Sing;head=3;rule=AP01	_	_
+4	и	и	CCONJ	Cp	_	5	cc	_	_	_	C12	_	_	_
+5	здрав	здрав	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	3	conj	_	_	_	C12	P6:AP;Definite=Ind|Gender=Masc|Number=Sing;head=5;rule=AP01	_	_
+6	и	и	CCONJ	Cp	_	9	cc	_	_	_	C12	_	_	_
+7	на	на	ADP	R	_	9	case	_	_	_	C12	_	_	_
+8	мойто	мой	DET	Pre-os-m	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	9	det	_	_	_	C12	_	_	_
+9	положение	положение	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	3	conj	_	_	_	C12	P7:NPI;Definite=Ind|Gender=Neut|Number=Sing;head=9;rule=NPI01	_	E3
+10	–	–	PUNCT	punct	_	3	punct	_	_	_	C12	_	_	_
+11	дай	дай	VERB	Vpptz--2s	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	3	conj	_	_	F11:Imperative;Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin;rule=BGF415	C12	_	_	_
+12	си	се	PRON	Ppxtd	Case=Dat|PronType=Prs|Reflex=Yes	13	expl	_	_	F12:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C12	_	_	_
+13	боже	бога	VERB	Vpiif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	ccomp	_	_	F12	C12	_	Z8:Pro-drop;Gender=Neut|Number=Sing|Person=3;rule=S10,R20;ref=grade10_003_s006#9	E3
+14	–	–	PUNCT	punct	_	18	punct	_	_	_	C12	_	_	_
+15	никога	никога	ADV	Pnt	PronType=Neg	18	advmod	_	_	_	C12	_	_	_
+16	да	да	AUX	Tx	_	18	aux	_	_	_	C13:SUB;head=C12;conj=S036:да	_	_	_
+17	не	не	PART	Tn	Polarity=Neg	18	advmod	_	_	F13:Present+Neg;Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF376	C13	_	_	_
+18	дохождаш	дохождам-(се)	VERB	Vpitf-r2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	SpaceAfter=No	F13	C13	_	Z9:Pro-drop;Number=Sing|Person=2;rule=S08,R06;ref=A6	E1
+19	!	!	PUNCT	punct	_	11	punct	_	SpacesAfter=\n	_	C13	_	_	_
+
+# sent_id = grade10_003_s007
+# text = Да съм гладен и жаден – не!
+1	Да	да	AUX	Tx	_	3	aux	_	_	_	C14:SUB;conj=S036:да	_	_	_
+2	съм	съм	AUX	Vxitf-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_	F14:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C14	_	_	_
+3	гладен	гладен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_	_	C14	P8:AP;Definite=Ind|Gender=Masc|Number=Sing;head=3;rule=AP01	Z10:Pro-drop;Gender=Masc|Number=Sing|Person=1;rule=S08,R05;ref=Z7	E2
+4	и	и	CCONJ	Cp	_	5	cc	_	_	_	C14	_	_	_
+5	жаден	жада	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	3	conj	_	_	_	C14	P9:AP;Definite=Ind|Gender=Masc|Number=Sing;head=5;rule=AP01	_	_
+6	–	–	PUNCT	punct	_	7	punct	_	_	_	C14	_	_	_
+7	не	не	INTJ	Tn	Polarity=Neg	3	advmod	_	SpaceAfter=No	_	C14	_	_	_
+8	!	!	PUNCT	punct	_	3	punct	_	_	_	C14	_	_	_
+
+# sent_id = grade10_003_s008
+# text = Ако ме гледаш отвънка – всичко ми е пълно и равно.
+1	Ако	ако	SCONJ	Cs	_	3	mark	_	_	_	C15:SUB;head=C16;conj=S071:ако	_	_	_
+2	ме	аз	PRON	Ppetas1	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_	_	C15	_	A7:Personal;Gender=Masc|Number=Sing|Person=1;rule=R05;ref=Z10	E2
+3	гледаш	гледам	VERB	Vpitf-r2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	_	F15:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C15	_	Z11:Pro-drop;Number=Sing|Person=2;rule=S08,R06;ref=Z9	E1
+4	отвънка	отвънка	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	3	xcomp	_	_	_	C15	P10:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=4;rule=NPI01	_	_
+5	–	–	PUNCT	punct	_	3	punct	_	_	_	C15	_	_	_
+6	всичко	всеки	PRON	Pce-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	9	nsubj	_	_	_	C16:MAIN	_	_	_
+7	ми	аз	PRON	Ppetds1	Case=Dat|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_	_	C16	_	A8:Personal;Gender=Masc|Number=Sing|Person=1;rule=R05;ref=A7	E2
+8	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_	F16:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C16	_	_	_
+9	пълно	пълен	ADJ	Ansi	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_	_	C16	P11:AP;Definite=Ind|Gender=Neut|Number=Sing;head=9;rule=AP01	_	_
+10	и	и	CCONJ	Cp	_	11	cc	_	_	_	C16	_	_	_
+11	равно	равен	ADJ	Ansi	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	conj	_	SpaceAfter=No	_	C16	P12:AP;Definite=Ind|Gender=Neut|Number=Sing;head=11;rule=AP01	_	_
+12	.	.	PUNCT	punct	_	9	punct	_	_	_	C16	_	_	_
+
+# sent_id = grade10_003_s009
+# text = Дъщеря ми – женена, живее си в село, детето ѝ – здраво, мъжът ѝ – председател, синът ми е в министерството, дето се вика, първият помощник, инженер с диплома като чаршаф, с автомобил го вземат и връщат.
+1	Дъщеря	дъщеря	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F17:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C17:MAIN	_	Z12:Pro-drop;Gender=Neut|Number=Sing|Person=3;rule=S10,R19;ref=Z8	E3
+2	ми	аз	PRON	Ppetds1	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_	_	C17	_	A9:Personal;Gender=Masc|Number=Sing|Person=1;rule=R05;ref=A8	E2
+3	–	–	PUNCT	punct	_	6	punct	_	_	_	C17	_	_	_
+4	женена	жена	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No	_	C18:COORD;coord=C17	P13:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=4;rule=NPI01	_	E4
+5	,	,	PUNCT	punct	_	4	punct	_	_	_	C18	_	_	_
+6	живее	живея	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj	_	_	F18:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C18	_	_	_
+7	си	се	PRON	Ppxtd	Case=Dat|PronType=Prs|Reflex=Yes	6	expl	_	_	F18	C18	_	_	_
+8	в	в	ADP	R	_	9	case	_	_	_	C18	P14:NPI;prep=в;Definite=Ind|Gender=Neut|Number=Sing;head=9;rule=NPI01	_	_
+9	село	село	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	6	iobj	_	SpaceAfter=No	_	C18	P14	_	_
+10	,	,	PUNCT	punct	_	43	punct	_	_	_	C18	_	_	_
+11	детето	дете	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	43	nsubj	_	_	_	C19:COORD;coord=C18	P15:NPD;Definite=Def|Gender=Neut|Number=Sing;head=11;rule=NPD01	_	_
+12	ѝ	ѝ	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	43	nsubj	_	_	_	C19	P16:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=12;rule=NPI01	A10:Personal;Gender=Fem|Number=Sing|Person=3;rule=R13;ref=grade10_003_s009#4	E4
+13	–	–	PUNCT	punct	_	25	punct	_	_	_	C19	_	_	_
+14	здраво	здрав	ADV	Dm	Degree=Pos	25	advmod	_	SpaceAfter=No	_	C19	_	_	_
+15	,	,	PUNCT	punct	_	14	punct	_	_	_	C19	_	_	_
+16	мъжът	мъж	NOUN	Ncmsf	Definite=Def|Gender=Masc|Number=Sing	25	nmod	_	_	_	C19	P17:NPD;Definite=Def|Gender=Masc|Number=Sing;head=16;rule=NPD01	_	_
+17	ѝ	ѝ	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	_	_	C19	P18:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=17;rule=NPI01	A11:Possessive;Gender=Fem|Number=Sing|Person=3;rule=R15;ref=A10	E4
+18	–	–	PUNCT	punct	_	19	punct	_	_	_	C19	_	_	_
+19	председател	председател	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No	_	C19	P19:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=19;rule=NPI01	_	_
+20	,	,	PUNCT	punct	_	17	punct	_	_	_	C19	_	_	_
+21	синът	син	NOUN	Ncmsf	Definite=Def|Gender=Masc|Number=Sing	25	nsubj	_	_	_	C19	P20:NPD;Definite=Def|Gender=Masc|Number=Sing;head=21;rule=NPD01	_	_
+22	ми	мой	PRON	Ppetss1	Number=Sing|Person=1|PronType=Prs	25	expl	_	_	_	C19	_	_	_
+23	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	cop	_	_	F19:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C19	_	_	_
+24	в	в	ADP	R	_	25	case	_	_	_	C19	P21:NPD;prep=в;Definite=Def|Gender=Neut|Number=Sing;head=25;rule=NPD01	_	_
+25	министерството	министерство	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	12	conj	_	SpaceAfter=No	_	C19	P21	_	_
+26	,	,	PUNCT	punct	_	29	punct	_	_	_	C19	_	_	_
+27	дето	който	ADV	Prl	PronType=Rel	29	advmod	_	_	_	C20:SUB;head=C19;conj=S058:дето	_	_	_
+28	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	29	expl	_	_	F20:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C20	_	_	_
+29	вика	викам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	43	advcl	_	SpaceAfter=No	F20	C20	_	_	_
+30	,	,	PUNCT	punct	_	29	punct	_	_	_	C20	_	_	_
+31	първият	пръв	ADJ	Momsf	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	32	amod	_	_	_	C21:COORD;coord=C19	P22:NPD;Definite=Def|Gender=Masc|Number=Sing;head=32;rule=NPD11	_	_
+32	помощник	помощник	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	29	nsubj	_	SpaceAfter=No	_	C21	P22	_	E5
+33	,	,	PUNCT	punct	_	34	punct	_	_	_	C21	_	_	_
+34	инженер	инженер	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	32	conj	_	_	_	C21	P23:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=34;rule=NPI01	_	_
+35	с	с	ADP	R	_	36	case	_	_	_	C21	P24:NPD;prep=с;Definite=Def|Gender=Masc|Number=Sing;head=36;rule=NPD01	_	_
+36	диплома	диплом	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	34	nmod	_	_	_	C21	P24	_	_
+37	като	като	ADP	R	_	38	case	_	_	_	C21	P25:NPI;prep=като;Definite=Ind|Gender=Masc|Number=Sing;head=38;rule=NPI01	_	_
+38	чаршаф	чаршаф	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No	_	C21	P25	_	_
+39	,	,	PUNCT	punct	_	29	punct	_	_	_	C21	_	_	_
+40	с	с	ADP	R	_	41	case	_	_	_	C21	P26:NPI;prep=с;Definite=Ind|Gender=Masc|Number=Sing;head=41;rule=NPI01	_	_
+41	автомобил	автомобил	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	29	obl	_	_	_	C21	P26	_	E6
+42	го	аз	PRON	Ppetas3m	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	43	obj	_	_	_	C21	_	A12:Personal;Gender=Masc,Neut|Number=Sing|Person=3;rule=R11;ref=grade10_003_s009#41	E6
+43	вземат	взема	VERB	Vpptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_	F21:Present;Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C21	_	_	_
+44	и	и	CCONJ	Cp	_	45	cc	_	_	_	C22:COORD;coord=C21;conj=S154:и	_	_	_
+45	връщат	връщам-(се)	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	43	conj	_	SpaceAfter=No	F22:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C22	_	Z13:Неопределено-личен;Number=Plur|Person=3;rule=S07	_
+46	.	.	PUNCT	punct	_	1	punct	_	_	_	C22	_	_	_
+
+# sent_id = grade10_003_s010
+# text = Жена му – докторица, на заплата, къпят се в порцеланово корито.
+1	Жена	жена	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	9	nsubj	_	_	_	C23:MAIN	P27:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=1;rule=NPI01a	_	_
+2	му	мой	PRON	Psot--3--m	Person=3|Poss=Yes|PronType=Prs	1	det	_	_	_	C23	P27	A13:Possessive;Gender=Masc,Neut|Number=Sing|Person=3;rule=R15;ref=grade10_003_s009#32	E5
+3	–	–	PUNCT	punct	_	4	punct	_	_	_	C23	_	_	_
+4	докторица	докторица	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No	_	C23	P28:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=4;rule=NPI01	_	_
+5	,	,	PUNCT	punct	_	7	punct	_	_	_	C23	_	_	_
+6	на	на	ADP	R	_	7	case	_	_	_	C23	P29:NPD;prep=на;Definite=Def|Gender=Fem|Number=Sing;head=7;rule=NPD01	_	_
+7	заплата	заплата	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No	_	C23	P29	_	_
+8	,	,	PUNCT	punct	_	9	punct	_	_	_	C23	_	_	_
+9	къпят	къп	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F23:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C23	_	_	_
+10	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	9	expl	_	_	F23	C23	_	_	_
+11	в	в	ADP	R	_	13	case	_	_	_	C23	P30:NPI;prep=в;Definite=Ind|Gender=Neut|Number=Sing;head=13;rule=NPI02	_	_
+12	порцеланово	порцеланов	ADJ	Ansi	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_	_	C23	P30	_	_
+13	корито	кори	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	9	iobj	_	SpaceAfter=No	_	C23	P30	_	_
+14	.	.	PUNCT	punct	_	9	punct	_	_	_	C23	_	_	_
+
+# sent_id = grade10_003_s011
+# text = Яденето ми – ядене, креватът ми – креват, сам в стая и пак съм зле, зле и зле, та няма накъде!
+1	Яденето	ядене	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	9	nsubj	_	_	_	C24:MAIN	P31:NPD;Definite=Def|Gender=Neut|Number=Sing;head=1;rule=NPD02	_	E7
+2	ми	мой	PRON	Psot--1	Person=1|Poss=Yes|PronType=Prs	1	det	_	_	_	C24	P31	A14:Possessive;Gender=Masc|Number=Sing|Person=1;rule=R05;ref=A9	E2
+3	–	–	PUNCT	punct	_	4	punct	_	_	_	C24	_	_	_
+4	ядене	ядене	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	1	nmod	_	SpaceAfter=No	_	C24	P32:NPI;Definite=Ind|Gender=Neut|Number=Sing;head=4;rule=NPI01	_	_
+5	,	,	PUNCT	punct	_	6	punct	_	_	_	C24	_	_	_
+6	креватът	креват	NOUN	Ncmsf	Definite=Def|Gender=Masc|Number=Sing	1	conj	_	_	_	C24	P33:NPD;Definite=Def|Gender=Masc|Number=Sing;head=6;rule=NPD01	_	_
+7	ми	мой	PRON	Ppetds1	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_	_	C24	_	A15:Personal;Gender=Masc|Number=Sing|Person=1;rule=R05;ref=A14	E2
+8	–	–	PUNCT	punct	_	6	punct	_	_	_	C24	_	_	_
+9	креват	кревам	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No	F24:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C24	_	_	_
+10	,	,	PUNCT	punct	_	11	punct	_	_	_	C24	_	_	_
+11	сам	сам	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	9	conj	_	_	_	C25:COORD;coord=C24;conj=S154:и	P34:AP;Definite=Ind|Gender=Masc|Number=Sing;head=11;rule=AP01	_	_
+12	в	в	ADP	R	_	13	case	_	_	_	C25	P35:NPI;prep=в;Definite=Ind|Gender=Fem|Number=Sing;head=13;rule=NPI01	_	_
+13	стая	стая	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	11	obl	_	_	_	C25	P35	_	_
+14	и	и	CCONJ	Cp	_	17	cc	_	_	_	C25	_	_	_
+15	пак	пак	ADV	Dt	Degree=Pos	17	advmod	_	_	_	C25	_	_	_
+16	съм	съм	AUX	Vxitf-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	_	_	F25:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C25	_	_	_
+17	зле	зле	ADV	Dm	Degree=Pos	9	conj	_	SpaceAfter=No	_	C25	_	Z14:Pro-drop;Number=Sing|Person=1;rule=S08,R05;ref=A15	E2
+18	,	,	PUNCT	punct	_	19	punct	_	_	_	C25	_	_	_
+19	зле	зле	ADV	Dm	Degree=Pos	17	conj	_	_	_	C26:COORD;coord=C25	_	_	_
+20	и	и	CCONJ	Cp	_	21	cc	_	_	_	C26	_	_	_
+21	зле	зле	ADV	Dm	Degree=Pos	17	conj	_	SpaceAfter=No	_	C26	_	_	_
+22	,	,	PUNCT	punct	_	23	punct	_	_	_	C26	_	_	_
+23	та	та	CCONJ	Cc	_	24	cc	_	_	_	C26	_	_	_
+24	няма	нямам	VERB	Vnitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	_	F26:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C26	_	Z15:Impersonal;Number=Sing|Person=3;rule=S02	_
+25	накъде	къде	ADV	Pil	PronType=Int	24	obj	_	SpaceAfter=No	_	C26	_	_	_
+26	!	!	PUNCT	punct	_	9	punct	_	_	_	C26	_	_	_
+
+# sent_id = grade10_003_s012
+# text = Ударил съм назад, отмалявам и се стопявам.
+1	Ударил	Ударя-(се)	VERB	Vpptcao-smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_	F27:Perfect|Aorist+Concl|Aorist+Ren;Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=1|Tense=Perfect|VerbForm=Fin|Voice=Act/Aspect=Perf|Evident=Concl|Gender=Masc|Mood=Ind|Number=Sing|Person=1|Tense=Aorist|VerbForm=Fin|Voice=Act/Aspect=Perf|Evident=Ren|Gender=Masc|Mood=Ind|Number=Sing|Person=1|Tense=Aorist|VerbForm=Fin|Voice=Act;rule=BGF383,BGF402	C27:MAIN	_	Z16:Pro-drop;Gender=Masc|Number=Sing|Person=1;rule=S08,R05;ref=Z14	E2
+2	съм	съм	AUX	Vxitf-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	_	F27	C27	_	_	_
+3	назад	назад	ADV	Dl	Degree=Pos	1	advmod	_	SpaceAfter=No	_	C27	_	_	_
+4	,	,	PUNCT	punct	_	5	punct	_	_	_	C27	_	_	_
+5	отмалявам	отмалявам-(се)	VERB	Vpitf-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_	F28:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C28:COORD;coord=C27	_	Z17:Pro-drop;Gender=Masc|Number=Sing|Person=1;rule=S08,R05;ref=Z16	E2
+6	и	и	CCONJ	Cp	_	8	cc	_	_	_	C29:COORD;coord=C28;conj=S154:и	_	_	_
+7	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	8	expl	_	_	F29:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C29	_	_	_
+8	стопявам	стопявам-(се)	VERB	Vpitf-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No	F29	C29	_	Z18:Pro-drop;Gender=Masc|Number=Sing|Person=1;rule=S08,R05;ref=Z17	E2
+9	.	.	PUNCT	punct	_	1	punct	_	_	_	C29	_	_	_
+
+# sent_id = grade10_003_s013
+# text = Не ми се яде, не мога да заспя и все ми се въртят разни шашави работи в акъла, а пък няма на кого да кажа…
+1	Не	не	PART	Tn	Polarity=Neg	4	advmod	_	_	F30:Present+Neg;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF376	C30:MAIN	_	_	_
+2	ми	аз	PRON	Ppetds1	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_	_	C30	_	A16:Personal;Gender=Masc|Number=Sing|Person=1;rule=R05;ref=Z18	E2
+3	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	_	F30	C30	_	_	_
+4	яде	ям-(се)	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No	F30	C30	_	Z19:Pro-drop;Gender=Neut|Number=Sing|Person=3;rule=S10,R19;ref=grade10_003_s011#1	E7
+5	,	,	PUNCT	punct	_	7	punct	_	_	_	C30	_	_	_
+6	не	не	PART	Tn	Polarity=Neg	7	advmod	_	_	F31:Present+Neg;Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF376	C31:COORD;coord=C30	_	_	_
+7	мога	мога	VERB	Vpiif-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_	F31	C31	_	Z20:Pro-drop;Number=Sing|Person=1;rule=S08,R05;ref=A16	E2
+8	да	да	AUX	Tx	_	9	aux	_	_	_	C31	_	_	_
+9	заспя	заспя	VERB	Vpptf-r1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	xcomp	_	_	F32:Present;Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C31	_	Z21:Pro-drop;Number=Sing|Person=1;rule=S08,R05;ref=Z20	E2
+10	и	и	CCONJ	Cp	_	14	cc	_	_	_	C32:COORD;coord=C31;conj=S154:и	_	_	_
+11	все	все	ADV	Dq	Degree=Pos	14	advmod	_	_	_	C32	_	_	_
+12	ми	аз	PRON	Ppetds1	Case=Dat|Number=Sing|Person=1|PronType=Prs	14	iobj	_	_	_	C32	_	A17:Personal;Number=Sing|Person=1;rule=R05;ref=Z21	E2
+13	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	14	expl	_	_	F33:Present;Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C32	_	_	_
+14	въртят	въртя-(се)	VERB	Vpptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	_	F33	C32	_	Z22:Неопределено-личен;Number=Plur|Person=3;rule=S07	_
+15	разни	разен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	16	amod	_	_	_	C32	P36:NPI;Definite=Ind|Gender=Fem|Number=Plur;head=16;rule=NPI02	_	_
+16	шашави	шашава	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	17	nsubj	_	_	_	C32	P36	_	E8
+17	работи	работя	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	xcomp	_	_	F34:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C33:COORD;coord=C32	_	_	_
+18	в	в	ADP	R	_	19	case	_	_	_	C33	P37:NPD;prep=в;Definite=Def|Gender=Masc|Number=Sing;head=19;rule=NPD01	_	_
+19	акъла	акъл	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	17	iobj	_	SpaceAfter=No	_	C33	P37	_	_
+20	,	,	PUNCT	punct	_	21	punct	_	_	_	C33	_	_	_
+21	а	а	CCONJ	Cp	_	23	cc	_	_	_	C34:COORD;coord=C33;conj=S155:а	_	_	_
+22	пък	пък	PART	Te	_	23	discourse	_	_	_	C34	_	_	_
+23	няма	нямам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	_	F35:Future+Neg;Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Future|VerbForm=Fin|Voice=Act;rule=BGF300	C34	_	_	_
+24	на	на	ADP	R	_	25	case	_	_	_	C34	_	_	_
+25	кого	кой	PRON	Pie-as-m	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Int	27	iobj	_	_	_	C34	_	_	_
+26	да	да	AUX	Tx	_	27	aux	_	_	F35	C34	_	_	_
+27	кажа	кажа	VERB	Vpptf-r1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	23	ccomp	_	SpaceAfter=No	F35	C34	_	Z23:Pro-drop;Number=Sing|Person=1;rule=S08,R05;ref=A17	E2
+28	…	…	PUNCT	punct	_	17	punct	_	_	_	C34	_	_	_
+
+# sent_id = grade10_003_s014
+# text = Кажа ли – изнамират ме за луд.
+1	Кажа	кажа	VERB	Vpptf-r1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_	F36:Present;Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C35:MAIN	_	Z24:Pro-drop;Number=Sing|Person=1;rule=S08,R05;ref=Z23	E2
+2	ли	ли	PART	Ti	_	1	discourse	_	_	_	C35	_	_	_
+3	–	–	PUNCT	punct	_	1	punct	_	_	_	C35	_	_	_
+4	изнамират	изнамирам	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F37:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C36:COORD;coord=C35	_	Z25:Pro-drop;Number=Plur|Person=3;rule=S10,R19;ref=grade10_003_s013#16	E8
+5	ме	аз	PRON	Ppetas1	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_	_	C36	_	A18:Personal;Number=Sing|Person=1;rule=R05;ref=Z24	E2
+6	за	за	ADP	R	_	7	case	_	_	_	C36	P38:NPI;prep=за;Definite=Ind|Gender=Masc|Number=Sing;head=7;rule=NPI01	_	_
+7	луд	луд	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No	_	C36	P38	_	_
+8	.	.	PUNCT	punct	_	4	punct	_	SpacesAfter=\n	_	C36	_	_	_
+
+# sent_id = grade10_003_s015
+# text = Вземи едно просто, никакво нещо: киселото мляко.
+1	Вземи	взема	VERB	Vpptz--2s	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_	F38:Imperative;Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin;rule=BGF415	C37:MAIN	_	_	_
+2	едно	един	DET	Pfe-os-ni	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	3	det	_	_	_	C37	P39:NPI;Definite=Ind|Gender=Neut|Number=Sing;head=3;rule=NPI11	_	_
+3	просто	просто	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	1	obj	_	SpaceAfter=No	_	C37	P39	_	_
+4	,	,	PUNCT	punct	_	1	punct	_	_	_	C37	_	_	_
+5	никакво	никакъв	DET	Pna--s-n	Gender=Neut|Number=Sing|PronType=Neg	9	det	_	_	_	C37	_	_	_
+6	нещо	някой	DET	Pfe-os-ni	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	9	det	_	SpaceAfter=No	_	C37	_	_	_
+7	:	на	PUNCT	punct	_	9	punct	_	_	_	C37	_	_	_
+8	киселото	кисело	ADJ	Ansd	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_	_	C37	P40:NPD;Definite=Def|Gender=Neut|Number=Sing;head=9;rule=NPD03	_	_
+9	мляко	мляко	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	1	obj	_	SpaceAfter=No	_	C37	P40	_	_
+10	.	.	PUNCT	punct	_	1	punct	_	_	_	C37	_	_	_
+
+# sent_id = grade10_003_s016
+# text = Казвам на сина ми
+1	Казвам	казвам	VERB	Vpiif-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F39:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C38:MAIN	_	Z26:Pro-drop;Number=Sing|Person=1;rule=S08,R05;ref=A18	E2
+2	на	на	ADP	R	_	3	case	_	_	_	C38	P41:NPD;prep=на;Definite=Def|Gender=Masc|Number=Sing;head=3;rule=NPD02	_	_
+3	сина	син	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	1	iobj	_	_	_	C38	P41	_	_
+4	ми	мой	PRON	Psot--1	Person=1|Poss=Yes|PronType=Prs	3	det	_	_	_	C38	P41	A19:Possessive;Number=Sing|Person=1;rule=R05;ref=Z26	E2
+
+# sent_id = grade10_003_s017
+# text = Кирча:
+1	Кирча	Кирч	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No	_	C39:MAIN	P42:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=1;rule=NPI01	_	_
+2	:	:	PUNCT	punct	_	1	punct	_	SpacesAfter=\n	_	C39	_	_	_
+
+# sent_id = grade10_003_s018
+# text = – Нека бе, Кирчо, аз да ходя да купувам киселото мляко!
+1	–	–	PUNCT	punct	_	9	punct	_	_	_	C40:MAIN	_	_	_
+2	Нека	нека	PART	Tv	_	9	discourse	_	_	_	C40	_	_	_
+3	бе	съм	VERB	Vxitf-t3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	SpaceAfter=No	F40:Imperfect|Aorist;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imperfect,Aorist|VerbForm=Fin|Voice=Act;rule=BGF417,BGF418	C40	_	Z27:Pro-drop;Gender=Neut|Number=Sing|Person=3;rule=S10,R19;ref=Z19	E7
+4	,	,	PUNCT	punct	_	5	punct	_	_	_	C40	_	_	_
+5	Кирчо	Кирчо	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No	_	C40	P43:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=5;rule=NPI01	_	_
+6	,	,	PUNCT	punct	_	5	punct	_	_	_	C40	_	_	_
+7	аз	аз	PRON	Ppe-os1	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_	_	C41:SUB;head=C40;conj=S036:да	_	A20:Personal;Number=Sing|Person=1;rule=R05;ref=A19	E2
+8	да	да	AUX	Tx	_	9	aux	_	_	_	C41	_	_	_
+9	ходя	ходя-(си)	VERB	Vpitf-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F41:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C41	_	_	_
+10	да	да	AUX	Tx	_	11	aux	_	_	_	C42:SUB;head=C41;conj=S036:да	_	_	_
+11	купувам	купувам	VERB	Vpitf-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	ccomp	_	_	F42:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C42	_	Z28:Pro-drop;Number=Sing|Person=1;rule=S08,R05;ref=A20	E2
+12	киселото	кисел	ADJ	Ansd	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_	_	C42	P44:NPD;Definite=Def|Gender=Neut|Number=Sing;head=13;rule=NPD03	_	_
+13	мляко	мляко	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	11	obj	_	SpaceAfter=No	_	C42	P44	_	_
+14	!	!	PUNCT	punct	_	9	punct	_	_	_	C42	_	_	_
+
+# sent_id = grade10_003_s019
+# text = Иде – върне се човек, хора види, хора го видят, „прошари се“, дето се вика…
+1	Иде	иде	VERB	Vppif-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_	F43:Aorist;Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Aorist|VerbForm=Fin|Voice=Act;rule=BGF418	C43:MAIN	_	Z29:Pro-drop;Gender=Neut|Number=Sing|Person=3;rule=S10,R19;ref=Z27	E7
+2	–	–	PUNCT	punct	_	3	punct	_	_	_	C43	_	_	_
+3	върне	върна-(се)	VERB	Vpptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_	F44:Present;Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C44:COORD;coord=C43	_	_	_
+4	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	3	expl	_	_	F44	C44	_	_	_
+5	човек	човек	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj:pass	_	SpaceAfter=No	_	C44	P45:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=5;rule=NPI01	_	E9
+6	,	,	PUNCT	punct	_	8	punct	_	_	_	C44	_	_	_
+7	хора	хора	NOUN	Nc-li	Definite=Ind|Number=Ptan	8	nsubj	_	_	_	C45:COORD;coord=C44	P46:NPI;Definite=Ind|Number=Ptan;head=7;rule=NPI01	_	_
+8	види	видя-(се)	VERB	Vpptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No	F45:Present;Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C45	_	_	_
+9	,	,	PUNCT	punct	_	12	punct	_	_	_	C45	_	_	_
+10	хора	хора	NOUN	Nc-li	Definite=Ind|Number=Ptan	12	nsubj	_	_	_	C46:COORD;coord=C45	P47:NPI;Definite=Ind|Number=Ptan;head=10;rule=NPI01	_	E10
+11	го	аз	PRON	Ppetas3m	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_	_	C46	_	A21:Personal;Gender=Masc,Neut|Number=Sing|Person=3;rule=R11;ref=grade10_003_s019#5	E9
+12	видят	видя-(се)	VERB	Vpptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No	F46:Present;Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C46	_	_	_
+13	,	,	PUNCT	punct	_	3	punct	_	_	_	C46	_	_	_
+14	„	„	PUNCT	punct	_	15	punct	_	SpaceAfter=No	_	C46	_	_	_
+15	прошари	прошаря	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	3	conj	_	_	_	C46	P48:NPI;Definite=Ind|Gender=Masc|Number=Plur;head=15;rule=NPI01b	_	E11
+16	се“	се“	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No	_	C46	P48	_	_
+17	,	,	PUNCT	punct	_	20	punct	_	_	_	C46	_	_	_
+18	дето	който	ADV	Prl	PronType=Rel	20	advmod	_	_	_	C47:SUB;head=C46;conj=S058:дето	_	_	_
+19	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	20	expl	_	_	F47:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C47	_	_	_
+20	вика	викам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl:relcl	_	SpaceAfter=No	F47	C47	_	Z30:Pro-drop;Gender=Masc|Number=Sing|Person=3;rule=S10,R19;ref=grade10_003_s019#5	E9
+21	…	…	PUNCT	punct	_	3	punct	_	_	_	C47	_	_	_
+
+# sent_id = grade10_003_s020
+# text = Нали?
+1	Нали	нали	PART	Ti	_	0	root	_	SpaceAfter=No	_	C48:MAIN	_	_	_
+2	?	?	PUNCT	punct	_	1	punct	_	SpacesAfter=\n	_	C48	_	_	_
+
+# sent_id = grade10_003_s021
+# text = – Няма – казва – да ходиш!
+1	–	–	PUNCT	punct	_	2	punct	_	_	_	C49:MAIN	_	_	_
+2	Няма	нямам	VERB	Vnitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F48:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C49	_	Z31:Impersonal;Number=Sing|Person=3;rule=S02	_
+3	–	–	PUNCT	punct	_	4	punct	_	_	_	C49	_	_	_
+4	казва	казвам-(се)	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_	F49:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C50:COORD;coord=C49	_	Z32:Pro-drop;Gender=Masc|Number=Sing|Person=3;rule=S10,R19;ref=Z30	E9
+5	–	–	PUNCT	punct	_	7	punct	_	_	_	C50	_	_	_
+6	да	да	AUX	Tx	_	7	aux	_	_	_	C51:SUB;head=C50;conj=S036:да	_	_	_
+7	ходиш	ходя-(се)	VERB	Vppif-r2s	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	SpaceAfter=No	F50:Present;Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C51	_	Z33:Pro-drop;Number=Sing|Person=2;rule=S08,R06;ref=Z11	E1
+8	!	!	PUNCT	punct	_	4	punct	_	_	_	C51	_	_	_
+
+# sent_id = grade10_003_s022
+# text = Както си занесен, ще вземе да те прегази некое моторно средство и сетне кому беля на главата?
+1	Както	както	ADV	Prm	PronType=Rel	3	advmod	_	_	_	C52:MAIN	_	_	_
+2	си	се	AUX	Vxitf-r2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux:pass	_	_	F51:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C52	_	_	_
+3	занесен	занеса-(се)	VERB	Vpptcv--smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	advcl	_	SpaceAfter=No	F52:NVerb+Past_Participle+Pass;Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass;rule=BGF423	C52	_	Z34:Pro-drop;Gender=Masc|Number=Sing|Person=2;rule=S08,R06;ref=Z33	E1
+4	,	,	PUNCT	punct	_	3	punct	_	_	_	C52	_	_	_
+5	ще	ще	AUX	Tx	_	6	aux	_	_	F53:Future;Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Future|VerbForm=Fin|Voice=Act;rule=BGF391	C53:COORD;coord=C52	_	_	_
+6	вземе	взема	VERB	Vpptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F53	C53	_	Z35:Pro-drop;Gender=Masc|Number=Sing|Person=3;rule=S10,R19;ref=Z32	E9
+7	да	да	AUX	Tx	_	9	aux	_	_	_	C54:SUB;head=C53;conj=S036:да	_	_	_
+8	те	аз	PRON	Ppetas2	Case=Acc|Number=Sing|Person=2|PronType=Prs	9	obj	_	_	_	C54	_	A22:Personal;Gender=Masc|Number=Sing|Person=2;rule=R06;ref=Z34	E1
+9	прегази	прегазя	VERB	Vpptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	xcomp	_	_	F54:Present;Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C54	_	_	_
+10	некое	некой	DET	Pfe-os-n	Gender=Neut|Number=Sing|PronType=Ind	12	det	_	_	_	C54	P49:NPI;Definite=Ind|Gender=Neut|Number=Sing;head=12;rule=NPI11	_	_
+11	моторно	моторен	ADJ	Ansi	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_	_	C54	P49	_	_
+12	средство	средство	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	9	nsubj	_	_	_	C54	P49	_	E12
+13	и	и	CCONJ	Cp	_	16	cc	_	_	_	C54	_	_	_
+14	сетне	сетне	ADV	Dt	Degree=Pos	16	advmod	_	_	_	C54	_	_	_
+15	кому	кой	PRON	Pne-ds-m	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|PronType=Neg	16	nsubj	_	_	_	C55:SUB;head=C54;conj=S120:кому	_	_	_
+16	беля	белям-(се)	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	_	F55:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C55	_	_	_
+17	на	на	ADP	R	_	18	case	_	_	_	C55	P50:NPD;prep=на;Definite=Def|Gender=Fem|Number=Sing;head=18;rule=NPD01	_	_
+18	главата	глава	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	16	iobj	_	SpaceAfter=No	_	C55	P50	_	_
+19	?	?	PUNCT	punct	_	6	punct	_	_	_	C55	_	_	_
+
+# sent_id = grade10_003_s023
+# text = – Мене!
+1	–	–	PUNCT	punct	_	2	punct	_	_	_	C56:MAIN	_	_	_
+2	Мене	аз	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No	_	C56	_	_	_
+3	!	!	PUNCT	punct	_	2	punct	_	_	_	C56	_	_	_
+
+# sent_id = grade10_003_s024
+# text = Седи си, казва, вкъщи!
+1	Седи	седя	ADP	R	_	2	case	_	_	_	C57:MAIN	_	_	_
+2	си	се	PRON	Ppxtd	Case=Dat|PronType=Prs|Reflex=Yes	4	expl	_	SpaceAfter=No	F56:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C57	_	_	_
+3	,	,	PUNCT	punct	_	2	punct	_	_	_	C57	_	_	_
+4	казва	казвам-(се)	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No	F56	C57	_	Z36:Pro-drop;Gender=Neut|Number=Sing|Person=3;rule=S10,R19;ref=grade10_003_s022#12	E12
+5	,	,	PUNCT	punct	_	6	punct	_	_	_	C57	_	_	_
+6	вкъщи	вкъщи	ADV	Dl	Degree=Pos	4	advmod	_	SpaceAfter=No	_	C57	_	_	_
+7	!	!	PUNCT	punct	_	4	punct	_	_	_	C57	_	_	_
+
+# sent_id = grade10_003_s025
+# text = Гледай си кефа!
+1	Гледай	гледам	VERB	Vpptz--2s	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_	F57:Imperative;Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin;rule=BGF415	C58:MAIN	_	_	_
+2	си	се	PRON	Ppxtd	Case=Dat|PronType=Prs|Reflex=Yes	1	expl	_	_	F57	C58	_	_	_
+3	кефа	кеф	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No	_	C58	P51:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=3;rule=NPI01	_	E13
+4	!	!	PUNCT	punct	_	1	punct	_	SpacesAfter=\n	_	C58	_	_	_
+
+# sent_id = grade10_003_s026
+# text = И аз – вкъщи.
+1	И	и	CCONJ	Cp	_	4	cc	_	_	_	C59:MAIN	_	_	_
+2	аз	аз	PRON	Ppe-os1	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_	_	C59	_	A23:Personal;Number=Sing|Person=1;rule=R05;ref=Z28	E2
+3	–	–	PUNCT	punct	_	4	punct	_	_	_	C59	_	_	_
+4	вкъщи	вкъщи	ADV	Dl	Degree=Pos	0	root	_	SpaceAfter=No	_	C59	_	_	_
+5	.	.	PUNCT	punct	_	4	punct	_	_	_	C59	_	_	_
+
+# sent_id = grade10_003_s027
+# text = Какво да правя!
+1	Какво	какъв	DET	Pia--s-n	Gender=Neut|Number=Sing|PronType=Int	3	obj	_	_	_	C60:SUB;conj=S128:какво_да	_	_	_
+2	да	да	AUX	Tx	_	3	aux	_	_	_	C60	_	_	_
+3	правя	правя-(се)	VERB	Vpitf-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No	F58:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C60	_	Z37:Pro-drop;Number=Sing|Person=1;rule=S08,R05;ref=A23	E2
+4	!	!	PUNCT	punct	_	3	punct	_	_	_	C60	_	_	_
+
+# sent_id = grade10_003_s028
+# text = Една къща – кон в нея да разиграваш, апартамент!…
+1	Една	един	DET	Pfe-os-fi	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_	_	C61:MAIN	P52:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=2;rule=NPI11	_	_
+2	къща	къща	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	8	nsubj	_	_	_	C61	P52	_	E14
+3	–	–	PUNCT	punct	_	4	punct	_	_	_	C61	_	_	_
+4	кон	кон	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	_	_	C61	P53:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=4;rule=NPI01	_	_
+5	в	в	ADP	R	_	6	case	_	_	_	C61	_	_	_
+6	нея	аз	PRON	Ppelas3f	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nmod	_	_	_	C61	_	A24:Personal;Gender=Fem|Number=Sing|Person=3;rule=R12;ref=grade10_003_s025#3	E13
+7	да	да	AUX	Tx	_	8	aux	_	_	_	C62:SUB;head=C61;conj=S036:да	_	_	_
+8	разиграваш	разигравам-(се)	VERB	Vpitf-r2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No	F59:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C62	_	_	_
+9	,	,	PUNCT	punct	_	10	punct	_	_	_	C62	_	_	_
+10	апартамент	апартамент	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No	_	C62	P54:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=10;rule=NPI01	_	_
+11	!	!	PUNCT	punct	_	8	punct	_	SpaceAfter=No	_	C62	_	_	_
+12	…	…	PUNCT	punct	_	8	punct	_	_	_	C62	_	_	_
+
+# sent_id = grade10_003_s029
+# text = Накитено вътре, наредено, подредено, само, дето се вика, ти си артък…
+1	Накитено	Накитено	ADV	Dd	Degree=Pos	2	advmod	_	_	_	C63:MAIN	_	_	_
+2	вътре	вътре	ADV	Dl	Degree=Pos	16	advmod	_	SpaceAfter=No	_	C63	_	_	_
+3	,	,	PUNCT	punct	_	4	punct	_	_	_	C63	_	_	_
+4	наредено	наредя-(се)	ADV	Dm	Degree=Pos	2	conj	_	SpaceAfter=No	_	C63	_	_	_
+5	,	,	PUNCT	punct	_	6	punct	_	_	_	C63	_	_	_
+6	подредено	подредя	ADV	Dm	Degree=Pos	2	conj	_	SpaceAfter=No	_	C63	_	_	_
+7	,	,	PUNCT	punct	_	12	punct	_	_	_	C63	_	_	_
+8	само	само	ADV	Dd	Degree=Pos	12	advmod	_	SpaceAfter=No	_	C63	_	_	_
+9	,	,	PUNCT	punct	_	12	punct	_	_	_	C63	_	_	_
+10	дето	който	ADV	Prl	PronType=Rel	12	advmod	_	_	_	C64:SUB;head=C63;conj=S058:дето	_	_	_
+11	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	12	expl	_	_	F60:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C64	_	_	_
+12	вика	викам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No	F60	C64	_	Z38:Pro-drop;Gender=Fem|Number=Sing|Person=3;rule=S10,R19;ref=grade10_003_s028#2	E14
+13	,	,	PUNCT	punct	_	2	punct	_	_	_	C64	_	_	_
+14	ти	аз	PRON	Ppe-os2	Case=Nom|Number=Sing|Person=2|PronType=Prs	16	nsubj	_	_	_	C63	_	A25:Personal;Gender=Masc|Number=Sing|Person=2;rule=R06;ref=A22	E1
+15	си	си	AUX	Vxitf-r2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	_	F61:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C63	_	_	_
+16	артък	артък	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No	_	C63	P55:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=16;rule=NPI01	_	_
+17	…	…	PUNCT	punct	_	16	punct	_	_	_	C63	_	_	_
+
+# sent_id = grade10_003_s030
+# text = Килим до килим, да не смееш да ги настъпиш.
+1	Килим	килим	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_	_	C65:MAIN	P56:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=1;rule=NPI01	_	_
+2	до	до	ADP	R	_	3	case	_	_	_	C65	P57:NPI;prep=до;Definite=Ind|Gender=Masc|Number=Sing;head=3;rule=NPI01	_	_
+3	килим	килим	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No	_	C65	P57	_	_
+4	,	,	PUNCT	punct	_	7	punct	_	_	_	C65	_	_	_
+5	да	да	AUX	Tx	_	7	aux	_	_	_	C66:SUB;head=C65;conj=S036:да	_	_	_
+6	не	не	PART	Tn	Polarity=Neg	7	advmod	_	_	F62:Present+Neg;Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF376	C66	_	_	_
+7	смееш	смея	VERB	Vpiif-r2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_	F62	C66	_	Z39:Pro-drop;Gender=Masc|Number=Sing|Person=2;rule=S08,R06;ref=A25	E1
+8	да	да	AUX	Tx	_	10	aux	_	_	_	C66	_	_	_
+9	ги	аз	PRON	Ppetap3	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	obj	_	_	_	C66	_	A26:Personal;Number=Plur|Person=3;rule=R12;ref=grade10_003_s019#15	E11
+10	настъпиш	настъпя	VERB	Vpptf-r2s	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	_	SpaceAfter=No	F63:Present;Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C66	_	Z40:Pro-drop;Gender=Masc|Number=Sing|Person=2;rule=S08,R06;ref=Z39	E1
+11	.	.	PUNCT	punct	_	1	punct	_	_	_	C66	_	_	_
+
+# sent_id = grade10_003_s031
+# text = Паркетът – излъскан, хай си шавнал, хай си паднал!
+1	Паркетът	Паркет	NOUN	Ncmsf	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	_	_	C67:MAIN	P58:NPD;Definite=Def|Gender=Masc|Number=Sing;head=1;rule=NPD01	_	E15
+2	–	–	PUNCT	punct	_	3	punct	_	_	_	C67	_	_	_
+3	излъскан	излъскам	ADJ	Vpptcv--smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	amod	_	SpaceAfter=No	F64:NVerb+Past_Participle+Pass;Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass;rule=BGF423	C67	_	_	_
+4	,	,	PUNCT	punct	_	3	punct	_	_	_	C67	_	_	_
+5	хай	хам-(се)	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	7	nsubj	_	_	_	C67	P59:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=5;rule=NPI01	_	_
+6	си	се	PRON	Ppxtd	Case=Dat|PronType=Prs|Reflex=Yes	7	expl	_	_	F65:Aorist+Ren|DVerb+Past_Participle_Aorist;Aspect=Perf|Evident=Ren|Gender=Masc|Mood=Ind|Number=Sing|Tense=Aorist|VerbForm=Fin|Voice=Act/Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act;rule=BGF420	C67	_	_	_
+7	шавнал	шавнал	VERB	Vpptcao-smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No	F65	C67	_	_	_
+8	,	,	PUNCT	punct	_	9	punct	_	_	_	C67	_	_	_
+9	хай	хай	VERB	Vpptz--2s	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	7	conj	_	_	F66:Imperative;Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin;rule=BGF415	C68:COORD;coord=C67	_	_	_
+10	си	се	PRON	Ppxtd	Case=Dat|PronType=Prs|Reflex=Yes	11	expl	_	_	F67:Aorist+Ren|DVerb+Past_Participle_Aorist;Aspect=Perf|Evident=Ren|Gender=Masc|Mood=Ind|Number=Sing|Tense=Aorist|VerbForm=Fin|Voice=Act/Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act;rule=BGF420	C68	_	_	_
+11	паднал	падна-(се)	VERB	Vppicao-smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	9	ccomp	_	SpaceAfter=No	F67	C68	_	Z41:Pro-drop;Gender=Masc|Number=Sing|Person=3;rule=S10,R19;ref=grade10_003_s031#1	E15
+12	!	!	PUNCT	punct	_	7	punct	_	SpacesAfter=\n	_	C68	_	_	_
+
+# sent_id = grade10_003_s032
+# text = – Разполагай се вътре!
+1	–	–	PUNCT	punct	_	2	punct	_	_	_	C69:MAIN	_	_	_
+2	Разполагай	Разполагам-(се)	VERB	Vpptz--2s	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_	F68:Imperative;Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin;rule=BGF415	C69	_	_	_
+3	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	2	expl	_	_	F68	C69	_	_	_
+4	вътре	вътре	ADV	Dl	Degree=Pos	2	advmod	_	SpaceAfter=No	_	C69	_	_	_
+5	!	!	PUNCT	punct	_	2	punct	_	_	_	C69	_	_	_
+
+# sent_id = grade10_003_s033
+# text = – казва ми синът.
+1	–	–	PUNCT	punct	_	2	parataxis	_	_	_	C70:MAIN	_	_	_
+2	казва	казвам-(се)	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F69:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C70	_	_	_
+3	ми	аз	PRON	Ppetds1	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_	_	C70	_	A27:Personal;Number=Sing|Person=1;rule=R05;ref=Z37	E2
+4	синът	син	NOUN	Ncmsf	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No	_	C70	P60:NPD;Definite=Def|Gender=Masc|Number=Sing;head=4;rule=NPD01	_	E16
+5	.	.	PUNCT	punct	_	2	punct	_	_	_	C70	_	_	_
+
+# sent_id = grade10_003_s034
+# text = – Разполагай се, живей си, яж, пий и за нищо не мисли!
+1	–	–	PUNCT	punct	_	5	punct	_	_	_	C71:MAIN	_	_	_
+2	Разполагай	Разполагам-(се)	VERB	Vpptz--2s	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	5	advcl	_	_	F70:Imperative;Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin;rule=BGF415	C71	_	_	_
+3	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	2	expl	_	SpaceAfter=No	F70	C71	_	_	_
+4	,	,	PUNCT	punct	_	2	punct	_	_	_	C71	_	_	_
+5	живей	живей	VERB	Vpptz--2s	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_	F71:Imperative;Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin;rule=BGF415	C72:COORD;coord=C71	_	_	_
+6	си	се	PRON	Ppxtd	Case=Dat|PronType=Prs|Reflex=Yes	5	expl	_	SpaceAfter=No	F71	C72	_	_	_
+7	,	,	PUNCT	punct	_	8	punct	_	_	_	C72	_	_	_
+8	яж	яж	PART	Tm	_	5	discourse	_	SpaceAfter=No	_	C73:COORD;coord=C72	_	_	_
+9	,	,	PUNCT	punct	_	10	punct	_	_	_	C73	_	_	_
+10	пий	пий	VERB	Vpitz--2s	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	5	conj	_	_	F72:Imperative;Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin;rule=BGF415	C73	_	_	_
+11	и	и	CCONJ	Cp	_	15	cc	_	_	_	C74:COORD;coord=C73;conj=S154:и	_	_	_
+12	за	за	ADP	R	_	13	case	_	_	_	C74	_	_	_
+13	нищо	никой	PRON	Pne-os-ni	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Neg	15	iobj	_	_	_	C74	_	_	_
+14	не	не	PART	Tn	Polarity=Neg	15	advmod	_	_	F73:Present+Neg;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF376	C74	_	_	_
+15	мисли	мисля	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	SpaceAfter=No	F73	C74	_	Z42:Pro-drop;Gender=Masc|Number=Sing|Person=3;rule=S10,R19;ref=grade10_003_s033#4	E16
+16	!	!	PUNCT	punct	_	5	punct	_	SpacesAfter=\n	_	C74	_	_	_
+
+# sent_id = grade10_003_s035
+# text = Как бе, джанъм, да живея?
+1	Как	как	ADV	Pim	PronType=Int	0	root	_	_	_	C75:MAIN	_	Z43:Pro-drop;Gender=Masc|Number=Sing|Person=3;rule=S10,R19;ref=Z42	E16
+2	бе	съм	AUX	Vxitf-t3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	cop	_	SpaceAfter=No	F74:Imperfect|Aorist;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imperfect,Aorist|VerbForm=Fin|Voice=Act;rule=BGF417,BGF418	C75	_	_	_
+3	,	,	PUNCT	punct	_	4	punct	_	_	_	C75	_	_	_
+4	джанъм	джанъм	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	7	vocative	_	SpaceAfter=No	_	C75	P61:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=4;rule=NPI01	_	_
+5	,	,	PUNCT	punct	_	4	punct	_	_	_	C75	_	_	_
+6	да	да	AUX	Tx	_	7	aux	_	_	_	C76:SUB;head=C75;conj=S036:да	_	_	_
+7	живея	живея	VERB	Vpitf-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj	_	SpaceAfter=No	F75:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C76	_	Z44:Pro-drop;Number=Sing|Person=1;rule=S08,R05;ref=A27	E2
+8	?	?	PUNCT	punct	_	1	punct	_	_	_	C76	_	_	_
+
+# sent_id = grade10_003_s036
+# text = С кого?
+1	С	с	ADP	R	_	2	case	_	_	_	C77:MAIN	_	_	_
+2	кого	кой	PRON	Pie-as-m	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Int	0	root	_	SpaceAfter=No	_	C77	_	_	_
+3	?	?	PUNCT	punct	_	2	punct	_	_	_	C77	_	_	_
+
+# sent_id = grade10_003_s037
+# text = С трапезарията ли, или с буфета, като ги няма сина и снахата от заран до вечер…
+1	С	с	ADP	R	_	2	case	_	_	_	C78:MAIN	P62:NPD;prep=С;Definite=Def|Gender=Fem|Number=Sing;head=2;rule=NPD01	_	_
+2	трапезарията	трапезария	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	11	obl	_	_	_	C78	P62	_	_
+3	ли	ли	PART	Ti	_	2	discourse	_	SpaceAfter=No	_	C78	_	_	_
+4	,	,	PUNCT	punct	_	5	punct	_	_	_	C78	_	_	_
+5	или	или	CCONJ	Cp	_	7	cc	_	_	_	C78	_	_	_
+6	с	с	ADP	R	_	7	case	_	_	_	C78	P63:NPD;prep=с;Definite=Def|Gender=Masc|Number=Sing;head=7;rule=NPD01	_	_
+7	буфета	буфет	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No	_	C78	P63	_	_
+8	,	,	PUNCT	punct	_	11	punct	_	_	_	C78	_	_	_
+9	като	като	SCONJ	Cs	_	11	mark	_	_	_	C78	_	_	_
+10	ги	аз	PRON	Ppetap3	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	obj	_	_	_	C78	_	A28:Personal;Number=Plur|Person=3;rule=R12;ref=A26	E11
+11	няма	нямам	VERB	Vnitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F76:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C78	_	Z45:Impersonal;Number=Sing|Person=3;rule=S02	_
+12	сина	син	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	11	obj	_	_	_	C78	P64:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=12;rule=NPI01	_	_
+13	и	и	CCONJ	Cp	_	14	cc	_	_	_	C78	_	_	_
+14	снахата	снаха	NOUN	Ncnpd	Definite=Def|Gender=Neut|Number=Plur	12	conj	_	_	_	C78	P65:NPD;Definite=Def|Gender=Neut|Number=Plur;head=14;rule=NPD01	_	_
+15	от	от	ADP	R	_	16	case	_	_	_	C78	P66:NPI;prep=от;Definite=Ind|Gender=Fem|Number=Sing;head=16;rule=NPI01	_	_
+16	заран	заран	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	14	nmod	_	_	_	C78	P66	_	_
+17	до	до	ADP	R	_	18	case	_	_	_	C78	P67:NPI;prep=до;Definite=Ind|Gender=Fem|Number=Sing;head=18;rule=NPI01	_	_
+18	вечер	вечер	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No	_	C78	P67	_	_
+19	…	…	PUNCT	punct	_	11	punct	_	_	_	C78	_	_	_
+
+# sent_id = grade10_003_s038
+# text = Заран отидат, вечер се върнат и с връщането – залепят се на ваджишката кутия кино да гледат, докато стане време за спане, и тогава – „лека ти нощ!“.
+1	Заран	заран	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	_	_	_	C79:MAIN	P68:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=1;rule=NPI01	_	E17
+2	отидат	отида-(си)	VERB	Vppif-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No	F77:Present;Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C79	_	_	_
+3	,	,	PUNCT	punct	_	6	punct	_	_	_	C79	_	_	_
+4	вечер	вечер	ADV	Dt	Degree=Pos	6	advmod	_	_	_	C80:COORD;coord=C79	_	_	_
+5	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	6	expl	_	_	F78:Present;Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C80	_	_	_
+6	върнат	върна-(се)	VERB	Vpptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	_	F78	C80	_	Z46:Pro-drop;Number=Plur|Person=3;rule=S10,R19;ref=Z47	E10
+7	и	и	CCONJ	Cp	_	9	cc	_	_	_	C80	_	_	_
+8	с	с	ADP	R	_	9	case	_	_	_	C80	P69:NPD;prep=с;Definite=Def|Gender=Neut|Number=Sing;head=9;rule=NPD01	_	_
+9	връщането	връщане	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	6	iobj	_	_	_	C80	P69	_	_
+10	–	–	PUNCT	punct	_	6	punct	_	_	_	C80	_	_	_
+11	залепят	залепя-(се)	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_	F79:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C81:COORD;coord=C80	_	Z47:Pro-drop;Number=Plur|Person=3;rule=S10,R19;ref=grade10_003_s019#10	E10
+12	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	11	expl	_	_	F79	C81	_	_	_
+13	на	на	ADP	R	_	15	case	_	_	_	C81	P70:NPD;prep=на;Definite=Def|Gender=Fem|Number=Sing;head=15;rule=NPD03	_	_
+14	ваджишката	ваджишки	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_	_	C81	P70	_	_
+15	кутия	кутие	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	11	iobj	_	_	_	C81	P70	_	_
+16	кино	кино	ADV	Dm	Degree=Pos	18	advmod	_	_	_	C81	_	_	_
+17	да	да	AUX	Tx	_	18	aux	_	_	_	C82:SUB;head=C81;conj=S036:да	_	_	_
+18	гледат	гледам	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	ccomp	_	SpaceAfter=No	F80:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C82	_	Z48:Pro-drop;Number=Plur|Person=3;rule=S09,R19;ref=Z47	E10
+19	,	,	PUNCT	punct	_	21	punct	_	_	_	C82	_	_	_
+20	докато	докато	SCONJ	Cs	_	21	mark	_	_	_	C83:SUB;head=C82;conj=S017:докато	_	_	_
+21	стане	стана	VERB	Vppif-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl	_	_	F81:Present;Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C83	_	Z49:Pro-drop;Gender=Masc|Number=Sing|Person=3;rule=S10,R19;ref=grade10_003_s038#1	E17
+22	време	време	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	21	obj	_	_	_	C83	P71:NPI;Definite=Ind|Gender=Neut|Number=Sing;head=22;rule=NPI01	_	_
+23	за	за	ADP	R	_	24	case	_	_	_	C83	P72:NPI;prep=за;Definite=Ind|Gender=Neut|Number=Sing;head=24;rule=NPI01	_	_
+24	спане	спане	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	22	nmod	_	SpaceAfter=No	_	C83	P72	_	_
+25	,	,	PUNCT	punct	_	21	punct	_	_	_	C83	_	_	_
+26	и	и	CCONJ	Cp	_	32	cc	_	_	_	C83	_	_	_
+27	тогава	тогава	ADV	Pdt	PronType=Dem	32	advmod	_	_	_	C83	_	_	_
+28	–	–	PUNCT	punct	_	32	punct	_	_	_	C83	_	_	_
+29	„	„	PUNCT	punct	_	32	punct	_	SpaceAfter=No	_	C83	_	_	_
+30	лека	лека	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_	_	C83	P73:AP;Definite=Ind|Gender=Fem|Number=Sing;head=30;rule=AP01	_	_
+31	ти	аз	PRON	Psot--2	Person=2|Poss=Yes|PronType=Prs	30	det	_	_	_	C83	_	A29:Possessive;Gender=Masc|Number=Sing|Person=2;rule=R06;ref=Z40	E1
+32	нощ	нощ	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No	_	C83	P74:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=32;rule=NPI01	_	_
+33	!	!	PUNCT	punct	_	11	punct	_	SpaceAfter=No	_	C83	_	_	_
+34	“.	“.	PUNCT	punct	_	2	punct	_	_	_	C83	_	_	_
+
+# sent_id = grade10_003_s039
+# text = „Лека нощ“, „довиждане“, „довиждане“, „лека нощ“ – с тия думи се срещаме и изпращаме има вече година и кусур.
+1	„	„	PUNCT	punct	_	19	punct	_	SpaceAfter=No	_	C84:MAIN	_	_	_
+2	Лека	Леки	PART	Tv	_	3	discourse	_	_	_	C84	_	_	_
+3	нощ“	нощ“	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	19	nsubj	_	SpaceAfter=No	_	C84	P75:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=3;rule=NPI01	_	E18
+4	,	,	PUNCT	punct	_	6	punct	_	_	_	C84	_	_	_
+5	„	„	PUNCT	punct	_	6	punct	_	SpaceAfter=No	_	C84	_	_	_
+6	довиждане“	довиждане“	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No	_	C84	P76:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=6;rule=NPI01	_	_
+7	,	,	PUNCT	punct	_	9	punct	_	_	_	C84	_	_	_
+8	„	„	PUNCT	punct	_	9	punct	_	SpaceAfter=No	_	C84	_	_	_
+9	довиждане“	довиждане“	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No	_	C84	P77:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=9;rule=NPI01	_	_
+10	,	,	PUNCT	punct	_	13	punct	_	_	_	C84	_	_	_
+11	„	„	PUNCT	punct	_	13	punct	_	SpaceAfter=No	_	C84	_	_	_
+12	лека	леки	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_	_	C84	P78:AP;Definite=Ind|Gender=Fem|Number=Sing;head=12;rule=AP01	_	_
+13	нощ“	нощ“	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	3	conj	_	_	_	C84	P79:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=13;rule=NPI01	_	_
+14	–	–	PUNCT	punct	_	17	punct	_	_	_	C84	_	_	_
+15	с	с	ADP	R	_	17	case	_	_	_	C84	P80:NPI;prep=с;Definite=Def|Gender=Fem|Number=Plur;head=17;rule=NPI07	_	_
+16	тия	този	DET	Pde-op	Number=Plur|PronType=Dem	17	det	_	_	_	C84	P80	_	_
+17	думи	дума	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	19	obl	_	_	_	C84	P80	_	_
+18	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	19	expl	_	_	F82:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C84	_	_	_
+19	срещаме	срещам-(се)	VERB	Vpitf-r1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F82	C84	_	_	_
+20	и	и	CCONJ	Cp	_	22	cc	_	_	_	C85:COORD;coord=C84;conj=S154:и	_	_	_
+21	изпращаме	изпращам	ADV	Dm	Degree=Pos	22	advmod	_	_	_	C85	_	_	_
+22	има	има	VERB	Vnitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	conj	_	_	F83:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C85	_	Z50:Pro-drop;Gender=Masc|Number=Sing|Person=3;rule=S10,R19;ref=grade10_003_s039#3	E18
+23	вече	вече	ADV	Dt	Degree=Pos	24	advmod	_	_	_	C85	_	_	_
+24	година	година	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	22	obj	_	_	_	C85	P81:NPI;Definite=Ind|Gender=Fem|Number=Sing;head=24;rule=NPI01	_	_
+25	и	и	CCONJ	Cp	_	26	cc	_	_	_	C85	_	_	_
+26	кусур	кусур	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	24	conj	_	SpaceAfter=No	_	C85	P82:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=26;rule=NPI01	_	_
+27	.	.	PUNCT	punct	_	19	punct	_	SpacesAfter=\n	_	C85	_	_	_
+
+# sent_id = grade10_003_s040
+# text = Хайде, докато беше детето им вкъщи – пак добре.
+1	Хайде	хайде	PART	Tm	_	5	discourse	_	SpaceAfter=No	_	C86:MAIN	_	_	_
+2	,	,	PUNCT	punct	_	5	punct	_	_	_	C86	_	_	_
+3	докато	докато	SCONJ	Cs	_	5	mark	_	_	_	C87:SUB;head=C86;conj=S017:докато	_	_	_
+4	беше	съм	AUX	Vxitf-t3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_	F84:Imperfect|Aorist;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imperfect,Aorist|VerbForm=Fin|Voice=Act;rule=BGF417,BGF418	C87	_	_	_
+5	детето	дете	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	0	root	_	_	_	C87	P83:NPD;Definite=Def|Gender=Neut|Number=Sing;head=5;rule=NPD02	Z51:Pro-drop;Gender=Neut|Number=Sing|Person=3;rule=S10,R19;ref=Z36	E12
+6	им	техен	PRON	Pszt--3	Person=3|Poss=Yes|PronType=Prs	5	det	_	_	_	C87	P83	A30:Possessive;Number=Plur|Person=3;rule=R15;ref=Z48	E10
+7	вкъщи	вкъщи	ADV	Dl	Degree=Pos	10	advmod	_	_	_	C87	_	_	_
+8	–	–	PUNCT	punct	_	10	punct	_	_	_	C87	_	_	_
+9	пак	пак	ADV	Dt	Degree=Pos	10	advmod	_	_	_	C87	_	_	_
+10	добре	добре	ADV	Dm	Degree=Pos	5	advmod	_	SpaceAfter=No	_	C87	_	_	_
+11	.	.	PUNCT	punct	_	5	punct	_	_	_	C87	_	_	_
+
+# sent_id = grade10_003_s041
+# text = Поиграеш си, поводим се и току-виж, разсеяли се мъглите от главата ми, но тая снаха, опустяла – боже прости! – взе, че го махна и го даде на детски ясли, та идва сега в неделята веднъж.
+1	Поиграеш	Поиграм	VERB	Vpitf-r2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	F85:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C88:MAIN	_	Z52:Pro-drop;Gender=Masc|Number=Sing|Person=2;rule=S08,R06;ref=A29	E1
+2	си	се	PRON	Ppxtd	Case=Dat|PronType=Prs|Reflex=Yes	1	expl	_	SpaceAfter=No	F85	C88	_	_	_
+3	,	,	PUNCT	punct	_	4	punct	_	_	_	C88	_	_	_
+4	поводим	поводя-(си)	VERB	Vpitf-r1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_	F86:Present;Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C89:COORD;coord=C88	_	Z53:Pro-drop;Number=Plur|Person=1;rule=S08	_
+5	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	_	F86	C89	_	_	_
+6	и	и	CCONJ	Cp	_	7	cc	_	_	_	C89	_	_	_
+7	току-виж	току-виж	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No	_	C89	P84:NPI;Definite=Ind|Gender=Masc|Number=Sing;head=7;rule=NPI01	_	_
+8	,	,	PUNCT	punct	_	9	punct	_	_	_	C89	_	_	_
+9	разсеяли	разсеям-(се)	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_	F87:Aorist;Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Aorist|VerbForm=Fin|Voice=Act;rule=BGF418	C90:COORD;coord=C89	_	Z54:Pro-drop;Gender=Neut|Number=Sing|Person=3;rule=S10,R19;ref=Z51	E12
+10	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	9	expl	_	_	F87	C90	_	_	_
+11	мъглите	мъгла	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	9	obj	_	_	_	C90	P85:NPD;Definite=Def|Gender=Masc|Number=Plur;head=11;rule=NPD01	_	_
+12	от	от	ADP	R	_	13	case	_	_	_	C90	P86:NPD;prep=от;Definite=Def|Gender=Fem|Number=Sing;head=13;rule=NPD02	_	_
+13	главата	глава	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	_	_	C90	P86	_	_
+14	ми	мой	PRON	Psot--1	Person=1|Poss=Yes|PronType=Prs	13	det	_	SpaceAfter=No	_	C90	P86	A31:Possessive;Number=Sing|Person=1;rule=R05;ref=Z44	E2
+15	,	,	PUNCT	punct	_	16	punct	_	_	_	C90	_	_	_
+16	но	но	CCONJ	Cc	_	18	cc	_	_	_	C91:COORD;coord=C90	_	_	_
+17	тая	този	DET	Pde-os-f	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_	_	C91	P87:NPI;Definite=Def|Gender=Fem|Number=Sing;head=18;rule=NPI07	_	_
+18	снаха	снаха	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No	_	C91	P87	_	_
+19	,	,	PUNCT	punct	_	20	punct	_	_	_	C91	_	_	_
+20	опустяла	опустея	VERB	Vpptcao-sfi	Aspect=Perf|Definite=Ind|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	18	conj	_	_	F88:Aorist+Ren|DVerb+Past_Participle_Aorist;Aspect=Perf|Evident=Ren|Gender=Fem|Mood=Ind|Number=Sing|Tense=Aorist|VerbForm=Fin|Voice=Act/Aspect=Perf|Definite=Ind|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act;rule=BGF420	C91	_	Z55:Pro-drop;Gender=Fem|Number=Sing|Person=3;rule=S10,R19;ref=Z38	E14
+21	–	–	PUNCT	punct	_	26	punct	_	_	_	C91	_	_	_
+22	боже	бога	SCONJ	Cs	_	23	mark	_	_	_	C91	_	_	_
+23	прости	прост	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	26	advcl	_	SpaceAfter=No	F89:Aorist;Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Aorist|VerbForm=Fin|Voice=Act;rule=BGF418	C91	_	Z56:Pro-drop;Number=Sing|Person=3;rule=S10,R19;ref=Z57	E14
+24	!	!	PUNCT	punct	_	23	punct	_	_	_	C91	_	_	_
+25	–	–	PUNCT	punct	_	23	punct	_	_	_	C92:MAIN	_	_	_
+26	взе	взема	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	20	conj	_	SpaceAfter=No	F90:Aorist;Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Aorist|VerbForm=Fin|Voice=Act;rule=BGF418	C92	_	Z57:Pro-drop;Gender=Fem|Number=Sing|Person=3;rule=S10,R19;ref=Z55	E14
+27	,	,	PUNCT	punct	_	30	punct	_	_	_	C92	_	_	_
+28	че	че	SCONJ	Cs	_	30	mark	_	_	_	C93:SUB;head=C92;conj=S016:че	_	_	_
+29	го	аз	PRON	Ppetas3m	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	obj	_	_	_	C93	_	A32:Personal;Gender=Masc,Neut|Number=Sing|Person=3;rule=R11;ref=Z54	E12
+30	махна	махна-(се)	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	26	ccomp	_	_	F91:Aorist;Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Aorist|VerbForm=Fin|Voice=Act;rule=BGF418	C93	_	Z58:Pro-drop;Gender=Fem|Number=Sing|Person=3;rule=S10,R19;ref=Z57	E14
+31	и	и	CCONJ	Cp	_	33	cc	_	_	_	C94:SUB;head=C92;coord=C93;conj=S154:и	_	_	_
+32	го	аз	PRON	Ppetas3m	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	obj	_	_	_	C94	_	A33:Personal;Gender=Masc,Neut|Number=Sing|Person=3;rule=R11;ref=A32	E12
+33	даде	дам-(се)	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	26	conj	_	_	F92:Aorist;Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Aorist|VerbForm=Fin|Voice=Act;rule=BGF418	C94	_	Z59:Pro-drop;Gender=Fem|Number=Sing|Person=3;rule=S10,R19;ref=Z57	E14
+34	на	на	ADP	R	_	36	case	_	_	_	C94	P88:NPI;prep=на;Definite=Ind|Gender=Fem|Number=Plur;head=36;rule=NPI02	_	_
+35	детски	детски	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	36	amod	_	_	_	C94	P88	_	_
+36	ясли	ясъл	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	33	iobj	_	SpaceAfter=No	_	C94	P88	_	_
+37	,	,	PUNCT	punct	_	38	punct	_	_	_	C94	_	_	_
+38	та	та	CCONJ	Cc	_	39	cc	_	_	_	C95:COORD;coord=C92	_	_	_
+39	идва	идвам	VERB	Vpiif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	conj	_	_	F93:Present;Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act;rule=BGF416	C95	_	Z60:Pro-drop;Gender=Fem|Number=Sing|Person=3;rule=S10,R19;ref=Z57	E14
+40	сега	сега	ADV	Dt	Degree=Pos	39	advmod	_	_	_	C95	_	_	_
+41	в	в	ADP	R	_	42	case	_	_	_	C95	P89:NPD;prep=в;Definite=Def|Gender=Fem|Number=Sing;head=42;rule=NPD01	_	_
+42	неделята	неделя	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	39	iobj	_	_	_	C95	P89	_	_
+43	веднъж	веднъж	ADV	Dq	Degree=Pos	39	advmod	_	SpaceAfter=No	_	C95	_	_	_
+44	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n	_	C95	_	_	_
+

@@ -1,0 +1,8 @@
+# Глух ученик в 7. клас
+name: Глух ученик в 7. клас
+language: L1
+grade: 7
+age: 13
+needs: deaf
+lexicon: L1
+known:
