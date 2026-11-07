@@ -98,12 +98,8 @@ A plain text file with `key: value` lines:
 
 The evaluation in the browser follows the same steps as the jar. Open it through a web server, e.g. GitHub Pages or `python3 -m http.server` in the repository folder.
 
-### Authors
 
-Department of Computational Linguistics, Institute for Bulgarian Language "Prof. Lyubomir Andreychin", Bulgarian Academy of Sciences
-
-- Ivelina Stoyanova – iva@dcl.bas.bg
-- Svetlozara Leseva – zarka@dcl.bas.bg
+Department of Computational Linguistics, Institute for Bulgarian Language, Bulgarian Academy of Sciences
 
 The annotation tools are also available separately: [SYNTACTIC-BG](https://github.com/DCL-IBL/SYNTACTIC-BG).
 
@@ -201,11 +197,6 @@ java -jar ReadabilityEvaluator.jar -reference annotated/ -metadata metadata.tsv 
 
 Оценката в браузъра следва същите стъпки като програмата. Приложението се отваря през уеб сървър, напр. GitHub Pages или `python3 -m http.server` в папката на хранилището.
 
-### Автори
-
 Секция по компютърна лингвистика, Институт за български език „Проф. Любомир Андрейчин“, Българска академия на науките
-
-- Ивелина Стоянова – iva@dcl.bas.bg
-- Светлозара Лесева – zarka@dcl.bas.bg
 
 Инструментите за анотация са достъпни и отделно: [SYNTACTIC-BG](https://github.com/DCL-IBL/SYNTACTIC-BG).
