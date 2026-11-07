@@ -1,0 +1,36 @@
+# Правила за намиране на референта на анафорите и на изпуснатия подлог (Pro-drop).
+# За всяка анафора правилата се проверяват в реда на файла; първото, което намери референт, се прилага.
+# анафора: видове от pronouns.tsv или pro-drop; лице: изискване към анафората („-“ – всяко).
+# стратегия:
+#   RELATIVE_HEAD – съществителното, поясненo от относителното изречение (acl:relcl)
+#   CLAUSE_SUBJECT – подлогът (изразен или изпуснат) на същото просто изречение
+#   SAME_PERSON – предходна форма за същото лице и число (говорещ, адресат)
+#   PREV_SUBJECT – подлогът на управляващото или на предходно просто изречение
+#   NEAREST – най-близкото предходно споменаване (опора на именна фраза, анафора или изпуснат подлог)
+#   EVENT – сказуемото на предходното просто изречение
+# обхват: clause (същото просто изречение), sentence (същото изречение), paragraph (същият абзац), previous_paragraph (и предходният абзац).
+# условия: OUTSIDE_CLAUSE – референтът е извън простото изречение на анафората; NOT_SUBJECT – не е в една верига с подлога на същото изречение;
+#   NOT_PREV_SUBJECT – не е подлогът на предходното просто изречение; SUBJECT_FIRST – първо се търсят подлозите.
+# Референтът винаги трябва да се съгласува с анафората по лице, число и (в ед. ч.) род.
+id	анафора	лице	стратегия	обхват	условия	пример
+R01	относително	-	RELATIVE_HEAD	clause	-	Книгата, която ми даде, е интересна.
+R02	относително_притежателно	-	RELATIVE_HEAD	clause	-	Авторът, чиято книга четем, е млад.
+R03	възвратно_притежателно	-	CLAUSE_SUBJECT	clause	-	Тя обича своята работа.
+R04	възвратно	-	CLAUSE_SUBJECT	clause	-	Той мисли само за себе си.
+R05	*	1	SAME_PERSON	previous_paragraph	-	Аз дойдох. Видях го.
+R06	*	2	SAME_PERSON	previous_paragraph	-	Ти ли си? Чакам те.
+R07	лично_им	3	PREV_SUBJECT	paragraph	-	Мария дойде. Тя седна.
+R08	лично_им	3	NEAREST	sentence	SUBJECT_FIRST	Иван каза на Петър, че той ще дойде.
+R09	лично_им	3	NEAREST	paragraph	SUBJECT_FIRST	Видях Мария вчера. Тя беше уморена.
+R10	лично_им	3	NEAREST	previous_paragraph	SUBJECT_FIRST	(в предходния абзац)
+R11	лично_вин,лично_пълно	3	NEAREST	sentence	OUTSIDE_CLAUSE,NOT_SUBJECT	Купих книга и я прочетох.
+R12	лично_вин,лично_пълно	3	NEAREST	previous_paragraph	NOT_SUBJECT	Мария дойде. Видях я.
+R13	лично_дат	3	NEAREST	paragraph	NOT_SUBJECT,SUBJECT_FIRST	Иван дойде. Дадох му книгата.
+R14	лично_дат	3	NEAREST	previous_paragraph	NOT_SUBJECT	(в предходния абзац)
+R15	притежателно,притежателно_кратко	3	NEAREST	paragraph	NOT_SUBJECT,SUBJECT_FIRST	Иван дойде. Видях колата му.
+R16	притежателно,притежателно_кратко	3	NEAREST	previous_paragraph	-	Мария дойде с колата си. Колата ѝ е нова.
+R17	показателно	3	EVENT	paragraph	-	Мария не дойде. Това ме изненада.
+R18	показателно	3	NEAREST	paragraph	NOT_PREV_SUBJECT	Иван видя Петър. Този не го позна.
+R19	pro-drop	3	PREV_SUBJECT	paragraph	-	Мария дойде. Седна до прозореца.
+R20	pro-drop	3	NEAREST	paragraph	SUBJECT_FIRST	Срещнах Мария. Беше уморена.
+R21	pro-drop	3	NEAREST	previous_paragraph	SUBJECT_FIRST	(в предходния абзац)

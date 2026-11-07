@@ -1,0 +1,24 @@
+# Правила за разделяне на сложното изречение на прости изречения.
+# Правилата се прилагат по реда в колона „ред“ в интервала между две съседни глаголни форми (обхват gap)
+# или в интервала преди първата глаголна форма (обхват initial). Правило с „stop“ прекратява обработката на интервала, ако се е приложило.
+#
+# тип:      SPECIAL_VERB_DA -- модален, фазов или спомагателен глагол (special_verbs_bg.tsv), последван само от „да“ и клитики;
+#           STRONG_PUNCT -- силен препинателен знак; CONJ -- съюз или съюзна дума от ресурса със съюзите;
+#           CLOSING_PUNCT -- първият слаб препинателен знак в интервала; PUNCT -- слаб препинателен знак; GAP_END -- края на интервала
+# избор:    за SPECIAL_VERB_DA -- type=<типове от special_verbs_bg.tsv>; за CONJ -- compulsory=true|false; type=C,S,R,Q (вид на съюза); за PUNCT -- class=weak|strong; except=<знаци, разделени с интервал>
+# посока:   forward -- отляво надясно; backward -- отдясно наляво
+# условие:  състояние на текущото (най-вътрешното отворено) изречение: top.hasVerb, top.open=COC|COS|SCOC, top.kind=MAIN|COORD|SUB; „!“ -- отрицание; „,“ -- и
+# действие: CLOSE_ALL_OPEN_SCOC -- затваря всички изречения и отваря ново независимо;
+#           OPEN_BY_CONJ -- съчинителният съюз затваря текущото изречение и отваря съчинено, подчинителният отваря подчинено;
+#           CLOSE_SUB_THEN_CONJ -- затваря подчиненото изречение при знака, а следващият съюз отваря ново;
+#           JOIN -- без граница: специалният глагол и „да“-конструкцията образуват едно сказуемо;
+#           CLOSE_TOP -- затваря текущото изречение при знака; CLOSE_TOP_AT_END -- граница пред следващата глаголна форма
+ред	име	обхват	тип	избор	посока	условие	действие	след
+0	подчинителен съюз в началото	initial	CONJ	compulsory=true;type=S,R,Q	forward	-	OPEN_BY_CONJ	stop
+1	модален или фазов глагол + да	gap	SPECIAL_VERB_DA	type=модален,фазов	forward	-	JOIN	stop
+2	силна пунктуация	gap	STRONG_PUNCT	-	forward	-	CLOSE_ALL_OPEN_SCOC	continue
+3	задължителен съюз	gap	CONJ	compulsory=true	forward	-	OPEN_BY_CONJ	stop
+4	затваряща запетая	gap	CLOSING_PUNCT	class=weak;except=(	forward	top.open=COS,top.hasVerb	CLOSE_SUB_THEN_CONJ	stop
+5	незадължителен съюз	gap	CONJ	compulsory=false	backward	top.hasVerb	OPEN_BY_CONJ	stop
+6	слаба пунктуация	gap	PUNCT	class=weak	forward	top.hasVerb	CLOSE_TOP	stop
+7	граница пред глаголна форма	gap	GAP_END	-	-	top.hasVerb	CLOSE_TOP_AT_END	stop

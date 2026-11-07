@@ -1,0 +1,137 @@
+id	label	pattern	example	frequency
+ENF001	Future_Simple+Pass+Neg	be:Vr not (4,{-C,-U,-V}) going to be:V Ve	is not going to be prepared	
+ENF002	Future_Simple+Pass+Neg	be:Vr not (4,{-C,-U,-V}) going to be:V Vx	is not going to be prepared	
+ENF003	Future_Perfect_Progressive+Pass+Neg	shall:V not (4,{-C,-U,-V}) have:V be:Vx be:Vy Ve	shall not have been being painted	
+ENF004	Future_Perfect_Progressive+Pass+Neg	shall:V not (4,{-C,-U,-V}) have:V be:Vx be:Vy Vx	shall not have been being painted	
+ENF005	Future_Perfect_Progressive+Pass+Neg	will:V not (4,{-C,-U,-V}) have:V be:Vx be:Vy Ve	Will not have been being painted	
+ENF006	Future_Perfect_Progressive+Pass+Neg	will:V not (4,{-C,-U,-V}) have:V be:Vx be:Vy Vx	Will not have been being painted	
+ENF007	Future_in_the_Past+Pass+Neg	be:Ve not (4,{-C,-U,-V}) going to be:V Ve	was not going to be prepared	
+ENF008	Future_in_the_Past+Pass+Neg	be:Ve not (4,{-C,-U,-V}) going to be:V Vx	was not going to be prepared	
+ENF009	Present_Perfect_Progressive+Pass+Neg	have:Vr not (4,{-C,-U,-V}) be:Vx be:Vy Ve	It has not been being done.	
+ENF010	Present_Perfect_Progressive+Pass+Neg	have:Vr not (4,{-C,-U,-V}) be:Vx be:Vy Vx	It has not been being done.	
+ENF011	Past_Perfect_Progressive+Pass+Neg	have:Ve not (4,{-C,-U,-V}) be:Vx be:Vy Ve	Had not been being prepared	
+ENF012	Past_Perfect_Progressive+Pass+Neg	have:Ve not (4,{-C,-U,-V}) be:Vx be:Vy Vx	Had not been being prepared	
+ENF013	Future_Simple+Pass	be:Vr (4,{-C,-U,-V}) going to be:V Ve	is going to be prepared	
+ENF014	Future_Simple+Pass	be:Vr (4,{-C,-U,-V}) going to be:V Vx	is going to be prepared	
+ENF015	Future_Simple+Neg	be:Vr not (4,{-C,-U,-V}) going to V	is not going to prepare	
+ENF016	Future_Progressive+Pass+Neg	shall:V not (4,{-C,-U,-V}) be:V be:Vy Ve	Shall not be being prepared	
+ENF017	Future_Progressive+Pass+Neg	shall:V not (4,{-C,-U,-V}) be:V be:Vy Vx	Shall not be being prepared	
+ENF018	Future_Progressive+Pass+Neg	will:V not (4,{-C,-U,-V}) be:V be:Vy Ve	Will not be being prepared	
+ENF019	Future_Progressive+Pass+Neg	will:V not (4,{-C,-U,-V}) be:V be:Vy Vx	Will not be being prepared	
+ENF020	Future_Perfect+Pass+Neg	shall:V not (4,{-C,-U,-V}) have:V be:Vx Ve	shall not have been done	
+ENF021	Future_Perfect+Pass+Neg	shall:V not (4,{-C,-U,-V}) have:V be:Vx Vx	shall not have been done	
+ENF022	Future_Perfect+Pass+Neg	will:V not (4,{-C,-U,-V}) have:V be:Vx Ve	will not have been done	
+ENF023	Future_Perfect+Pass+Neg	will:V not (4,{-C,-U,-V}) have:V be:Vx Vx	will not have been done	
+ENF024	Future_Perfect_Progressive+Pass	shall:V (4,{-C,-U,-V}) have:V be:Vx be:Vy Ve	shall have been being painted	
+ENF025	Future_Perfect_Progressive+Pass	shall:V (4,{-C,-U,-V}) have:V be:Vx be:Vy Vx	shall have been being painted	
+ENF026	Future_Perfect_Progressive+Pass	will:V (4,{-C,-U,-V}) have:V be:Vx be:Vy Ve	Will have been being painted	
+ENF027	Future_Perfect_Progressive+Pass	will:V (4,{-C,-U,-V}) have:V be:Vx be:Vy Vx	Will have been being painted	
+ENF028	Future_Perfect_Progressive+Neg	shall:V not (4,{-C,-U,-V}) have:V be:Vx Vy	Shall not have been going	
+ENF029	Future_Perfect_Progressive+Neg	will:V not (4,{-C,-U,-V}) have:V be:Vx Vy	Will not have been going	
+ENF030	Future_in_the_Past+Pass	be:Ve (4,{-C,-U,-V}) going to be:V Ve	was going to be prepared	
+ENF031	Future_in_the_Past+Pass	be:Ve (4,{-C,-U,-V}) going to be:V Vx	was going to be prepared	
+ENF032	Future_in_the_Past+Neg	be:Ve not (4,{-C,-U,-V}) going to V	was not going to prepare	
+ENF033	Future_Perfect_in_the_Past+Pass+Neg|Conditional_Perfect+Pass+Neg	would:V not (4,{-C,-U,-V}) have:V be:Vx Ve	Would not have been made	
+ENF034	Future_Perfect_in_the_Past+Pass+Neg|Conditional_Perfect+Pass+Neg	would:V not (4,{-C,-U,-V}) have:V be:Vx Vx	Would not have been made	
+ENF035	Present_Progressive+Pass+Neg	be:Vr not (4,{-C,-U,-V}) be:Vy Ve	Isn’t being prepared	
+ENF036	Present_Progressive+Pass+Neg	be:Vr not (4,{-C,-U,-V}) be:Vy Vx	Isn’t being prepared	
+ENF037	Present_Perfect+Pass+Neg	have:Vr not (4,{-C,-U,-V}) be:Vx Ve	Hasn’t been prepared	
+ENF038	Present_Perfect+Pass+Neg	have:Vr not (4,{-C,-U,-V}) be:Vx Vx	Hasn’t been prepared	
+ENF039	Present_Perfect_Progressive+Pass	have:Vr (4,{-C,-U,-V}) be:Vx be:Vy Ve	It has been being done.	
+ENF040	Present_Perfect_Progressive+Pass	have:Vr (4,{-C,-U,-V}) be:Vx be:Vy Vx	It has been being done.	
+ENF041	Present_Perfect_Progressive+Neg	have:Vr not (4,{-C,-U,-V}) be:Vx Vy	He has not been doing that.	
+ENF042	Past_Progressive+Pass+Neg	be:Ve not (4,{-C,-U,-V}) be:Vy Ve	was not being prepared	
+ENF043	Past_Progressive+Pass+Neg	be:Ve not (4,{-C,-U,-V}) be:Vy Vx	was not being prepared	
+ENF044	Past_Perfect+Pass+Neg	have:Ve not (4,{-C,-U,-V}) be:Vx Ve	had not been prepared	
+ENF045	Past_Perfect+Pass+Neg	have:Ve not (4,{-C,-U,-V}) be:Vx Vx	had not been prepared	
+ENF046	Past_Perfect_Progressive+Pass	have:Ve (4,{-C,-U,-V}) be:Vx be:Vy Ve	Had been being prepared	
+ENF047	Past_Perfect_Progressive+Pass	have:Ve (4,{-C,-U,-V}) be:Vx be:Vy Vx	Had been being prepared	
+ENF048	Past_Perfect_Progressive+Neg	have:Ve not (4,{-C,-U,-V}) be:Vx Vy	He had not been doing that.	
+ENF049	Future_Simple	be:Vr (4,{-C,-U,-V}) going to V	is going to prepare	
+ENF050	Future_Simple+Pass+Neg	shall:V not (4,{-C,-U,-V}) be:V Ve	Shall not be prepared	
+ENF051	Future_Simple+Pass+Neg	shall:V not (4,{-C,-U,-V}) be:V Vx	Shall not be prepared	
+ENF052	Future_Simple+Pass+Neg	will:V not (4,{-C,-U,-V}) be:V Ve	will not be prepared	
+ENF053	Future_Simple+Pass+Neg	will:V not (4,{-C,-U,-V}) be:V Vx	will not be prepared	
+ENF054	Future_Progressive+Pass	shall:V (4,{-C,-U,-V}) be:V be:Vy Ve	Shall be being prepared	
+ENF055	Future_Progressive+Pass	shall:V (4,{-C,-U,-V}) be:V be:Vy Vx	Shall be being prepared	
+ENF056	Future_Progressive+Pass	will:V (4,{-C,-U,-V}) be:V be:Vy Ve	Will be being prepared	
+ENF057	Future_Progressive+Pass	will:V (4,{-C,-U,-V}) be:V be:Vy Vx	Will be being prepared	
+ENF058	Future_Progressive+Neg	shall:V not (4,{-C,-U,-V}) be:V Vy	Shall not be going	
+ENF059	Future_Progressive+Neg	will:V not (4,{-C,-U,-V}) be:V Vy	Will not be going	
+ENF060	Future_Perfect+Pass	shall:V (4,{-C,-U,-V}) have:V be:Vx Ve	shall have been done	
+ENF061	Future_Perfect+Pass	shall:V (4,{-C,-U,-V}) have:V be:Vx Vx	shall have been done	
+ENF062	Future_Perfect+Pass	will:V (4,{-C,-U,-V}) have:V be:Vx Ve	will have been done	
+ENF063	Future_Perfect+Pass	will:V (4,{-C,-U,-V}) have:V be:Vx Vx	will have been done	
+ENF064	Future_Perfect+Neg	shall:V not (4,{-C,-U,-V}) have:V Ve	shall not have done	
+ENF065	Future_Perfect+Neg	shall:V not (4,{-C,-U,-V}) have:V Vx	shall not have done	
+ENF066	Future_Perfect+Neg	will:V not (4,{-C,-U,-V}) have:V Ve	will not have done	
+ENF067	Future_Perfect+Neg	will:V not (4,{-C,-U,-V}) have:V Vx	will not have done	
+ENF068	Future_Perfect_Progressive	shall:V (4,{-C,-U,-V}) have:V be:Vx Vy	Shall have been going	
+ENF069	Future_Perfect_Progressive	will:V (4,{-C,-U,-V}) have:V be:Vx Vy	Will have been going	
+ENF070	Future_in_the_Past	be:Ve (4,{-C,-U,-V}) going to V	was going to prepare	
+ENF071	Future_in_the_Past+Pass+Neg|Conditional+Pass+Neg	would:V not (4,{-C,-U,-V}) be:V Ve	Would not be prepared	
+ENF072	Future_in_the_Past+Pass+Neg|Conditional+Pass+Neg	would:V not (4,{-C,-U,-V}) be:V Vx	Would not be prepared	
+ENF073	Future_Perfect_in_the_Past+Pass|Conditional_Perfect+Pass	would:V (4,{-C,-U,-V}) have:V be:Vx Ve	Would have been made	
+ENF074	Future_Perfect_in_the_Past+Pass|Conditional_Perfect+Pass	would:V (4,{-C,-U,-V}) have:V be:Vx Vx	Would have been made	
+ENF075	Future_Perfect_in_the_Past+Neg|Conditional_Perfect+Neg	would:V not (4,{-C,-U,-V}) have:V Ve	Would not have made	
+ENF076	Future_Perfect_in_the_Past+Neg|Conditional_Perfect+Neg	would:V not (4,{-C,-U,-V}) have:V Vx	Would not have made	
+ENF077	Present_Simple+Neg	do:Vr not (4,{-C,-U,-V}) V	I don’t want	
+ENF078	Present_Simple+Pass+Neg	be:Vr not (4,{-C,-U,-V}) Ve	Isn’t prepared	
+ENF079	Present_Simple+Pass+Neg	be:Vr not (4,{-C,-U,-V}) Vx	Isn’t prepared	
+ENF080	Present_Progressive+Pass	be:Vr (4,{-C,-U,-V}) be:Vy Ve	Is being prepared	
+ENF081	Present_Progressive+Pass	be:Vr (4,{-C,-U,-V}) be:Vy Vx	Is being prepared	
+ENF082	Present_Progressive+Neg	be:Vr not (4,{-C,-U,-V}) Vy	Isn’t preparing	
+ENF083	Present_Perfect+Pass	have:Vr (4,{-C,-U,-V}) be:Vx Ve	Has been prepared	
+ENF084	Present_Perfect+Pass	have:Vr (4,{-C,-U,-V}) be:Vx Vx	Has been prepared	
+ENF085	Present_Perfect+Neg	have:Vr not (4,{-C,-U,-V}) Ve	hasn’t prepared	
+ENF086	Present_Perfect+Neg	have:Vr not (4,{-C,-U,-V}) Vx	hasn’t prepared	
+ENF087	Present_Perfect_Progressive	have:Vr (4,{-C,-U,-V}) be:Vx Vy	He has never been doing that.	
+ENF088	Past_Simple+Neg	do:Ve not (4,{-C,-U,-V}) V	I didn’t go	
+ENF089	Past_Simple+Pass+Neg	be:Ve not (4,{-C,-U,-V}) Ve	wasn’t prepared	
+ENF090	Past_Simple+Pass+Neg	be:Ve not (4,{-C,-U,-V}) Vx	wasn’t prepared	
+ENF091	Past_Progressive+Pass	be:Ve (4,{-C,-U,-V}) be:Vy Ve	was being prepared	
+ENF092	Past_Progressive+Pass	be:Ve (4,{-C,-U,-V}) be:Vy Vx	was being prepared	
+ENF093	Past_Progressive+Neg	be:Ve not (4,{-C,-U,-V}) Vy	was not preparing	
+ENF094	Past_Perfect+Pass	have:Ve (4,{-C,-U,-V}) be:Vx Ve	had been prepared	
+ENF095	Past_Perfect+Pass	have:Ve (4,{-C,-U,-V}) be:Vx Vx	had been prepared	
+ENF096	Past_Perfect+Neg	have:Ve not (4,{-C,-U,-V}) Ve	had not prepared	
+ENF097	Past_Perfect+Neg	have:Ve not (4,{-C,-U,-V}) Vx	had not prepared	
+ENF098	Past_Perfect_Progressive	have:Ve (4,{-C,-U,-V}) be:Vx Vy	He had been doing that.	
+ENF099	Future_Simple+Pass	shall:V (4,{-C,-U,-V}) be:V Ve	Shall be prepared	
+ENF100	Future_Simple+Pass	shall:V (4,{-C,-U,-V}) be:V Vx	Shall be prepared	
+ENF101	Future_Simple+Pass	will:V (4,{-C,-U,-V}) be:V Ve	will be prepared	
+ENF102	Future_Simple+Pass	will:V (4,{-C,-U,-V}) be:V Vx	will be prepared	
+ENF103	Future_Simple+Neg	shall:V not (4,{-C,-U,-V}) V	shall not prepare	
+ENF104	Future_Simple+Neg	will:V not (4,{-C,-U,-V}) V	Will not prepare	
+ENF105	Future_Progressive	shall:V (4,{-C,-U,-V}) be:V Vy	Shall be going	
+ENF106	Future_Progressive	will:V (4,{-C,-U,-V}) be:V Vy	Will be going	
+ENF107	Future_Perfect	shall:V (4,{-C,-U,-V}) have:V Ve	shall have done	
+ENF108	Future_Perfect	shall:V (4,{-C,-U,-V}) have:V Vx	shall have done	
+ENF109	Future_Perfect	will:V (4,{-C,-U,-V}) have:V Ve	will have done	
+ENF110	Future_Perfect	will:V (4,{-C,-U,-V}) have:V Vx	will have done	
+ENF111	Future_in_the_Past+Pass|Conditional+Pass	would:V (4,{-C,-U,-V}) be:V Ve	Would be prepared	
+ENF112	Future_in_the_Past+Pass|Conditional+Pass	would:V (4,{-C,-U,-V}) be:V Vx	Would be prepared	
+ENF113	Future_in_the_Past+Neg|Conditional+Neg	would:V not (4,{-C,-U,-V}) V	Would not come	
+ENF114	Future_Perfect_in_the_Past|Conditional_Perfect	would:V (4,{-C,-U,-V}) have:V Ve	Would have made	
+ENF115	Future_Perfect_in_the_Past|Conditional_Perfect	would:V (4,{-C,-U,-V}) have:V Vx	Would have made	
+ENF116	Perfect_Participle	have:Vy Vx	Having gone	
+ENF117	Present_Simple	do:Vr (4,{-C,-U,-V}) V	I do go	
+ENF118	Present_Simple+Pass	be:Vr (4,{-C,-U,-V}) Ve	Is prepared	
+ENF119	Present_Simple+Pass	be:Vr (4,{-C,-U,-V}) Vx	Is prepared	
+ENF120	Present_Progressive	be:Vr (4,{-C,-U,-V}) Vy	Is preparing	
+ENF121	Present_Perfect	have:Vr (4,{-C,-U,-V}) Ve	has prepared	
+ENF122	Present_Perfect	have:Vr (4,{-C,-U,-V}) Vx	has prepared	
+ENF123	Past_Simple	do:Ve (4,{-C,-U,-V}) V	I did go	
+ENF124	Past_Simple+Pass	be:Ve (4,{-C,-U,-V}) Ve	was prepared	
+ENF125	Past_Simple+Pass	be:Ve (4,{-C,-U,-V}) Vx	was prepared	
+ENF126	Past_Progressive	be:Ve (4,{-C,-U,-V}) Vy	was preparing	
+ENF127	Past_Perfect	have:Ve (4,{-C,-U,-V}) Ve	had prepared	
+ENF128	Past_Perfect	have:Ve (4,{-C,-U,-V}) Vx	had prepared	
+ENF129	Future_Simple	shall:V (4,{-C,-U,-V}) V	shall prepare	
+ENF130	Future_Simple	will:V (4,{-C,-U,-V}) V	Will prepare	
+ENF131	Future_in_the_Past|Conditional	would:V (4,{-C,-U,-V}) V	Would come	
+ENF132	Infinitive	Vb	(to) go	
+ENF133	Past_Participle	Vx		
+ENF134	Present_Participle	Vy	Going, he smiled	
+ENF135	Present_Simple	Vr		
+ENF136	Past_Simple	Ve	I went	

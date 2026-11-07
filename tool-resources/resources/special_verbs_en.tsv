@@ -1,0 +1,15 @@
+id	verb	type	subtype	Bulgarian equivalents	Bulgarian ids
+E01	can	modal		мога; може	V01, V03
+E02	should	modal		трябва; следвам; следва	V02, V16, V17
+E03	have to	modal		трябва; следвам; следва	V02, V16, V17
+E04	may	modal		може	V03
+E05	begin	phase	inchoative	започвам; започна; почна; почвам; понечвам; понеча	V04, V05, V06, V07, V08, V09
+E06	start	phase	inchoative	започвам; започна; почна; почвам; понечвам; понеча	V04, V05, V06, V07, V08, V09
+E07	continue	phase	continuative	продължавам; продължа	V10, V11
+E08	stop	phase	terminative	спирам; спра; преставам; престана	V12, V13, V14, V15
+E09	end	phase	terminative	спирам; спра; преставам; престана	V12, V13, V14, V15
+E10	finish	phase	terminative	спирам; спра; преставам; престана	V12, V13, V14, V15
+E11	dare	modal		смея; осмелявам; осмеля	V18, V19, V20
+E12	be	auxiliary		съм; ща	V21, V22
+E13	have	auxiliary		съм	V21
+E14	won't	auxiliary		няма	V23

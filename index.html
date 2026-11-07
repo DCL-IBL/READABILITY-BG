@@ -1,192 +1,506 @@
 <!DOCTYPE html>
 <html lang="bg">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Оценка на четивност на текст на български език</title>
-  <style>
-    :root {
-      --ink: #1d2b3a;
-      --paper: #f6f8fa;
-      --card: #ffffff;
-      --line: #c9d3dd;
-      --accent: #1f5f8b;
-      --accent-dark: #174a6d;
-      --tint: #e8f1f7;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
-      color: var(--ink);
-      background: var(--paper);
-      line-height: 1.55;
-    }
-    main { max-width: 42rem; margin: 0 auto; padding: 3rem 1.25rem; }
-    h1 { font-size: clamp(1.6rem, 4vw, 2.2rem); line-height: 1.2; margin: 0 0 2rem; }
-    form {
-      background: var(--card);
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      padding: 1.5rem;
-    }
-    fieldset { border: 0; margin: 0 0 1.5rem; padding: 0; }
-    legend { font-weight: 600; margin-bottom: 0.6rem; padding: 0; }
-    select {
-      font: inherit;
-      width: 100%;
-      padding: 0.6rem 0.7rem;
-      border: 1px solid var(--line);
-      border-radius: 6px;
-      background: #fff;
-      color: var(--ink);
-    }
-    .choices { display: flex; flex-wrap: wrap; gap: 0.5rem; }
-    .option {
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-      padding: 0.55rem 0.9rem;
-      border: 1px solid var(--line);
-      border-radius: 6px;
-      cursor: pointer;
-    }
-    .option:has(input:checked) { border-color: var(--accent); background: var(--tint); }
-    .option input { accent-color: var(--accent); width: 1.05rem; height: 1.05rem; }
-    button {
-      font: inherit;
-      font-weight: 600;
-      color: #fff;
-      background: var(--accent);
-      border: 0;
-      border-radius: 6px;
-      padding: 0.7rem 1.4rem;
-      cursor: pointer;
-    }
-    button:hover { background: var(--accent-dark); }
-    :focus-visible { outline: 3px solid #f0a500; outline-offset: 2px; }
-    #result {
-      margin-top: 1.5rem;
-      padding: 1rem 1.25rem;
-      background: var(--tint);
-      border-left: 4px solid var(--accent);
-      border-radius: 4px;
-    }
-    #result[hidden] { display: none; }
-    #result dl { margin: 0 0 1rem; display: grid; grid-template-columns: max-content 1fr; gap: 0.25rem 1rem; }
-    #result dt { font-weight: 600; }
-    #result dd { margin: 0; }
-    #text-preview {
-      margin: 0;
-      padding: 0.8rem 1rem;
-      background: #fff;
-      border: 1px solid var(--line);
-      border-radius: 6px;
-      white-space: pre-wrap;
-      font-family: inherit;
-      max-height: 18rem;
-      overflow: auto;
-    }
-    .error { color: #a12a2a; }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>READABILITY-BG – оценка на четивността</title>
+<style>
+:root{
+  --bg:#f7f6f2; --panel:#ffffff; --text:#1f2328; --muted:#5d636b; --line:#d9d6cf;
+  --accent:#2f5d8a; --easy:#2e7d4f; --ok:#b7791f; --hard:#b83232; --info:#7a7f87;
+  --easy-bg:#e3f2e8; --ok-bg:#fbf0d9; --hard-bg:#f8e1e1; --band:#cfdcea; --mark:#fff2a8;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#16181b; --panel:#1f2226; --text:#e6e6e3; --muted:#a3a8ae; --line:#363a40;
+    --accent:#7fb0e0; --easy:#5fbf87; --ok:#e0a84a; --hard:#e57373; --info:#9aa0a6;
+    --easy-bg:#1e3326; --ok-bg:#3a2f18; --hard-bg:#3c2222; --band:#2f4256; --mark:#5a4d12;
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 "Segoe UI",Roboto,"Noto Sans",Arial,sans-serif}
+header{padding:20px 24px 8px;max-width:1200px;margin:0 auto}
+header h1{margin:0;font-size:24px}
+header p{margin:4px 0 0;color:var(--muted)}
+main{max-width:1200px;margin:0 auto;padding:8px 24px 40px;display:grid;grid-template-columns:340px 1fr;gap:20px}
+@media (max-width:900px){main{grid-template-columns:1fr}}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:16px;margin-bottom:16px}
+h2{font-size:17px;margin:0 0 10px}
+h3{font-size:15px;margin:14px 0 6px}
+label{display:block;margin:8px 0 3px;font-weight:600;font-size:13px}
+select,input[type=number],input[type=file]{width:100%;padding:6px;border:1px solid var(--line);border-radius:5px;background:var(--panel);color:var(--text);font:inherit}
+.row{display:flex;gap:8px}.row>div{flex:1}
+.hint{color:var(--muted);font-size:12px;margin-top:2px}
+button{margin-top:14px;width:100%;padding:9px;border:0;border-radius:6px;background:var(--accent);color:#fff;font:600 15px inherit;cursor:pointer}
+button:disabled{opacity:.5;cursor:default}
+.known{max-height:170px;overflow:auto;border:1px solid var(--line);border-radius:5px;padding:4px 8px;font-size:13px}
+.known label{font-weight:400;margin:2px 0;display:flex;gap:6px;align-items:flex-start}
+.verdict{font-size:20px;font-weight:700;padding:10px 14px;border-radius:6px;margin-bottom:8px}
+.v-лесен{background:var(--easy-bg);color:var(--easy)}.v-подходящ{background:var(--ok-bg);color:var(--ok)}.v-труден{background:var(--hard-bg);color:var(--hard)}
+.badge{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;font-weight:600;white-space:nowrap}
+.c-лесно{background:var(--easy-bg);color:var(--easy)}.c-приемливо{background:var(--ok-bg);color:var(--ok)}.c-трудно{background:var(--hard-bg);color:var(--hard)}.c-сведение{color:var(--info);border:1px solid var(--line)}
+table{width:100%;border-collapse:collapse;font-size:13px}
+td,th{padding:5px 6px;border-bottom:1px solid var(--line);text-align:left;vertical-align:middle}
+th{color:var(--muted);font-weight:600}
+td.num{text-align:right;white-space:nowrap}
+.scroll{overflow-x:auto}
+.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+@media (max-width:700px){.cols{grid-template-columns:1fr}}
+.cols ul{margin:4px 0 0;padding-left:18px;font-size:13px}
+.text{line-height:1.9}
+.text .s{border-radius:3px}
+.text .s.long{background:var(--ok-bg)}
+.text .w.unknown{text-decoration:underline wavy var(--hard);text-underline-offset:3px}
+.text .w.verb{background:var(--band);border-radius:3px}
+.text .w.ana{border-bottom:2px solid var(--accent)}
+.text .w.word{background:var(--mark);border-radius:3px}
+.text .w.abstr{font-style:italic;color:var(--accent)}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(205px,1fr));gap:12px}
+.card{border:1px solid var(--line);border-radius:8px;padding:12px 14px;background:var(--panel)}
+.card .top{display:flex;justify-content:space-between;align-items:flex-start;gap:6px;min-height:30px}
+.card .lvl{font-size:11px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);font-weight:600;line-height:1.3}
+.card .nm{font-weight:600;font-size:14px;margin:6px 0 4px;min-height:38px;line-height:1.35}
+.card .val{font-size:26px;font-weight:700;line-height:1.2}
+.card .val small{font-size:18px;font-weight:700}
+.card .bar{height:7px;border-radius:4px;background:var(--line);margin:8px 0 8px;overflow:hidden}
+.card .bar i{display:block;height:100%;border-radius:4px}
+.card .cm{font-size:12px;color:var(--muted);line-height:1.4}
+.b-лесно{background:var(--easy-bg);color:var(--easy)}.b-приемливо{background:var(--ok-bg);color:var(--ok)}.b-трудно{background:var(--hard-bg);color:var(--hard)}.b-сведение{color:var(--info);border:1px solid var(--line)}
+.fill-лесно{background:var(--easy)}.fill-приемливо{background:var(--ok)}.fill-трудно{background:var(--hard)}.fill-сведение{background:var(--info)}
+.panelhead{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+.panelhead h2{margin:0}.panelhead .hint{margin:0}
+.legend span{margin-right:14px;font-size:12px;color:var(--muted)}
+.expl li{margin-bottom:6px}
+.expl .sug{color:var(--muted)}
+svg text{fill:var(--text);font:12px "Segoe UI",Roboto,Arial,sans-serif}
+.muted{color:var(--muted)}
+footer{max-width:1200px;margin:0 auto;padding:0 24px 30px;color:var(--muted);font-size:12px}
+</style>
 </head>
 <body>
-  <main>
-    <h1>Оценка на четивност на текст на български език</h1>
+<header>
+  <h1>READABILITY-BG – оценка на четивността на текст</h1>
+  <p>Изберете текст и опишете читателя. Приложението оценява текста спрямо очакваните знания и умения на читателя и посочва какво може да го затрудни.</p>
+</header>
 
-    <form id="form">
-      <fieldset>
-        <legend>Текст</legend>
-        <select id="text-select" name="text" required>
-          <option value="" disabled selected>Зареждане на текстовете…</option>
-        </select>
-      </fieldset>
+<main>
+<div>
+  <div class="panel">
+    <h2>1. Текст</h2>
+    <label for="text">Демонстрационен текст</label>
+    <select id="text"></select>
+    <div class="hint" id="textinfo"></div>
+    <label for="upload">или резултат (JSON) от ReadabilityEvaluator</label>
+    <input type="file" id="upload" accept=".json">
+    <div class="hint">java -jar ReadabilityEvaluator.jar -i текст.conllu -json текст.json</div>
+  </div>
 
-      <fieldset>
-        <legend>Български като</legend>
-        <div class="choices">
-          <label class="option">
-            <input type="radio" name="language" value="Първи език" required>
-            <span>Първи език</span>
-          </label>
-          <label class="option">
-            <input type="radio" name="language" value="Втори език">
-            <span>Втори език</span>
-          </label>
-        </div>
-      </fieldset>
+  <div class="panel">
+    <h2>2. Читател</h2>
+    <label for="lang">Език</label>
+    <select id="lang">
+      <option value="L1">български като първи език</option>
+      <option value="L2">български като втори език</option>
+    </select>
+    <div class="row">
+      <div id="gradebox"><label for="grade">Клас</label><input type="number" id="grade" min="1" max="12" value="4"></div>
+      <div><label for="age">Възраст</label><input type="number" id="age" min="6" max="99" value="10"></div>
+    </div>
+    <div id="cefrbox" style="display:none">
+      <label for="cefr">Ниво по ОЕЕР</label>
+      <select id="cefr"><option>A1</option><option selected>A2</option><option>B1</option><option>B2</option><option>C1</option><option>C2</option></select>
+    </div>
+    <label for="needs">Специфични потребности</label>
+    <select id="needs"><option value="none">няма</option><option value="deaf">глух читател / с увреден слух</option></select>
+    <label for="lexicon">Лексикален минимум</label>
+    <select id="lexicon">
+      <option value="L1">10 000 думи за 1.–4. клас (първи език)</option>
+      <option value="L2">лексикален минимум А1–А2 (втори език)</option>
+    </select>
+    <label>Познати явления</label>
+    <div class="known" id="known"></div>
+    <div class="hint">Отбелязаните явления не се оценяват като трудни.</div>
+    <button id="go" disabled>Оцени текста</button>
+  </div>
+</div>
 
-      <fieldset>
-        <legend>Възраст на читателя</legend>
-        <div class="choices">
-          <label class="option"><input type="radio" name="age" value="7-11" required><span>7–11</span></label>
-          <label class="option"><input type="radio" name="age" value="12-14"><span>12–14</span></label>
-          <label class="option"><input type="radio" name="age" value="15-16"><span>15–16</span></label>
-          <label class="option"><input type="radio" name="age" value="17-19"><span>17–19</span></label>
-          <label class="option"><input type="radio" name="age" value="20+"><span>20+</span></label>
-        </div>
-      </fieldset>
+<div id="out">
+  <div class="panel muted">Изберете текст и натиснете „Оцени текста“.</div>
+</div>
+</main>
 
-      <button type="submit">Покажи резултат</button>
-    </form>
+<footer>
+  Секция по компютърна лингвистика, Институт за български език „Проф. Любомир Андрейчин“, БАН · Ивелина Стоянова (iva@dcl.bas.bg), Светлозара Лесева (zarka@dcl.bas.bg)
+</footer>
 
-    <div id="result" role="status" aria-live="polite" hidden></div>
-  </main>
+<script>
+const GROUPS = ["фонологично и графично","лексикално","морфологично","синтактично","текстово и дискурсно"];
+const BADGE = {"лесно":"по силите","приемливо":"с подкрепа","трудно":"разяснение","сведение":"за сведение"};
+const CARDS = ["awl","coverage_extended","abstract_pct","analytic_per_sent","clauses_per_sent","sub_per_sent","prodrop_pct","anaphora_per100"];
+const INDICES = ["fre_bg","lix_bg","cli_bg","fog_bg","smog_bg","pisarek_bg"];
+const R = {features:{}, reference:{}, explanations:{}, fre:[], cefr:{}, group:{}};
+let current = null;
 
-  <script>
-    const DIR = "demo-texts/";             // folder in the repository
-    const MANIFEST = DIR + "files.json";   // list of file names in that folder
+function parseTsv(t){
+  const rows = [];
+  let header = true;
+  for (let l of t.split(/\r?\n/)){
+    if (!l.trim() || l.startsWith("#")) continue;
+    if (header){ header = false; continue; }
+    rows.push(l.split("\t"));
+  }
+  return rows;
+}
 
-    const form = document.getElementById("form");
-    const select = document.getElementById("text-select");
-    const result = document.getElementById("result");
+async function load(){
+  const get = async f => (await fetch(f)).text();
+  for (const d of parseTsv(await get("resources/features.tsv")))
+    R.features[d[0]] = {group:d[1], name:d[2], dir:+d[3], unit:d[4], def:d[5]||""};
+  for (const d of parseTsv(await get("resources/levels.tsv"))){
+    if (d[0]==="fre") R.fre.push([+d[1], +d[2]]);
+    else if (d[0]==="cefr") R.cefr[d[1]] = +d[2];
+    else if (d[0]==="group") R.group[d[1]] = d[2];
+  }
+  R.fre.sort((a,b)=>b[0]-a[0]);
+  for (const d of parseTsv(await get("resources/reference_values.tsv"))){
+    (R.reference[d[0]] = R.reference[d[0]] || {})[d[1]] = [+d[2], +d[3], +d[4], +d[5]];
+  }
+  for (const d of parseTsv(await get("resources/explanations_bg.tsv")))
+    R.explanations[d[0]] = [d[1], d[2]];
 
-    // Fill the drop-down from demo-texts/files.json
-    fetch(MANIFEST)
-      .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
-      .then(files => {
-        select.innerHTML = '<option value="" disabled selected>Изберете текст…</option>';
-        files.forEach(name => {
-          const opt = document.createElement("option");
-          opt.value = name;
-          opt.textContent = name;
-          select.appendChild(opt);
-        });
-      })
-      .catch(() => {
-        select.innerHTML = '<option value="" disabled selected>Текстовете не могат да се заредят</option>';
-      });
+  const idx = JSON.parse(await get("demo-texts/index.json"));
+  const sel = document.getElementById("text");
+  const names = {"4":"4. клас (НВО)", "7":"7. клас (НВО)", "10":"10. и 12. клас (НВО, ДЗИ)"};
+  for (const g of ["4","7","10"]){
+    const og = document.createElement("optgroup"); og.label = names[g];
+    for (const t of idx.filter(x=>x.group===g)){
+      const o = document.createElement("option");
+      o.value = t.id; o.textContent = t.title;
+      o.dataset.info = `${t.grade}. клас, ${t.year} г., ${t.text_class.toLowerCase()}, ${t.words} думи`;
+      og.appendChild(o);
+    }
+    sel.appendChild(og);
+  }
+  sel.onchange = selectText;
 
-    form.addEventListener("submit", async function (event) {
-      event.preventDefault();
-      const file = select.value;
-      const language = form.elements["language"].value;
-      const age = form.elements["age"].value;
+  const kn = document.getElementById("known");
+  for (const k in R.features){
+    if (R.features[k].dir === 0 || k.startsWith("coverage") || k === "fre_bg") continue;
+    const l = document.createElement("label");
+    l.innerHTML = `<input type="checkbox" value="${k}"> ${R.features[k].name}`;
+    kn.appendChild(l);
+  }
+  await selectText();
+}
 
-      result.hidden = false;
-      result.replaceChildren();
+async function selectText(){
+  const sel = document.getElementById("text");
+  document.getElementById("textinfo").textContent = sel.selectedOptions[0].dataset.info;
+  current = await (await fetch(`demo-texts/${sel.value}.json`)).json();
+  document.getElementById("go").disabled = false;
+}
 
-      const dl = document.createElement("dl");
-      [["Текст", file], ["Български като", language], ["Възраст", age]].forEach(([k, v]) => {
-        const dt = document.createElement("dt"); dt.textContent = k;
-        const dd = document.createElement("dd"); dd.textContent = v;
-        dl.append(dt, dd);
-      });
-      result.appendChild(dl);
+document.getElementById("upload").onchange = async e => {
+  const f = e.target.files[0]; if (!f) return;
+  current = JSON.parse(await f.text());
+  document.getElementById("textinfo").textContent = `Зареден файл: ${f.name}`;
+  document.getElementById("go").disabled = false;
+};
 
-      const pre = document.createElement("pre");
-      pre.id = "text-preview";
-      result.appendChild(pre);
+document.getElementById("lang").onchange = e => {
+  const l2 = e.target.value === "L2";
+  document.getElementById("cefrbox").style.display = l2 ? "" : "none";
+  document.getElementById("gradebox").style.display = l2 ? "none" : "";
+  document.getElementById("lexicon").value = l2 ? "L2" : "L1";
+};
+document.getElementById("age").onchange = e => {
+  const g = Math.max(1, Math.min(12, (+e.target.value) - 6));
+  document.getElementById("grade").value = g;
+};
+document.getElementById("go").onclick = () => render(evaluate(current, readProfile()));
 
-      try {
-        const r = await fetch(DIR + encodeURIComponent(file));
-        if (!r.ok) throw new Error(r.status);
-        pre.textContent = await r.text();
-      } catch (e) {
-        pre.textContent = "Файлът не може да бъде зареден.";
-        pre.classList.add("error");
-      }
+function readProfile(){
+  return {
+    language: document.getElementById("lang").value,
+    grade: +document.getElementById("grade").value,
+    age: +document.getElementById("age").value,
+    cefr: document.getElementById("cefr").value,
+    needs: document.getElementById("needs").value,
+    lexicon: document.getElementById("lexicon").value,
+    known: [...document.querySelectorAll("#known input:checked")].map(x=>x.value)
+  };
+}
+
+// the same steps as Evaluator.java
+function freToGrade(fre){
+  const [hi, ghi] = R.fre[0], [lo, glo] = R.fre[R.fre.length-1];
+  return ghi + (hi - fre) * (glo - ghi) / (hi - lo);
+}
+function gradeToFre(g){
+  const [hi, ghi] = R.fre[0], [lo, glo] = R.fre[R.fre.length-1];
+  return hi - (g - ghi) * (hi - lo) / (glo - ghi);
+}
+function classify(v, dir, r, strict){
+  if (dir < 0){
+    const t1 = strict ? r[3] : r[2], t2 = strict ? r[2] : r[1];
+    return v >= t1 ? "лесно" : v >= t2 ? "приемливо" : "трудно";
+  }
+  const t1 = strict ? r[1] : r[2], t2 = strict ? r[2] : r[3];
+  return v <= t1 ? "лесно" : v <= t2 ? "приемливо" : "трудно";
+}
+
+function evaluate(tf, p){
+  const e = {categories:{}};
+  const l2 = p.language === "L2";
+  e.readerGrade = l2 ? (R.cefr[p.cefr] || 4) : Math.max(1, Math.min(12, p.grade || p.age - 6));
+  e.group = R.group[Math.round(e.readerGrade)] || "10";
+  e.strict = e.readerGrade < 4 || (l2 && p.cefr === "A1");
+  e.fre = tf.features.fre_bg;
+  e.textGrade = freToGrade(e.fre);
+  e.readerFre = gradeToFre(e.readerGrade);
+  e.lexicon = p.lexicon;
+  const cov = tf.coverage[p.lexicon] || [0,0,0];
+  e.coverage = cov;
+
+  for (const f in R.features){
+    const d = R.features[f];
+    let c;
+    if (f === "fre_bg"){
+      c = e.textGrade <= e.readerGrade ? "лесно" : e.textGrade <= e.readerGrade + 2 ? "приемливо" : "трудно";
+    } else if (f === "coverage_direct"){
+      c = "сведение";
+    } else if (f === "coverage_extended"){
+      if (p.lexicon === "L1"){
+        c = (l2 || e.readerGrade > 4 || !R.reference.coverage_extended_L1) ? "сведение"
+          : classify(cov[1], -1, R.reference.coverage_extended_L1["4"], e.strict);
+      } else c = cov[2] >= 98 ? "лесно" : cov[2] >= 95 ? "приемливо" : "трудно";
+    } else {
+      const v = tf.features[f], r = (R.reference[f] || {})[e.group];
+      if (v == null || !r || d.dir === 0) c = "сведение";
+      else c = classify(v, d.dir, r, e.strict || (p.needs === "deaf" && ["морфологично","синтактично","текстово и дискурсно"].includes(d.group)));
+    }
+    if (p.known.includes(f) && c === "трудно") c = "приемливо";
+    e.categories[f] = c;
+  }
+
+  let n = 0, hard = 0;
+  for (const f in e.categories){
+    if (R.features[f].group === "индекси" || e.categories[f] === "сведение") continue;
+    n++; if (e.categories[f] === "трудно") hard++;
+  }
+  const share = n ? hard / n : 0, fc = e.categories.fre_bg;
+  e.overall = (fc === "трудно" || share > 0.4) ? "труден" : (fc === "лесно" && share <= 0.15) ? "лесен" : "подходящ";
+  e.profile = p;
+  return e;
+}
+
+const fmt = (v, d=1) => v == null ? "–" : (+v).toFixed(d).replace(".", ",");
+const gradeText = g => g > 12.5 ? "над 12. клас" : `${fmt(Math.max(1, g))} клас`;
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function scaleSvg(e){
+  const W = 760, x0 = 40, x1 = W - 40, y = 60;
+  const X = fre => x0 + (100 - Math.max(0, Math.min(100, fre))) / 100 * (x1 - x0);
+  let s = `<svg viewBox="0 0 ${W} 130" width="100%" role="img" aria-label="Скала FRE_bg">`;
+  s += `<defs><linearGradient id="gr" x1="0" x2="1"><stop offset="0" stop-color="var(--easy)"/><stop offset=".45" stop-color="var(--ok)"/><stop offset="1" stop-color="var(--hard)"/></linearGradient></defs>`;
+  s += `<rect x="${x0}" y="${y-8}" width="${x1-x0}" height="16" rx="8" fill="url(#gr)" opacity=".8"/>`;
+  for (const v of [100,80,60,40,20,0]) s += `<text x="${X(v)}" y="${y+28}" text-anchor="middle">${v}</text>`;
+  for (let g = 1; g <= 12; g++){
+    const x = X(gradeToFre(g));
+    s += `<line x1="${x}" x2="${x}" y1="${y-10}" y2="${y+10}" stroke="var(--panel)" stroke-width="1.5"/>`;
+    if ([1,4,7,10,12].includes(g)) s += `<text x="${x}" y="${y+44}" text-anchor="middle" style="fill:var(--muted)">${g} кл.</text>`;
+  }
+  const tx = X(e.fre), rx = X(e.readerFre);
+  s += `<path d="M${tx-7},${y-22} L${tx+7},${y-22} L${tx},${y-10} Z" fill="var(--text)"/>`;
+  s += `<text x="${tx}" y="${y-30}" text-anchor="middle" font-weight="700">текстът: ${fmt(e.fre)}</text>`;
+  s += `<path d="M${rx-7},${y+22} L${rx+7},${y+22} L${rx},${y+10} Z" fill="var(--accent)"/>`;
+  s += `<text x="${rx}" y="${y+60}" text-anchor="middle" font-weight="700" style="fill:var(--accent)">читателят: ${fmt(e.readerFre)}</text>`;
+  return s + `</svg>`;
+}
+
+function bandSvg(v, r, dir){
+  if (!r) return "";
+  const lo = Math.min(v, r[1]), hi = Math.max(v, r[3]);
+  const span = (hi - lo) || 1, a = lo - span * .15, b = hi + span * .15;
+  const X = t => 4 + (t - a) / (b - a) * 112;
+  return `<svg viewBox="0 0 120 16" width="120" height="16" aria-hidden="true">
+    <line x1="4" x2="116" y1="8" y2="8" stroke="var(--line)"/>
+    <rect x="${X(r[1])}" y="3" width="${Math.max(2, X(r[3]) - X(r[1]))}" height="10" rx="3" fill="var(--band)"/>
+    <line x1="${X(r[2])}" x2="${X(r[2])}" y1="2" y2="14" stroke="var(--muted)"/>
+    <circle cx="${X(v)}" cy="8" r="4.5" fill="var(--text)"/></svg>`;
+}
+
+// places shown for the features that are not easy for the reader
+const PLACE_FEATURE = {"place:long_sentence":"asl","place:many_clauses":"clauses_per_sent","place:long_word":"asw",
+  "place:complex_verb":"analytic_per_sent","place:abstract_word":"abstract_pct","place:evidential_verb":"evidential_per100","place:passive_verb":"passive_per100",
+  "place:far_antecedent":"antecedent_distance","place:unresolved":"antecedent_distance"};
+
+function textHtml(tf, e){
+  const sentMarks = {}, wordMarks = {};
+  const addW = (s, t, cls, title) => { const k = s + ":" + t; (wordMarks[k] = wordMarks[k] || {cls:new Set(), titles:new Set()}); wordMarks[k].cls.add(cls); wordMarks[k].titles.add(title); };
+  for (const pl of tf.places){
+    const ex = R.explanations[pl.key] ? R.explanations[pl.key][0] : "";
+    if (pl.key === "place:unknown_word"){
+      if (pl.lexicon !== e.lexicon || e.categories.coverage_extended === "сведение") continue;
+      pl.t.forEach(t => addW(pl.s, t, "unknown", ex)); continue;
+    }
+    const f = PLACE_FEATURE[pl.key];
+    if (!f || e.categories[f] === "лесно" || e.categories[f] === "сведение") continue;
+    if (pl.key === "place:long_sentence" || pl.key === "place:many_clauses"){ sentMarks[pl.s] = (sentMarks[pl.s] || []).concat(ex + " (" + pl.detail + ")"); continue; }
+    const cls = pl.key === "place:long_word" ? "word" : pl.key === "place:abstract_word" ? "abstr" : pl.key.includes("verb") ? "verb" : "ana";
+    pl.t.forEach(t => addW(pl.s, t, cls, ex + " " + pl.detail));
+  }
+  let h = "";
+  tf.sentences.forEach((s, i) => {
+    let inner = "";
+    s.tokens.forEach((tok, j) => {
+      const m = wordMarks[i + ":" + j];
+      const w = esc(tok[0]);
+      inner += m ? `<span class="w ${[...m.cls].join(" ")}" title="${esc([...m.titles].join("\n"))}">${w}</span>` : w;
+      if (tok[1]) inner += " ";
     });
-  </script>
+    h += sentMarks[i] ? `<span class="s long" title="${esc(sentMarks[i].join("\n"))}">${inner}</span>` : `<span class="s">${inner}</span>`;
+  });
+  return h;
+}
+
+
+const GRP_NAME = {"4":"4. клас","7":"7. клас","10":"10.–12. клас"};
+const valText = (f, v) => {
+  const u = R.features[f].unit;
+  if (u === "%") return `${fmt(v, 0)}%`;
+  if (u === "в изречение") return `${fmt(v)} <small>в изречение</small>`;
+  if (u === "на 100 думи") return `${fmt(v)} <small>на 100 думи</small>`;
+  if (u === "букви" || u === "думи" || u === "срички") return `${fmt(v)} <small>${u}</small>`;
+  if (u === "клас") return `${fmt(v)} <small>клас</small>`;
+  if (u === "години обучение") return `${fmt(v)} <small>год.</small>`;
+  return fmt(v);
+};
+function position(f, v){
+  const r = R.reference[f]; if (!r) return "";
+  const g = ["4","7","10"].filter(x => r[x]);
+  let best = g[0];
+  for (const x of g) if (Math.abs(v - r[x][0]) < Math.abs(v - r[best][0])) best = x;
+  const lo = Math.min(...g.map(x => r[x][0])), hi = Math.max(...g.map(x => r[x][0]));
+  let s;
+  if (v >= r[best][1] && v <= r[best][3]) s = `Близо до средното за текстовете за ${GRP_NAME[best]}.`;
+  else if (v < lo) s = `Под средното за текстовете за ${GRP_NAME[g.find(x => r[x][0] === lo)]}.`;
+  else if (v > hi) s = `Над средното за текстовете за ${GRP_NAME[g.filter(x => r[x][0] === hi).pop()]}.`;
+  else s = `Най-близо до средното за текстовете за ${GRP_NAME[best]}.`;
+  const parts = g.map(x => fmt(r[x][0]) + " за " + GRP_NAME[x]);
+  return s + ` Средно ${parts.slice(0, -1).join("; ")} и ${parts[parts.length-1]}.`;
+}
+function barWidth(f, v){
+  const r = R.reference[f];
+  if (f === "coverage_extended") return Math.max(4, Math.min(100, v));
+  if (!r) return 50;
+  const vals = Object.values(r).flatMap(x => [x[1], x[3]]);
+  const lo = Math.min(...vals) * 0.7, hi = Math.max(...vals) * 1.25;
+  const w = (v - lo) / (hi - lo) * 100;
+  return Math.max(4, Math.min(100, R.features[f].dir < 0 ? 100 - w : w));
+}
+function card(f, v, cat, level, comment){
+  return `<div class="card"><div class="top"><span class="lvl">${level}</span><span class="badge b-${cat}">${BADGE[cat]}</span></div>
+    <div class="nm">${R.features[f].name.replace(/^Покритие от лексикалния минимум.*/, "Покритие от лексикалния минимум")}</div>
+    <div class="val">${valText(f, v)}</div>
+    <div class="bar"><i class="fill-${cat}" style="width:${barWidth(f, v)}%"></i></div>
+    <div class="cm">${comment}</div></div>`;
+}
+function indexGrade(f, v){
+  if (f === "fre_bg") return `≈ ${gradeText(freToGrade(v))}`;
+  if (f === "pisarek_bg") return `≈ ${fmt(v)} години обучение`;
+  if (f === "lix_bg") return "без скала по класове";
+  return `≈ ${gradeText(v)}`;
+}
+
+function render(e){
+  const tf = current;
+  const p = e.profile;
+  const who = p.language === "L2" ? `изучаващ български като втори език, ниво ${p.cefr} (≈ ${Math.round(e.readerGrade)}. клас)` : `ученик в ${Math.round(e.readerGrade)}. клас`;
+  const grp = e.group === "10" ? "10. и 12. клас" : e.group + ". клас";
+  const words = tf.counts.words, sents = tf.counts.sentences;
+  const msg = {лесен:"Текстът е лесен за читателя.", подходящ:"Текстът е подходящ за читателя, с части, които изискват подкрепа.", труден:"Текстът е труден за читателя."}[e.overall];
+
+  let h = `<div class="panel"><h2>Обща оценка</h2>
+    <div class="verdict v-${e.overall}">${msg}</div>
+    <div class="muted">Читател: ${who}${p.needs === "deaf" ? ", глух читател" : ""}. Сравнение с текстовете за ${grp}. Текст: ${sents} изречения, ${words} думи.</div>
+    <h3>Индекс FRE_bg (100 – най-лесно, 0 – най-трудно)</h3>
+    ${scaleSvg(e)}
+    <div>Текстът съответства на ниво <b>${gradeText(e.textGrade)}</b>; за читателя се очаква FRE_bg около <b>${fmt(e.readerFre)}</b> или повече.
+      <span class="badge c-${e.categories.fre_bg}">${e.categories.fre_bg}</span></div>
+    <div class="hint">FRE_bg = 206,835 − 1,3 · ASL − 52,5 · ASW; 100 = 1. клас, 60 = 12. клас, с линейна интерполация.</div>
+    <h3>Лексикално покритие (${e.lexicon === "L1" ? "10 000 думи за 1.–4. клас" : "минимум А1–А2"})</h3>
+    <div>Пряко: <b>${fmt(e.coverage[0])} %</b>, разширено (със сродните думи): <b>${fmt(e.coverage[1])} %</b> от пълнозначните думи; познати думи в целия текст: <b>${fmt(e.coverage[2])} %</b>
+      <span class="badge c-${e.categories.coverage_extended}">${e.categories.coverage_extended}</span></div>
+  </div>`;
+
+
+  let cards = "";
+  for (const f of CARDS){
+    let v = tf.features[f], comment;
+    if (f === "coverage_extended"){
+      v = e.coverage[1];
+      comment = `Пълнозначни думи ${e.lexicon === "L1" ? "от речника за 1.–4. клас" : "от минимума А1–А2"} (със сродните думи); пряко ${fmt(e.coverage[0], 0)}%.`;
+    } else comment = position(f, v);
+    if (v == null) continue;
+    cards += card(f, v, e.categories[f], R.features[f].group, comment);
+  }
+  h += `<div class="panel"><div class="panelhead"><h2>Характеристики на текста по езикови равнища</h2><span class="hint">Стойности спрямо текстовете от НВО и ДЗИ за 4., 7., 10. и 12. клас</span></div><div class="cards">${cards}</div></div>`;
+
+  let ind = "";
+  for (const f of INDICES){
+    const v = tf.features[f]; if (v == null) continue;
+    ind += card(f, v, e.categories[f], indexGrade(f, v), `${R.features[f].def.split(";")[0]}. ${position(f, v)}`);
+  }
+  h += `<div class="panel"><div class="panelhead"><h2>Индекси за четивност, калибрирани за български</h2><span class="hint">Оценка спрямо текстовете за класа на читателя</span></div><div class="cards">${ind}</div></div>`;
+
+  const lists = {лесно:[], приемливо:[], трудно:[]};
+  for (const f in e.categories) if (lists[e.categories[f]] && R.features[f].group !== "индекси") lists[e.categories[f]].push(R.features[f].name);
+  h += `<div class="panel"><h2>Какво е лесно, приемливо и трудно</h2><div class="cols">
+    ${["лесно","приемливо","трудно"].map(c => `<div><span class="badge c-${c}">${BADGE[c]}</span><ul>${lists[c].map(x => `<li>${x}</li>`).join("") || "<li class='muted'>няма</li>"}</ul></div>`).join("")}
+  </div></div>`;
+
+  h += `<div class="panel"><h2>Профил на текста</h2><div class="hint">Лентата показва средните 50 % от изпитните текстове за ${grp} (чертичката е медианата); точката е стойността на текста.</div><div class="scroll"><table>
+    <tr><th>Характеристика</th><th class="num">Стойност</th><th>Спрямо групата</th><th>Оценка</th></tr>`;
+  for (const g of GROUPS){
+    h += `<tr><th colspan="4" style="padding-top:12px">${g}</th></tr>`;
+    for (const f in R.features){
+      const d = R.features[f];
+      if (d.group !== g || f.startsWith("coverage") || f === "fre_bg") continue;
+      const v = tf.features[f]; if (v == null) continue;
+      const r = (R.reference[f] || {})[e.group];
+      h += `<tr><td title="${esc(d.def)}">${d.name}</td><td class="num">${fmt(v)} ${d.unit === "%" ? "%" : ""}</td><td>${bandSvg(v, r, d.dir)}</td><td><span class="badge c-${e.categories[f]}">${e.categories[f]}</span></td></tr>`;
+    }
+  }
+  h += `</table></div></div>`;
+
+  let ex = "";
+  for (const level of ["трудно","приемливо"]) for (const f in e.categories){
+    if (e.categories[f] !== level) continue;
+    const x = R.explanations[f + ":" + level]; if (!x) continue;
+    ex += `<li><span class="badge c-${level}">${level}</span> <b>${R.features[f].name}.</b> ${x[0]}<br><span class="sug">→ ${x[1]}</span></li>`;
+  }
+  h += `<div class="panel"><h2>Какво може да затрудни читателя и как да се помогне</h2><ul class="expl">${ex || "<li>Няма характеристики над обичайното ниво за читателя.</li>"}</ul></div>`;
+
+  const unknown = [...new Set(tf.places.filter(pl => pl.key === "place:unknown_word" && pl.lexicon === e.lexicon).map(pl => pl.detail))];
+  h += `<div class="panel"><h2>Текстът</h2>
+    <div class="legend"><span><span class="w" style="background:var(--ok-bg)">&nbsp;&nbsp;&nbsp;</span> дълго или сложно изречение</span>
+    <span style="text-decoration:underline wavy var(--hard)">дума</span> <span>извън минимума</span>
+    <span style="background:var(--band)">&nbsp;глаголна форма&nbsp;</span>
+    <span style="border-bottom:2px solid var(--accent)">анафора</span>
+    <span style="background:var(--mark)">&nbsp;дълга дума&nbsp;</span>
+    <span style="font-style:italic;color:var(--accent)">абстрактно съществително</span></div>
+    <p class="hint">Задръжте мишката върху отбелязаните места за обяснение.</p>
+    <div class="text">${textHtml(tf, e)}</div>
+    ${unknown.length && e.categories.coverage_extended !== "сведение" ? `<h3>Думи извън лексикалния минимум</h3><div>${unknown.map(esc).join(", ")}</div>` : ""}
+  </div>`;
+
+  document.getElementById("out").innerHTML = h;
+}
+
+load().catch(err => {
+  document.getElementById("out").innerHTML = `<div class="panel">Ресурсите не могат да бъдат заредени (${esc(err.message)}). Отворете приложението през уеб сървър, напр. GitHub Pages или <code>python3 -m http.server</code> в папката на хранилището.</div>`;
+});
+</script>
 </body>
 </html>

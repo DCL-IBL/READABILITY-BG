@@ -1,0 +1,340 @@
+id	conjunction	class	with verb	number of words	correlative/discontinuous	type (C/S)	semantic type	Bulgarian equivalents
+S001	even though	complex conjunction	no	2	no	S		дори да; дори и да; даже да; даже и да; дори и; даже и
+S001	even if	complex conjunction	no	2	no	S		дори да; дори и да; даже да; даже и да; дори и; даже и
+S002	whether or not	complex conjunction	no	3	no	S		независимо дали; без значение дали
+S002	whether or no	complex conjunction	no	3	no	S		независимо дали; без значение дали
+S002	regardless of whether	introducing expression	no	3	no	S		независимо дали; без значение дали
+S002	no matter if	introducing expression	no	3	no	S		независимо дали; без значение дали
+S004	(all) the more so as	complex conjunction	no	5	no	S		още повече че
+S004	all the more that	complex conjunction	no	4	no	S		още повече че
+S005	so	simple conjunction	no	1	no	S		така че; тъй че
+S006	because of [-ing]	complex conjunction	no	2	yes	S	reason	по причина че; поради това че
+S006	because of the fact that	introducing expression	no	5	no	S	reason	по причина че; поради това че
+S006	due to the fact that	introducing expression	no	5	no	S	reason	по причина че; поради това че
+S006	due to [-ing]	complex conjunction	no	2	yes	S	reason	по причина че; поради това че
+S008	whether	simple conjunction	no	1	no	S	conditional	дали; ли
+S008	if	simple conjunction	no	1	no	S	conditional	дали; ли
+S009	unless	simple conjunction	no	1	no	S		освен ако; ако не; освен дето
+S010	enough to	complex conjunction	no	2	no	S		колкото да
+S010	as much as to	complex conjunction	no	4	no	S		колкото да
+S011	as much [cl1] as	complex conjunction	no	3	yes	S		толкова колкото; колкото
+S011	as many [cl1] as	complex conjunction	no	3	yes	S		толкова колкото; колкото
+S011	as [cl1] as	complex conjunction	no	2	yes	S		толкова колкото; колкото
+S012	under the pretence that	introducing expression	no	4	no	S		уж че; под претекст че; под предлог че
+S012	under the excuse that	introducing expression	no	4	no	S		уж че; под претекст че; под предлог че
+S012	under the pretext that	introducing expression	no	4	no	S		уж че; под претекст че; под предлог че
+S012	on the pretext that	introducing expression	no	4	no	S		уж че; под претекст че; под предлог че
+S013	rather than to	complex conjunction	no	3	no	S		отколкото да
+S014	wherever	wh-word	no	1	no	S		накъдето и да
+S015	in case	introducing expression	no	2	no	S		в случай че
+S015	in case that	introducing expression	no	3	no	S		в случай че
+S016	that	simple conjunction	no	1	no	S		че
+S017	while	simple conjunction	no	1	no	S	time	докато
+S017	as	simple conjunction	no	1	no	S	time	докато
+S018	if	simple conjunction	no	1	no	S		дали да
+S019	that	simple conjunction	no	1	no	S		че; че да
+S020	in return	introducing expression	no	2	no	S		затова пък; но пък
+S020	in compensation	introducing expression	no	2	no	S		затова пък; но пък
+S020	to make up for it	complex conjunction	no	5	no	S		затова пък; но пък
+S020	on the other hand	complex conjunction	no	4	no	S		затова пък; но пък
+S021	as if	complex conjunction	no	2	no	S		като че ли; като че; все едно; все едно че
+S021	as though	complex conjunction	no	2	no	S		като че ли; като че; все едно; все едно че
+S023	whatever	wh-word	no	1	no	S		каквото и да
+S023	no matter what	introducing expression	no	3	no	S		каквото и да
+S023	regardless of what	introducing expression	no	3	no	S		каквото и да
+S025	without [-ing]	simple conjunction	no	1	yes	S		без да
+S026	much as	complex conjunction	no	2	no	S	quantity	колкото и да; независимо колко; без значение колко
+S026	however much	wh-word	no	2	no	S	quantity	колкото и да; независимо колко; без значение колко
+S026	however many	wh-word	no	2	no	S	quantity	колкото и да; независимо колко; без значение колко
+S026	no matter how much	introducing expression	no	4	no	S	quantity	колкото и да; независимо колко; без значение колко
+S026	no matter how many	introducing expression	no	4	no	S	quantity	колкото и да; независимо колко; без значение колко
+S026	regardless of how much	introducing expression	no	4	no	S	quantity	колкото и да; независимо колко; без значение колко
+S026	regardless of how many	introducing expression	no	4	no	S	quantity	колкото и да; независимо колко; без значение колко
+S027	neither [cl1] nor	complex conjunction	no	2	yes	S		нито нито; ни ни
+S028	ever since	complex conjunction	no	2	no	S	time	откакто
+S028	since	simple conjunction	no	1	no	S	time	откакто
+S029	after [-ing]	simple conjunction	no	1	yes	S		след като; щом като; щом
+S029	on [-ing]	simple conjunction	no	1	yes	S		след като; щом като; щом
+S029	having [-ing]	introducing expression	yes	1	yes	S		след като; щом като; щом
+S031	whether	simple conjunction	no	1	no	S		дали; ли
+S031	if	simple conjunction	no	1	no	S		дали; ли
+S032	before [-ing]	simple conjunction	no	1	yes	S	time	преди да
+S033	be it	introducing expression	yes	2	no	S		било
+S033	either	simple conjunction	no	1	no	S		било
+S034	that	simple conjunction	no	1	no	S		че
+S035	if only	complex conjunction	no	2	no	S		стига да; стига само да; ако само; само да
+S036	to	simple conjunction	no	1	no	S		да
+S037	when	wh-word	no	1	no	S	time	точно когато
+S038	when	wh-word	no	1	no	S	time	тъкмо когато
+S039	when	wh-word	no	1	no	S	time	дори когато
+S040	when	wh-word	no	1	no	S	time	само когато
+S041	when	wh-word	no	1	no	S	time	даже когато
+S042	when	wh-word	no	1	no	S	time	когато
+S043	whenever	wh-word	no	1	no	S	time	когато; всеки път когато
+S044	while	simple conjunction	no	1	no	S	time	докато
+S044	whilst	simple conjunction	no	1	no	S	time	докато
+S045	as	simple conjunction	no	1	no	S	time	когато; докато
+S046	before	simple conjunction	no	1	no	S	time	преди да
+S047	after	simple conjunction	no	1	no	S	time	след като
+S048	by which time	introducing expression	no	3	no	S	time	до което време; по което време
+S049	at which point	introducing expression	no	3	no	S	time	при което
+S050	as soon as	complex conjunction	no	3	no	S	time	щом; веднага щом; още щом
+S051	no sooner [cl1] than [cl2]	complex conjunction	no	3	yes	S	time	още [cl1] когато [cl2]
+S052	hardly [cl1] when [cl2]	complex conjunction	no	2	yes	S	time	едва [cl1] когато [cl2]
+S052	hardly [cl1] before [cl2]	complex conjunction	no	2	yes	S	time	едва [cl1] когато [cl2]
+S053	since	simple conjunction	no	1	no	S	time	откакто; още откакто
+S053	ever since	complex conjunction	no	2	no	S	time	откакто; още откакто
+S054	until	simple conjunction	no	1	no	S	time	докато
+S054	till	simple conjunction	no	1	no	S	time	докато
+S055	after which	complex conjunction	no	2	no	S	time	след което
+S056	whereupon	simple conjunction	no	1	no	S	time	след което; при което
+S056	upon which	complex conjunction	no	2	no	S	time	след което; при което
+S057	once	simple conjunction	no	1	no	S	time	щом; щом като; веднъж да
+S058	where	wh-word	no	1	no	S	place	където; гдето; дето
+S059	wherever	wh-word	no	1	no	S	place	където; където и да
+S060	where	wh-word	no	1	no	S	place	накъдето; закъдето
+S060	to where	complex conjunction	no	2	no	S	place	накъдето; закъдето
+S060	where to	wh-word	no	2	no	S	place	накъдето; закъдето
+S060	whereto	wh-word	no	1	no	S	place	накъдето; закъдето
+S060	whither	wh-word	no	1	no	S	place	накъдето; закъдето
+S061	anywhere	simple conjunction	no	1	no	S	place	където; където и да
+S061	everywhere	simple conjunction	no	1	no	S	place	където; където и да
+S062	from where	complex conjunction	no	2	no	S	place	откъдето; отгдето; отдето
+S062	where from	wh-word	no	2	no	S	place	откъдето; отгдето; отдето
+S062	wherefrom	wh-word	no	1	no	S	place	откъдето; отгдето; отдето
+S062	whence	wh-word	no	1	no	S	place	откъдето; отгдето; отдето
+S063	as far as	complex conjunction	no	3	no	S	degree	докъдето; догдето; додето
+S064	as	simple conjunction	no	1	no	S	manner	както
+S065	as if	complex conjunction	no	2	no	S	manner	сякаш; все едно; все едно че; като че; като че ли; като да
+S065	as though	complex conjunction	no	2	no	S	manner	сякаш; все едно; все едно че; като че; като че ли; като да
+S066	without [cl -ing]	simple conjunction	no	1	yes	S	manner	без да
+S067	because	simple conjunction	no	1	no	S	reason	защото
+S068	since	simple conjunction	no	1	no	S	reason	тъй като
+S069	for	simple conjunction	no	1	no	S	reason	тъй като; понеже
+S069	as	simple conjunction	no	1	no	S	reason	тъй като; понеже
+S070	lest	simple conjunction	no	1	no	S	reason	да не би да; да не; от страх да не; от страх да не би да
+S070	for fear that	introducing expression	no	3	no	S	reason	да не би да; да не; от страх да не; от страх да не би да
+S070	for fear lest	introducing expression	no	3	no	S	reason	да не би да; да не; от страх да не; от страх да не би да
+S071	if	simple conjunction	no	1	no	S	conditional	ако
+S072	if	simple conjunction	no	1	no	S	conditional	дали
+S072	whether	simple conjunction	no	1	no	S	conditional	дали
+S073	in case	introducing expression	no	2	no	S	conditional	в случай че; ако
+S073	in case that	introducing expression	no	3	no	S	conditional	в случай че; ако
+S074	just in case	introducing expression	no	3	no	S	conditional	само в случай че
+S074	just in case that	introducing expression	no	4	no	S	conditional	само в случай че
+S075	given	introducing expression	yes	1	no	S	conditional	като се има предвид, че; предвид че; при положение че; предвид факта че
+S075	given that	introducing expression	yes	2	no	S	conditional	като се има предвид, че; предвид че; при положение че; предвид факта че
+S075	considering	introducing expression	yes	1	no	S	conditional	като се има предвид, че; предвид че; при положение че; предвид факта че
+S075	considering that	introducing expression	yes	2	no	S	conditional	като се има предвид, че; предвид че; при положение че; предвид факта че
+S076	since	simple conjunction	no	1	no	S		щом; щом като; след като
+S077	insofar as	complex conjunction	no	2	no	S	degree	доколкото; дотолкова доколкото
+S077	inasmuch as	complex conjunction	no	2	no	S	degree	доколкото; дотолкова доколкото
+S078	although	simple conjunction	no	1	no	S	concessive	въпреки че; при все че; при всичко че; макар че; макар да; макар и да; независимо че; независимо от факта, че; въпреки факта, че; ако и да; нищо че
+S078	even though	complex conjunction	no	2	no	S	concessive	въпреки че; при все че; при всичко че; макар че; макар да; макар и да; независимо че; независимо от факта, че; въпреки факта, че; ако и да; нищо че
+S078	though	simple conjunction	no	1	no	S	concessive	въпреки че; при все че; при всичко че; макар че; макар да; макар и да; независимо че; независимо от факта, че; въпреки факта, че; ако и да; нищо че
+S078	while	simple conjunction	no	1	no	S	concessive	въпреки че; при все че; при всичко че; макар че; макар да; макар и да; независимо че; независимо от факта, че; въпреки факта, че; ако и да; нищо че
+S078	despite [cl -ing]	simple conjunction	no	1	yes	S	concessive	въпреки че; при все че; при всичко че; макар че; макар да; макар и да; независимо че; независимо от факта, че; въпреки факта, че; ако и да; нищо че
+S078	despite the fact that	introducing expression	no	4	no	S	concessive	въпреки че; при все че; при всичко че; макар че; макар да; макар и да; независимо че; независимо от факта, че; въпреки факта, че; ако и да; нищо че
+S078	in spite of [cl -ing]	introducing expression	no	3	yes	S	concessive	въпреки че; при все че; при всичко че; макар че; макар да; макар и да; независимо че; независимо от факта, че; въпреки факта, че; ако и да; нищо че
+S078	in spite of the fact that	introducing expression	no	6	no	S	concessive	въпреки че; при все че; при всичко че; макар че; макар да; макар и да; независимо че; независимо от факта, че; въпреки факта, че; ако и да; нищо че
+S079	even if	complex conjunction	no	2	no	S	concessive	дори и да; даже и да; ако и да; и да
+S080	much as	complex conjunction	no	2	no	S	concessive	колкото и да
+S081	not that	complex conjunction	no	2	no	S		не че; независимо че
+S082	the way	introducing expression	no	2	no	S	manner	така както
+S083	except that	complex conjunction	no	2	no	S	exception	освен че; с изключение на факта че; с изключение на това че; освен дето; освен гдето
+S083	excepting that	introducing expression	yes	2	no	S	exception	освен че; с изключение на факта че; с изключение на това че; освен дето; освен гдето
+S083	beyond that	complex conjunction	no	2	no	S	exception	освен че; с изключение на факта че; с изключение на това че; освен дето; освен гдето
+S083	but for the fact that	introducing expression	no	5	no	S	exception	освен че; с изключение на факта че; с изключение на това че; освен дето; освен гдето
+S083	save that	complex conjunction	no	2	no	S	exception	освен че; с изключение на факта че; с изключение на това че; освен дето; освен гдето
+S083	saving that	introducing expression	yes	2	no	S	exception	освен че; с изключение на факта че; с изключение на това че; освен дето; освен гдето
+S084	were it not for the fact that	introducing expression	yes	7	no	S	exception	ако не беше фактът че
+S084	but for the fact that	introducing expression	no	5	no	S	exception	ако не беше фактът че
+S084	but that	complex conjunction	no	2	no	S	exception	ако не беше фактът че
+S085	except to	complex conjunction	no	2	no	S	exception	освен да
+S085	besides [cl -ing]	simple conjunction	no	1	yes	S	exception	освен да
+S085	as well as [cl -ing]	complex conjunction	no	3	yes	S	exception	освен да
+S086	instead of [cl -ing]	complex conjunction	no	2	yes	S	exception	вместо да; наместо да; освен като
+S086	except by	complex conjunction	no	2	no	S	exception	вместо да; наместо да; освен като
+S086	save by	complex conjunction	no	2	no	S	exception	вместо да; наместо да; освен като
+S087	except when	complex conjunction	no	2	no	S	exception	освен когато
+S087	save when	complex conjunction	no	2	no	S	exception	освен когато
+S088	except if	complex conjunction	no	2	no	S	exception	освен ако
+S088	unless	simple conjunction	no	1	no	S	exception	освен ако
+S088	except where	complex conjunction	no	2	no	S	exception	освен ако
+S089	so	simple conjunction	no	1	no	S	consequence	така че; така че да
+S090	such [NP] that	complex conjunction	no	2	yes	S	consequence	такъв [NP] че; толкова [NP] че
+S090	so [AP] that	complex conjunction	no	2	yes	S	consequence	такъв [NP] че; толкова [NP] че
+S091	for fear that	introducing expression	no	3	no	S	purpose	от страх да не би да; от страх да не; да не би да; да не; за да не
+S091	for fear lest	introducing expression	no	3	no	S	purpose	от страх да не би да; от страх да не; да не би да; да не; за да не
+S091	lest	simple conjunction	no	1	no	S	purpose	от страх да не би да; от страх да не; да не би да; да не; за да не
+S092	let alone	introducing expression	yes	2	no	S		за да; с цел да; така че да; да
+S092	much less to	complex conjunction	no	3	no	S		за да; с цел да; така че да; да
+S092	so that	complex conjunction	no	2	no	S		за да; с цел да; така че да; да
+S092	to	simple conjunction	no	1	no	S		за да; с цел да; така че да; да
+S092	in order to	complex conjunction	no	3	no	S		за да; с цел да; така че да; да
+S092	in order that	complex conjunction	no	3	no	S		за да; с цел да; така че да; да
+S092	so as to	complex conjunction	no	3	no	S		за да; с цел да; така че да; да
+S092	so	simple conjunction	no	1	no	S		за да; с цел да; така че да; да
+S093	if	simple conjunction	no	1	no	S	conditional	ако; ако да; да; ако и да; стига да; ако би; ако би да; ако ли
+S094	unless	simple conjunction	no	1	no	S	conditional	ако не
+S095	unless	simple conjunction	no	1	no	S	conditional	освен ако
+S096	unless	simple conjunction	no	1	no	S	conditional	освен дето
+S097	if [cl1] then [cl2]	complex conjunction	no	2	yes	S	conditional	ако [cl1] то [cl2]
+S098	as long as	complex conjunction	no	3	no	S	conditional	стига да; стига само да; при условие че; при положение че
+S098	so long as	complex conjunction	no	3	no	S	conditional	стига да; стига само да; при условие че; при положение че
+S099	provided	introducing expression	yes	1	no	S	conditional	стига да; стига само да; при условие че; при положение че
+S099	provided that	introducing expression	yes	2	no	S	conditional	стига да; стига само да; при условие че; при положение че
+S099	providing	introducing expression	yes	1	no	S	conditional	стига да; стига само да; при условие че; при положение че
+S099	providing that	introducing expression	yes	2	no	S	conditional	стига да; стига само да; при условие че; при положение че
+S100	only if	complex conjunction	no	2	no	S	conditional	само ако; стига само да
+S101	on condition that	introducing expression	no	3	no	S	conditional	при условие че; при положение че
+S102	whether [cl1] or	complex conjunction	no	2	yes	S	(conditional-)concessive	независимо дали [cl1] или [cl2]; без значение дали [cl1] или [cl2]; независимо от това дали [cl1] или [cl2]
+S103	whether or not	complex conjunction	no	3	no	S	(conditional-)concessive	независимо дали; без значение дали; независимо от това дали
+S104	whether [cl] or not	complex conjunction	no	3	yes	S	(conditional-)concessive	независимо дали; без значение дали; независимо от това дали
+S105	wherever	wh-word	no	1	no	S	(conditional-)concessive	където и да; независимо къде; без значение къде
+S105	no matter where	introducing expression	no	3	no	S	(conditional-)concessive	където и да; независимо къде; без значение къде
+S106	whenever	wh-word	no	1	no	S	(conditional-)concessive	когато и да; независимо кога; без значение кога
+S106	no matter when	introducing expression	no	3	no	S	(conditional-)concessive	когато и да; независимо кога; без значение кога
+S107	whoever	wh-word	no	1	no	S	(conditional-)concessive	който и да; независимо кой; без значение кой; когото и да; независимо кого; без значение кого
+S107	no matter who	introducing expression	no	3	no	S	(conditional-)concessive	който и да; независимо кой; без значение кой; когото и да; независимо кого; без значение кого
+S108	whichever [NP]	wh-word	no	1	yes	S	(conditional-)concessive	който и да; независимо кой; без значение кой
+S108	no matter which [NP]	introducing expression	no	3	yes	S	(conditional-)concessive	който и да; независимо кой; без значение кой
+S109	whatever	wh-word	no	1	no	S	(conditional-)concessive	каквото и да; независимо какво; без значение какво
+S109	no matter what	introducing expression	no	3	no	S	(conditional-)concessive	каквото и да; независимо какво; без значение какво
+S110	whatever [NP]	wh-word	no	1	yes	S	(conditional-)concessive	какъвто и да; независимо какъв; без значение какъв
+S111	no matter if	introducing expression	no	3	no	S	(conditional-)concessive	независимо дали; независимо от това дали; без значение дали
+S111	no matter whether	introducing expression	no	3	no	S	(conditional-)concessive	независимо дали; независимо от това дали; без значение дали
+S112	no matter that	introducing expression	no	3	no	S	(conditional-)concessive	независимо че; независимо от това че; нищо че; без значение че
+S113	no matter where	introducing expression	no	3	no	S	(conditional-)concessive	накъдето и да; откъдето и да; закъдето и да; докъдето и да
+S114	however	wh-word	no	1	no	S	(conditional-)concessive	както и да; независимо как; без значение как
+S114	no matter how	introducing expression	no	3	no	S	(conditional-)concessive	както и да; независимо как; без значение как
+S115	much as	complex conjunction	no	2	no	S	(conditional-)concessive	колкото и да; колкото и [NP] да; независимо колко; без значение колко
+S115	however much	wh-word	no	2	no	S	(conditional-)concessive	колкото и да; колкото и [NP] да; независимо колко; без значение колко
+S115	no matter how much	introducing expression	no	4	no	S	(conditional-)concessive	колкото и да; колкото и [NP] да; независимо колко; без значение колко
+S115	no matter how many	introducing expression	no	4	no	S	(conditional-)concessive	колкото и да; колкото и [NP] да; независимо колко; без значение колко
+S115	regardless of how much	introducing expression	no	4	no	S	(conditional-)concessive	колкото и да; колкото и [NP] да; независимо колко; без значение колко
+S115	regardless of how many	introducing expression	no	4	no	S	(conditional-)concessive	колкото и да; колкото и [NP] да; независимо колко; без значение колко
+S116	who	wh-word	no	1	no	S	relative	който
+S116	that	simple conjunction	no	1	no	S	relative	който
+S116	which	wh-word	no	1	no	S	relative	който
+S117	whose	wh-word	no	1	no	S	relative	чийто
+S118	what	wh-word	no	1	no	S		какво
+S119	why	wh-word	no	1	no	S		защо
+S120	who	wh-word	no	1	no	S		кой
+S120	which	wh-word	no	1	no	S		кой
+S121	where	wh-word	no	1	no	S	place	къде
+S122	how	wh-word	no	1	no	S	manner	как
+S123	when	wh-word	no	1	no	S	time	кога
+S124	how	wh-word	no	1	no	S	manner	как да
+S125	when	wh-word	no	1	no	S	time	кога да
+S126	whose	wh-word	no	1	no	S	possessive	чий
+S127	what	wh-word	no	1	no	S		какъв
+S128	what	wh-word	no	1	no	S		какво да
+S129	why	wh-word	no	1	no	S		защо да
+S130	who	wh-word	no	1	no	S		кой да
+S130	which	wh-word	no	1	no	S		кой да
+S131	where	wh-word	no	1	no	S	place	къде да
+S132	whose	wh-word	no	1	no	S	possessive	чий да
+S133	what	wh-word	no	1	no	S		който да
+S134	what	wh-word	no	1	no	S		какъв да
+S135	what	wh-word	no	1	no	S		какъвто да
+S136	how to	wh-word	no	2	no	S		както да
+S137	how much	wh-word	no	2	no	S	quantity	колко да
+S137	how many	wh-word	no	2	no	S	quantity	колко да
+S138	how much	wh-word	no	2	no	S	quantity	колкото да
+S138	how many	wh-word	no	2	no	S	quantity	колкото да
+S139	whereto	wh-word	no	1	no	S	place	закъде да; накъде да; докъде да
+S139	where	wh-word	no	1	no	S	place	закъде да; накъде да; докъде да
+S139	to which	complex conjunction	no	2	no	S	place	закъде да; накъде да; докъде да
+S139	to what place	complex conjunction	no	3	no	S	place	закъде да; накъде да; докъде да
+S140	where	wh-word	no	1	no	S	place	откъде да
+S141	when	wh-word	no	1	no	S	time	кога да
+S142	whose	wh-word	no	1	no	S	possessive	чийто да
+S143	wherefrom	wh-word	no	1	no	S	place	където да
+S143	from where	complex conjunction	no	2	no	S	place	където да
+S143	from which	complex conjunction	no	2	no	S	place	където да
+S143	from what place	complex conjunction	no	3	no	S	place	където да
+S144	how much	wh-word	no	2	no	S	quantity	колко
+S144	how many	wh-word	no	2	no	S	quantity	колко
+S145	whereto	wh-word	no	1	no	S	place	закъде; накъде; докъде
+S145	where	wh-word	no	1	no	S	place	закъде; накъде; докъде
+S145	to which	complex conjunction	no	2	no	S	place	закъде; накъде; докъде
+S145	to what place	complex conjunction	no	3	no	S	place	закъде; накъде; докъде
+S146	wherefrom	wh-word	no	1	no	S	place	откъде
+S146	from where	complex conjunction	no	2	no	S	place	откъде
+S146	from which	complex conjunction	no	2	no	S	place	откъде
+S146	from what place	complex conjunction	no	3	no	S	place	откъде
+S147	the more [cl1] the more [cl2]	complex conjunction	no	4	yes	S		колкото [cl1], толкова [cl2]
+S147	the more [cl1] the less [cl2]	complex conjunction	no	4	yes	S		колкото [cl1], толкова [cl2]
+S147	the more [cl1] the few [cl2]	complex conjunction	no	4	yes	S		колкото [cl1], толкова [cl2]
+S148	what	wh-word	no	1	no	S		какъвто
+S149	whatever	wh-word	no	1	no	S		какъвто
+S150	who	wh-word	no	1	no	S		когото
+S151	whatever	wh-word	no	1	no	S		какъвто да
+S152	who	wh-word	no	1	no	S		когото да
+S153	not that	complex conjunction	no	2	no	C		не че
+S154	and	simple conjunction	no	1	no	C		и
+S155	but	simple conjunction	no	1	no	C		а
+S156	and	simple conjunction	no	1	no	C		и [cl1], и [cl2]
+S157	nor	simple conjunction	no	1	no	C		нито; ни
+S158	also	simple conjunction	no	1	no	C		че и
+S158	and [cl1] also	complex conjunction	no	2	yes	C		че и
+S158	and [cl1] too	complex conjunction	no	2	yes	C		че и
+S159	as well as	complex conjunction	no	3	no	C	contrastive	също и; така също и; така също; и; а също и; както и; пък и; а и; а така също и
+S159	also	simple conjunction	no	1	no	C	contrastive	също и; така също и; така също; и; а също и; както и; пък и; а и; а така също и
+S160	both [cl1] and [cl2]	complex conjunction	no	2	yes	C		и [cl1], и; както [cl1], така и [cl2]; както [cl1], така също и [cl2]; [cl1], както и [cl2]; [cl1], както и [cl2]
+S161	neither [cl1] nor [cl2]	complex conjunction	no	2	yes	C		нито [cl1], нито [cl2]; ни [cl1], нито [cl2]; нито [cl1], ни [cl2]
+S162	not only [cl1] but [cl2]	complex conjunction	no	3	yes	C		не само [cl1], но и [cl2]; не само [cl1], а и [cl2]; не само [cl1], ами и [cl2]
+S162	not only [cl1] but also [cl2]	complex conjunction	no	4	yes	C		не само [cl1], но и [cl2]; не само [cl1], а и [cl2]; не само [cl1], ами и [cl2]
+S162	not just [cl1] but [cl2]	complex conjunction	no	3	yes	C		не само [cl1], но и [cl2]; не само [cl1], а и [cl2]; не само [cl1], ами и [cl2]
+S162	not just [cl1] but also [cl2]	complex conjunction	no	4	yes	C		не само [cl1], но и [cl2]; не само [cl1], а и [cl2]; не само [cl1], ами и [cl2]
+S163	not that [cl1] but [cl2]	complex conjunction	no	3	yes	C		не че [cl1], а [cl2]; не че [cl1], ами [cl2]; не че [cl1], но [cl2]
+S164	only that	complex conjunction	no	2	no	C		само дето; само че
+S164	only	simple conjunction	no	1	no	C		само дето; само че
+S165	or	simple conjunction	no	1	no	C		или
+S166	either [cl1] or [cl2]	complex conjunction	no	2	yes	C		или [cl1], или [cl2]
+S167	both [cl1] and [cl2]	complex conjunction	no	2	yes	C		хем [cl1], хем [cl2]
+S168	now [cl1] now [cl2]	complex conjunction	no	2	yes	C		ту [cl1], ту [cl2]
+S168	at times [cl1] at times [cl2]	complex conjunction	no	4	yes	C		ту [cl1], ту [cl2]
+S168	at times [cl1] at others [cl2]	complex conjunction	no	4	yes	C		ту [cl1], ту [cl2]
+S168	sometimes [cl1] sometimes [cl2]	complex conjunction	no	2	yes	C		ту [cl1], ту [cl2]
+S168	one moment [cl1] at another [cl2].	complex conjunction	no	5	yes	C		ту [cl1], ту [cl2]
+S169	while	simple conjunction	no	1	no	S		докато
+S169	whereas	simple conjunction	no	1	no	S		докато
+S170	whether [cl1] or [cl2]	complex conjunction	no	2	yes	C		[cl1] ли, или [cl2]; [cl1] ли, [cl2] ли; дали [cl1], или [cl2]
+S171	be it [cl1] or [cl2]	introducing expression	yes	3	yes	C		било [cl1], било [cl2]
+S171	either [cl1] or [cl2]	complex conjunction	no	2	yes	C		било [cl1], било [cl2]
+S172	furthermore	simple conjunction	no	1	no	C		освен това; към това; при това; плюс това; пък и; а пък и; а и; и без това
+S172	in addition	introducing expression	no	2	no	C		освен това; към това; при това; плюс това; пък и; а пък и; а и; и без това
+S172	besides	simple conjunction	no	1	no	C		освен това; към това; при това; плюс това; пък и; а пък и; а и; и без това
+S173	the more so as	complex conjunction	no	4	no	C		още повече че
+S173	moreover	simple conjunction	no	1	no	C		още повече че
+S174	however	wh-word	no	1	no	C		обаче; но
+S174	but	simple conjunction	no	1	no	C		обаче; но
+S174	yet	simple conjunction	no	1	no	C		обаче; но
+S175	then	simple conjunction	no	1	no	C		тогава; в такъв случай; следователно; значи
+S176	therefore	simple conjunction	no	1	no	C		ето защо; затова; следователно; оттук; оттам; тогава; прочее; така че; от това следва, че; оттук следва, че
+S176	hence	simple conjunction	no	1	no	C		ето защо; затова; следователно; оттук; оттам; тогава; прочее; така че; от това следва, че; оттук следва, че
+S177	thus	simple conjunction	no	1	no	C		и така; и тъй; следователно; оттук следва, че; от това следва, че
+S178	however	wh-word	no	1	no	C		въпреки това; въпреки всичко; при все това; независимо от това; и въпреки това; независимо от това, че
+S178	nevertheless	simple conjunction	no	1	no	C		въпреки това; въпреки всичко; при все това; независимо от това; и въпреки това; независимо от това, че
+S178	nonetheless	simple conjunction	no	1	no	C		въпреки това; въпреки всичко; при все това; независимо от това; и въпреки това; независимо от това, че
+S178	notwithstanding	simple conjunction	no	1	no	C		въпреки това; въпреки всичко; при все това; независимо от това; и въпреки това; независимо от това, че
+S178	still	simple conjunction	no	1	no	C		въпреки това; въпреки всичко; при все това; независимо от това; и въпреки това; независимо от това, че
+S178	yet	simple conjunction	no	1	no	C		въпреки това; въпреки всичко; при все това; независимо от това; и въпреки това; независимо от това, че
+S178	all the same	complex conjunction	no	3	no	C		въпреки това; въпреки всичко; при все това; независимо от това; и въпреки това; независимо от това, че
+S178	even so	complex conjunction	no	2	no	C		въпреки това; въпреки всичко; при все това; независимо от това; и въпреки това; независимо от това, че
+S178	withal	simple conjunction	no	1	no	C		въпреки това; въпреки всичко; при все това; независимо от това; и въпреки това; независимо от това, че
+S179	that is	introducing expression	yes	2	no	C		тоест; т.е.; сиреч; това ще рече; ще рече
+S179	that is to say	introducing expression	yes	4	no	C		тоест; т.е.; сиреч; това ще рече; ще рече
+S179	namely	simple conjunction	no	1	no	C		тоест; т.е.; сиреч; това ще рече; ще рече
+S179	i.e.	simple conjunction	no	1	no	C		тоест; т.е.; сиреч; това ще рече; ще рече
+S179	ie	simple conjunction	no	1	no	C		тоест; т.е.; сиреч; това ще рече; ще рече
+S179	id est	complex conjunction	no	2	no	C		тоест; т.е.; сиреч; това ще рече; ще рече
+S180	let alone	introducing expression	yes	2	no	C		какво остава да; камо ли да
+S180	much less to	complex conjunction	no	3	no	C		какво остава да; камо ли да
+S181	so	simple conjunction	no	1	no	C		и ето; и ето че; ето че
+S181	and so	complex conjunction	no	2	no	C		и ето; и ето че; ето че
+S182	while	simple conjunction	no	1	no	C	time	като
+S182	as	simple conjunction	no	1	no	C	time	като
+S183	by	simple conjunction	no	1	no	C	manner	като

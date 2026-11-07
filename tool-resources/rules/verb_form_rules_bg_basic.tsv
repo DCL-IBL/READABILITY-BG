@@ -1,0 +1,111 @@
+id	label	pattern	example	frequency
+BGB001	Future_in_the_Past-Future_Perfect_in_the_Past+Pass	ща:Vd (n,{-C,-U,-V}) да съм:Vr (5,{ли,се,си,P,да}) Vqo	щях ли да съм му даден	
+BGB002	Imperative+Perfect+Neg	нека (n,{-C,-U,-V}) (1,{да}) не (5,{ли,се,си,P,да}) съм:Vr3s Vxso	нека (да) не му го е дал	
+BGB003	Imperative+Perfect+Neg	нека (n,{-C,-U,-V}) (1,{да}) не съм:Vr1 (5,{ли,се,си,P,да}) Vxo	нека (да) не съм му го дал	
+BGB004	Imperative+Perfect+Neg	нека (n,{-C,-U,-V}) (1,{да}) не съм:Vr2 (5,{ли,се,си,P,да}) Vxo	нека (да) не съм му го дал	
+BGB005	Imperative+Perfect+Neg	нека (n,{-C,-U,-V}) (1,{да}) не съм:Vr3p (5,{ли,се,си,P,да}) Vxpo	нека (да) не съм му го дал	
+BGB006	Imperative+Present-Perfect+Pass+Neg	нека (n,{-C,-U,-V}) (1,{да}) не (5,{ли,се,си,P,да}) съм:Vr3s Vqso	нека да не му е даден	
+BGB007	Future-Future_Perfect+Pass+Neg	нямам:Vr3s (n,{-C,-U,-V}) да съм:Vr (5,{ли,се,си,P,да}) Vqo	няма ли да съм му даден	
+BGB008	Future_in_the_Past-Future_Perfect_in_the_Past+Pass	ща:Vd (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr Vqo	щеше ли да му бъде даден	
+BGB009	Future_in_the_Past-Future_Perfect_in_the_Past+Pass	ща:Vd (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) съм:Vr3s Vqo	щеше ли да му е даден	
+BGB010	Future_Perfect_in_the_Past	ща:Vd (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr Vxo	щях ли да му го бъда дал	
+BGB011	Future_Perfect_in_the_Past	ща:Vd (n,{-C,-U,-V}) да съм:Vr (5,{ли,се,си,P,да}) Vxo	щях ли да съм му го дал	
+BGB012	Future_Perfect+Neg	нямам:Vr3s (n,{-C,-U,-V}) да съм:Vr (5,{ли,се,си,P,да}) Vxo	няма ли да съм му го дал	
+BGB013	Future_Perfect+Neg	нямам:Vr3s (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) съм:Vr3s Vxo	няма ли да му го е дал	
+BGB014	Future_Perfect+Neg	нямам:Vr3s (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr Vxo	няма ли да му го бъда дала	
+BGB015	Future_Perfect+Neg	нямам:Vr3s (n,{-C,-U,-V}) да бъда:Vr (5,{ли,се,си,P,да}) Vxo	няма ли да бъда му го дала	
+BGB016	Future-Future_Perfect+Pass+Neg	нямам:Vr3s (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr Vqo	няма ли да му бъде даден	
+BGB017	Future_Perfect_in_the_Past	ща:Vd (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) съм:Vr3s Vxo	щеше ли да му го е дал	
+BGB018	Future_Perfect_in_the_Past+Neg	нямам:Vd3s (n,{-C,-U,-V}) да съм:Vr (5,{ли,се,си,P,да}) Vxo	нямаше ли да съм му го дал	
+BGB019	Future_Perfect_in_the_Past+Neg	нямам:Vd3s (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) съм:Vr3s Vxo	нямаше ли да му го е дал	
+BGB020	Future_Perfect_in_the_Past+Neg	нямам:Vd3s (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr Vxo	нямаше ли да му го бъда дал	
+BGB021	Future_Perfect_in_the_Past+Neg	нямам:Vd3s (n,{-C,-U,-V}) да бъда:Vr (5,{ли,се,си,P,да}) Vxo	нямаше ли да бъда му го дал	
+BGB022	Future_in_the_Past-Future_Perfect_in_the_Past+Pass+Neg	нямам:Vd3s (n,{-C,-U,-V}) да съм:Vr (5,{ли,се,си,P,да}) Vqo	нямаше ли да съм му даден	
+BGB023	Future_in_the_Past-Future_Perfect_in_the_Past+Pass+Neg	нямам:Vd3s (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) съм:Vr3s Vqo	нямаше ли да му е даден	
+BGB024	Future_in_the_Past-Future_Perfect_in_the_Past+Pass+Neg	нямам:Vd3s (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr Vqo	нямаше ли да му бъде даден	
+BGB025	Imperative+Present-Perfect+Pass+Neg	нека (n,{-C,-U,-V}) (1,{да}) не съм:Vr1 (5,{ли,се,си,P,да}) Vqo	нека да не съм му даден	
+BGB026	Imperative+Present-Perfect+Pass+Neg	нека (n,{-C,-U,-V}) (1,{да}) не съм:Vr2 (5,{ли,се,си,P,да}) Vqo	нека да не съм му даден	
+BGB027	Imperative+Present-Perfect+Pass+Neg	нека (n,{-C,-U,-V}) (1,{да}) не съм:Vr3p (5,{ли,се,си,P,да}) Vqpo	нека да не съм му даден	
+BGB028	Imperative+Present-Perfect+Pass+Neg	нека (n,{-C,-U,-V}) (1,{да}) не (5,{ли,се,си,P,да}) бъда:Vr Vqo	нека да не му бъда даден	
+BGB029	Imperative+Perfect	нека (n,{-C,-U,-V}) (1,{да}) (5,{ли,се,си,P,да}) съм:Vr3s Vxso	нека (да) му го е дал	
+BGB030	Future_Perfect	ще (5,{ли,се,си,P,да}) съм:Vr3s Vxso	ще ли му го е дал ще му ли го е дал	
+BGB031	Imperative+Perfect+Neg	недей (n,{-C,-U,-V}) (1,{да}) (5,{ли,се,си,P,да}) съм:Vr3s Vxso	недей (да) му го е дал	
+BGB032	Imperative+Perfect+Neg	недей (n,{-C,-U,-V}) (1,{да}) съм:Vr1 (5,{ли,се,си,P,да}) Vxo	недей (да) съм му го дал	
+BGB033	Imperative+Perfect+Neg	недей (n,{-C,-U,-V}) (1,{да}) съм:Vr2 (5,{ли,се,си,P,да}) Vxo	недей (да) съм му го дал	
+BGB034	Imperative+Perfect+Neg	недей (n,{-C,-U,-V}) (1,{да}) съм:Vr3p (5,{ли,се,си,P,да}) Vxpo	недей (да) съм му го дал	
+BGB035	Imperative+Perfect	нека (n,{-C,-U,-V}) (1,{да}) съм:Vr3p (5,{ли,се,си,P,да}) Vxpo	нека (да) сa му го дали	
+BGB036	Imperative+Perfect	нека (n,{-C,-U,-V}) (1,{да}) съм:Vr2 (5,{ли,се,си,P,да}) Vxo	нека (да) съм му го дал	
+BGB037	Imperative+Present-Perfect+Pass	нека (n,{-C,-U,-V}) (1,{да}) (5,{ли,се,си,P,да}) бъда:Vr Vqo	нека да му бъда даден	
+BGB038	Imperative+Present-Perfect+Pass	нека (n,{-C,-U,-V}) (1,{да}) (5,{ли,се,си,P,да}) съм:Vr3s Vqso	нека да му е даден	
+BGB039	Imperative+Present-Perfect+Pass	нека (n,{-C,-U,-V}) (1,{да}) съм:Vr1 (5,{ли,се,си,P,да}) Vqo	нека да съм му даден	
+BGB040	Imperative+Present-Perfect+Pass	нека (n,{-C,-U,-V}) (1,{да}) съм:Vr2 (5,{ли,се,си,P,да}) Vqo	нека да съм му даден	
+BGB041	Imperative+Present-Perfect+Pass	нека (n,{-C,-U,-V}) (1,{да}) съм:Vr3p (5,{ли,се,си,P,да}) Vqpo	нека да съм му даден	
+BGB042	Present-Perfect+Pass+Neg	не (5,{ли,се,си,P,да}) бъда:Vr Vqo	не му ли бъда даден	
+BGB043	Present-Perfect+Pass+Neg	не бъда:Vr (5,{ли,се,си,P,да}) Vqo	не бъда ли му даден	
+BGB044	Perfect+Neg	не съм:Vr (5,{ли,се,си,P,да}) Vxo	не съм ли му го дал / не съм ли му го чел	
+BGB045	Perfect+Neg	не (5,{ли,се,си,P,да}) съм:Vr3s Vxso	не му ли го е дал / не му ли го е чел	
+BGB046	Present-Perfect+Pass+Neg	не съм:Vr (5,{ли,се,си,P,да}) Vqo	не си ли му даден	
+BGB047	Present-Perfect+Pass+Neg	не (5,{ли,се,си,P,да}) съм:Vr3s Vqso	не си ли му е даден	
+BGB048	Pluperfect+Neg	не съм:Vd (5,{ли,се,си,P,да}) Vxo	не бях ли му го дал	
+BGB049	Pluperfect+Neg	не (5,{ли,се,си,P,да}) съм:Vd Vxo	не му ли го бях дал	
+BGB050	Imperfect-Pluperfect+Pass+Neg|Aorist+Pass+Neg	не съм:Vd (5,{ли,се,си,P,да}) Vqo	не бях ли си му даден / не беше ли си му даден	
+BGB051	Imperfect-Pluperfect+Pass+Neg	не (5,{ли,се,си,P,да}) съм:Vd Vqo	не си ли му бях даден	
+BGB052	Aorist+Pass+Neg	не бивам:Ve (5,{ли,се,си,P,да}) Vqo	не биде ли си му даден	
+BGB053	Future+Neg	нямам:Vr3s (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) Vr	няма ли да му го дам	
+BGB054	Future_Perfect	ще (1,{ли}) съм:Vr (5,{ли,се,си,P,да}) Vxo	ще ли съм си му го дала	
+BGB055	Future_Perfect	ще (5,{ли,се,си,P,да}) бъда:Vr (1,{ли}) Vxo	ще му го бъде ли дал	
+BGB056	Future-Future_Perfect+Pass	ще (1,{ли}) съм:Vr (5,{ли,се,си,P,да}) Vqo	ще ли съм му даден	
+BGB057	Future-Future_Perfect+Pass	ще (5,{ли,се,си,P,да}) съм:Vr3s Vqo	ще му ли е даден	
+BGB058	Future-Future_Perfect+Pass	ще (5,{ли,се,си,P,да}) бъда:Vr (5,{-C,-U,-V}) Vqo	ще му бъде ли даден	
+BGB059	Future_in_the_Past	ща:Vd (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) Vr	щях ли да му го чета	
+BGB060	Future_in_the_Past+Neg	нямам:Vd3s (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) Vr	нямаше ли да му го даде	
+BGB061	Conditional+Neg	не (5,{ли,се,си,P,да}) бих Vxo	не му ли го бих дал	
+BGB062	Conditional+Neg	не бих (5,{ли,се,си,P,да}) Vxo	не бих ли му го дал	
+BGB063	Conditional+Neg	не (5,{ли,се,си,P,да}) бих Vwo	не му ли го бих дал	
+BGB064	Conditional+Neg	не бих (5,{ли,се,си,P,да}) Vwo	не бих ли му го дал	
+BGB065	Imperative+Present+Neg	нека (n,{-C,-U,-V}) (1,{да}) не (5,{ли,се,си,P,да}) Vr	нека (да) не му го давам	
+BGB066	Imperative+Perfect	нека (n,{-C,-U,-V}) (1,{да}) съм:Vr1 (5,{ли,се,си,P,да}) Vxo	нека (да) съм му го дал	
+BGB067	Imperative+Perfect+Neg	недейте (n,{-C,-U,-V}) (1,{да}) съм:Vr1 (5,{ли,се,си,P,да}) Vxo	недейте (да) съм му го дал	
+BGB068	Imperative+Perfect+Neg	недейте (n,{-C,-U,-V}) (1,{да}) съм:Vr2 (5,{ли,се,си,P,да}) Vxo	недейте (да) съм му го дал	
+BGB069	Imperative+Perfect+Neg	недейте (n,{-C,-U,-V}) (1,{да}) съм:Vr3p (5,{ли,се,си,P,да}) Vxpo	недейте (да) съм му го дал	
+BGB070	Imperative+Perfect+Neg	недейте (n,{-C,-U,-V}) (1,{да}) (5,{ли,се,си,P,да}) съм:Vr3s Vxso	недейте (да) му го е дал	
+BGB071	Imperative+Present-Perfect+Pass+Neg	недей (n,{-C,-U,-V}) (1,{да}) съм:Vr1 (5,{ли,се,си,P,да}) Vqo	недей да съм му даден	
+BGB072	Imperative+Present-Perfect+Pass+Neg	недей (n,{-C,-U,-V}) (1,{да}) съм:Vr2 (5,{ли,се,си,P,да}) Vqo	недей да съм му даден	
+BGB073	Imperative+Present-Perfect+Pass+Neg	недей (n,{-C,-U,-V}) (1,{да}) съм:Vr3p (5,{ли,се,си,P,да}) Vqpo	недей да съм му даден	
+BGB074	Imperative+Present-Perfect+Pass+Neg	недей (n,{-C,-U,-V}) (1,{да}) (5,{ли,се,си,P,да}) съм:Vr3s Vqso	недей да му е даден	
+BGB075	Imperative+Present-Perfect+Pass+Neg	недей (n,{-C,-U,-V}) (1,{да}) (5,{ли,се,си,P,да}) бъда:Vr Vqo	недей да му бъда даден	
+BGB076	Imperative+Present-Perfect+Pass+Neg	недейте (n,{-C,-U,-V}) (1,{да}) съм:Vr1 (5,{ли,се,си,P,да}) Vqo	недейте да съм му даден	
+BGB077	Imperative+Present-Perfect+Pass+Neg	недейте (n,{-C,-U,-V}) (1,{да}) съм:Vr2 (5,{ли,се,си,P,да}) Vqo	недейте да съм му даден	
+BGB078	Imperative+Present-Perfect+Pass+Neg	недейте (n,{-C,-U,-V}) (1,{да}) съм:Vr3p (5,{ли,се,си,P,да}) Vqpo	недейте да съм му даден	
+BGB079	Imperative+Present-Perfect+Pass+Neg	недейте (n,{-C,-U,-V}) (1,{да}) (5,{ли,се,си,P,да}) съм:Vr3s Vqso	недейте да му е даден	
+BGB080	Imperative+Present-Perfect+Pass+Neg	недейте (n,{-C,-U,-V}) (1,{да}) (5,{ли,се,си,P,да}) бъда:Vr Vqo	недейте да му бъда даден	
+BGB081	NVerb	може би		11,227
+BGB082	Aorist+Pass|Imperfect-Pluperfect+Pass	съм:Vd (5,{ли,се,си,P,да}) Vqo	бях писан / бях/беше ли му даден	
+BGB083	Conditional	бих (5,{ли,се,си,P,да}) Vxo	бих ли му го дал	
+BGB084	Conditional	бих (5,{ли,се,си,P,да}) Vwo	бих ли му го дал	
+BGB085	Imperative+Present	нека (n,{-C,-U,-V}) (1,{да}) (5,{ли,се,си,P,да}) Vr	нека (да) му го дам	
+BGB086	Imperative+Neg	не V2I	не отивай	
+BGB087	Present+Neg	не (5,{ли,се,си,P,да}) Vr	не му ли го даде	
+BGB088	Present-Perfect+Pass	Vqo (1,{ли}) съм:Vr	даден ли съм	
+BGB089	Present-Perfect+Pass	Vqso (5,{ли,се,си,P,да}) съм:Vr3s	даден ли му е	
+BGB090	Present-Perfect+Pass	съм:Vr (5,{ли,се,си,P,да}) Vqo	съм ли му даден	
+BGB091	Present-Perfect+Pass	бъда:Vr (5,{ли,се,си,P,да}) Vqo	бъда ли му даден	
+BGB092	Present-Perfect+Pass	Vqo (5,{ли,се,си,P,да}) бъда:Vr	даден ли му бъде	
+BGB093	Perfect	съм:Vr (5,{ли,се,си,P,да}) Vxo	съм ли му го дал, е дал / съм му го чел	
+BGB094	Perfect	Vxo (1,{ли}) съм:Vr	дал ли съм му го / чел ли съм му го	
+BGB095	Perfect	Vxso (5,{ли,се,си,P,да}) съм:Vr3s	дал ли му го е / чел ли му го е	
+BGB096	Imperfect+Neg	не (5,{ли,се,си,P,да}) Vd	не си ли му го дадеше	
+BGB097	Pluperfect	съм:Vd (5,{ли,се,си,P,да}) Vxo	бях/беше ли му го дал	
+BGB098	Pluperfect	Vxo (5,{ли,се,си,P,да}) съм:Vd	дал ли му го бях/беше	
+BGB099	Imperfect-Pluperfect+Pass	Vqso (5,{ли,се,си,P,да}) съм:Vd	даден ли му бях/беше	
+BGB100	Aorist+Pass	бивам:Ve (5,{ли,се,си,P,да}) Vqo	бидох писан	
+BGB101	Aorist+Neg	не (5,{ли,се,си,P,да}) Ve	не си ли му го писах	
+BGB102	Future	ще (5,{ли,се,си,P,да}) Vr	ще ли му го дам	
+BGB103	Conditional	Vxo (5,{ли,се,си,P,да}) бих	дал ли му го бих	
+BGB104	Conditional	Vwo (5,{ли,се,си,P,да}) бих	дал ли му го бих	
+BGB105	Imperative+Present+Neg	недей (n,{-C,-U,-V}) (1,{да}) (5,{ли,се,си,P,да}) Vr	недей (да) му го давам	
+BGB106	Imperative+Present+Neg	недейте (n,{-C,-U,-V}) (1,{да}) (5,{ли,се,си,P,да}) Vr	недейте (да) му го давам	
+BGB107	Imperative	V2I	отивай	
+BGB108	Present	Vr	дам	
+BGB109	Imperfect	Vd	дадеше	
+BGB110	Aorist	Ve	писах	

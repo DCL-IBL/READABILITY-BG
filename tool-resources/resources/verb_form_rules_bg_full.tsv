@@ -1,0 +1,424 @@
+id	label	pattern	example	frequency
+BGF001	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Dub	да (5,{ли,се,си,P,да}) бъда:Vr1 Vqo (n,{-C,-U,-V}) съм:Vxo ща:Vwo съм:Vr1	да му бъда четен ли бил щял съм	
+BGF002	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Dub	да (5,{ли,се,си,P,да}) бъда:Vr2 Vqo (n,{-C,-U,-V}) съм:Vxo ща:Vwo съм:Vr2	да му бъда четен ли бил щял съм	
+BGF003	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Dub	да съм:Vr2 (5,{ли,се,си,P,да}) Vqo (n,{-C,-U,-V}) съм:Vxo ща:Vwo съм:Vr2	да съм му четен ли бил щял съм	
+BGF004	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	да (5,{ли,се,си,P,да}) бъда:Vr1 Vqo (n,{-C,-U,-V}) съм:Vxo нямам:Vwo съм:Vr1	да му бъда четен ли бил нямал съм	
+BGF005	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	да (5,{ли,се,си,P,да}) бъда:Vr2 Vqo (n,{-C,-U,-V}) съм:Vxo нямам:Vwo съм:Vr2	да му бъда четен ли бил нямал съм	
+BGF006	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Dub	да (5,{ли,се,си,P,да}) бъда:Vr1 Vqo (n,{-C,-U,-V}) съм:Vxo съм:Vr1 ща:Vwo	да му бъда четен ли бил съм щял	
+BGF007	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Dub	да (5,{ли,се,си,P,да}) бъда:Vr2 Vqo (n,{-C,-U,-V}) съм:Vxo съм:Vr2 ща:Vwo	да му бъда четен ли бил съм щял	
+BGF008	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Dub	да (5,{ли,се,си,P,да}) бъда:Vr1 Vqo (n,{-C,-U,-V}) съм:Vr1 съм:Vxo ща:Vwo	да му бъда четен ли съм бил щял	
+BGF009	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Dub	да (5,{ли,се,си,P,да}) бъда:Vr2 Vqo (n,{-C,-U,-V}) съм:Vr2 съм:Vxo ща:Vwo	да му бъда четен ли съм бил щял	
+BGF010	Future_Perfect-Future_Perfect_in_the_Past+Neg+Dub	да (5,{ли,се,си,P,да}) бъда:Vr1 Vxo (n,{-C,-U,-V}) съм:Vr1 съм:Vxo нямам:Vwo	да му го бъда чел ли съм бил нямал	
+BGF011	Future_Perfect-Future_Perfect_in_the_Past+Neg+Dub	да (5,{ли,се,си,P,да}) бъда:Vr2 Vxo (n,{-C,-U,-V}) съм:Vr2 съм:Vxo нямам:Vwo	да му го бъда чел ли съм бил нямал	
+BGF012	Future_Perfect-Future_Perfect_in_the_Past+Neg+Dub	да (5,{ли,се,си,P,да}) бъда:Vr1 Vxo (n,{-C,-U,-V}) съм:Vr1 нямам:Vwo съм:Vxo	да му го бъда чел ли съм нямал бил	
+BGF013	Future_Perfect-Future_Perfect_in_the_Past+Neg+Dub	да (5,{ли,се,си,P,да}) бъда:Vr2 Vxo (n,{-C,-U,-V}) съм:Vr2 нямам:Vwo съм:Vxo	да му го бъда чел ли съм нямал бил	
+BGF014	Future_Perfect-Future_Perfect_in_the_Past+Neg+Dub	да съм:Vr1 (5,{ли,се,си,P,да}) Vxo (n,{-C,-U,-V}) съм:Vr1 съм:Vxo нямам:Vwo	да съм му го чел ли съм бил нямал	
+BGF015	Future_Perfect-Future_Perfect_in_the_Past+Neg+Dub	да съм:Vr2 (5,{ли,се,си,P,да}) Vxo (n,{-C,-U,-V}) съм:Vr2 съм:Vxo нямам:Vwo	да съм му го чел ли съм бил нямал	
+BGF016	Future_Perfect-Future_Perfect_in_the_Past+Neg+Dub	да съм:Vr1 (5,{ли,се,си,P,да}) Vxo (n,{-C,-U,-V}) съм:Vr1 нямам:Vwo съм:Vxo	да съм му го чел ли съм нямал бил	
+BGF017	Future_Perfect-Future_Perfect_in_the_Past+Neg+Dub	да съм:Vr2 (5,{ли,се,си,P,да}) Vxo (n,{-C,-U,-V}) съм:Vr2 нямам:Vwo съм:Vxo	да съм му го чел ли съм нямал бил	
+BGF018	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	да съм:Vr1 (5,{ли,се,си,P,да}) Vqo (n,{-C,-U,-V}) съм:Vxo нямам:Vwo съм:Vr1	да съм му четен ли бил нямал съм	
+BGF019	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	да съм:Vr2 (5,{ли,се,си,P,да}) Vqo (n,{-C,-U,-V}) съм:Vxo нямам:Vwo съм:Vr2	да съм му четен ли бил нямал съм	
+BGF020	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Dub	да съм:Vr1 (5,{ли,се,си,P,да}) Vqo (n,{-C,-U,-V}) съм:Vxo съм:Vr1 ща:Vwo	да съм му четен ли бил съм щял	
+BGF021	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Dub	да съм:Vr2 (5,{ли,се,си,P,да}) Vqo (n,{-C,-U,-V}) съм:Vxo съм:Vr2 ща:Vwo	да съм му четен ли бил съм щял	
+BGF022	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Dub	да съм:Vr1 (5,{ли,се,си,P,да}) Vqo (n,{-C,-U,-V}) съм:Vxo ща:Vwo съм:Vr1	да съм му четен ли бил щял съм	
+BGF023	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Dub	да съм:Vr1 (5,{ли,се,си,P,да}) Vqo (n,{-C,-U,-V}) съм:Vr1 съм:Vxo ща:Vwo	да съм му четен ли съм бил щял	
+BGF024	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Dub	да съм:Vr2 (5,{ли,се,си,P,да}) Vqo (n,{-C,-U,-V}) съм:Vr2 съм:Vxo ща:Vwo	да съм му четен ли съм бил щял	
+BGF025	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Dub	нямам:Vwo (1,{ли}) съм:Vr1 съм:Vxo (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr1 Vqo	нямал ли съм бил да му бъда четен	
+BGF026	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Dub	нямам:Vwo (1,{ли}) съм:Vr2 съм:Vxo (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr2 Vqo	нямал ли съм бил да му бъда четен	
+BGF027	Future_Perfect-Future_Perfect_in_the_Past+Neg+Dub	нямам:Vwo (1,{ли}) съм:Vr1 съм:Vxo (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr1 Vxo	нямал ли съм бил да му го бъда чел	
+BGF028	Future_Perfect-Future_Perfect_in_the_Past+Neg+Dub	нямам:Vwo (1,{ли}) съм:Vr2 съм:Vxo (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr2 Vxo	нямал ли съм бил да му го бъда чел	
+BGF029	Future_Perfect-Future_Perfect_in_the_Past+Neg+Dub	нямам:Vwo (1,{ли}) съм:Vr1 съм:Vxo (n,{-C,-U,-V}) да съм:Vr1 (5,{ли,се,си,P,да}) Vxo	нямал ли съм бил да съм му го чел	
+BGF030	Future_Perfect-Future_Perfect_in_the_Past+Neg+Dub	нямам:Vwo (1,{ли}) съм:Vr2 съм:Vxo (n,{-C,-U,-V}) да съм:Vr2 (5,{ли,се,си,P,да}) Vxo	нямал ли съм бил да съм му го чел	
+BGF031	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Dub	нямам:Vwo (1,{ли}) съм:Vr1 съм:Vxo (n,{-C,-U,-V}) да съм:Vr1 (5,{ли,се,си,P,да}) Vqo	нямал ли съм бил да съм му четен	
+BGF032	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Dub	нямам:Vwo (1,{ли}) съм:Vr2 съм:Vxo (n,{-C,-U,-V}) да съм:Vr2 (5,{ли,се,си,P,да}) Vqo	нямал ли съм бил да съм му четен	
+BGF033	Future_Perfect-Future_Perfect_in_the_Past+Dub	ща:Vwo (1,{ли}) съм:Vr1 съм:Vxo (n,{-C,-U,-V}) да съм:Vr1 (5,{ли,се,си,P,да}) Vxo	щял ли съм бил да съм му го дал	
+BGF034	Future_Perfect-Future_Perfect_in_the_Past+Dub	ща:Vwo (1,{ли}) съм:Vr2 съм:Vxo (n,{-C,-U,-V}) да съм:Vr2 (5,{ли,се,си,P,да}) Vxo	щял ли си бил да си му го дал	
+BGF035	Future_Perfect-Future_Perfect_in_the_Past+Dub	ща:Vwo (1,{ли}) съм:Vr1 съм:Vxo (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr1 Vxo	щял ли съм бил да му го бъда дал	
+BGF036	Future_Perfect-Future_Perfect_in_the_Past+Dub	ща:Vwo (1,{ли}) съм:Vr2 съм:Vxo (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr2 Vxo	щял ли съм бил да му го бъда дал	
+BGF037	Future_Perfect-Future_Perfect_in_the_Past+Dub	да съм:Vr1 (5,{ли,се,си,P,да}) Vxo (n,{-C,-U,-V}) съм:Vr1 съм:Vxo ща:Vwo	да съм му го дал ли съм бил щял	
+BGF038	Future_Perfect-Future_Perfect_in_the_Past+Dub	да съм:Vr2 (5,{ли,се,си,P,да}) Vxo (n,{-C,-U,-V}) съм:Vr2 съм:Vxo ща:Vwo	да съм му го дал ли съм бил щял	
+BGF039	Future_Perfect-Future_Perfect_in_the_Past+Dub	да (5,{ли,се,си,P,да}) бъда:Vr1 Vxo (n,{-C,-U,-V}) съм:Vr1 съм:Vxo ща:Vwo	да му го бъда дал ли съм бил щял	
+BGF040	Future_Perfect-Future_Perfect_in_the_Past+Dub	да (5,{ли,се,си,P,да}) бъда:Vr2 Vxo (n,{-C,-U,-V}) съм:Vr2 съм:Vxo ща:Vwo	да му го бъда дал ли съм бил щял	
+BGF041	Future_Perfect-Future_Perfect_in_the_Past+Dub	да съм:Vr1 (5,{ли,се,си,P,да}) Vxo (n,{-C,-U,-V}) съм:Vr1 ща:Vwo съм:Vxo	да съм му го дал ли съм щял бил	
+BGF042	Future_Perfect-Future_Perfect_in_the_Past+Dub	да съм:Vr2 (5,{ли,се,си,P,да}) Vxo (n,{-C,-U,-V}) съм:Vr2 ща:Vwo съм:Vxo	да съм му го дал ли съм щял бил	
+BGF043	Future_Perfect-Future_Perfect_in_the_Past+Dub	да (5,{ли,се,си,P,да}) бъда:Vr1 Vxo (n,{-C,-U,-V}) съм:Vr1 ща:Vwo съм:Vxo	да му го бъда дал ли съм щял бил	
+BGF044	Future_Perfect-Future_Perfect_in_the_Past+Dub	да (5,{ли,се,си,P,да}) бъда:Vr2 Vxo (n,{-C,-U,-V}) съм:Vr2 ща:Vwo съм:Vxo	да му го бъда дал ли съм щял бил	
+BGF045	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Dub	ща:Vwo (1,{ли}) съм:Vr1 съм:Vxo (n,{-C,-U,-V}) да съм:Vr1 (5,{ли,се,си,P,да}) Vqo	щял ли съм бил да съм му четен	
+BGF046	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Dub	ща:Vwo (1,{ли}) съм:Vr2 съм:Vxo (n,{-C,-U,-V}) да съм:Vr2 (5,{ли,се,си,P,да}) Vqo	щял ли съм бил да съм му четен	
+BGF047	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Dub	ща:Vwo (1,{ли}) съм:Vr1 съм:Vxo (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr1 Vqo	щял ли съм бил да му бъда четен	
+BGF048	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Dub	ща:Vwo (1,{ли}) съм:Vr2 съм:Vxo (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr2 Vqo	щял ли съм бил да му бъда четен	
+BGF049	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Dub	да съм:Vr1 (5,{ли,се,си,P,да}) Vqo (n,{-C,-U,-V}) съм:Vr1 ща:Vwo съм:Vxo	да съм му четен ли съм щял бил	
+BGF050	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Dub	да съм:Vr2 (5,{ли,се,си,P,да}) Vqo (n,{-C,-U,-V}) съм:Vr2 ща:Vwo съм:Vxo	да съм му четен ли съм щял бил	
+BGF051	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Dub	да (5,{ли,се,си,P,да}) бъда:Vr1 Vqo (n,{-C,-U,-V}) съм:Vr1 ща:Vwo съм:Vxo	да му бъда четен ли съм щял бил	
+BGF052	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Dub	да (5,{ли,се,си,P,да}) бъда:Vr2 Vqo (n,{-C,-U,-V}) съм:Vr2 ща:Vwo съм:Vxo	да му бъда четен ли съм щял бил	
+BGF053	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	да съм:Vr1 (5,{ли,се,си,P,да}) Vqo (n,{-C,-U,-V}) съм:Vr1 съм:Vxo нямам:Vwo	да съм му четен ли съм бил нямал	
+BGF054	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	да съм:Vr2 (5,{ли,се,си,P,да}) Vqo (n,{-C,-U,-V}) съм:Vr2 съм:Vxo нямам:Vwo	да съм му четен ли съм бил нямал	
+BGF055	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	да (5,{ли,се,си,P,да}) бъда:Vr1 Vqo (n,{-C,-U,-V}) съм:Vr1 съм:Vxo нямам:Vwo	да му бъда четен ли съм бил нямал	
+BGF056	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	да (5,{ли,се,си,P,да}) бъда:Vr2 Vqo (n,{-C,-U,-V}) съм:Vr2 съм:Vxo нямам:Vwo	да му бъда четен ли съм бил нямал	
+BGF057	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	да съм:Vr1 (5,{ли,се,си,P,да}) Vqo (n,{-C,-U,-V}) съм:Vr1 нямам:Vwo съм:Vxo	да съм му четен ли съм нямал бил	
+BGF058	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	да съм:Vr2 (5,{ли,се,си,P,да}) Vqo (n,{-C,-U,-V}) съм:Vr2 нямам:Vwo съм:Vxo	да съм му четен ли съм нямал бил	
+BGF059	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	да (5,{ли,се,си,P,да}) бъда:Vr1 Vqo (n,{-C,-U,-V}) съм:Vr1 нямам:Vwo съм:Vxo	да му бъда четен ли съм нямал бил	
+BGF060	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	да (5,{ли,се,си,P,да}) бъда:Vr2 Vqo (n,{-C,-U,-V}) съм:Vr2 нямам:Vwo съм:Vxo	да му бъда четен ли съм нямал бил	
+BGF061	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	да съм:Vr1 (5,{ли,се,си,P,да}) Vqo (n,{-C,-U,-V}) съм:Vxo съм:Vr1 нямам:Vwo	да съм му четен ли бил съм нямал	
+BGF062	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	да съм:Vr2 (5,{ли,се,си,P,да}) Vqo (n,{-C,-U,-V}) съм:Vxo съм:Vr2 нямам:Vwo	да съм му четен ли бил съм нямал	
+BGF063	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	да (5,{ли,се,си,P,да}) бъда:Vr1 Vqo (n,{-C,-U,-V}) съм:Vxo съм:Vr1 нямам:Vwo	да му бъда четен ли бил съм нямал	
+BGF064	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	да (5,{ли,се,си,P,да}) бъда:Vr2 Vqo (n,{-C,-U,-V}) съм:Vxo съм:Vr2 нямам:Vwo	да му бъда четен ли бил съм нямал	
+BGF065	Future_Perfect-Future_Perfect_in_the_Past+Neg+Dub	да съм:Vr3p (5,{ли,се,си,P,да}) Vxpo (n,{-C,-U,-V}) съм:Vxo нямам:Vwo	да са му го чели ли били нямали	
+BGF066	Future_Perfect-Future_Perfect_in_the_Past+Neg+Dub	да съм:Vr3p (5,{ли,се,си,P,да}) Vxpo (n,{-C,-U,-V}) нямам:Vwo съм:Vxo	да сa му го чели ли нямали били	
+BGF067	Future_Perfect-Future_Perfect_in_the_Past+Concl	ща:Vwo (1,{ли}) съм:Vr (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr Vxo	щял ли е да му го бъда дал	
+BGF068	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Concl	да (5,{ли,се,си,P,да}) бъда:Vr Vqo (n,{-C,-U,-V}) съм:Vr нямам:Vwo	да му бъда четен ли съм нямал	
+BGF069	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	да (5,{ли,се,си,P,да}) бъда:Vr3 Vqo (n,{-C,-U,-V}) съм:Vxo нямам:Vwo	да му бъде четен ли било нямало	
+BGF070	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	да (5,{ли,се,си,P,да}) бъда:Vr3 Vqo (n,{-C,-U,-V}) нямам:Vwo съм:Vxo	да му бъде четен ли нямало било	
+BGF071	Future_Perfect-Future_Perfect_in_the_Past+Neg+Concl	да (5,{ли,се,си,P,да}) бъда:Vr Vxo (n,{-C,-U,-V}) съм:Vr нямам:Vwo	да му го бъда чел ли съм нямало	
+BGF072	Future_Perfect-Future_Perfect_in_the_Past+Neg+Ren	да (5,{ли,се,си,P,да}) бъда:Vr1 Vxo (n,{-C,-U,-V}) съм:Vr1 нямам:Vwo	да му го бъда чел ли съм нямало	
+BGF073	Future_Perfect-Future_Perfect_in_the_Past+Neg+Dub	да (5,{ли,се,си,P,да}) бъда:Vr3 Vxo (n,{-C,-U,-V}) съм:Vxo нямам:Vwo	да му го бъде чел ли бил нямал	
+BGF074	Future_Perfect-Future_Perfect_in_the_Past+Neg+Dub	да (5,{ли,се,си,P,да}) бъда:Vr3 Vxo (n,{-C,-U,-V}) нямам:Vwo съм:Vxo	да му го бъде чел ли нямал бил	
+BGF075	Future_Perfect-Future_Perfect_in_the_Past+Neg+Ren	да (5,{ли,се,си,P,да}) бъда:Vr2 Vxo (n,{-C,-U,-V}) съм:Vr2 нямам:Vwo	да му го бъдеш чел ли си нямало	
+BGF076	Future-Future_in_the_Past+Neg+Dub	да (5,{ли,се,си,P,да}) Vr2 (n,{-C,-U,-V}) съм:Vr2 съм:Vxo нямам:Vwo	да му го дадеш ли си бил нямал	
+BGF077	Future-Future_in_the_Past+Dub	да (5,{ли,се,си,P,да}) Vr2 (n,{-C,-U,-V}) съм:Vr2 съм:Vxo ща:Vwo	да му го дадеш ли си бил щял	
+BGF078	Future-Future_in_the_Past+Dub	да (5,{ли,се,си,P,да}) Vr2 (n,{-C,-U,-V}) съм:Vr2 ща:Vwo съм:Vxo	да му го дадеш ли си щял бил	
+BGF079	Future-Future_in_the_Past+Neg+Dub	да (5,{ли,се,си,P,да}) Vr1 (n,{-C,-U,-V}) съм:Vr1 съм:Vxo нямам:Vwo	да му го дам ли съм бил нямал	
+BGF080	Future-Future_in_the_Past+Dub	да (5,{ли,се,си,P,да}) Vr1 (n,{-C,-U,-V}) съм:Vr1 съм:Vxo ща:Vwo	да му го дам ли съм бил щял	
+BGF081	Future-Future_in_the_Past+Dub	да (5,{ли,се,си,P,да}) Vr1 (n,{-C,-U,-V}) съм:Vr1 ща:Vwo съм:Vxo	да му го дам ли съм щял бил	
+BGF082	Future_Perfect-Future_Perfect_in_the_Past+Neg+Dub	да (5,{ли,се,си,P,да}) съм:Vr3s Vxo (n,{-C,-U,-V}) съм:Vxo нямам:Vwo	да му го е чел ли бил нямал	
+BGF083	Future_Perfect-Future_Perfect_in_the_Past+Neg+Concl	да (5,{ли,се,си,P,да}) съм:Vr3s Vxo (n,{-C,-U,-V}) съм:Vr3s нямам:Vwo	да му го е чел ли е нямало	
+BGF084	Future_Perfect-Future_Perfect_in_the_Past+Neg+Dub	да (5,{ли,се,си,P,да}) съм:Vr3s Vxo (n,{-C,-U,-V}) нямам:Vwo съм:Vxo	да му го е чел ли нямал бил	
+BGF085	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	да (5,{ли,се,си,P,да}) съм:Vr3s Vqso (n,{-C,-U,-V}) съм:Vxo нямам:Vwo	да му е четен ли било нямало	
+BGF086	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	да съм:Vr3p (5,{ли,се,си,P,да}) Vqpo (n,{-C,-U,-V}) съм:Vxo нямам:Vwo	да му е четен ли било нямало	
+BGF087	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Concl	да (5,{ли,се,си,P,да}) съм:Vr3s Vqo (n,{-C,-U,-V}) съм:Vr3s нямам:Vwo	да му е четен ли е нямало	
+BGF088	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	да (5,{ли,се,си,P,да}) съм:Vr3s Vqso (n,{-C,-U,-V}) нямам:Vwo съм:Vxo	да му е четен ли нямало било	
+BGF089	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	да съм:Vr3p (5,{ли,се,си,P,да}) Vqpo (n,{-C,-U,-V}) нямам:Vwo съм:Vxo	да му е четен ли нямало било	
+BGF090	Future_Perfect-Future_Perfect_in_the_Past+Neg+Ren	да съм:Vr2 (5,{ли,се,си,P,да}) Vxo (n,{-C,-U,-V}) съм:Vr2 нямам:Vwo	да си му го чел ли си нямало	
+BGF091	Future_Perfect-Future_Perfect_in_the_Past+Neg+Concl	да съм:Vr (5,{ли,се,си,P,да}) Vxo (n,{-C,-U,-V}) съм:Vr нямам:Vwo	да съм му го чел ли съм нямало	
+BGF092	Future_Perfect-Future_Perfect_in_the_Past+Neg+Ren	да съм:Vr1 (5,{ли,се,си,P,да}) Vxo (n,{-C,-U,-V}) съм:Vr1 нямам:Vwo	да съм му го чел ли съм нямало	
+BGF093	Future-Future_in_the_Past+Neg+Dub	нямам:Vwo (1,{ли}) съм:Vr2 съм:Vxo (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) Vr2	нямал ли си бил да му го четеш	
+BGF094	Future-Future_in_the_Past+Neg+Dub	нямам:Vwo (1,{ли}) съм:Vr1 съм:Vxo (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) Vr1	нямал ли съм бил да му го чета	
+BGF095	Future_Perfect-Future_Perfect_in_the_Past+Neg+Dub	нямам:Vwo (1,{ли}) съм:Vxo да съм:Vr3p (5,{ли,се,си,P,да}) Vxpo	нямали ли били да са му го чели	
+BGF096	Future_Perfect-Future_Perfect_in_the_Past+Ren	ща:Vwo (1,{ли}) съм:Vr2 (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr2 Vxo	щял ли си да му го бъдеш дал	
+BGF097	Future_Perfect-Future_Perfect_in_the_Past+Ren	ща:Vwo (1,{ли}) съм:Vr2 (n,{-C,-U,-V}) да съм:Vr2 (5,{ли,се,си,P,да}) Vxo	щял ли си да си му го дал	
+BGF098	Future_Perfect-Future_Perfect_in_the_Past+Ren	ща:Vwo (1,{ли}) съм:Vr1 (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr1 Vxo	щял ли съм да му го бъда дал	
+BGF099	Future_Perfect-Future_Perfect_in_the_Past+Ren	ща:Vwo (1,{ли}) съм:Vr1 (n,{-C,-U,-V}) да съм:Vr1 (5,{ли,се,си,P,да}) Vxo	щял ли съм да съм му го дал	
+BGF100	Future_Perfect-Future_Perfect_in_the_Past+Concl	ща:Vwo (1,{ли}) съм:Vr3s (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) съм:Vr3s Vxo	щял ли е да му го е дал	
+BGF101	Future_Perfect-Future_Perfect_in_the_Past+Concl	да съм:Vr (5,{ли,се,си,P,да}) Vxo (n,{-C,-U,-V}) съм:Vr ща:Vwo	да съм му го дал ли съм щял	
+BGF102	Future_Perfect-Future_Perfect_in_the_Past+Concl	да (5,{ли,се,си,P,да}) съм:Vr3s Vxo (n,{-C,-U,-V}) съм:Vr3s ща:Vwo	да му го е дал ли е щял	
+BGF103	Future_Perfect-Future_Perfect_in_the_Past+Concl	да (5,{ли,се,си,P,да}) бъда:Vr Vxo (n,{-C,-U,-V}) съм:Vr ща:Vwo	да му го бъде дал ли е щял	
+BGF104	Future_Perfect-Future_Perfect_in_the_Past+Neg+Concl	нямам:Vwo (1,{ли}) съм:Vr (n,{-C,-U,-V}) да съм:Vr (5,{ли,се,си,P,да}) Vxo	нямало ли съм да съм му го чел	
+BGF105	Future_Perfect-Future_Perfect_in_the_Past+Neg+Concl	нямам:Vwo (1,{ли}) съм:Vr3s да (5,{ли,се,си,P,да}) съм:Vr3s Vxo	нямало ли е да му го е чел	
+BGF106	Future_Perfect-Future_Perfect_in_the_Past+Neg+Concl	нямам:Vwo (1,{ли}) съм:Vr да (5,{ли,се,си,P,да}) бъда:Vr Vxo	нямало ли е да му го бъда чел	
+BGF107	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Concl	ща:Vwo (1,{ли}) съм:Vr (n,{-C,-U,-V}) да съм:Vr (5,{ли,се,си,P,да}) Vqo	щял ли съм да съм му четен	
+BGF108	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Concl	ща:Vwo (1,{ли}) съм:Vr3s (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) съм:Vr3s Vqo	щял ли е да му е четен	
+BGF109	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Concl	ща:Vwo (1,{ли}) съм:Vr (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr Vqo	щял ли е да му бъде четен	
+BGF110	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Concl	съм:Vr (n,{-C,-U,-V}) ща:Vwo (n,{-C,-U,-V}) да съм:Vr (5,{ли,се,си,P,да}) Vqo	щял ли съм да съм му четен	
+BGF111	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Concl	съм:Vr3s (n,{-C,-U,-V}) ща:Vwo (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) съм:Vr3s Vqo	щял ли е да му е четен	
+BGF112	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Concl	съм:Vr (n,{-C,-U,-V}) ща:Vwo (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr Vqo	щял ли е да му бъде четен	
+BGF113	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Concl	да съм:Vr (5,{ли,се,си,P,да}) Vqo (n,{-C,-U,-V}) съм:Vr ща:Vwo	да съм му четен ли съм щял	
+BGF114	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Concl	да (5,{ли,се,си,P,да}) съм:Vr3s Vqo (n,{-C,-U,-V}) съм:Vr3s ща:Vwo	да му е четен ли е щял	
+BGF115	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Concl	да (5,{ли,се,си,P,да}) бъда:Vr Vqo (n,{-C,-U,-V}) съм:Vr ща:Vwo	да му бъде четен ли е щял	
+BGF116	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Concl	нямам:Vwo (1,{ли}) съм:Vr (n,{-C,-U,-V}) да съм:Vr (5,{ли,се,си,P,да}) Vqo	нямало ли съм да съм му четен	
+BGF117	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Concl	нямам:Vwo (1,{ли}) съм:Vr3s (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) съм:Vr3s Vqo	нямало ли е да му е четен	
+BGF118	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Concl	нямам:Vwo (1,{ли}) съм:Vr (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr Vqo	нямало ли е да му бъде четен	
+BGF119	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Concl	да съм:Vr (5,{ли,се,си,P,да}) Vqo (n,{-C,-U,-V}) съм:Vr нямам:Vwo	да съм му четен ли съм нямало	
+BGF120	Future_Perfect-Future_Perfect_in_the_Past+Ren	да съм:Vr1 (5,{ли,се,си,P,да}) Vxo (n,{-C,-U,-V}) съм:Vr1 ща:Vwo	да съм му го дал ли съм щял	
+BGF121	Future_Perfect-Future_Perfect_in_the_Past+Ren	да съм:Vr2 (5,{ли,се,си,P,да}) Vxo (n,{-C,-U,-V}) съм:Vr2 ща:Vwo	да си му го дал ли си щял	
+BGF122	Future_Perfect-Future_Perfect_in_the_Past+Ren	да (5,{ли,се,си,P,да}) бъда:Vr1 Vxo (n,{-C,-U,-V}) съм:Vr1 ща:Vwo	да му го бъда дал ли съм щял	
+BGF123	Future_Perfect-Future_Perfect_in_the_Past+Ren	да (5,{ли,се,си,P,да}) бъда:Vr2 Vxo (n,{-C,-U,-V}) съм:Vr2 ща:Vwo	да му го бъдеш дал ли си щял	
+BGF124	Future_Perfect-Future_Perfect_in_the_Past+Neg+Ren	нямам:Vwo (1,{ли}) съм:Vr1 (n,{-C,-U,-V}) да съм:Vr1 (5,{ли,се,си,P,да}) Vxo	нямал ли съм да съм му го чел	
+BGF125	Future_Perfect-Future_Perfect_in_the_Past+Neg+Ren	нямам:Vwo (1,{ли}) съм:Vr2 (n,{-C,-U,-V}) да съм:Vr2 (5,{ли,се,си,P,да}) Vxo	нямал ли си да си му го чел	
+BGF126	Future_Perfect-Future_Perfect_in_the_Past+Neg+Ren	нямам:Vwo (1,{ли}) съм:Vr1 (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr1 Vxo	нямал ли съм да му го бъда чел	
+BGF127	Future_Perfect-Future_Perfect_in_the_Past+Neg+Ren	нямам:Vwo (1,{ли}) съм:Vr2 (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr2 Vxo	нямал ли си да му го бъдеш чел	
+BGF128	Future-Future_in_the_Past+Dub	ща:Vwo (1,{ли}) съм:Vr1 съм:Vxo (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) Vr1	щял ли съм бил да му го дам	
+BGF129	Future-Future_in_the_Past+Dub	ща:Vwo (1,{ли}) съм:Vr2 съм:Vxo (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) Vr2	щял ли си бил да му го дадеш	
+BGF130	Future-Future_in_the_Past+Neg+Dub	да (5,{ли,се,си,P,да}) Vr1 (n,{-C,-U,-V}) съм:Vr1 нямам:Vwo съм:Vxo	да му го дам ли съм нямал бил	
+BGF131	Future-Future_in_the_Past+Neg+Dub	да (5,{ли,се,си,P,да}) Vr2 (n,{-C,-U,-V}) съм:Vr2 нямам:Vwo съм:Vxo	да му го дадеш ли си нямал бил	
+BGF132	Future-Future_in_the_Past+Neg+Dub	да (5,{ли,се,си,P,да}) Vr1 (n,{-C,-U,-V}) нямам:Vwo съм:Vr1 съм:Vxo	да му го дам ли нямал съм бил	
+BGF133	Future-Future_in_the_Past+Neg+Dub	да (5,{ли,се,си,P,да}) Vr2 (n,{-C,-U,-V}) нямам:Vwo съм:Vr2 съм:Vxo	да му го дам ли нямал съм бил	
+BGF134	Future_Perfect-Future_Perfect_in_the_Past+Dub	ща:Vwo (1,{ли}) съм:Vxo (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) съм:Vr3s Vxso	щял ли бил да му го е дал	
+BGF135	Future_Perfect-Future_Perfect_in_the_Past+Dub	ща:Vwo (1,{ли}) съм:Vxo (n,{-C,-U,-V}) да съм:Vr3p (5,{ли,се,си,P,да}) Vxpo	щял ли бил да му го е дал	
+BGF136	Future_Perfect-Future_Perfect_in_the_Past+Dub	ща:Vwo (1,{ли}) съм:Vxo (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr3 Vxo	щял ли бил да му го бъде дал	
+BGF137	Future_Perfect-Future_Perfect_in_the_Past+Dub	да (5,{ли,се,си,P,да}) съм:Vr3s Vxso (n,{-C,-U,-V}) съм:Vxo ща:Vwo	да му го е дал ли бил щял	
+BGF138	Future_Perfect-Future_Perfect_in_the_Past+Dub	да съм:Vr3p (5,{ли,се,си,P,да}) Vxpo (n,{-C,-U,-V}) съм:Vxo ща:Vwo	да са му го дали ли били щели	
+BGF139	Future_Perfect-Future_Perfect_in_the_Past+Dub	да (5,{ли,се,си,P,да}) бъда:Vr3 Vxo (n,{-C,-U,-V}) съм:Vxo ща:Vwo	да му го бъде дал ли бил щял	
+BGF140	Future_Perfect-Future_Perfect_in_the_Past+Dub	да (5,{ли,се,си,P,да}) съм:Vr3s Vxso (n,{-C,-U,-V}) ща:Vwo съм:Vxo	да му го е дал ли щял бил	
+BGF141	Future_Perfect-Future_Perfect_in_the_Past+Dub	да съм:Vr3p (5,{ли,се,си,P,да}) Vxpo (n,{-C,-U,-V}) ща:Vwo съм:Vxo	да му го е дал ли щял бил	
+BGF142	Future_Perfect-Future_Perfect_in_the_Past+Dub	да (5,{ли,се,си,P,да}) бъда:Vr3 Vxo (n,{-C,-U,-V}) ща:Vwo съм:Vxo	да му го бъде дал ли щял бил	
+BGF143	Future_Perfect-Future_Perfect_in_the_Past+Neg+Dub	нямам:Vwo (1,{ли}) съм:Vxo да (5,{ли,се,си,P,да}) съм:Vr3s Vxso	нямал ли бил да му го е чел	
+BGF144	Future_Perfect-Future_Perfect_in_the_Past+Neg+Dub	нямам:Vwo (1,{ли}) съм:Vxo да (5,{ли,се,си,P,да}) бъда:Vr3 Vxo	нямал ли бил да му го бъде чел	
+BGF145	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Ren	ща:Vwo (1,{ли}) съм:Vr1 (n,{-C,-U,-V}) да съм:Vr1 (5,{ли,се,си,P,да}) Vqo	щял ли съм да съм му четен	
+BGF146	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Ren	ща:Vwo (1,{ли}) съм:Vr2 (n,{-C,-U,-V}) да съм:Vr2 (5,{ли,се,си,P,да}) Vqo	щял ли съм да съм му четен	
+BGF147	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Ren	ща:Vwo (1,{ли}) съм:Vr1 (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr1 Vqo	щял ли съм да му бъда четен	
+BGF148	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Ren	ща:Vwo (1,{ли}) съм:Vr2 (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr2 Vqo	щял ли съм да му бъда четен	
+BGF149	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Ren	да съм:Vr1 (5,{ли,се,си,P,да}) Vqo (n,{-C,-U,-V}) съм:Vr1 ща:Vwo	да съм му четен ли съм щял	
+BGF150	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Ren	да съм:Vr2 (5,{ли,се,си,P,да}) Vqo (n,{-C,-U,-V}) съм:Vr2 ща:Vwo	да си му четен ли си щял	
+BGF151	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Ren	да (5,{ли,се,си,P,да}) бъда:Vr1 Vqo (n,{-C,-U,-V}) съм:Vr1 ща:Vwo	да му бъда четен ли съм щял	
+BGF152	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Ren	да (5,{ли,се,си,P,да}) бъда:Vr2 Vqo (n,{-C,-U,-V}) съм:Vr2 ща:Vwo	да му бъда четен ли съм щял	
+BGF153	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	нямам:Vwo (1,{ли}) съм:Vr1 (n,{-C,-U,-V}) да съм:Vr1 (5,{ли,се,си,P,да}) Vqo	нямало ли съм да съм му четен	
+BGF154	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	нямам:Vwo (1,{ли}) съм:Vr2 (n,{-C,-U,-V}) да съм:Vr2 (5,{ли,се,си,P,да}) Vqo	нямало ли съм да съм му четен	
+BGF155	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	нямам:Vwo (1,{ли}) съм:Vr1 (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr1 Vqo	нямало ли съм да му бъда четен	
+BGF156	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	нямам:Vwo (1,{ли}) съм:Vr2 (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr2 Vqo	нямало ли съм да му бъда четен	
+BGF157	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	да съм:Vr1 (5,{ли,се,си,P,да}) Vqo (n,{-C,-U,-V}) съм:Vr1 нямам:Vwo	да съм му четен ли съм нямало	
+BGF158	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	да съм:Vr2 (5,{ли,се,си,P,да}) Vqo (n,{-C,-U,-V}) съм:Vr2 нямам:Vwo	да съм му четен ли съм нямало	
+BGF159	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	да (5,{ли,се,си,P,да}) бъда:Vr1 Vqo (n,{-C,-U,-V}) съм:Vr1 нямам:Vwo	да му бъда четен ли съм нямало	
+BGF160	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	да (5,{ли,се,си,P,да}) бъда:Vr2 Vqo (n,{-C,-U,-V}) съм:Vr2 нямам:Vwo	да му бъда четен ли съм нямало	
+BGF161	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Dub	ща:Vwo (n,{-C,-U,-V}) съм:Vxo да (5,{ли,се,си,P,да}) съм:Vr3s Vqso	щял ли бил да му е четен	
+BGF162	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Dub	ща:Vwo (n,{-C,-U,-V}) съм:Vxo да съм:Vr3p (5,{ли,се,си,P,да}) Vqpo	щял ли бил да са му четен	
+BGF163	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Dub	ща:Vwo (n,{-C,-U,-V}) съм:Vxo да (5,{ли,се,си,P,да}) бъда:Vr3 Vqo	щял ли бил да му бъде четен	
+BGF164	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Dub	да (5,{ли,се,си,P,да}) съм:Vr3s Vqso (n,{-C,-U,-V}) ща:Vwo съм:Vxo	да му е четен ли щял	
+BGF165	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Dub	да съм:Vr3p (5,{ли,се,си,P,да}) Vqpo (n,{-C,-U,-V}) ща:Vwo съм:Vxo	да му е четен ли щял	
+BGF166	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Dub	да (5,{ли,се,си,P,да}) бъда:Vr3 Vqo (n,{-C,-U,-V}) ща:Vwo съм:Vxo	да му бъде четен ли щял бил	
+BGF167	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Dub	да (5,{ли,се,си,P,да}) съм:Vr3s Vqso (n,{-C,-U,-V}) съм:Vxo ща:Vwo	да му е четен ли бил щял	
+BGF168	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Dub	да съм:Vr3p (5,{ли,се,си,P,да}) Vqpo (n,{-C,-U,-V}) съм:Vxo ща:Vwo	да му е четен ли бил щял	
+BGF169	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Dub	да (5,{ли,се,си,P,да}) бъда:Vr3 Vqo (n,{-C,-U,-V}) съм:Vxo ща:Vwo	да му бъде четен ли бил щял	
+BGF170	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Dub	нямам:Vwo (n,{-C,-U,-V}) съм:Vxo да (5,{ли,се,си,P,да}) съм:Vr3s Vqso	нямал ли бил да му е четен	
+BGF171	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Dub	нямам:Vwo (n,{-C,-U,-V}) съм:Vxo да съм:Vr3p (5,{ли,се,си,P,да}) Vqpo	нямал ли бил да му е четен	
+BGF172	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Dub	нямам:Vwo (n,{-C,-U,-V}) съм:Vxo да (5,{ли,се,си,P,да}) бъда:Vr3 Vqo	нямал ли бил да му бъде четен	
+BGF173	Future-Future_in_the_Past+Neg+Dub	да (5,{ли,се,си,P,да}) Vr3 (n,{-C,-U,-V}) нямам:Vwo съм:Vxo	да му го даде ли нямал бил	29,888
+BGF174	Future_in_the_Past-Future_Perfect_in_the_Past+Pass	ща:Vd (n,{-C,-U,-V}) да съм:Vr (5,{ли,се,си,P,да}) Vqo	щях ли да съм му даден	
+BGF175	Future-Future_in_the_Past+Dub	да (5,{ли,се,си,P,да}) Vr3 (n,{-C,-U,-V}) ща:Vwo съм:Vxo	да му го даде ли щял бил	
+BGF176	Future_Perfect-Future_Perfect_in_the_Past+Neg+Ren	да (5,{ли,се,си,P,да}) бъда:Vr3 Vxo (n,{-C,-U,-V}) нямам:Vwo	да му го бъде чел ли нямало	
+BGF177	Future-Future_in_the_Past+Dub	да (5,{ли,се,си,P,да}) Vr3 (n,{-C,-U,-V}) съм:Vxo ща:Vwo	да му го даде ли бил щял	
+BGF178	Future-Future_in_the_Past+Concl	да (5,{ли,се,си,P,да}) Vr (n,{-C,-U,-V}) съм:Vr ща:Vwo	да му го даде/дам ли е/съм щял	
+BGF179	Future-Future_in_the_Past+Neg+Ren	да (5,{ли,се,си,P,да}) Vr2 (n,{-C,-U,-V}) съм:Vr2 нямам:Vwo	да му го дадеш ли си нямал	
+BGF180	Future-Future_in_the_Past+Ren	да (5,{ли,се,си,P,да}) Vr2 (n,{-C,-U,-V}) съм:Vr2 ща:Vwo	да му го дадеш ли си щял	
+BGF181	Future-Future_in_the_Past+Neg+Concl	да (5,{ли,се,си,P,да}) Vr (n,{-C,-U,-V}) съм:Vr нямам:Vwo	да му го дам ли е нямало	
+BGF182	Future-Future_in_the_Past+Neg+Ren	да (5,{ли,се,си,P,да}) Vr1 (n,{-C,-U,-V}) съм:Vr1 нямам:Vwo	да му го дам ли съм нямал	
+BGF183	Future-Future_in_the_Past+Ren	да (5,{ли,се,си,P,да}) Vr1 (n,{-C,-U,-V}) съм:Vr1 ща:Vwo	да му го дам ли съм щял	
+BGF184	Future_Perfect-Future_Perfect_in_the_Past+Neg+Ren	да (5,{ли,се,си,P,да}) съм:Vr3 Vxo (n,{-C,-U,-V}) нямам:Vwo	да му го е чел ли нямало	
+BGF185	Future_Perfect-Future_Perfect_in_the_Past+Neg+Ren	да съм:Vr3p (5,{ли,се,си,P,да}) Vxpo (n,{-C,-U,-V}) нямам:Vwo	да са му го чели ли нямало	
+BGF186	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Ren	да съм:Vr3p (5,{ли,се,си,P,да}) Vqpo (n,{-C,-U,-V}) ща:Vwo	да са му четени ли щели	
+BGF187	Present-Perfect-Imperfect-Pluperfect-Aorist+Pass+Neg+Concl	не съм:Vxo (5,{ли,се,си,P,да}) съм:Vr Vqo	не бил ли му е четен	
+BGF188	Aorist+Dub	не съм:Vxo (1,{ли}) съм:Vr2 (5,{ли,се,си,P,да}) Vxo	не бил ли си му го чел Perfect-Pluperfect+Ren+Neg	
+BGF189	Present-Imperfect+Neg+Dub	не съм:Vxo (1,{ли}) съм:Vr2 (5,{ли,се,си,P,да}) Vwo	не бил ли си му го четял	
+BGF190	Perfect-Pluperfect+Neg+Concl	не съм:Vxo (1,{ли}) съм:Vr (5,{ли,се,си,P,да}) Vxo	не бил ли съм му го чел	
+BGF191	Aorist+Dub	не съм:Vxo (1,{ли}) съм:Vr1 (5,{ли,се,си,P,да}) Vxo	не бил ли съм му го чел Perfect-Pluperfect+Ren+Neg	
+BGF192	Present-Imperfect+Neg+Dub	не съм:Vxo (1,{ли}) съм:Vr1 (5,{ли,се,си,P,да}) Vwo	не бил ли съм му го четял	
+BGF193	Imperative+Perfect+Neg	нека (n,{-C,-U,-V}) (1,{да}) не (5,{ли,се,си,P,да}) съм:Vr3s Vxso	нека (да) не му го е дал	
+BGF194	Imperative+Perfect+Neg	нека (n,{-C,-U,-V}) (1,{да}) не съм:Vr1 (5,{ли,се,си,P,да}) Vxo	нека (да) не съм му го дал	
+BGF195	Imperative+Perfect+Neg	нека (n,{-C,-U,-V}) (1,{да}) не съм:Vr2 (5,{ли,се,си,P,да}) Vxo	нека (да) не съм му го дал	
+BGF196	Imperative+Perfect+Neg	нека (n,{-C,-U,-V}) (1,{да}) не съм:Vr3p (5,{ли,се,си,P,да}) Vxpo	нека (да) не съм му го дал	
+BGF197	Imperative+Present-Perfect+Pass+Neg	нека (n,{-C,-U,-V}) (1,{да}) не (5,{ли,се,си,P,да}) съм:Vr3s Vqso	нека да не му е даден	
+BGF198	Future-Future_Perfect+Pass+Neg	нямам:Vr3s (n,{-C,-U,-V}) да съм:Vr (5,{ли,се,си,P,да}) Vqo	няма ли да съм му даден	
+BGF199	Future-Future_in_the_Past+Neg+Dub	нямам:Vwo (1,{ли}) съм:Vxo (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) Vr3	нямал ли бил да му го чете	
+BGF200	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Ren	ща:Vwo (n,{-C,-U,-V}) да съм:Vr3p (5,{ли,се,си,P,да}) Vqpo	щял ли да са му четени	
+BGF201	Future_Perfect-Future_Perfect_in_the_Past+Ren	ща:Vwpo (n,{-C,-U,-V}) да съм:Vr3p (5,{ли,се,си,P,да}) Vxpo	щели ли да са му го дали	
+BGF202	Future_in_the_Past-Future_Perfect_in_the_Past+Pass	ща:Vd (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr Vqo	щеше ли да му бъде даден	
+BGF203	Future_in_the_Past-Future_Perfect_in_the_Past+Pass	ща:Vd (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) съм:Vr3s Vqo	щеше ли да му е даден	
+BGF204	Future_Perfect_in_the_Past	ща:Vd (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr Vxo	щях ли да му го бъда дал	
+BGF205	Future_Perfect_in_the_Past	ща:Vd (n,{-C,-U,-V}) да съм:Vr (5,{ли,се,си,P,да}) Vxo	щях ли да съм му го дал	
+BGF206	Future_Perfect+Neg	нямам:Vr3s (n,{-C,-U,-V}) да съм:Vr (5,{ли,се,си,P,да}) Vxo	няма ли да съм му го дал	
+BGF207	Future_Perfect+Neg	нямам:Vr3s (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) съм:Vr3s Vxo	няма ли да му го е дал	
+BGF208	Future_Perfect+Neg	нямам:Vr3s (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr Vxo	няма ли да му го бъда дала	
+BGF209	Future_Perfect+Neg	нямам:Vr3s (n,{-C,-U,-V}) да бъда:Vr (5,{ли,се,си,P,да}) Vxo	няма ли да бъда му го дала	
+BGF210	Future-Future_Perfect+Pass+Neg	нямам:Vr3s (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr Vqo	няма ли да му бъде даден	
+BGF211	Future_Perfect_in_the_Past	ща:Vd (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) съм:Vr3s Vxo	щеше ли да му го е дал	
+BGF212	Future_Perfect_in_the_Past+Neg	нямам:Vd3s (n,{-C,-U,-V}) да съм:Vr (5,{ли,се,си,P,да}) Vxo	нямаше ли да съм му го дал	
+BGF213	Future_Perfect_in_the_Past+Neg	нямам:Vd3s (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) съм:Vr3s Vxo	нямаше ли да му го е дал	
+BGF214	Future_Perfect_in_the_Past+Neg	нямам:Vd3s (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr Vxo	нямаше ли да му го бъда дал	
+BGF215	Future_Perfect_in_the_Past+Neg	нямам:Vd3s (n,{-C,-U,-V}) да бъда:Vr (5,{ли,се,си,P,да}) Vxo	нямаше ли да бъда му го дал	
+BGF216	Future_in_the_Past-Future_Perfect_in_the_Past+Pass+Neg	нямам:Vd3s (n,{-C,-U,-V}) да съм:Vr (5,{ли,се,си,P,да}) Vqo	нямаше ли да съм му даден	
+BGF217	Future_in_the_Past-Future_Perfect_in_the_Past+Pass+Neg	нямам:Vd3s (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) съм:Vr3s Vqo	нямаше ли да му е даден	
+BGF218	Future_in_the_Past-Future_Perfect_in_the_Past+Pass+Neg	нямам:Vd3s (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr Vqo	нямаше ли да му бъде даден	
+BGF219	Perfect-Pluperfect+Neg+Concl	не съм:Vr (1,{ли}) съм:Vxo (5,{ли,се,си,P,да}) Vxo	не съм ли му го бил чел	
+BGF220	Perfect-Pluperfect+Neg+Concl	не съм:Vxo (5,{ли,се,си,P,да}) съм:Vr3s Vxso	не бил ли му го е чел	
+BGF221	Perfect-Pluperfect+Neg+Concl	не (5,{ли,се,си,P,да}) съм:Vr3s съм:Vxo Vxso	му го е бил чел	
+BGF222	Present-Perfect-Imperfect-Pluperfect-Aorist+Pass+Neg+Concl	не съм:Vr (5,{ли,се,си,P,да}) съм:Vxo Vqo	не съм ли му бил четен	
+BGF223	Present-Perfect-Imperfect-Pluperfect-Aorist+Pass+Neg+Concl	не съм:Vxo (1,{ли}) съм:Vr (5,{ли,се,си,P,да}) Vqo	не бил ли съм му четен	
+BGF224	Present-Perfect-Imperfect-Pluperfect-Aorist+Pass+Neg+Concl	не (5,{ли,се,си,P,да}) съм:Vr3s съм:Vxo Vqso	не му ли е бил четен	
+BGF225	Future-Future_in_the_Past+Concl	ща:Vwo (1,{ли}) съм:Vr (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) Vr	щял ли съм/е да му го дам/даде	
+BGF226	Future-Future_in_the_Past+Neg+Concl	нямам:Vwo (1,{ли}) съм:Vr (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) Vr	нямало ли съм да му го чета	
+BGF227	Future_Perfect-Future_Perfect_in_the_Past+Concl	ща:Vwo (1,{ли}) съм:Vr (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) Vxo	щял ли съм да съм му го дал	
+BGF228	Aorist+Dub	не съм:Vr1 (1,{ли}) съм:Vxo (5,{ли,се,си,P,да}) Vxo	не съм ли му го бил чел Perfect-Pluperfect+Ren+Neg	
+BGF229	Aorist+Dub	не съм:Vr2 (1,{ли}) съм:Vxo (5,{ли,се,си,P,да}) Vxo	не си ли му го бил чел Perfect-Pluperfect+Ren+Neg	
+BGF230	Present-Perfect-Imperfect-Pluperfect-Aorist+Pass+Neg+Ren	не съм:Vr1 (5,{ли,се,си,P,да}) съм:Vxo Vqo	не съм ли му бил четен	
+BGF231	Present-Perfect-Imperfect-Pluperfect-Aorist+Pass+Neg+Ren	не съм:Vr2 (5,{ли,се,си,P,да}) съм:Vxo Vqo	не си ли му бил четен	
+BGF232	Present-Perfect-Imperfect-Pluperfect-Aorist+Pass+Neg+Ren	не съм:Vxo (1,{ли}) съм:Vr1 (5,{ли,се,си,P,да}) Vqo	не бил ли съм му четен	
+BGF233	Present-Perfect-Imperfect-Pluperfect-Aorist+Pass+Neg+Ren	не съм:Vxo (1,{ли}) съм:Vr2 (5,{ли,се,си,P,да}) Vqo	не бил ли си му четен	
+BGF234	Future-Future_in_the_Past+Ren	ща:Vwo (1,{ли}) съм:Vr1 (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) Vr1	щял ли съм да му го дам	
+BGF235	Future-Future_in_the_Past+Ren	ща:Vwo (1,{ли}) съм:Vr2 (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) Vr2	щял ли си да му го дадеш	
+BGF236	Future-Future_in_the_Past+Neg+Ren	нямам:Vwo (1,{ли}) съм:Vr1 (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) Vr1	нямало ли съм да му го чета	
+BGF237	Future-Future_in_the_Past+Neg+Ren	нямам:Vwo (1,{ли}) съм:Vr2 (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) Vr2	нямало ли си да му го четеш	
+BGF238	Future_Perfect-Future_Perfect_in_the_Past+Ren	ща:Vwso (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) съм:Vr3s Vxso	щял ли да му го е дал	
+BGF239	Future_Perfect-Future_Perfect_in_the_Past+Ren	ща:Vwo (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr3 Vxo	щял ли да му го бъде дал	
+BGF240	Future_Perfect-Future_Perfect_in_the_Past+Ren	да (5,{ли,се,си,P,да}) съм:Vr3s Vxso (n,{-C,-U,-V}) ща:Vwso	да му го е дал ли щял	
+BGF241	Future_Perfect-Future_Perfect_in_the_Past+Ren	да съм:Vr3p (5,{ли,се,си,P,да}) Vxpo (n,{-C,-U,-V}) ща:Vwpo	да са му го дали ли щели	
+BGF242	Future_Perfect-Future_Perfect_in_the_Past+Ren	да (5,{ли,се,си,P,да}) бъда:Vr3 Vxo (n,{-C,-U,-V}) ща:Vwo	да му го бъде дал ли щял	
+BGF243	Future_Perfect-Future_Perfect_in_the_Past+Neg+Ren	нямам:Vwo (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) съм:Vr3 Vxo	нямал ли да му го е чел	
+BGF244	Future_Perfect-Future_Perfect_in_the_Past+Neg+Ren	нямам:Vwo (n,{-C,-U,-V}) да съм:Vr3p (5,{ли,се,си,P,да}) Vxpo	нямали ли да са му го чели	
+BGF245	Future_Perfect-Future_Perfect_in_the_Past+Neg+Ren	нямам:Vwo (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr3 Vxo	нямал ли да му го бъде чел	
+BGF246	Present-Imperfect+Neg+Dub	не съм:Vr1 (1,{ли}) съм:Vxo (5,{ли,се,си,P,да}) Vwo	не съм ли му го бил четял	
+BGF247	Present-Imperfect+Neg+Dub	не съм:Vr2 (1,{ли}) съм:Vxo (5,{ли,се,си,P,да}) Vwo	не си ли му го бил четял	
+BGF248	Future-Future_in_the_Past+Dub	ща:Vwo (1,{ли}) съм:Vxo (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) Vr3	щял ли бил да му го даде	
+BGF249	Future-Future_in_the_Past+Neg+Dub	да (5,{ли,се,си,P,да}) Vr3 (n,{-C,-U,-V}) съм:Vxo нямам:Vwo	да му го даде ли бил нямал	
+BGF250	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Ren	ща:Vwo (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) съм:Vr3s Vqso	щял ли да му е четен	
+BGF251	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Ren	ща:Vwo (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr3 Vqo	щял ли да му бъде четен	
+BGF252	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Ren	да (5,{ли,се,си,P,да}) съм:Vr3s Vqso (n,{-C,-U,-V}) ща:Vwo	да му е четен ли щял	
+BGF253	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Ren	да (5,{ли,се,си,P,да}) бъда:Vr3 Vqo (n,{-C,-U,-V}) ща:Vwo	да му бъде четен ли щял	
+BGF254	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	нямам:Vwo (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) съм:Vr3s Vqso	нямало ли да му е четен	
+BGF255	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	нямам:Vwo (n,{-C,-U,-V}) да съм:Vr3p (5,{ли,се,си,P,да}) Vqpo	нямало ли да му е четен	
+BGF256	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	нямам:Vwo (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) бъда:Vr3 Vqo	нямало ли да му бъде четен	
+BGF257	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	да (5,{ли,се,си,P,да}) съм:Vr3s Vqso (n,{-C,-U,-V}) нямам:Vwo	да му е четен ли нямало	
+BGF258	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	да съм:Vr3p (5,{ли,се,си,P,да}) Vqpo (n,{-C,-U,-V}) нямам:Vwo	да му е четен ли нямало	
+BGF259	Future-Future_in_the_Past-Future_Perfect-Future_Perfect_in_the_Past+Pass+Neg+Ren	да (5,{ли,се,си,P,да}) бъда:Vr3 Vqo (n,{-C,-U,-V}) нямам:Vwo	да му бъде четен ли нямало	
+BGF260	Imperative+Present-Perfect+Pass+Neg	нека (n,{-C,-U,-V}) (1,{да}) не съм:Vr1 (5,{ли,се,си,P,да}) Vqo	нека да не съм му даден	
+BGF261	Imperative+Present-Perfect+Pass+Neg	нека (n,{-C,-U,-V}) (1,{да}) не съм:Vr2 (5,{ли,се,си,P,да}) Vqo	нека да не съм му даден	
+BGF262	Imperative+Present-Perfect+Pass+Neg	нека (n,{-C,-U,-V}) (1,{да}) не съм:Vr3p (5,{ли,се,си,P,да}) Vqpo	нека да не съм му даден	
+BGF263	Imperative+Present-Perfect+Pass+Neg	нека (n,{-C,-U,-V}) (1,{да}) не (5,{ли,се,си,P,да}) бъда:Vr Vqo	нека да не му бъда даден	
+BGF264	Imperative+Perfect	нека (n,{-C,-U,-V}) (1,{да}) (5,{ли,се,си,P,да}) съм:Vr3s Vxso	нека (да) му го е дал	
+BGF265	Aorist+Dub	съм:Vxo (1,{ли}) съм:Vr2 (5,{ли,се,си,P,да}) Vxo	бил ли си му го чел Perfect-Pluperfect+Ren	
+BGF266	Present-Imperfect+Dub	съм:Vxo (1,{ли}) съм:Vr2 (5,{ли,се,си,P,да}) Vwo	бил ли си му го четял	
+BGF267	Perfect-Pluperfect+Concl	съм:Vxo (1,{ли}) съм:Vr (5,{ли,се,си,P,да}) Vxo	бил ли съм му го чел	
+BGF268	Aorist+Dub	съм:Vxo (1,{ли}) съм:Vr1 (5,{ли,се,си,P,да}) Vxo	бил ли съм му го чел Perfect-Pluperfect+Ren	
+BGF269	Present-Imperfect+Dub	съм:Vxo (1,{ли}) съм:Vr1 (5,{ли,се,си,P,да}) Vwo	бил ли съм му го четял	
+BGF270	Future_Perfect	ще (5,{ли,се,си,P,да}) съм:Vr3s Vxso	ще ли му го е дал ще му ли го е дал	
+BGF271	Present-Perfect-Imperfect-Pluperfect-Aorist+Pass+Neg+Ren	не съм:Vxo (5,{ли,се,си,P,да}) Vqo	не бил ли му четен	
+BGF272	Imperative+Perfect+Neg	недей (n,{-C,-U,-V}) (1,{да}) (5,{ли,се,си,P,да}) съм:Vr3s Vxso	недей (да) му го е дал	
+BGF273	Imperative+Perfect+Neg	недей (n,{-C,-U,-V}) (1,{да}) съм:Vr1 (5,{ли,се,си,P,да}) Vxo	недей (да) съм му го дал	
+BGF274	Imperative+Perfect+Neg	недей (n,{-C,-U,-V}) (1,{да}) съм:Vr2 (5,{ли,се,си,P,да}) Vxo	недей (да) съм му го дал	
+BGF275	Imperative+Perfect+Neg	недей (n,{-C,-U,-V}) (1,{да}) съм:Vr3p (5,{ли,се,си,P,да}) Vxpo	недей (да) съм му го дал	
+BGF276	Imperative+Perfect	нека (n,{-C,-U,-V}) (1,{да}) съм:Vr3p (5,{ли,се,си,P,да}) Vxpo	нека (да) сa му го дали	
+BGF277	Imperative+Perfect	нека (n,{-C,-U,-V}) (1,{да}) съм:Vr2 (5,{ли,се,си,P,да}) Vxo	нека (да) съм му го дал	
+BGF278	Imperative+Present-Perfect+Pass	нека (n,{-C,-U,-V}) (1,{да}) (5,{ли,се,си,P,да}) бъда:Vr Vqo	нека да му бъда даден	
+BGF279	Imperative+Present-Perfect+Pass	нека (n,{-C,-U,-V}) (1,{да}) (5,{ли,се,си,P,да}) съм:Vr3s Vqso	нека да му е даден	
+BGF280	Imperative+Present-Perfect+Pass	нека (n,{-C,-U,-V}) (1,{да}) съм:Vr1 (5,{ли,се,си,P,да}) Vqo	нека да съм му даден	
+BGF281	Imperative+Present-Perfect+Pass	нека (n,{-C,-U,-V}) (1,{да}) съм:Vr2 (5,{ли,се,си,P,да}) Vqo	нека да съм му даден	
+BGF282	Imperative+Present-Perfect+Pass	нека (n,{-C,-U,-V}) (1,{да}) съм:Vr3p (5,{ли,се,си,P,да}) Vqpo	нека да съм му даден	
+BGF283	Aorist+Dub	съм:Vr2 (1,{ли}) съм:Vxo (5,{ли,се,си,P,да}) Vxo	си ли му го бил чел Perfect-Pluperfect+Ren	
+BGF284	Present-Imperfect+Dub	съм:Vr2 (1,{ли}) съм:Vxo (5,{ли,се,си,P,да}) Vwo	си ли му го бил четял	
+BGF285	Perfect-Pluperfect+Concl	съм:Vr (1,{ли}) съм:Vxo (5,{ли,се,си,P,да}) Vxo	съм ли му го бил чел	
+BGF286	Aorist+Dub	съм:Vr1 (1,{ли}) съм:Vxo (5,{ли,се,си,P,да}) Vxo	съм ли му го бил чел Perfect-Pluperfect+Ren	
+BGF287	Present-Imperfect+Dub	съм:Vr1 (1,{ли}) съм:Vxo (5,{ли,се,си,P,да}) Vwo	съм ли му го бил четял	
+BGF288	Perfect-Pluperfect+Concl	Vxo (5,{ли,се,си,P,да}) съм:Vr3s съм:Vxo	чел ли му го е бил	
+BGF289	Present-Perfect+Pass+Neg	не (5,{ли,се,си,P,да}) бъда:Vr Vqo	не му ли бъда даден	
+BGF290	Present-Perfect+Pass+Neg	не бъда:Vr (5,{ли,се,си,P,да}) Vqo	не бъда ли му даден	
+BGF291	Perfect+Neg|Aorist+Neg+Concl	не съм:Vr (5,{ли,се,си,P,да}) Vxo	не съм ли му го дал / не съм ли му го чел	
+BGF292	Perfect+Neg|Aorist+Neg+Concl	не (5,{ли,се,си,P,да}) съм:Vr3s Vxso	не му ли го е дал / не му ли го е чел	
+BGF293	Present-Perfect+Pass+Neg	не съм:Vr (5,{ли,се,си,P,да}) Vqo	не си ли му даден	
+BGF294	Present-Perfect+Pass+Neg	не (5,{ли,се,си,P,да}) съм:Vr3s Vqso	не си ли му е даден	
+BGF295	Pluperfect+Neg	не съм:Vd (5,{ли,се,си,P,да}) Vxo	не бях ли му го дал	
+BGF296	Pluperfect+Neg	не (5,{ли,се,си,P,да}) съм:Vd Vxo	не му ли го бях дал	
+BGF297	Imperfect-Pluperfect+Pass+Neg|Aorist+Pass+Neg	не съм:Vd (5,{ли,се,си,P,да}) Vqo	не бях ли си му даден / не беше ли си му даден	
+BGF298	Imperfect-Pluperfect+Pass+Neg	не (5,{ли,се,си,P,да}) съм:Vd Vqo	не си ли му бях даден	
+BGF299	Aorist+Pass+Neg	не бивам:Ve (5,{ли,се,си,P,да}) Vqo	не биде ли си му даден	
+BGF300	Future+Neg	нямам:Vr3s (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) Vr	няма ли да му го дам	
+BGF301	Future_Perfect	ще (1,{ли}) съм:Vr (5,{ли,се,си,P,да}) Vxo	ще ли съм си му го дала	
+BGF302	Future_Perfect	ще (5,{ли,се,си,P,да}) бъда:Vr (1,{ли}) Vxo	ще му го бъде ли дал	
+BGF303	Future-Future_Perfect+Pass	ще (1,{ли}) съм:Vr (5,{ли,се,си,P,да}) Vqo	ще ли съм му даден	
+BGF304	Future-Future_Perfect+Pass	ще (5,{ли,се,си,P,да}) съм:Vr3s Vqo	ще му ли е даден	
+BGF305	Future-Future_Perfect+Pass	ще (5,{ли,се,си,P,да}) бъда:Vr (5,{-C,-U,-V}) Vqo	ще му бъде ли даден	
+BGF306	Future_in_the_Past	ща:Vd (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) Vr	щях ли да му го чета	
+BGF307	Future_in_the_Past+Neg	нямам:Vd3s (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) Vr	нямаше ли да му го даде	
+BGF308	Present-Imperfect+Neg+Concl	не съм:Vr (5,{ли,се,си,P,да}) Vwo	не съм ли му го четял	
+BGF309	Present-Imperfect+Neg+Concl	не (5,{ли,се,си,P,да}) съм:Vr3s Vwso	не му ли го е четял	
+BGF310	Perfect-Pluperfect+Concl	съм:Vxo (5,{ли,се,си,P,да}) съм:Vr3s Vxso	бил ли му го е чел	
+BGF311	Perfect-Pluperfect+Concl	Vxo (1,{ли}) съм:Vr (5,{ли,се,си,P,да}) съм:Vxo	чел ли съм му го бил	
+BGF312	Perfect-Pluperfect+Concl	Vxo съм:Vxo (1,{ли}) съм:Vr	чел бил ли съм му го	
+BGF313	Perfect-Pluperfect+Concl	Vxo съм:Vxo (5,{ли,се,си,P,да}) съм:Vr3s	чел бил ли му го е	
+BGF314	Present-Perfect-Imperfect-Pluperfect-Aorist+Pass+Concl	съм:Vr (5,{ли,се,си,P,да}) съм:Vxo Vqo	съм му бил четен	
+BGF315	Present-Perfect-Imperfect-Pluperfect-Aorist+Pass+Concl	съм:Vxo съм:Vr (5,{ли,се,си,P,да}) Vqo	бил съм му четен	
+BGF316	Present-Perfect-Imperfect-Pluperfect-Aorist+Pass+Concl	съм:Vxo (5,{ли,се,си,P,да}) съм:Vr3s Vqo	бил му е четен	
+BGF317	Present-Perfect-Imperfect-Pluperfect-Aorist+Pass+Concl	Vqo (1,{ли}) съм:Vr (5,{ли,се,си,P,да}) съм:Vxo	четен ли съм му бил	
+BGF318	Present-Perfect-Imperfect-Pluperfect-Aorist+Pass+Concl	Vqo съм:Vxo (1,{ли}) съм:Vr	четен бил ли съм му	
+BGF319	Present-Perfect-Imperfect-Pluperfect-Aorist+Pass+Concl	Vqso (5,{ли,се,си,P,да}) съм:Vr3s съм:Vxo	четен ли му е бил	
+BGF320	Present-Perfect-Imperfect-Pluperfect-Aorist+Pass+Concl	Vqso съм:Vxo (5,{ли,се,си,P,да}) съм:Vr3s	четен бил ли му е	
+BGF321	Present-Imperfect+Neg+Ren	не съм:Vr1 (5,{ли,се,си,P,да}) Vwo	не съм ли му го четял	
+BGF322	Present-Imperfect+Neg+Ren	не съм:Vr2 (5,{ли,се,си,P,да}) Vwo	не си ли му го четял	
+BGF323	Aorist+Neg+Ren	не съм:Vr1 (5,{ли,се,си,P,да}) Vxo	не съм ли му го чел	
+BGF324	Aorist+Neg+Ren	не съм:Vr2 (5,{ли,се,си,P,да}) Vxo	не си ли му го чел	
+BGF325	Aorist+Dub	Vxo (1,{ли}) съм:Vr1 (5,{ли,се,си,P,да}) съм:Vxo	чел ли съм му го бил Perfect-Pluperfect+Ren	
+BGF326	Aorist+Dub	Vxo (1,{ли}) съм:Vr2 (5,{ли,се,си,P,да}) съм:Vxo	чел ли си му го бил Perfect-Pluperfect+Ren	
+BGF327	Aorist+Dub	Vxo съм:Vxo (1,{ли}) съм:Vr1	чел бил ли съм му го Perfect-Pluperfect+Ren	
+BGF328	Aorist+Dub	Vxo съм:Vxo (1,{ли}) съм:Vr2	чел бил ли си му го Perfect-Pluperfect+Ren	
+BGF329	Aorist+Dub	не съм:Vxo (5,{ли,се,си,P,да}) Vxo	не бил ли му го чел Perfect-Pluperfect+Ren+Neg	
+BGF330	Aorist+Dub	не (5,{ли,се,си,P,да}) съм:Vxo Vxo	не му го бил чел	
+BGF331	Present-Perfect-Imperfect-Pluperfect-Aorist+Pass+Ren	съм:Vr1 (5,{ли,се,си,P,да}) съм:Vxo Vqo	съм му бил четен	
+BGF332	Present-Perfect-Imperfect-Pluperfect-Aorist+Pass+Ren	съм:Vr2 (5,{ли,се,си,P,да}) съм:Vxo Vqo	си му бил четен	
+BGF333	Present-Perfect-Imperfect-Pluperfect-Aorist+Pass+Ren	съм:Vxo съм:Vr1 (5,{ли,се,си,P,да}) Vqo	бил съм му четен	
+BGF334	Present-Perfect-Imperfect-Pluperfect-Aorist+Pass+Ren	съм:Vxo съм:Vr2 (5,{ли,се,си,P,да}) Vqo	бил си му четен	
+BGF335	Present-Perfect-Imperfect-Pluperfect-Aorist+Pass+Ren	Vqo (1,{ли}) съм:Vr1 (5,{ли,се,си,P,да}) съм:Vxo	четен ли съм му бил	
+BGF336	Present-Perfect-Imperfect-Pluperfect-Aorist+Pass+Ren	Vqo (1,{ли}) съм:Vr2 (5,{ли,се,си,P,да}) съм:Vxo	четен ли си му бил	
+BGF337	Present-Perfect-Imperfect-Pluperfect-Aorist+Pass+Ren	Vqo съм:Vxo (1,{ли}) съм:Vr1	четен бил ли съм му	
+BGF338	Present-Perfect-Imperfect-Pluperfect-Aorist+Pass+Ren	Vqo съм:Vxo (1,{ли}) съм:Vr2	четен бил ли си му	
+BGF339	Present-Perfect-Imperfect-Pluperfect-Aorist+Pass+Neg+Ren	не (5,{ли,се,си,P,да}) съм:Vxo Vqo	не му ли бил четен	
+BGF340	Future-Future_in_the_Past+Ren	ща:Vwo (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) Vr3	щял ли да му го даде	
+BGF341	Future-Future_in_the_Past+Ren	да (5,{ли,се,си,P,да}) Vr3 (n,{-C,-U,-V}) ща:Vwo	да му го даде ли щял	
+BGF342	Future-Future_in_the_Past+Neg+Ren	нямам:Vwo (n,{-C,-U,-V}) да (5,{ли,се,си,P,да}) Vr3	нямало ли да му го чете	
+BGF343	Future-Future_in_the_Past+Neg+Ren	да (5,{ли,се,си,P,да}) Vr3 (n,{-C,-U,-V}) нямам:Vwo	да му го даде ли нямало	
+BGF344	Present-Imperfect+Dub	Vwo (1,{ли}) съм:Vr1 (5,{ли,се,си,P,да}) съм:Vxo	четял ли съм му го бил	
+BGF345	Present-Imperfect+Dub	Vwo (1,{ли}) съм:Vr2 (5,{ли,се,си,P,да}) съм:Vxo	четял ли си му го бил	
+BGF346	Present-Imperfect+Dub	Vwo съм:Vxo (1,{ли}) съм:Vr1	четял бил ли съм му го	
+BGF347	Present-Imperfect+Dub	Vwo съм:Vxo (1,{ли}) съм:Vr2	четял бил ли си му го	
+BGF348	Present-Imperfect+Neg+Dub	не съм:Vxo (5,{ли,се,си,P,да}) Vwo	не бил ли му го четял	
+BGF349	Present-Imperfect+Neg+Dub	не (5,{ли,се,си,P,да}) съм:Vxo Vwo	не му го бил четял	
+BGF350	Conditional+Neg	не (5,{ли,се,си,P,да}) бих Vxo	не му ли го бих дал	
+BGF351	Conditional+Neg	не бих (5,{ли,се,си,P,да}) Vxo	не бих ли му го дал	
+BGF352	Conditional+Neg	не (5,{ли,се,си,P,да}) бих Vwo	не му ли го бих дал	
+BGF353	Conditional+Neg	не бих (5,{ли,се,си,P,да}) Vwo	не бих ли му го дал	
+BGF354	Imperative+Present+Neg	нека (n,{-C,-U,-V}) (1,{да}) не (5,{ли,се,си,P,да}) Vr	нека (да) не му го давам	
+BGF355	Imperative+Perfect	нека (n,{-C,-U,-V}) (1,{да}) съм:Vr1 (5,{ли,се,си,P,да}) Vxo	нека (да) съм му го дал	
+BGF356	Imperative+Perfect+Neg	недейте (n,{-C,-U,-V}) (1,{да}) съм:Vr1 (5,{ли,се,си,P,да}) Vxo	недейте (да) съм му го дал	
+BGF357	Imperative+Perfect+Neg	недейте (n,{-C,-U,-V}) (1,{да}) съм:Vr2 (5,{ли,се,си,P,да}) Vxo	недейте (да) съм му го дал	
+BGF358	Imperative+Perfect+Neg	недейте (n,{-C,-U,-V}) (1,{да}) съм:Vr3p (5,{ли,се,си,P,да}) Vxpo	недейте (да) съм му го дал	
+BGF359	Imperative+Perfect+Neg	недейте (n,{-C,-U,-V}) (1,{да}) (5,{ли,се,си,P,да}) съм:Vr3s Vxso	недейте (да) му го е дал	
+BGF360	Imperative+Present-Perfect+Pass+Neg	недей (n,{-C,-U,-V}) (1,{да}) съм:Vr1 (5,{ли,се,си,P,да}) Vqo	недей да съм му даден	
+BGF361	Imperative+Present-Perfect+Pass+Neg	недей (n,{-C,-U,-V}) (1,{да}) съм:Vr2 (5,{ли,се,си,P,да}) Vqo	недей да съм му даден	
+BGF362	Imperative+Present-Perfect+Pass+Neg	недей (n,{-C,-U,-V}) (1,{да}) съм:Vr3p (5,{ли,се,си,P,да}) Vqpo	недей да съм му даден	
+BGF363	Imperative+Present-Perfect+Pass+Neg	недей (n,{-C,-U,-V}) (1,{да}) (5,{ли,се,си,P,да}) съм:Vr3s Vqso	недей да му е даден	
+BGF364	Imperative+Present-Perfect+Pass+Neg	недей (n,{-C,-U,-V}) (1,{да}) (5,{ли,се,си,P,да}) бъда:Vr Vqo	недей да му бъда даден	
+BGF365	Imperative+Present-Perfect+Pass+Neg	недейте (n,{-C,-U,-V}) (1,{да}) съм:Vr1 (5,{ли,се,си,P,да}) Vqo	недейте да съм му даден	
+BGF366	Imperative+Present-Perfect+Pass+Neg	недейте (n,{-C,-U,-V}) (1,{да}) съм:Vr2 (5,{ли,се,си,P,да}) Vqo	недейте да съм му даден	
+BGF367	Imperative+Present-Perfect+Pass+Neg	недейте (n,{-C,-U,-V}) (1,{да}) съм:Vr3p (5,{ли,се,си,P,да}) Vqpo	недейте да съм му даден	
+BGF368	Imperative+Present-Perfect+Pass+Neg	недейте (n,{-C,-U,-V}) (1,{да}) (5,{ли,се,си,P,да}) съм:Vr3s Vqso	недейте да му е даден	
+BGF369	Imperative+Present-Perfect+Pass+Neg	недейте (n,{-C,-U,-V}) (1,{да}) (5,{ли,се,си,P,да}) бъда:Vr Vqo	недейте да му бъда даден	
+BGF370	NVerb	може би		11,227
+BGF371	Aorist+Pass|Imperfect-Pluperfect+Pass	съм:Vd (5,{ли,се,си,P,да}) Vqo	бях писан / бях/беше ли му даден	
+BGF372	Conditional	бих (5,{ли,се,си,P,да}) Vxo	бих ли му го дал	
+BGF373	Conditional	бих (5,{ли,се,си,P,да}) Vwo	бих ли му го дал	
+BGF374	Imperative+Present	нека (n,{-C,-U,-V}) (1,{да}) (5,{ли,се,си,P,да}) Vr	нека (да) му го дам	
+BGF375	Imperative+Neg	не V2I	не отивай	
+BGF376	Present+Neg	не (5,{ли,се,си,P,да}) Vr	не му ли го даде	
+BGF377	Present-Perfect+Pass	Vqo (1,{ли}) съм:Vr	даден ли съм	
+BGF378	Present-Perfect+Pass	Vqso (5,{ли,се,си,P,да}) съм:Vr3s	даден ли му е	
+BGF379	Present-Perfect+Pass	съм:Vr (5,{ли,се,си,P,да}) Vqo	съм ли му даден	
+BGF380	Present-Perfect+Pass	бъда:Vr (5,{ли,се,си,P,да}) Vqo	бъда ли му даден	
+BGF381	Present-Perfect+Pass	Vqo (5,{ли,се,си,P,да}) бъда:Vr	даден ли му бъде	
+BGF382	Perfect|Aorist+Concl	съм:Vr (5,{ли,се,си,P,да}) Vxo	съм ли му го дал, е дал / съм му го чел	
+BGF383	Perfect|Aorist+Concl	Vxo (1,{ли}) съм:Vr	дал ли съм му го / чел ли съм му го	
+BGF384	Perfect|Aorist+Concl	Vxso (5,{ли,се,си,P,да}) съм:Vr3s	дал ли му го е / чел ли му го е	
+BGF385	Imperfect+Neg	не (5,{ли,се,си,P,да}) Vd	не си ли му го дадеше	
+BGF386	Pluperfect	съм:Vd (5,{ли,се,си,P,да}) Vxo	бях/беше ли му го дал	
+BGF387	Pluperfect	Vxo (5,{ли,се,си,P,да}) съм:Vd	дал ли му го бях/беше	
+BGF388	Imperfect-Pluperfect+Pass	Vqso (5,{ли,се,си,P,да}) съм:Vd	даден ли му бях/беше	
+BGF389	Aorist+Pass	бивам:Ve (5,{ли,се,си,P,да}) Vqo	бидох писан	
+BGF390	Aorist+Neg	не (5,{ли,се,си,P,да}) Ve	не си ли му го писах	
+BGF391	Future	ще (5,{ли,се,си,P,да}) Vr	ще ли му го дам	
+BGF392	Present-Imperfect+Concl	съм:Vr (5,{ли,се,си,P,да}) Vwo	съм ли му го четял	
+BGF393	Present-Imperfect+Concl	Vwo (1,{ли}) съм:Vr	четял ли съм му го	
+BGF394	Present-Imperfect+Concl	Vwso (5,{ли,се,си,P,да}) съм:Vr3s	четял ли му го е	
+BGF395	Present-Imperfect+Ren	съм:Vr1 (5,{ли,се,си,P,да}) Vwo	съм ли му го четял	
+BGF396	Present-Imperfect+Ren	съм:Vr2 (5,{ли,се,си,P,да}) Vwo	си ли му го четял	
+BGF397	Present-Imperfect+Ren	Vwo (1,{ли}) съм:Vr1	четял ли съм му го	
+BGF398	Present-Imperfect+Ren	Vwo (1,{ли}) съм:Vr2	четял ли си му го	
+BGF399	Present-Imperfect+Neg+Ren	не (5,{ли,се,си,P,да}) Vwo	не му го четял	
+BGF400	Aorist+Ren	съм:Vr1 (5,{ли,се,си,P,да}) Vxo	съм му го чел	
+BGF401	Aorist+Ren	съм:Vr2 (5,{ли,се,си,P,да}) Vxo	си му го чел	
+BGF402	Aorist+Ren	Vxo (1,{ли}) съм:Vr1	чел ли съм му го	
+BGF403	Aorist+Ren	Vxo (1,{ли}) съм:Vr2	чел ли си му го	
+BGF404	Aorist+Neg+Ren	не (5,{ли,се,си,P,да}) Vxo	не му ли го чел Perfect-Pluperfect+Ren	
+BGF405	Aorist+Dub	съм:Vxo (5,{ли,се,си,P,да}) Vxo	бил ли му го чел Perfect-Pluperfect+Ren	
+BGF406	Aorist+Dub	Vxo (5,{ли,се,си,P,да}) съм:Vxo	чел ли му го бил Perfect-Pluperfect+Ren+Neg	
+BGF407	Present-Perfect-Imperfect-Pluperfect-Aorist+Pass+Ren	съм:Vxo (5,{ли,се,си,P,да}) Vqo	бил му четен	
+BGF408	Present-Perfect-Imperfect-Pluperfect-Aorist+Pass+Ren	Vqo (5,{ли,се,си,P,да}) съм:Vxo	четен ли му бил	
+BGF409	Present-Imperfect+Dub	съм:Vxo (5,{ли,се,си,P,да}) Vwo	бил ли му го четял	
+BGF410	Present-Imperfect+Dub	Vwo (5,{ли,се,си,P,да}) съм:Vxo	четял ли му го бил	
+BGF411	Conditional	Vxo (5,{ли,се,си,P,да}) бих	дал ли му го бих	
+BGF412	Conditional	Vwo (5,{ли,се,си,P,да}) бих	дал ли му го бих	
+BGF413	Imperative+Present+Neg	недей (n,{-C,-U,-V}) (1,{да}) (5,{ли,се,си,P,да}) Vr	недей (да) му го давам	
+BGF414	Imperative+Present+Neg	недейте (n,{-C,-U,-V}) (1,{да}) (5,{ли,се,си,P,да}) Vr	недейте (да) му го давам	
+BGF415	Imperative	V2I	отивай	
+BGF416	Present	Vr	дам	
+BGF417	Imperfect	Vd	дадеше	
+BGF418	Aorist	Ve	писах	
+BGF419	Present-Imperfect+Ren|DVerb+Past_Participle_Imperfect	Vwo	му го четял	
+BGF420	Aorist+Ren|DVerb+Past_Participle_Aorist	Vxo	чел	
+BGF421	NVerb+Present_Participle	Vy		
+BGF422	NVerb+Adverbial_Participle	Vz		
+BGF423	NVerb+Past_Participle+Pass	Vqo		
